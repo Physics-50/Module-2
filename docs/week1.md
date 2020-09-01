@@ -4,9 +4,9 @@
 
 --------------
 1. [Background Reading](#background-reading)
-2. [The Experiment](#experiment-data)
-3. [Week 1 Goals](#to-do)
-4. [Step-by-Step Tracker Instructions](#tracker-instructions)
+2. [The Experiment](#the-experiment)
+3. [Week 1 Goals](#week-1-goals)
+4. [Step-by-Step Tracker Instructions](#step-by-step-tracker-instructions)
 5. [Checkpoint: Preliminary Viscosity Value](#checkpoint-1)
 
 --------------
