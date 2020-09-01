@@ -55,7 +55,7 @@ Module 2 is four weeks long. Each week, you will have a checkpoint due. These ch
 
 ## Background Reading
 
-+ [Forces on a Sphere Falling through a Liquid](forces-on-falling-sphere.md)
++ [Forces on a Sphere Falling through a Liquid](week1#background-reading)
 
 <!--+ [The Relationship between the Critical Angle for Slipping $$\theta_c$$ and the Coefficient of Static Friction $$\mu_s$$](https://drive.google.com/file/d/19qMGg5rJfkDCQVHRK2G1Nl4_CAMSgvHX/view?usp=sharing){:target="_blank"}-->
 
