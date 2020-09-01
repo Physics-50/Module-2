@@ -49,6 +49,7 @@ You will use videos of spheres falling through a glycerin solution to find the t
 </iframe>
 
 
+
 Videos were taken of several spheres dropping through the glycerin solution as described above.  The camera and beaker were moved slightly between videos.  Care was taken when setting up for each video not to tilt the camera vertically up or down; think about why this might be important.  After each sphere reached the bottom of the cylinder, a ruler was inserted into the beaker to help you determine an actual distance scale for measure the falling sphere’s trajectory.  In each video, the ruler was placed, to the best of our ability, directly at and above the final location of the sphere, so that the millimeter markings on the ruler occupy the same locations in physical space (and in the video frame) as the trajectory of the sphere.
 
 We used spheres of five different nominal diameters.  For each nominal diameter, we took videos of eight different spheres dropping through the liquid.  All videos were taken with a GoPro Hero 5 Black, at 60 frames per second and with the lens set to “linear” imaging.
