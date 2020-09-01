@@ -201,6 +201,8 @@ File management:
 
 To save everything you have done to the current video (including video frames, calibration, position vs. time information from tracking a sphere, and anything currently open in Data Tools), go back to the main Tracker window and use the “Save Tab As…” option in the File menu there.  This will create a .trk file that can be loaded into Tracker again at a later time.  Be sure to check that you are saving the .trk file in the same folder as the corresponding .mp4 file; in our experience, when you do this incorrectly at first and move the file later, opening the .trk file later on does not always successfully load the video.
 
+To save an image of what the Tracker window looks like at any given time, just use the snapshot or print screen function on your computer.
+
 -------------
 
 ## Checkpoint 1
