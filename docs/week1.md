@@ -130,7 +130,7 @@ Open Tracker.  In the “File” menu, select “Open File” and choose the fir
 
 Changing coordinate axes:
 
-	Tracker automatically uses a horizontal x axis (increasing to the right) and a vertical y axis (increasing upward).  If horizontal and vertical on the video frame are well aligned with true horizontal and vertical, and you do not care about the location of the origin, you may not need these steps.
+Tracker automatically uses a horizontal x axis (increasing to the right) and a vertical y axis (increasing upward).  If horizontal and vertical on the video frame are well aligned with true horizontal and vertical, and you do not care about the location of the origin, you may not need these steps.
 
   To define the coordinate system, click on the purple coordinate axes icon, which you will find in the top toolbar slightly to the left of “Create.”  Purple axes appear; if you can’t see them, try zooming out your view of the video until the axes appear.  You can click on the origin to drag it; to avoid dealing with both positive and negative positions, you may want to set the origin either above or below all the locations the sphere will pass through.  If you would like the positive direction to be down, you may want to go to “angle from horizontal” and enter 180; this will make the positive y direction be down and will also make the positive x direction be to the left.  (The positive x direction should be largely irrelevant since we won’t be quantitatively analyzing that motion.)
  
@@ -158,12 +158,14 @@ After setting the start and end frames, use the large marker on top of the video
 In the top menu list, select “Track,” then “New,” and then “Point Mass.”  A small “Track Control” window will appear, listing “mass A.”  Go back to the top menu and select “Track,” then “mass A,” then “Autotracker…”  Now a third “Autotracker:  mass A position” window will appear.
 
 You will now take steps to tell the software what the sphere looks like and to help it track the sphere’s position in the frames you have selected.  We suggest you zoom in to get a clear and detailed view of the sphere in your first frame.  Now following the instructions in the Autotracker window, hold down Shift and Control and click on the sphere in the video frame.  After you have done that, you should see something like this:
+
+<img src="images/autotrack.jpg" alt="Autotracker window shows blue message indicating the current frame is the key frame.  Main video window shows dotted red square, solid red oval, and central red cross defining the mass to track." width="400"/>
     
 If you do not see the small hollow circle and solid square to its lower right, Tracker might have advanced you to the next video frame; if so, the back arrow in the bottom right-hand corner will be active (dark blue) instead of grayed out, and you can use this back arrow to step back to the key frame.
 
 Once again, instructions are available in the Autotracker window. The hollow circle defines the template image that Tracker will search for; click and drag on the solid square attached to it to change its size and shape.  Click and drag on the circle itself to move it; we suggest defining a template image something like this:
  
-
+<img src="images/template.jpg" alt="Autotracker window shows blue message indicating the current frame is the key frame.  Main video window shows solid red oval defining the template, which is just a little bigger than the sphere itself." width="400"/>
 
 Finally, click on the small cross marker in the middle of the circle and drag it to the middle of the sphere.  This is the actual marker whose position will be recorded in each frame.
 
@@ -171,9 +173,13 @@ The larger dotted square shows the box within which Tracker should search for a 
 
 You are ready now to go to the Autotracker window and hit “Search.”  The software will step through each frame; the video window will show the current positions of the search box, the best match to the template, and the position marker.  It’s a good idea to watch these to make sure they look reasonable.  When the sphere image is significantly obscured, the autotracking will stop and wait for you to Accept, Skip, or manually mark the frame.  If the region shown is a good match to the template – both in actually being the sphere and in being properly centered on the sphere – you can Accept:
  
+<img src="images/accept.jpg" alt="Autotracker window shows red low-match-score message with option to Accept or Skip.  Main video window shows red matching oval that is correctly on the sphere." width="400"/>
+ 
 If the tentative match is significantly incorrect, we suggest you Skip, or shift-click to manually mark the correct sphere location.  If you Accept a match that is improperly centered, the software will update the template based on it and you will find that the position marker is poorly centered in the sphere in all future frames.
 
 After skipping one or more frames, you will find a frame you are willing to Accept, or perhaps the software itself will come to a frame whose match score is high enough to be automatically accepted.  At this point you will see a warning window:
+
+<img src="images/warning.jpg" alt="Caution: skipping steps when marking positions leaves gaps in the data set.  Velocities and accelerations around the gaps cannot be determined until all steps are marked." width="150"/>
  
 You must click “Close” in this window to proceed with the tracking process.  You can choose to mark “Don’t show this again.”  Recall that we are, indeed, not planning to use velocities or accelerations calculated by this program.
 
@@ -184,8 +190,10 @@ If incorrect matches are made, either automatically or manually, Tracker oes all
 Analyzing position vs. time:
 
 Throughout the tracking process, a graph of position vs. time and a table of data have been updating to the right of the video.  To view vertical position as a function of time, click on the vertical axis label and select “y:  position y-component” from the menu that appears.  Your Tracker window should now look something like this:
+
+<img src="images/tracking-done.jpg" alt="Clockwise from left:  video with tracked positions, graph of y vs. t, table of t, x, and y values from tracking." width="400"/>
  
-Use the graph of y vs. t to check that, at least after a short initial time period, the ball’s velocity is roughly constant – that is, the ball’s position is a roughly linear function of time.  Identify a time interval over which this is true, and then use the data table to find a terminal velocity via v_T=(y_f-y_i)/(t_f-t_i ).  To minimize the impact of small fluctuations in the individual y_f and y_i values, try to use a relatively large time interval over which the position vs. time graph looks linear.
+Use the graph of y vs. t to check that, at least after a short initial time period, the ball’s velocity is roughly constant – that is, the ball’s position is a roughly linear function of time.  Identify a time interval over which this is true, and then use the data table to find a terminal velocity via $$v_T=\frac{y_f-y_i}{t_f-t_i}$$.  To minimize the impact of small fluctuations in the individual $$y_f$$ and $$y_i$$ values, try to use a relatively large time interval over which the position vs. time graph looks linear.
 
 File management:
 
