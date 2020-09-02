@@ -21,13 +21,13 @@
 From Week 1, you should have measured the terminal velocity of a 3.5-mm diameter sphere from several different videos, and calculated the average terminal speed $$v_T$$ and the standard error $$\delta v_T$$.  From that you calculated a preliminary viscosity $$\eta$$ for our glycerin solution, and propagated the uncertainty to calculate $$\delta\eta$$ based on the random error in your terminal velocity results.  If that isn't the case, please revisit [Week 1](week1) and [ask for help on Piazza](https://piazza.com/class/kdyuyniyaz052s){:target="_blank"} or [come to Office Hours](https://sakai.claremont.edu/portal/site/CX_mtg_130832/page/8bb99f43-12a4-4f97-8e47-802814328a26){:target=_"blank"}. 
 
 
-#### 1 Systematic Errors:  Did They Read About These in Module 1 At All?
+#### 0.2 Systematic Errors:  Did They Read About These in Module 1 At All?
 
 If students have not already read about systematic errors, then we need an intro here.  Takeaway:  they cause a shift in all the trials away from the "correct" value, rather than a trial-to-trial variation in the results.
 
 Probably want a mini-question here, or maybe two, totally outside the context of this experiment and just on identifying systematic vs. random errors.
 
-#### 2 Systematic Error from Ruler Calibration?  No!
+#### 0.4 Systematic Error from Ruler Calibration?  No!
 
 I want to move this to Week 3.
 
@@ -35,7 +35,7 @@ I want to move this to Week 3.
 
 ...maybe talk about camera tilt here, maybe not.
 
-#### 2 Systematic Error from Sphere Diameter and Mass?  Probably Not!
+#### 0.6 Systematic Error from Sphere Diameter and Mass?  Probably Not!
 
 I want to move this to Week 3 as well.
 
@@ -44,19 +44,19 @@ I want to move this to Week 3 as well.
 We are certainly OK on that when it comes to sphere masses.  However, if the sphere diameters really range from 2.489mm to 2.492mm, and are thus centered somewhere slightly away from 2.490mm, then we could have a small systematic error in our viscosity results from sphere diameter despite our best efforts.
 
 
-#### 3 Systematic Error from Liquid Density Value?
+#### 0.8 Systematic Error from Liquid Density Value?
 
 I want to move this into Week 3 and put stuff about the g value there too.
 
 These are systematic errors since we have some single density and g value for all the trials, it just might be slightly different from what we think it is.  So the uncertainty in rho and the uncertainty in g each contribute a systematic error in eta.
 
 
-#### 4 Explore Other Factors
+#### 1 Explore Various Factors
 
 It's a good idea to think about how the experiment was done, and what facts go into your analysis, and make a list of factors that might affect the final viscosity result. These other factors might be a source of systematic error.  We will think more carefully about some items on your list during Weeks 3 and 4, but focus on one particular issue this week.
 
 
-#### 5 Systematic Error from Inertial Drag?
+#### 2 Systematic Error from Inertial Drag?
 
 In your analysis from Week 1, you assumed that the terminal speed of your sphere could be calculated theoretically by considering just gravity, buoyant force, and viscous drag force.  Using this assumption, it was possible to calculate the liquid viscosity from the terminal speed and other measured or known quantities.  However, we have already mentioned that an object falling through a fluid also experiences inertial drag.  If we have missed an entire force in Newton's second law, then our formula relating velocity to terminal speed is incomplete and we can expect that to introduce a systematic error in our results.  This week we will focus on checking for that systematic error.
 
@@ -78,7 +78,9 @@ You may recall that the inertial drag force is proportional to the object’s sp
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfu_yOuiAE2wPP3Oe-t_9GZhQB4Bfb1yODihRUZavIwjz4WdQ/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
-By comparing the formulas for the inertial and viscous drag formulas, we can begin to understand the conditions under which inertial drag should be negligible.  The ratio of the inertial drag to the viscous drag is $$\frac{F_i}{F_d} = \frac{C\rho\pi r^2 v^2{6\pi\eta r v} = \frac{C\rho}{6\eta}rv$$.  In the last step we have split up the ratio into two factors; the first factor of $$\frac{C\rho}{6\eta}$$ depends only on the fluid we use and the fact that we are dropping spherical objects, but the second factor $$rv$$ depends on the details of the sphere we use.  Inertial drag is negligible if the ratio $$\frac{F_i}{F_d}$$ is much less than $$1$$.
+
+
+By comparing the formulas for the inertial and viscous drag formulas, we can begin to understand the conditions under which inertial drag should be negligible.  The ratio of the inertial drag to the viscous drag is $$\frac{F_i}{F_d} = \frac{C\rho\pi r^2 v^2}{6\pi\eta r v} = \frac{C\rho}{6\eta}rv$$.  In the last step we have split up the ratio into two factors; the first factor of $$\frac{C\rho}{6\eta}$$ depends only on the fluid we use and the fact that we are dropping spherical objects, but the second factor $$rv$$ depends on the details of the sphere we use.  Inertial drag is negligible if the ratio $$\frac{F_i}{F_d}$$ is much less than $$1$$.
 
 This week you will analyze videos of falling spheres with five different diameters.  For each sphere size, you will find a terminal velocity and use it to calculate viscosity based on your formula from Week 1.  Use the discussion above, along with your Newton's second law calculations from last week, to answer the following question.
 
@@ -95,6 +97,8 @@ This week you will analyze videos of falling spheres with five different diamete
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfagWdq8Zsw0XMmLYP9M-jMLmSEhqorlAUohRS8G6yfPmmVdw/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
+
+
 
 *Possible digression here about how we aren't doing a hypothesis-testing experiment per se in this module, but really there is an implicit hypothesis in this little analysis, that we understand the equation of motion and inertial drag is negligible for some of the spheres we are using -- if that hypothesis is not supported by our data, we go back to the drawing board on the whole notion of what we are doing in this Module and how we propose to measure the viscosity of the liquid!*
 
