@@ -17,10 +17,18 @@ On this page you will find all of the mini-questions for Module 2. Although each
 </iframe>
 
 -----------
+#### Miniquestion: What Else Goes into Finding Terminal Speed?
+[*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSexx5OysAF5UuAoDAvcDROzKvL3F4BWM5nqgIZgcEqLnnvdPg/viewform){:target="_blank"}
 
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSexx5OysAF5UuAoDAvcDROzKvL3F4BWM5nqgIZgcEqLnnvdPg/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
+</iframe>
 
 ------------
+#### Miniquestion: What Else Goes into Finding Viscosity?
+[*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSdKiHbgik4x-4SbWPJXXVLAhDbKKsZaUJJCS5JlRIAKbTUjJA/viewform){:target="_blank"}
 
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdKiHbgik4x-4SbWPJXXVLAhDbKKsZaUJJCS5JlRIAKbTUjJA/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
+</iframe>
 
 -------------
 
