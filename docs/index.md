@@ -6,7 +6,7 @@
 [Weekly Plan](#weekly-plan)
 + [Week 1 - Exploratory Phase (part 1)](week1)
 + [Week 2 - Exploratory Phase (part 2)](week2)
-+ Week 3 - Dotting-the-i's Phase
++ Week 3 - Final Determination of Viscosity Phase
 + Week 4 - Scientific Communication Phase
 
 [Background Reading](#background-reading)
