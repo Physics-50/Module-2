@@ -3,10 +3,10 @@
 
 --------------
 
-1. [Thinking Through Systematic Errors](#thinking-through-systematic-errors)
+1. [Systematic Errors](#systematic-errors)
 2. [Viscous and Inertial Drag](#viscous-and-inertial-drag)
 3. [Week 2 To-Do Summary](#week-2-to-do-summary)
-3. [Checkpoint: So-Called Viscosity vs Sphere Diameter](#checkpoint-2)
+4. [Checkpoint: So-Called Viscosity vs Sphere Diameter](#checkpoint-2)
 
 ------------------
 
@@ -14,49 +14,24 @@
 **Make sure you have your [Module 2 Data Sheet and Lab Notebook](https://classroom.google.com/c/MTI2NjQ0NDEyMTAx/a/MTI3ODQ4MDY2NDMx/details){:target="_blank"} handy as you go through the content on this Week 2 page.**
 *The link is still to Module 1 -- need to fix.*
 
-## Thinking Through Systematic Errors
+## Systematic Errors
 
 #### 0 Find a Preliminary Viscosity Value
 
 From Week 1, you should have measured the terminal velocity of a 3.5-mm diameter sphere from several different videos, and calculated the average terminal speed $$v_T$$ and the standard error $$\delta v_T$$.  From that you calculated a preliminary viscosity $$\eta$$ for our glycerin solution, and propagated the uncertainty to calculate $$\delta\eta$$ based on the random error in your terminal velocity results.  If that isn't the case, please revisit [Week 1](week1) and [ask for help on Piazza](https://piazza.com/class/kdyuyniyaz052s){:target="_blank"} or [come to Office Hours](https://sakai.claremont.edu/portal/site/CX_mtg_130832/page/8bb99f43-12a4-4f97-8e47-802814328a26){:target=_"blank"}. 
 
 
-#### 0.2 Systematic Errors:  Did They Read About These in Module 1 At All?
+#### 1 Systematic Errors
 
-If students have not already read about systematic errors, then we need an intro here.  Takeaway:  they cause a shift in all the trials away from the "correct" value, rather than a trial-to-trial variation in the results.
-
-Probably want a mini-question here, or maybe two, totally outside the context of this experiment and just on identifying systematic vs. random errors.
-
-#### 0.4 Systematic Error from Ruler Calibration?  No!
-
-I want to move this to Week 3.
-
-...if we put the camera in one place for all the videos and only calibrated once, then this would be a systematic error... but it isn't because we did it differently every time!
-
-...maybe talk about camera tilt here, maybe not.
-
-#### 0.6 Systematic Error from Sphere Diameter and Mass?  Probably Not!
-
-I want to move this to Week 3 as well.
-
-...all the diameter measurements came out to 2.49mm, but what if they actually ranged between about 2.488mm and 2.492mm?  This would explain the variations in measured masses as well (mean mass 0.1772 g, but individual measurements ranged from 0.1768 g to 0.1777 g).  If we had used a single sphere for each trial, then we would have a systematic error in our viscosity results if that sphere were actually slightly larger or smaller than the values we used in our calculation.  But we used a different sphere in each trial -- so the variation in terminal speeds should automatically be averaging over the range of sphere diameters and masses already!
-
-We are certainly OK on that when it comes to sphere masses.  However, if the sphere diameters really range from 2.489mm to 2.492mm, and are thus centered somewhere slightly away from 2.490mm, then we could have a small systematic error in our viscosity results from sphere diameter despite our best efforts.
+In Module 1 you learned about random and systematic errors.  Random errors cause variation in your results from trial to trial; the variation produces a distribution of results that is probably centered on the actual value you are trying to determine, so the presence of random error limits the *precision* of your measurement but not its *accuracy*.  Systematic errors, on the other hand, are consistent shifts of your results in one direction; they may allow for a deceptively high *precision* in your measurement but could be limiting the *accuracy*.  In Module 2, we will learn more about systematic errors and how to either minimize them or turn them into random errors -- thus at least avoiding the situation in which a precise result is lacking in accuracy unbeknownst to us.  Both of these ways of dealing with systematic error are issues of careful experimental design.
 
 
-#### 0.8 Systematic Error from Liquid Density Value?
+#### 2 Explore Various Factors
 
-I want to move this into Week 3 and put stuff about the g value there too.
-
-These are systematic errors since we have some single density and g value for all the trials, it just might be slightly different from what we think it is.  So the uncertainty in rho and the uncertainty in g each contribute a systematic error in eta.
+It's a good idea to think about how the experiment was done, and what facts go into your analysis, and make a list of factors that might affect the final viscosity result. These factors might be sources of systematic error.  We will think more carefully about some items on your list during Weeks 3 and 4, but focus on one particular issue this week.
 
 
-#### 1 Explore Various Factors
-
-It's a good idea to think about how the experiment was done, and what facts go into your analysis, and make a list of factors that might affect the final viscosity result. These other factors might be a source of systematic error.  We will think more carefully about some items on your list during Weeks 3 and 4, but focus on one particular issue this week.
-
-
-#### 2 Systematic Error from Inertial Drag?
+#### 3 Systematic Error from Inertial Drag?
 
 In your analysis from Week 1, you assumed that the terminal speed of your sphere could be calculated theoretically by considering just gravity, buoyant force, and viscous drag force.  Using this assumption, it was possible to calculate the liquid viscosity from the terminal speed and other measured or known quantities.  However, we have already mentioned that an object falling through a fluid also experiences inertial drag.  If we have missed an entire force in Newton's second law, then our formula relating velocity to terminal speed is incomplete and we can expect that to introduce a systematic error in our results.  This week we will focus on checking for that systematic error.
 
