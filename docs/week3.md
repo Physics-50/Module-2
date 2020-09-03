@@ -17,20 +17,20 @@
 
 In Week 2 we discussed the idea of systematic error and you may have brainstormed various possible sources of systematic error in this experiment, beyond the presence of inertial drag.  However, your investigations in Week 2 were focused on understanding the effect of inertial drag and focusing on data for which that effect is minimal.  That investigation set you up with a plan for finding a final viscosity value and uncertainty, based on judicious use of the data available to you.  Before you embark on that final process, let's take some time to consider some other possible sources of systematic error.
 
-#### 1 Systematic Error from Ruler Calibration?  No!
+#### 1 Systematic Error from Ruler Calibration?  Randomized!
 
 ...if we put the camera in one place for all the videos and only calibrated once, then this would be a systematic error... but it isn't because we did it differently every time!
 
 ...maybe talk about camera tilt here, maybe not.
 
-#### 2 Systematic Error from Sphere Diameter and Mass?  Probably Not!
+#### 2 Systematic Error from Sphere Diameter and Mass?  Probably Randomized!
 
 ...all the diameter measurements came out to 3.47mm, but what if they actually ranged between about 3.467mm and 3.473mm?  This would explain the variations in measured masses as well (mean mass 0.1772 g, but individual measurements ranged from 0.1768 g to 0.1777 g).  If we had used a single sphere for each trial, then we would have a systematic error in our viscosity results if that sphere were actually slightly larger or smaller than the values we used in our calculation.  But we used a different sphere in each trial -- so the variation in terminal speeds should automatically be averaging over the range of sphere diameters and masses already!
 
 We are certainly OK on that when it comes to sphere masses.  However, if the sphere diameters are actually centered somewhere slightly away from 3.470mm, then we could have a small systematic error in our viscosity results from sphere diameter despite our best efforts.
 
 
-#### 3 Systematic Error from Liquid Density Value and Acceleration Due to Gravity?
+#### 3 Systematic Error from Liquid Density Value and Acceleration Due to Gravity
 
 These are systematic errors since we have some single density and g value for all the trials, it just might be slightly different from what we think it is.  So the uncertainty in rho and the uncertainty in g each contribute a systematic error in eta.
 
