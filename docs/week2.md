@@ -71,6 +71,8 @@ You may recall that the inertial drag force is proportional to the object’s sp
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfZpZFcl7kh_80P_gHqDr5hORdw9DOy-DgZa1nTftGv-f_aVw/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
+------------------
+
 #### Miniquestion: Inertial Drag's Effect on Our "Viscosity" Values
 *[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSfu_yOuiAE2wPP3Oe-t_9GZhQB4Bfb1yODihRUZavIwjz4WdQ/viewform){:target="_blank"}*
 
@@ -78,7 +80,7 @@ You may recall that the inertial drag force is proportional to the object’s sp
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfu_yOuiAE2wPP3Oe-t_9GZhQB4Bfb1yODihRUZavIwjz4WdQ/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
-
+------------------
 
 By comparing the formulas for the inertial and viscous drag formulas, we can begin to understand the conditions under which inertial drag should be negligible.  The ratio of the inertial drag to the viscous drag is $$\frac{F_i}{F_d} = \frac{C\rho\pi r^2 v^2}{6\pi\eta r v} = \frac{C\rho}{6\eta}rv$$.  In the last step we have split up the ratio into two factors; the first factor of $$\frac{C\rho}{6\eta}$$ depends only on the fluid we use and the fact that we are dropping spherical objects, but the second factor $$rv$$ depends on the details of the sphere we use.  Inertial drag is negligible if the ratio $$\frac{F_i}{F_d}$$ is much less than $$1$$.
 
@@ -91,6 +93,8 @@ This week you will analyze videos of falling spheres with five different diamete
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScGuhxtTAdqzns252fsxyNZMolGFawRNVmB7xkzwjH8gG2VOg/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
+---------------
+
 #### Miniquestion: What Varying Sphere Size Should Tell Us
 *[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSfagWdq8Zsw0XMmLYP9M-jMLmSEhqorlAUohRS8G6yfPmmVdw/viewform){:target="_blank"}*
 
@@ -98,7 +102,7 @@ This week you will analyze videos of falling spheres with five different diamete
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfagWdq8Zsw0XMmLYP9M-jMLmSEhqorlAUohRS8G6yfPmmVdw/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
-
+---------------
 
 *Possible digression here about how we aren't doing a hypothesis-testing experiment per se in this module, but really there is an implicit hypothesis in this little analysis, that we understand the equation of motion and inertial drag is negligible for some of the spheres we are using -- if that hypothesis is not supported by our data, we go back to the drawing board on the whole notion of what we are doing in this Module and how we propose to measure the viscosity of the liquid!*
 
