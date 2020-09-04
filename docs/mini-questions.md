@@ -1,4 +1,4 @@
-# Mini-questions for Module 2
+# Mini-questions for Module 2 -- DRAFT
 
 On this page you will find all of the mini-questions for Module 2. Although each question appears in context as you go through the module reading, you can use this page to verify that you have submitted all the mini-questions for each week.
 
