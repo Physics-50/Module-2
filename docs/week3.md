@@ -19,6 +19,8 @@ In Week 2 we discussed the idea of systematic error and you may have brainstorme
 
 #### 1 Systematic Error from Ruler Calibration?  Randomized!
 
+Share video of ruler placed at front/middle/back of beaker.  If ruler is forward/backward of actual sphere drop, the pixels-to-distance calibration from the ruler is off.
+
 ...if we put the camera in one place for all the videos and only calibrated once, then this would be a systematic error... but it isn't because we did it differently every time!
 
 ...maybe talk about camera tilt here, maybe not.
