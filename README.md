@@ -9,7 +9,7 @@ You can use a "\<details>" tag to create expandable tabs:
 <details>
 <summary markdown='span'> Click to expand </summary>
 
-Take a look a the raw markdown file for how to format the "\<details>" tag. Inside of these tags Latex will not be marked down as an inline equation using the "$$ ... $$" markup, and you should use "\\( ... \\)" instead. 
+Take a look a the raw markdown file for how to format the "\<details>" tag. 
 
 </details>
 
