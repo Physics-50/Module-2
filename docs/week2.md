@@ -33,7 +33,7 @@ It's a good idea to think about how the experiment was done, and what facts go i
 
 #### 3 Systematic Error from Inertial Drag?
 
-In your analysis from Week 1, you assumed that the terminal speed of your sphere could be calculated theoretically by considering just gravity, buoyant force, and viscous drag force.  Using this assumption, it was possible to calculate the liquid viscosity from the terminal speed and other measured or known quantities.  However, we have already mentioned that an object falling through a fluid also experiences inertial drag.  If we have missed an entire force in Newton's second law, then our formula relating velocity to terminal speed is incomplete and we can expect that to introduce a systematic error in our results.  This week we will focus on checking for that systematic error.
+In your analysis from Week 1, you assumed that the terminal speed of your sphere could be calculated theoretically by considering just gravity, buoyant force, and viscous drag force.  Using this assumption, it was possible to calculate the liquid viscosity from the terminal speed and other measured or known quantities.  However, we have already mentioned that an object falling through a fluid also experiences inertial drag.  If we have missed an entire force in Newton's second law, then our formula relating velocity to terminal speed is incomplete and we can expect that to introduce a systematic error in our results.  This week we will focus on checking for that systematic error, and minimizing it by discovering which data is least affected by inertial drag and restricting our future analysis to that data.
 
 ## Viscous and Inertial Drag
 
