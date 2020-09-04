@@ -58,7 +58,7 @@ Videos were taken of several spheres dropping through the glycerin solution as d
 
 We used spheres of five different nominal diameters.  For each nominal diameter, we took videos of eight different spheres dropping through the liquid.  All videos were taken with a GoPro Hero 5 Black, at 60 frames per second and with the lens set to “linear” imaging.
 
-*I may need help determing the best place to post these files, making sure that the process of posting and downloading in no way resamples the video files... and then embedding the links appropriately.*
+*I may need help determing the best place to post these files, making sure that the process of posting and downloading in no way resamples the video files... and then embedding the links appropriately.  For now, instructors, I have posted all the videos in Ph50 Course Development Google Drive (folder Module 2 > Videos).*
 
 | Nominal sphere diameter | Video files  |
 | ----------------------- | ------------ |
