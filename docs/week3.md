@@ -19,33 +19,39 @@ In Week 2 we discussed the idea of systematic error and you may have brainstorme
 
 #### 1 Systematic Error from Ruler Calibration?  Randomized!
 
-Share video of ruler placed at front/middle/back of beaker.  If ruler is forward/backward of actual sphere drop, the pixels-to-distance calibration from the ruler is off.
+One factor you might have put on your list is incorrect pixels-to-distance calibration.  Our calibration of distance affects the terminal speed we extract from each video and thus the viscosity we calculate.  The short video GOPR0702.mp4 shows what could happen if the calibration ruler is placed too far forward or too far backward relative to the location where the sphere actually falls; you can see that if ruler is forward/backward of the actual sphere drop, the pixels-to-distance calibration based on the ruler will be slightly off.  Using the video and stepping through your method for finding terminal speed and then viscosity, answer the following question:
 
-...if we put the camera in one place for all the videos and only calibrated once, then this would be a systematic error... but it isn't because we did it differently every time!
+#### Miniquestion: How Ruler Placement Affects Results
+*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSfgLlDCQo_g__WABqmSmHxOC2VvgXbUYT6GBc_g0vER5hY93A/viewform){:target="_blank"}*
 
-...maybe talk about camera tilt here, maybe not.
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfgLlDCQo_g__WABqmSmHxOC2VvgXbUYT6GBc_g0vER5hY93A/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
+</iframe>
+
+------------------
+
+So how does this actually affect our results, since we placed the ruler separately in each video, as close as we could to the correct spot?  We can presume that when we tried to hit the correct spot each time, we were sometimes slightly in front and sometimes slightly behind.  Because we did this calibration from scratch for every single trial, the shifts caused by an incorrect ruler calibration are already built into the trial-to-trial variation we see in our measured terminal speeds!  This is an example of experimental design to randomize what could otherwise have been an unknown systematic error in our experiment.
+
 
 #### 2 Systematic Error from Sphere Diameter and Mass?  Probably Randomized!
 
-...all the diameter measurements came out to 3.47mm, but what if they actually ranged between about 3.467mm and 3.473mm?  This would explain the variations in measured masses as well (mean mass 0.1772 g, but individual measurements ranged from 0.1768 g to 0.1777 g).  If we had used a single sphere for each trial, then we would have a systematic error in our viscosity results if that sphere were actually slightly larger or smaller than the values we used in our calculation.  But we used a different sphere in each trial -- so the variation in terminal speeds should automatically be averaging over the range of sphere diameters and masses already!
+...for example, for the nominal 3.5-mm diameter spheres, all our diameter measurements came out to 3.47mm, but what if they actually ranged between about 3.467mm and 3.473mm?  This would explain the variations in measured masses as well (mean mass 0.1772 g, but individual measurements ranged from 0.1768 g to 0.1777 g).  If we had used a single sphere for each trial, then we would have a systematic error in our viscosity results if that sphere were actually slightly larger or smaller than the values we used in our calculation.  But we used a different sphere in each trial -- so the variation in terminal speeds should automatically be averaging over the range of sphere diameters and masses already!
 
 We are certainly OK on that when it comes to sphere masses.  However, if the sphere diameters are actually centered somewhere slightly away from 3.470mm, then we could have a small systematic error in our viscosity results from sphere diameter despite our best efforts.
 
 
 #### 3 Systematic Error from Liquid Density Value and Acceleration Due to Gravity
 
-These are systematic errors since we have some single density and g value for all the trials, it just might be slightly different from what we think it is.  So the uncertainty in rho and the uncertainty in g each contribute a systematic error in eta.
+These are systematic errors since we use the same density and g values for all the trials; the actual density and g values might be slightly different from what we think they are.  So the uncertainty in rho and the uncertainty in g each contribute a systematic error in eta that is NOT included in the trial-to-trial variation.
+
+#### 4 Do the Students Know How to Calculate an Overall Uncertainty from Several Independent Sources?
+
+If they haven't been taught the method of adding in quadrature, then we should write it up / teach it here.  Otherwise we can just refer to it.
 
 
 ## Week 3 To-Do Summary
 
-In Week 2 you will analyze at least one video for each nominal sphere diameter:  1.8 mm, 2.5 mm, 3.5 mm, 4.5 mm, and 6.0 mm.  Your goal for Week 2 is to sketch out how the "viscosity" of the liquid, calculated from terminal speed using a formula that neglects inertial drag, varies as a function of sphere diameter.  At the end of this week, you should have a clear idea of which sphere diameter(s), if any, truly have their trajectories negligibily influenced by inertial drag.
-
-Choose at least one video from each sphere diameter you have not already analyzed.  Following the method you used in Week 1, extract a terminal speed from each video you have chosen, and calculate a viscosity value from that terminal speed and the other necessary quantities.
-
-Plot your calculated viscosities as a function of sphere diameter.
-
-Decide on a list of sphere diameters for which inertial drag is negligible, and be ready to defend your decision based on the data.
+In Week 3 you will carefully analyze whichever set(s) of sphere-drop data you believe offer the most reliable basis for finding the viscosity of our glycerin solution.  You will use your careful analysis to determine your best value for the viscosity and for its uncertainty, based on all the considerations of Weeks 1-3.
 
 ## Checkpoint 3
 
