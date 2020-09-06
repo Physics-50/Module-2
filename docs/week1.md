@@ -103,7 +103,7 @@ We used spheres of five different nominal diameters.  For each nominal diameter,
 |                         | GOPR0690.mp4 |
 |                         | GOPR0691.mp4 |
 
-The spheres themselves were massed on a digital scale with resolution 0.0001g.  One sphere was massed ten times and then ten different spheres were massed once each; the variation in results was similar in both cases.  We will come back to the issue of mass variation later in Module 2, but for now the table below lists the average measured mass for each nominal sphere size.
+The spheres themselves were massed on a digital scale with resolution 0.0001g.  One sphere was massed ten times and then ten different spheres of the same nominal diameter were massed once each; the variation in results was similar in both cases.  We will come back to the issue of mass variation later in Module 2, but for now the table below lists the average measured mass for each nominal sphere size.
 The sphere diameters were measured repeatedly with digital calipers (resolution 0.01mm).  For almost all sphere sizes, measurements of ten spheres gave identical results; for one sphere size, results were even split between two values different by 0.01mm, so the table below assigns a diameter value halfway between the two.
 
 | Nominal Sphere Diameter | Average Mass | Measured Diameter |
