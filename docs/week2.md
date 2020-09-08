@@ -37,7 +37,7 @@ In your analysis from Week 1, you assumed that the terminal speed of your sphere
 
 ## Viscous and Inertial Drag
 
-You may recall that the inertial drag force is proportional to the object’s speed squared and its cross-sectional area:  $$F_i=C\rho\pi r^2 v^2$$.  The numerical prefactor $$C$$ is of order unity (i.e., it is something closer to 1 than to 0.1 or 10).  Our method for finding viscosity from terminal speed is only valid if the inertial drag force is negligibly small compared to the viscous drag.  If inertial drag is actually significant, the fact that we have neglected it will cause a systematic error in our viscosity result.  Go back to your Week 1 theory calculation based on Newton's second law.  Consider how your calculations would change if you added an inertial drag force, and use that logic to help you answer the following questions. 
+You may recall that the inertial drag force is proportional to the object’s speed squared and its cross-sectional area, and also depends on the density $$\rho$$ of the fluid:  $$F_i=C\rho\pi r^2 v^2$$.  The numerical prefactor $$C$$ is of order unity (i.e., it is something closer to 1 than to 0.1 or 10).  Our method for finding viscosity from terminal speed is only valid if the inertial drag force is negligibly small compared to the viscous drag.  If inertial drag is actually significant, the fact that we have neglected it will cause a systematic error in our viscosity result.  Go back to your Week 1 theory calculation based on Newton's second law.  Consider how your calculations would change if you added an inertial drag force, and use that logic to help you answer the following questions. 
 
 #### Miniquestion: Inertial Drag's Effect on Terminal Speed
 *[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSfZpZFcl7kh_80P_gHqDr5hORdw9DOy-DgZa1nTftGv-f_aVw/viewform){:target="_blank"}*
@@ -79,7 +79,7 @@ This week you will analyze videos of falling spheres with five different diamete
 
 ---------------
 
-*Possible digression here about how we aren't doing a hypothesis-testing experiment per se in this module, but really there is an implicit hypothesis in this little analysis, that we understand the equation of motion and inertial drag is negligible for some of the spheres we are using -- if that hypothesis is not supported by our data, we go back to the drawing board on the whole notion of what we are doing in this Module and how we propose to measure the viscosity of the liquid!*
+*Possible digression here about how we aren't doing a hypothesis-testing experiment per se in this module, but really there is an implicit hypothesis in this little analysis, that we understand the equation of motion and inertial drag is negligible for some of the spheres we are using -- if that hypothesis is not supported by our data, we go back to the drawing board on the whole notion of what we are doing in this module and how we propose to measure the viscosity of the liquid!*
 
 
 ## Week 2 To-Do Summary
@@ -94,10 +94,10 @@ Decide on a list of sphere diameters for which inertial drag is negligible, and 
 
 ## Checkpoint 2
 
-+ Submit your Week 2 results in [Checkpont 2 on Gradescope](){:target="_blank"} by the end Week 2.  You should submit (1) a scatter plot of calculated viscosity vs. sphere diameter, with no lines between points.  Your axes should be labeled with the quantity shown and the units used.  If you have analyzed repeated trials at all sphere diameters, you can include vertical error bars showing the uncertainty in each calculated viscosity, but this is not necessary in Week 2.  You should also submit (2) a list of the sphere diameters for which you believe inertial drag is negligible.
++ Submit your Week 2 results in [Checkpont 2 on Gradescope](https://www.gradescope.com/courses/165932/assignments/654616){:target="_blank"} by the end of Week 2.  You should submit (1) a scatter plot of calculated viscosity vs. sphere diameter, with no lines between points.  Your axes should be labeled with the quantity shown and the units used.  If you have analyzed repeated trials for some sphere diameters, you can include vertical error bars showing the uncertainty in each calculated viscosity, but this is not required in Week 2.  You should also submit (2) a list of the sphere diameters for which you believe inertial drag is negligible.
 
 + And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-2){:target="_blank"}
 
 ## Final Note
 
-When you're ready, move on to Week 3 - Final Determination of Viscosity.
+When you're ready, move on to [Week 3 - Final Determination of Viscosity](week3).
