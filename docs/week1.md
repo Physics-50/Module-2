@@ -12,7 +12,7 @@
 --------------
 
 
-We begin our investigation of viscosity (denoted with the Greek letter $$\eta$$, pronounced "A-ta") by doing an initial exploration. Our goal is to learn how to use the available data to find a value of the viscosity of our glycerin solution. In the Exploratory Phase it can be especially important to take detailed notes. Organizing a digital lab notebook and data spreadsheet can be tricky, so for Week 1 we are providing a [template for you to follow along with that we've assigned from Google Classroom](){:target="_blank"}. 
+We begin our investigation of viscosity (denoted with the Greek letter $$\eta$$ (eta), pronounced "A-ta") by doing an initial exploration. Our goal is to learn how to use the available data to find a value of the viscosity of our glycerin solution. In the Exploratory Phase it can be especially important to take detailed notes. Organizing a digital lab notebook and data spreadsheet can be tricky, so for Week 1 we are providing a [template for you to follow along with that we've assigned from Google Classroom](){:target="_blank"}. 
 
 *I don't know how to create and link the new lab notebook!  I removed the link to the old (Module 1) one.*
 
@@ -54,7 +54,7 @@ You will use videos of spheres falling through a glycerin solution to find the t
 
 -----------------------
 
-Videos were taken of several spheres dropping through the glycerin solution as described above.  The camera and beaker were moved slightly between videos.  Care was taken when setting up for each video not to tilt the camera vertically up or down; think about why this might be important.  After each sphere reached the bottom of the cylinder, a ruler was inserted into the beaker to help you determine an actual distance scale for measure the falling sphere’s trajectory.  In each video, the ruler was placed, to the best of our ability, directly at and above the final location of the sphere, so that the millimeter markings on the ruler occupy the same locations in physical space (and in the video frame) as the trajectory of the sphere.
+Videos were taken of several spheres dropping through the glycerin solution as described above.  The camera and beaker were moved slightly between videos.  Care was taken when setting up for each video not to tilt the camera vertically up or down.  (Think about why this might be important, and how you could check that we accomplished it.)  After each sphere reached the bottom of the cylinder, a ruler was inserted into the beaker to help you determine an actual distance scale for measure the falling sphere’s trajectory.  In each video, the ruler was placed, to the best of our ability, directly at and above the final location of the sphere, so that the millimeter markings on the ruler occupy the same locations in physical space (and in the video frame) as the trajectory of the sphere.
 
 We used spheres of five different nominal diameters.  For each nominal diameter, we took videos of eight different spheres dropping through the liquid.  All videos were taken with a GoPro Hero 5 Black, at 60 frames per second and with the lens set to “linear” imaging.
 
@@ -103,8 +103,8 @@ We used spheres of five different nominal diameters.  For each nominal diameter,
 |                         | GOPR0690.mp4 |
 |                         | GOPR0691.mp4 |
 
-The spheres themselves were massed on a digital scale with resolution 0.0001g.  One sphere was massed ten times and then ten different spheres of the same nominal diameter were massed once each; the variation in results was similar in both cases.  We will come back to the issue of mass variation later in Module 2, but for now the table below lists the average measured mass for each nominal sphere size.
-The sphere diameters were measured repeatedly with digital calipers (resolution 0.01mm).  For almost all sphere sizes, measurements of ten spheres gave identical results; for one sphere size, results were even split between two values different by 0.01mm, so the table below assigns a diameter value halfway between the two.
+The spheres themselves were massed on a digital scale with resolution 0.0001g.  Ten different spheres of the same nominal diameter were each massed once.  We will come back to the issue of mass variation in Week 3, but for now the table below lists the average measured mass for each nominal sphere size.
+The sphere diameters were measured repeatedly with digital calipers (resolution 0.01mm).  For almost all sphere sizes, measurements of ten spheres gave identical results; for one sphere size, results were evenly split between two values different by 0.01mm, so the table below assigns a diameter value halfway between the two.
 
 | Nominal Sphere Diameter | Average Mass | Measured Diameter |
 | ----------------------- | ------------ | ----------------- |
@@ -118,13 +118,15 @@ The density of the glycerin solution was measured by finding the mass difference
 
 ## Week 1 To-Do Summary
 
-In Week 1 you will analyze the data from spheres of nominal diameter 3.5 mm (video files GOPR0663.mp4 through GOPR0670.mp4).  Your goal for Week 1 is to learn to extract position vs. time from these video files and use your results to find first-pass estimates for the viscosity of the liquid and the uncertainty in the viscosity. 
+In Week 1 you will analyze data from spheres of nominal diameter 3.5 mm (video files GOPR0663.mp4 through GOPR0670.mp4).  Your goal for Week 1 is to learn to extract position vs. time from these video files and use your results to find first-pass estimates for the viscosity of the liquid and the uncertainty in the viscosity. 
 
 To analyze the videos, first install Tracker from https://physlets.org/tracker.  This program allows you to step through a video frame by frame in the forwards or backwards direction.  It also has features for tracking and plotting the position of an object as a function of time, using a distance scale that you calibrate and a time scale that Tracker automatically sets from the frame-rate info in the video file.
 
-Use Tracker (detailed instructions below) to generate and plot vertical position vs. time of the sphere as it falls.  Use the shape of the position vs. time curve to verify that the sphere reaches terminal velocity, and then use the position vs. time data to calculate the terminal velocity.  Do NOT use the velocities calculated by Tracker, since these are calculated from position vs. time data in a way that is quite sensitive to noise, especially when the sphere position cannot be marked in every frame.  (See https://physlets.org/tracker/help/frameset.html for details on Tracker’s velocity calculations if you are interested in following up on this.)  Use only the position vs. time data from Tracker.  
+Use Tracker (detailed instructions below) to generate and plot vertical position vs. time information for a sphere as it falls.  Use the shape of the position vs. time curve to verify that the sphere reaches terminal velocity, and then use the position vs. time data to calculate the terminal velocity.  Do NOT use the velocities calculated by Tracker, since these are calculated from position vs. time data in a way that is quite sensitive to noise, especially when the sphere position cannot be marked in every frame.  (See https://physlets.org/tracker/help/frameset.html for details on Tracker’s velocity calculations if you are interested in following up on this.)  Use only the position vs. time data from Tracker.  
 
-Use data from several trials (i.e., several videos) to calculate the viscosity of the glycerin solution and to calculate the uncertainty in the viscosity, based on the uncertainty in terminal velocity.  The viscosity is quite sensitive to glycerin/water ratio, temperature and humidity (as the solution can absorb additional water from the air), so gain confidence in your results based on the measurements and analysis, rather than on demanding detailed agreement with a “glycerin viscosity” found even in a reliable reference.
+Use data from several trials (i.e., several videos) to calculate the viscosity of the glycerin solution and to calculate the uncertainty in the viscosity, based on the random error in terminal velocity.  The viscosity is quite sensitive to glycerin/water ratio, temperature and humidity (as the solution can absorb additional water from the air), so gain confidence in your results based on the measurements and analysis, rather than by looking for detailed agreement with a “glycerin viscosity” found even in a reliable reference.  However, to help you quickly check your work, note that a good order-of-magnitude estimate for the viscosity is approximately $$1 \mathrm{Pa}\cdot\mathrm{s}$$ or $$1 \frac{\mathrm{kg}}{\mathrm{m}\cdot\mathrm{s}}$$.
+
+A few common "gotchas" to look out for in your calcuations:  (i) make sure you are converting diameter to radius when needed; (ii) check that you are converting masses to kilograms throughout your calculation, including where a unit of mass appears in a density; and (iii) check that you are converting distances to meters throughout your calculation, including where a unit of distance appears in a density or a velocity.
 
 -------------
 
@@ -209,9 +211,8 @@ To save an image of what the Tracker window looks like at any given time, just u
 
 ## Checkpoint 1
 
-+ [Submit your Week 1 results on Gradescope](https://www.gradescope.com/courses/165932/assignments/605297){:target="_blank"}
-You should submit (a) an image from the Tracker window for any single video, showing a graph of y vs. t and the table that indicates the units for time and position; (b) your preliminary value for viscosity in $$\mathrm{Pa}\cdot\mathrm{s}$$; and (c) the uncertainty in viscosity (also in $$\mathrm{Pa}\cdot\mathrm{s}$$), propagated from the standard error in your terminal speed results from several videos.
-*The Gradescope link is for a Module 1 assignment.  I may need help creating the appropriate assignments/links.*
++ [Submit your Week 1 results on Gradescope](https://www.gradescope.com/courses/165932/assignments/654518){:target="_blank"}
+You should submit (1) an image from the Tracker window for any single video, showing a graph of y vs. t and the table that indicates the units for time and position; (2) your preliminary value for the terminal speed (in m/s) of a 3.5-mm sphere, along with the random error in this value (the standard error of several trials); and (3) your preliminary viscosity value in $$\mathrm{Pa}\cdot\mathrm{s}$$, along with the uncertainty in viscosity propagated from the standard error of your terminal speed results.
 
 + And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-1){:target="_blank"}
 
