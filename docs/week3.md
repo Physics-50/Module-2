@@ -49,7 +49,7 @@ The variation in measured masses suggests there may be some variation in diamete
 
 How much should we worry about this?  If we had used a single sphere for each trial, then we would have a systematic error in our viscosity results if that sphere were actually slightly larger or smaller than the values we used in our calculation.  But we used a different sphere in each trial -- so the variation in terminal speeds should automatically be averaging over the range of sphere diameters and masses already!
 
-One caveat remains:  because we used different spheres for each trial, the effect of sphere-to-sphere size variation is automatically included in the variation in terminal speed values.  However, this does not quite insure us against the possibility that the sphere diameters are distributed around some true average value that is not exactly 3.470 mm (or 1.800 mm or 2.495 mm).  Thus we could have a small systematic error in our viscosity results from sphere diameter despite our best efforts.
+One caveat remains:  because we used different spheres for each trial, the effect of sphere-to-sphere size variation is automatically included in the variation in terminal speed values.  However, this does not quite insure us against the possibility that the sphere diameters are distributed around some true average value that is not exactly 3.470 mm (or 1.800 mm or 2.495 mm ...).  Thus we could have a small systematic error in our viscosity results from sphere diameter despite our best efforts.
 
 
 #### 3 Systematic Error from Liquid Density Value and Acceleration Due to Gravity
