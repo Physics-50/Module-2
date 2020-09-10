@@ -1,6 +1,6 @@
 # Week 4: Communicating written scientific results, physics-style
 
-In physics 50, you will ultimately get to experience what it’s like to create a physics poster, which is like a mini version of a physics paper. In Module 1, you created a single figure with a caption. For the Module 2 deliverable, you will produce a series of figures, with captions, that summarize the method and logic you used, leading to your final result for the liquid viscosity in this module.  We repeat here the guidelines from Module 1 regarding each individual figure.
+In Physics 50, you will ultimately get to experience what it’s like to create a physics poster, which is like a mini version of a physics paper. In Module 1, you created a single figure with a caption. For the Module 2 deliverable, you will produce a series of figures, with captions, that summarize the method and logic you used, leading to your final result for the liquid viscosity in this module.  We repeat here the guidelines from Module 1 regarding each individual figure.
 
 ## A figure showing a plot
 
@@ -72,4 +72,4 @@ Here is an annotated example of a figure without a plot, taken from [this articl
 
 What do I need to make for Module 2?
 
-For Module 2, your deliverable is a series of two to four figures, summarizing the data and analysis you used (including lthe logic that drove your decisions) and leading up to your final result for the viscosity of the liquid in this module.  Keep in mind that your figures should make the overall process and results understandable to someone who has your physics background but who is not enrolled in this course and has not seen the experimental videos or read any of the instructions.  Your final result for the liquid viscosity (including uncertainty!) should be given somewhere in the last figure or its caption.
+For Module 2, your deliverable is a series of two to four figures, summarizing the data and analysis you used (including the logic that drove your decisions) and leading up to your final result for the viscosity of the liquid in this module.  Keep in mind that your figures should make the overall process and results understandable to someone who has your physics background but who is not enrolled in this course and has not seen the experimental videos or read any of the instructions.  Your final result for the liquid viscosity (including uncertainty!) should be given somewhere in the last figure or its caption.
