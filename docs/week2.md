@@ -92,7 +92,7 @@ Plot your calculated viscosities as a function of sphere diameter.
 
 Decide on a list of sphere diameters for which inertial drag is negligible, and be ready to defend your decision based on the data.
 
-In looking for the presence or absence of clear trends in calculated viscosity as a function of sphere diameter, you will need to consider some estimate of the randome error in each calculated viscosity; it is important to know whether variations in calculated viscosity between data points can be accounted for by the random error in each data point, or whether the variation exceeds this random error.  Your Week 1 analysis of 3.5-mm spheres can give you a sense of the random error at least for that one sphere diameter.  You can use this as an estimate of the random error in each viscosity, or you can analyze multiple trials of each sphere diameter (or of some of them) in order to make independent estimates of random error in each case.
+In looking for the presence or absence of trends in calculated viscosity as a function of sphere diameter, you will need to consider some estimate of the random error in each calculated viscosity; it is important to know whether variations in calculated viscosity between data points can be accounted for by the random error in each data point, or whether the variation exceeds this random error.  Your Week 1 analysis of 3.5-mm spheres can give you a sense of the random error at least for that one sphere diameter.  You can use this as an estimate of the random error in each viscosity, or you can analyze multiple trials of each sphere diameter (or of some of them) in order to make independent estimates of random error in each case.
 
 ## Checkpoint 2
 
