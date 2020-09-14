@@ -92,9 +92,11 @@ Plot your calculated viscosities as a function of sphere diameter.
 
 Decide on a list of sphere diameters for which inertial drag is negligible, and be ready to defend your decision based on the data.
 
+In looking for the presence or absence of clear trends in calculated viscosity as a function of sphere diameter, you will need to consider some estimate of the randome error in each calculated viscosity; it is important to know whether variations in calculated viscosity between data points can be accounted for by the random error in each data point, or whether the variation exceeds this random error.  Your Week 1 analysis of 3.5-mm spheres can give you a sense of the random error at least for that one sphere diameter.  You can use this as an estimate of the random error in each viscosity, or you can analyze multiple trials of each sphere diameter (or of some of them) in order to make independent estimates of random error in each case.
+
 ## Checkpoint 2
 
-+ Submit your Week 2 results in [Checkpont 2 on Gradescope](https://www.gradescope.com/courses/165932/assignments/654616){:target="_blank"} by the end of Week 2.  You should submit (1) a scatter plot of calculated viscosity vs. sphere diameter, with no lines between points.  Your axes should be labeled with the quantity shown and the units used.  If you have analyzed repeated trials for some sphere diameters, you can include vertical error bars showing the uncertainty in each calculated viscosity, but this is not required in Week 2.  You should also submit (2) a list of the sphere diameters for which you believe inertial drag is negligible.
++ Submit your Week 2 results in [Checkpont 2 on Gradescope](https://www.gradescope.com/courses/165932/assignments/654616){:target="_blank"} by the end of Week 2.  You should submit (1) a scatter plot of calculated viscosity vs. sphere diameter, with no lines between points.  Your axes should be labeled with the quantity shown and the units used.  If you have analyzed multiple trials for some sphere diameters, include vertical error bars showing the uncertainty in each calculated viscosity, but this is not required in Week 2 except for the 3.5-mm spheres which you have already analyzed in Week 1.  You should also submit (2) a list of the sphere diameters for which you believe inertial drag is negligible.
 
 + And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-2){:target="_blank"}
 
