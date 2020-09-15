@@ -31,6 +31,13 @@ On this page you will find all of the mini-questions for Module 2. Although each
 </iframe>
 
 -------------
+#### Miniquestion: Propagating Error from Terminal Speed to Viscosity
+[*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSfN_9bu9VkA7aEr6lyVUvddwqyQ9i76D7L3HRkSNcxkbsTRkQ/viewform){:target="_blank"}
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfN_9bu9VkA7aEr6lyVUvddwqyQ9i76D7L3HRkSNcxkbsTRkQ/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
+</iframe>
+
+--------------------
 
 ## Week 2
 
