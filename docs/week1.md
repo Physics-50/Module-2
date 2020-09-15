@@ -123,15 +123,18 @@ In Week 1 you will analyze data from spheres of nominal diameter 3.5 mm (video f
 
 To analyze the videos, first install Tracker from https://physlets.org/tracker.  This program allows you to step through a video frame by frame in the forwards or backwards direction.  It also has features for tracking and plotting the position of an object as a function of time, using a distance scale that you calibrate and a time scale that Tracker automatically sets from the frame-rate info in the video file.  Also download to your computer each video (.mp4) file from the table above that you want to analyze.
 
-Use Tracker (detailed instructions below) to generate and plot vertical position vs. time information for a sphere as it falls.  Use the shape of the position vs. time curve to verify that the sphere reaches terminal velocity, and then use the position vs. time data to calculate the terminal velocity.  Do NOT use the velocities calculated by Tracker, since these are calculated from position vs. time data in a way that is quite sensitive to noise, especially when the sphere position cannot be marked in every frame.  (See https://physlets.org/tracker/help/frameset.html for details on Tracker’s velocity calculations if you are interested in following up on this.)  Use only the position vs. time data from Tracker.  
+Use Tracker (detailed instructions below) to generate and plot vertical position vs. time information for a sphere as it falls.  Use the shape of the position vs. time curve to verify that the sphere approaches terminal velocity, and then use the position vs. time data to calculate the terminal speed.  Do NOT use the velocities calculated by Tracker, since these are calculated from position vs. time data in a way that is quite sensitive to noise, especially when the sphere position cannot be marked in every frame.  (See https://physlets.org/tracker/help/frameset.html for details on Tracker’s velocity calculations if you are interested in following up on this.)  Use only the position vs. time data from Tracker.  
 
 Use data from several trials (i.e., several videos) to determine an average terminal speed for this particular size and mass of sphere, and to determine a random error in your terminal speed value.  The random error will be determined by calculating the standard error of the mean (SEM) from your several trials.  Then use your terminal speed value and other known quantities to calculate the viscosity of the glycerin solution, and also calculate the uncertainty in the viscosity based on the random error in terminal speed.  The viscosity is quite sensitive to glycerin/water ratio, temperature and humidity (as the solution can absorb additional water from the air), so gain confidence in your results based on the measurements and analysis, rather than by looking for detailed agreement with a “glycerin viscosity” found even in a reliable reference.  However, to help you quickly check your work, note that a good order-of-magnitude estimate for the viscosity is approximately $$1 \mathrm{Pa}\cdot\mathrm{s}$$ or $$1 \frac{\mathrm{kg}}{\mathrm{m}\cdot\mathrm{s}}$$.
 
 In Week 1, we are presuming that every other quantity that goes into the viscosity calculation is an infinitely precise constant, and focus only on the uncertainty that comes from the random error in terminal speed.  Still, in calculating the uncertainty in viscosity due to random error in terminal speed, you will need to propagate error through a formula.  You might want to review Prof. Gerbode's video tutorial on how to do such propagations:
 [![Click on the link to get to the video](images/uncertainty-propagation-video-preview.png)](https://drive.google.com/file/d/1ilJNsVSgB_asmDdfjQwoyRdhedsSjaWO/view?usp=sharing)
 
-#### Miniquestion: Error Propagation via Partial Derivative(s)
-*To be determined -- should we just ask for the correct error propagation in this case?*
+#### Miniquestion: Propagating Error from Terminal Speed to Viscosity
+[*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSfN_9bu9VkA7aEr6lyVUvddwqyQ9i76D7L3HRkSNcxkbsTRkQ/viewform){:target="_blank"}
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfN_9bu9VkA7aEr6lyVUvddwqyQ9i76D7L3HRkSNcxkbsTRkQ/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
+</iframe>
 
 --------------------
 
@@ -220,7 +223,7 @@ To save an image of what the Tracker window looks like at any given time, just u
 ## Checkpoint 1
 
 + [Submit your Week 1 results on Gradescope](https://www.gradescope.com/courses/165932/assignments/654518){:target="_blank"}
-You should submit (1) an image from the Tracker window for any single video, showing a graph of y vs. t and the table that indicates the units for time and position; (2) your preliminary value for the terminal speed (in m/s) of a 3.5-mm sphere, along with the random error in this value (the standard error of the mean from several trials); and (3) your preliminary viscosity value in $$\mathrm{Pa}\cdot\mathrm{s}$$, along with the uncertainty in viscosity propagated from the standard error of your terminal speed results.
+You should submit (1) a screenshot of the Tracker window for any single video, showing a graph of y vs. t and the table that indicates the units for time and position; (2) your preliminary value for the terminal speed (in m/s) of a 3.5-mm sphere, along with the random error in this value (the standard error of the mean from several trials); and (3) your preliminary viscosity value in $$\mathrm{Pa}\cdot\mathrm{s}$$, along with the uncertainty in viscosity propagated from the standard error of your terminal speed results.
 
 + And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-1){:target="_blank"}
 
