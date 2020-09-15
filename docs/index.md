@@ -7,7 +7,7 @@
 + [Week 1 - Exploratory Phase (part 1)](week1)
 + [Week 2 - Exploratory Phase (part 2)](week2)
 + [Week 3 - Final Determination of Viscosity](week3)
-+ Week 4 - Scientific Communication
++ [Week 4 - Scientific Communication](week4)
 
 [Background Reading](#background-reading)
 
@@ -23,7 +23,7 @@
 
 3. Communicate reasoning and results with a sequence of figures
 
-In Module 2 you will encounter an experiment designed to determine the value of a physical quantity -- in this case, the viscosity of a glycerin solution.  The theory and experiment will be slightly more complex than in Module 1, and you will have the challenge of considering several possible experimental errors that could contribute to your final result.  Once again we will use three phases to frame your analysis activities in Module 2:
+In Module 2 you will encounter an experiment designed to determine the value of a physical quantity -- in this case, the viscosity of a glycerin solution.  The theory and experiment will be more complex than in Module 1, and you will have the challenge of considering several possible experimental errors that could contribute to your final result.  Once again we will use three phases to frame your analysis activities in Module 2:
 
 1. Exploratory Phase
     - this open-ended phase often involves doing some background reading, getting familiar with a measurement technique, trying to take and analyze some preliminary data, and exploring what choices you can make to improve the reliability of your results.
@@ -43,11 +43,11 @@ In this module, you will use position vs. time information from steel spheres fa
 Module 2 is four weeks long. Each week, you will have a checkpoint due. These checkpoints will give us a chance to provide you feedback as your work towards the Module 2 deliverable: a series of figures with captions that convey the nature of the data and logic, leading to a final result. In this module you should start with Week 1, and the relevant concepts will be linked in context as you go along through this and other weeks.
 
 1. [Week 1 - Exploratory Phase](week1)
-    - Checkpoint: preliminary measurement of $$\eta$$ from trajectories of 3.5-mm diameter spheres, with uncertainty from random error in $$v_T$$ values.
+    - Checkpoint: preliminary measurement of viscosity ($$\eta$$) from trajectories of 3.5-mm diameter spheres, with uncertainty from random error in terminal speed ($$v_T$$) values.
 2. [Week 2 - Exploratory Phase (continued)](week2)
     - Checkpoint: calculated viscosity as a function of sphere diameter, to check assumptions.
 3. [Week 3 - Final Determination of Viscosity](week3)
-    - Checkpoint: final best values for viscosity and uncertainty
+    - Checkpoint: final best values for viscosity and uncertainty.
 4. Week 4 - Scientific Communication
     - Deliverable: a sequence of figures with captions that communicate your reasoning and results.
 
