@@ -18,7 +18,7 @@
 
 #### 0 Find a Preliminary Viscosity Value
 
-From Week 1, you should have measured the terminal velocity of a 3.5-mm diameter sphere from several different videos, and calculated the average terminal speed $$v_T$$ and the standard error $$\delta v_T$$.  From that you calculated a preliminary viscosity $$\eta$$ for our glycerin solution, and propagated the uncertainty to calculate $$\delta\eta$$ based on the random error in your terminal velocity results.  If that isn't the case, please revisit [Week 1](week1) and [ask for help on Piazza](https://piazza.com/class/kdyuyniyaz052s){:target="_blank"} or [come to Office Hours](https://sakai.claremont.edu/portal/site/CX_mtg_130832/page/8bb99f43-12a4-4f97-8e47-802814328a26){:target=_"blank"}. 
+From Week 1, you should have measured the terminal velocity of a 3.5-mm diameter sphere from several different videos, and calculated the average terminal speed $$v_T$$ and the standard error $$\delta v_T$$.  From that you calculated a preliminary viscosity $$\eta$$ for our glycerin solution, and propagated the uncertainty to calculate $$\delta\eta$$ based on the random error in your terminal speed results.  If that isn't the case, please revisit [Week 1](week1) and [ask for help on Piazza](https://piazza.com/class/kdyuyniyaz052s){:target="_blank"} or [come to Office Hours](https://sakai.claremont.edu/portal/site/CX_mtg_130832/page/8bb99f43-12a4-4f97-8e47-802814328a26){:target=_"blank"}. 
 
 
 #### 1 Systematic Errors
@@ -33,7 +33,7 @@ It's a good idea to think about how the experiment was done, and what facts go i
 
 #### 3 Systematic Error from Inertial Drag?
 
-In your analysis from Week 1, you assumed that the terminal speed of your sphere could be calculated theoretically by considering just gravity, buoyant force, and viscous drag force.  Using this assumption, it was possible to calculate the liquid viscosity from the terminal speed and other measured or known quantities.  However, we have already mentioned that an object falling through a fluid also experiences inertial drag.  If we have missed an entire force in Newton's second law, then our formula relating velocity to terminal speed is incomplete and we can expect that to introduce a systematic error in our results.  This week we will focus on checking for that systematic error, and minimizing it by discovering which data is least affected by inertial drag and restricting our future analysis to that data.
+In your analysis from Week 1, you assumed that the terminal speed of your sphere could be calculated theoretically by considering just gravity, buoyant force, and viscous drag force.  Using this assumption, it was possible to calculate the liquid viscosity from the terminal speed and other measured or known quantities.  However, we have already mentioned that an object falling through a fluid also experiences inertial drag.  If we have missed an entire force in Newton's second law, then our formula relating viscosity to terminal speed is incomplete and we can expect that to introduce a systematic error in our results.  This week we will focus on checking for that systematic error, and minimizing it by discovering which data is least affected by inertial drag and restricting our future analysis to that data.
 
 ## Viscous and Inertial Drag
 
