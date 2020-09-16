@@ -1,4 +1,4 @@
-# Week 1: Exploratory Phase -- DRAFT
+# Week 1: Exploratory Phase
 
 <img src="images/exploratory-phase.png" alt="Exploratory Phase" width="400"/>
 
@@ -12,9 +12,7 @@
 --------------
 
 
-We begin our investigation of viscosity -- denoted with the Greek letter $$\eta$$ (eta), pronounced "A-ta" -- by doing an initial exploration. Our goal is to learn how to use the available data to find a value of the viscosity of our glycerin solution. In the Exploratory Phase it can be especially important to take detailed notes. Organizing a digital lab notebook and data spreadsheet can be tricky, so for Week 1 we are providing a [template for you to follow along with that we've assigned from Google Classroom](){:target="_blank"}. 
-
-*I don't know how to create and link the new lab notebook!  I removed the link to the old (Module 1) one.*
+We begin our investigation of viscosity -- denoted with the Greek letter $$\eta$$ (eta), pronounced "EH-tah" -- by doing an initial exploration. Our goal is to learn how to use the available data to find a value of the viscosity of our glycerin solution. In the Exploratory Phase it can be especially important to take detailed notes. Organizing a digital lab notebook and data spreadsheet can be tricky, so for Week 1 we are providing a [template for you to follow along with that we've assigned from Google Classroom](){:target="_blank"}. 
 
 **Make sure you have this spreadsheet and your Module 2 Lab Notebook handy as you go through the content on this Week 1 page.**
 
@@ -58,7 +56,7 @@ Videos were taken of several spheres dropping through the glycerin solution as d
 
 We used spheres of five different nominal diameters.  For each nominal diameter, we took videos of eight different spheres dropping through the liquid.  All videos were taken with a GoPro Hero 5 Black, at 60 frames per second and with the lens set to “linear” imaging.
 
-*I may need help determing the best place to post these files, making sure that the process of posting and downloading in no way resamples the video files... and then embedding the links appropriately.  For now, instructors, I have posted all the videos in Ph50 Course Development Google Drive (folder Module 2 > Videos).  We could just make each of those files shareable and link each of them from the table below.*
+*Insert links within the table -- or maybe one whole zip file as well?*
 
 | Nominal sphere diameter | Video files  |
 | ----------------------- | ------------ |
@@ -104,6 +102,7 @@ We used spheres of five different nominal diameters.  For each nominal diameter,
 |                         | GOPR0691.mp4 |
 
 The spheres themselves were massed on a digital scale with resolution 0.0001g.  Ten different spheres of the same nominal diameter were each massed once.  We will come back to the issue of mass variation in Week 3, but for now the table below lists the average measured mass for each nominal sphere size.
+
 The sphere diameters were measured repeatedly with digital calipers (resolution 0.01mm).  For almost all sphere sizes, measurements of ten spheres gave identical results; for one sphere size, results were evenly split between two values different by 0.01mm, so the table below assigns a diameter value halfway between the two.
 
 | Nominal Sphere Diameter | Average Mass | Measured Diameter |
@@ -155,7 +154,7 @@ Tracker automatically uses a horizontal x axis (increasing to the right) and a v
 
 Calibrating distance:
 
-In the latter portion of each video, after the sphere has landed on the floor of the cylinder, you will see that a ruler has been inserted into the beaker to help you determine an actual distance scale for measuring the falling sphere’s trajectory.  In each video, the ruler is placed, to the best of our ability, directly at and above the final location of the sphere, so that the millimeter markings on the ruler occupy the same locations in physical space (and in the video frame) as the trajectory of the sphere.   Use the ruler portion of each video to establish a distance calibration, via the steps below.  You should also verify that the distance scale is constant over the height of the liquid. 
+In the latter portion of each video, after the sphere has landed on the floor of the cylinder, you will see that a ruler has been inserted into the beaker to help you determine an actual distance scale for measuring the falling sphere’s trajectory.  In each video, the ruler is placed, to the best of our ability, directly at and above the final location of the sphere, so that the millimeter markings on the ruler occupy the same locations in physical space (and in the video frame) as the trajectory of the sphere.   We have tilted the ruler side to side slightly in most videos, so that you can pick a frame in which the ruler is nicely vertical.  Use the ruler portion of each video to establish a distance calibration, via the steps below.  You should also verify that the distance scale is constant over the height of the liquid. 
 
 In the top toolbar, click “Create,” then “Calibration Tools,” and then “calibration tape.”  A yellow instruction bar at the lower right will tell you to hold down the shift key and then click where you want the first end of your calibration tape to be; then release the shift key.  After you have created the first end, you can click and drag it to fine-tune its position.
 Still following the yellow instruction bar, hold down the shift key and click somewhere else to place the other end of your calibration tape.  You can now click and drag it to adjust it further.
