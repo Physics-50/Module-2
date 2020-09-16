@@ -1,4 +1,4 @@
-# Mini-questions for Module 2 -- DRAFT
+# Mini-questions for Module 2
 
 On this page you will find all of the mini-questions for Module 2. Although each question appears in context as you go through the module reading, you can use this page to verify that you have submitted all the mini-questions for each week.
 
@@ -39,7 +39,7 @@ On this page you will find all of the mini-questions for Module 2. Although each
 
 --------------------
 
-## Week 2
+## Week 2 -- DRAFT:  DO NOT COMPLETE YET
 
 #### Miniquestion: Inertial Drag's Effect on Terminal Speed
 *[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSfZpZFcl7kh_80P_gHqDr5hORdw9DOy-DgZa1nTftGv-f_aVw/viewform){:target="_blank"}*
@@ -78,7 +78,7 @@ On this page you will find all of the mini-questions for Module 2. Although each
 
 ---------------
 
-## Week 3
+## Week 3 -- DRAFT:  DO NOT COMPLETE YET
 
 #### Miniquestion: How Ruler Placement Affects Results
 *[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSfgLlDCQo_g__WABqmSmHxOC2VvgXbUYT6GBc_g0vER5hY93A/viewform){:target="_blank"}*
@@ -89,7 +89,7 @@ On this page you will find all of the mini-questions for Module 2. Although each
 
 --------------
 
-## Week 4
+## Week 4 -- DRAFT:  DO NOT COMPLETE YET
 
 
 
