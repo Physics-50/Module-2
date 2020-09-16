@@ -18,11 +18,11 @@ We begin our investigation of viscosity -- denoted with the Greek letter $$\eta$
 
 ## Background Reading
 
-Often the first step is to do some background reading and theoretical analysis.  Consider a metal sphere of mass $$m$$ and radius $$r$$, falling vertically through a liquid of density $$\rho$$ and viscosity $$\eta$$.  The sphere’s position as a function of time are determined by its initial velocity and by the several forces that act on it.  The sphere experiences the force of gravity, directed downward with magnitude $$F_g=mg$$.  At the latitude and elevation of Claremont, California, $$g=9.7959 \pm 0.0001 \mathrm{m}/\mathrm{s}^2$$.  The sphere also experiences an upward buoyant force; you can think of it as a kind of normal force exerted by the fluid, though since the fluid is not rigid, the force is not large enough to keep dense objects from falling through it.  Archimedes discovered that the magnitude of the buoyant force on an object is equal to the weight of the fluid displaced by the object:  $$F_b=(\mathrm{Sphere volume})\times(\mathrm{fraction submerged})\times(\mathrm{density of fluid})\times g$$, or for us, since the entire sphere is submerged throughout its trajectory, $$F_b=\frac{4}{3}\pi r^3 \rho g$$.
+Often the first step is to do some background reading and theoretical analysis.  Consider a metal sphere of mass $$m$$ and radius $$r$$, falling vertically through a liquid of density $$\rho$$ and viscosity $$\eta$$.  The sphere’s position as a function of time are determined by its initial velocity and by the several forces that act on it.  The sphere experiences the force of gravity, directed downward with magnitude $$F_g=mg$$.  At the latitude and elevation of Claremont, California, $$g=9.7959 \pm 0.0001 \mathrm{m}/\mathrm{s}^2$$.  The sphere also experiences an upward buoyant force; you can think of it as a kind of normal force exerted by the fluid, though since the fluid is not rigid, the force is not large enough to keep dense objects from falling through it.  Archimedes discovered that the magnitude of the buoyant force on an object is equal to the weight of the fluid displaced by the object:  $$F_b=(\mathrm{Sphere \, volume})\times(\mathrm{fraction \, submerged})\times(\mathrm{density \, of \, fluid})\times g$$, or for us, since the entire sphere is submerged throughout its trajectory, $$F_b=\frac{4}{3}\pi r^3 \rho g$$.
 
 Once the sphere is in motion at speed $$v$$, it also experiences a viscous drag force directed opposite its motion, with magnitude $$F_d=6\pi r\eta v$$.  You may recall from Physics 24 that a viscous drag force comes from the reluctance of “layers” of fluid to separate from each other so an object can move through them, and the viscous drag force is linearly proportional to the object’s speed and linear size.  The specific numerical factor of $$6\pi$$ applies to a spherical object.  The object also experiences an inertial drag force, which comes not from an interaction between fluid molecules but just from the fact that an object moving through the fluid must push individual fluid molecules ahead of it as it moves.  In our experiment, we hope that the inertial drag force is negligibly small compared to the viscous drag.  At the beginning of Module 2, you should assume that this is the case, and neglect the inertial drag force entirely.  Later in the module you will be asked to check this assumption.
 
-Assuming that only gravity, buoyant force, and viscous drag are significant, set up Newton’s second law for a falling sphere.  Remember to do this in your lab notebook!  When the sphere is falling slowly, what direction will the net force and acceleration point in?  Will the sphere speed up or slow down?  If the sphere is falling very fast (e.g., if it is thrown down with a large initial speed), what direction will the net force and acceleration point in?  Will the sphere speed up or slow down?  Find a formula for the terminal speed $$v_T$$ that the sphere should approach, regardless of its initial velocity, after it has been falling for a long time.  (The terminal velocity $$\vec{v}_T$$ has magnitude $$v_T$$ and points downward.)  Remember that an object’s terminal velocity is the velocity at which it experiences zero net force and therefore at which its acceleration becomes zero.
+Assuming that only gravity, buoyant force, and viscous drag are significant, set up Newton’s second law for a falling sphere.  Remember to do this in your lab notebook!  When the sphere is falling slowly, what direction will the net force and acceleration point in?  Will the sphere speed up or slow down?  If the sphere is falling very fast (e.g., if it is thrown down with a large initial speed), what direction will the net force and acceleration point in?  Will the sphere speed up or slow down?  Find a formula for the terminal speed $$v_T$$ that the sphere should approach, regardless of its initial velocity, after it has been falling for a long time.  (The terminal *velocity* $$\vec{v}_T$$ has magnitude $$v_T$$ and points downward.)  Remember that an object’s terminal velocity is the velocity at which it experiences zero net force and therefore at which its acceleration becomes zero.
 
 #### Miniquestion: Terminal Speed Under Viscous Drag Force
 [*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSdWtojxTUSbOQ8q3gGGaOYhMket8eiRAB5L-Jyw6q3cTwR72Q/viewform){:target="_blank"}
@@ -56,7 +56,7 @@ Videos were taken of several spheres dropping through the glycerin solution as d
 
 We used spheres of five different nominal diameters.  For each nominal diameter, we took videos of eight different spheres dropping through the liquid.  All videos were taken with a GoPro Hero 5 Black, at 60 frames per second and with the lens set to “linear” imaging.
 
-*Insert links within the table -- or maybe one whole zip file as well?*
+Links in the table below will take you to individual video files you can download.  You can also download [a single zip file of all the videos for this module.](https://drive.google.com/file/d/18jI8qFw_sgsLIaM1595JGgZ9DL437Rkt/view?usp=sharing)
 
 | Nominal sphere diameter | Video files  |
 | ----------------------- | ------------ |
@@ -76,14 +76,14 @@ We used spheres of five different nominal diameters.  For each nominal diameter,
 |                         | GOPR0660.mp4 |
 |                         | GOPR0661.mp4 |
 |                         | GOPR0662.mp4 |
-| 3.5 mm                  | GOPR0663.mp4 |
-|                         | GOPR0664.mp4 |
-|                         | GOPR0665.mp4 |
-|                         | GOPR0666.mp4 |
-|                         | GOPR0667.mp4 |
-|                         | GOPR0668.mp4 |
-|                         | GOPR0669.mp4 |
-|                         | GOPR0670.mp4 |
+| 3.5 mm                  | [GOPR0663.mp4](https://drive.google.com/file/d/1EFeKvalMKsoec0XY9Jayx-OXJMrIFnY-/view?usp=sharing) |
+|                         | [GOPR0664.mp4](https://drive.google.com/file/d/1KsD2E3Dx3ThLY_qYnPcy8oQHPwGz-8hI/view?usp=sharing) |
+|                         | [GOPR0665.mp4](https://drive.google.com/file/d/1nJxLSfcVfUGqXCxIDznVN1kvuU3dQAgC/view?usp=sharing) |
+|                         | [GOPR0666.mp4](https://drive.google.com/file/d/1HgUNbqOIEd7WUoDAlLnMf49m1ZDPbb7_/view?usp=sharing) |
+|                         | [GOPR0667.mp4](https://drive.google.com/file/d/1Ytq51vgbdnQ7qRN61QiNahjbH6KfdMQd/view?usp=sharing) |
+|                         | [GOPR0668.mp4](https://drive.google.com/file/d/1ENQF-hMVaktyyX8EsSFD2auf0KieEiK3/view?usp=sharing) |
+|                         | [GOPR0669.mp4](https://drive.google.com/file/d/17di9JXp9E5AXSB0R_pJTjmkfqO-73TMG/view?usp=sharing) |
+|                         | [GOPR0670.mp4](https://drive.google.com/file/d/1EhG04ZObIQhq_8Q6GZHUYSuQFgn2RgXD/view?usp=sharing) |
 | 4.5 mm                  | GOPR0671.mp4 |
 |                         | GOPR0672.mp4 |
 |                         | GOPR0673.mp4 |
