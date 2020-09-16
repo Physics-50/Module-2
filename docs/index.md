@@ -1,4 +1,4 @@
-# Module 2 ROUGH DRAFT
+# Module 2
 
 
 [Module 2 Overview](#module-2-overview)
@@ -14,7 +14,7 @@
 
 ## Module 2 Overview 
 
-### Learning Objectives (please fix!)
+### Learning Objectives
 
 
 1. Use experimental data to determine a physical quantity and its associated uncertainty
