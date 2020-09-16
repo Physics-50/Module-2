@@ -44,9 +44,9 @@ Module 2 is four weeks long. Each week, you will have a checkpoint due. These ch
 
 1. [Week 1 - Exploratory Phase](week1)
     - Checkpoint: preliminary measurement of viscosity ($$\eta$$) from trajectories of 3.5-mm diameter spheres, with uncertainty from random error in terminal speed ($$v_T$$) values.
-2. [Week 2 - Exploratory Phase (continued)](week2)
+2. Week 2 - Exploratory Phase (continued)
     - Checkpoint: calculated viscosity as a function of sphere diameter, to check assumptions.
-3. [Week 3 - Final Determination of Viscosity](week3)
+3. Week 3 - Final Determination of Viscosity
     - Checkpoint: final best values for viscosity and uncertainty.
 4. Week 4 - Scientific Communication
     - Deliverable: a sequence of figures with captions that communicate your reasoning and results.
