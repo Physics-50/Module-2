@@ -169,7 +169,7 @@ Select a portion of the video to analyze.  You can do this by dragging the two b
 
 After setting the start and end frames, use the large marker on top of the video progress bar to return to the start of your selection.  (If you drag the large marker too far left, it will just snap to your start frame.)
 
-In the top menu list, select “Track,” then “New,” and then “Point Mass.”  A small “Track Control” window will appear, listing “mass A.”  Go back to the top menu and select “Track,” then “mass A,” then “Autotracker…”  Now a third “Autotracker:  mass A position” window will appear.
+In the top menu list, select “Track,” then “New,” and then “Point Mass.”  A small “Track Control” window will appear, listing “mass A.”  Go back to the top menu and select “Track,” then “mass A,” then “Autotracker...”  Now a third “Autotracker:  mass A position” window will appear.
 
 You will now take steps to tell the software what the sphere looks like and to help it track the sphere’s position in the frames you have selected.  We suggest you zoom in to get a clear and detailed view of the sphere in your first frame.  Now following the instructions in the Autotracker window, hold down **Shift** and **Control** and **click** on the sphere in the video frame.  After you have done that, you should see something like this:
 
@@ -211,7 +211,9 @@ Use the graph of y vs. t to check that, at least after a short initial time peri
 
 File management:
 
-To save everything you have done to the current video (including video frames, calibration, position vs. time information from tracking a sphere, and anything currently open in Data Tools), go back to the main Tracker window and use the “Save Tab As…” option in the File menu there.  This will create a .trk file that can be loaded into Tracker again at a later time.  Be sure to check that you are saving the .trk file in the same folder as the corresponding .mp4 file; in our experience, when you do this incorrectly at first and move the file later, opening the .trk file later on does not always successfully load the video.
+To save everything you have done to the current video (including video frames, calibration, position vs. time information from tracking a sphere, and anything else currently open), go back to the main Tracker window and use the “Save Project As...” option in the File menu there.  This will create a .trz project file that can be loaded into Tracker again at a later time.  The .trz project file will contain a re-save of the video itself in addition to a .trk file containing everything you have done to the video in Tracker.
+
+If you'd like to save a little bit of time or file space, you can use "Save Tab As..." instead.  This saves just a .trk file of your work from Tracker.  Be sure to check that you are saving the .trk file in the same folder as the corresponding .mp4 file; in our experience, when you do this incorrectly at first and move the file later, opening the .trk file later on does not always successfully load the video.
 
 To save an image of what the Tracker window looks like at any given time, just use the screenshot or printscreen feature on your computer.
 
