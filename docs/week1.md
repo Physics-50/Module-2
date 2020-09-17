@@ -142,20 +142,19 @@ A few common "gotchas" to look out for in your calcuations:  (i) make sure you a
 
 Open Tracker.  In the “File” menu, select “Open File” and choose the first video you want to analyze.  It will take a few seconds to load a several-second-long video; you’ll see a pop-up window with a progress bar.  Tracker is fairly user friendly, so if you enjoy messing around on your own you can ignore all of these instructions and figure out the features as you go along.
 
-Changing coordinate axes:
+**Changing coordinate axes:**
 
 Tracker automatically uses a horizontal x axis (increasing to the right) and a vertical y axis (increasing upward).  If horizontal and vertical on the video frame are well aligned with true horizontal and vertical, and you do not care about the location of the origin, you may not need these steps.
 
-  To define the coordinate system, click on the purple coordinate axes icon, which you will find in the top toolbar slightly to the left of “Create.”  Purple axes appear; if you can’t see them, try zooming out your view of the video until the axes appear.  You can click on the origin to drag it; to avoid dealing with both positive and negative positions, you may want to set the origin either above or below all the locations the sphere will pass through.  If you would like the positive direction to be down, you may want to go to “angle from horizontal” and enter 180; this will make the positive y direction be down and will also make the positive x direction be to the left.  (The positive x direction should be largely irrelevant since we won’t be quantitatively analyzing that motion.)
+To define the coordinate system, click on the purple coordinate axes icon, which you will find in the top toolbar slightly to the left of “Create.”  Purple axes appear; if you can’t see them, try zooming out your view of the video until the axes appear.  You can click on the origin to drag it; to avoid dealing with both positive and negative positions, you may want to set the origin either above or below all the locations the sphere will pass through.  If you would like the positive direction to be down, you may want to go to “angle from horizontal” and enter 180; this will make the positive y direction be down and will also make the positive x direction be to the left.  (The positive x direction should be largely irrelevant since we won’t be quantitatively analyzing that motion.)
  
- If the true vertical direction is not well aligned with the video frame, you can adjust the angle of the x and y axes so that the y axis matches true vertical.
+If the true vertical direction is not well aligned with the video frame, you can adjust the angle of the x and y axes so that the y axis matches true vertical.
 
-Calibrating distance:
+**Calibrating distance:**
 
 In the latter portion of each video, after the sphere has landed on the floor of the cylinder, you will see that a ruler has been inserted into the beaker to help you determine an actual distance scale for measuring the falling sphere’s trajectory.  In each video, the ruler is placed, to the best of our ability, directly at and above the final location of the sphere, so that the millimeter markings on the ruler occupy the same locations in physical space (and in the video frame) as the trajectory of the sphere.   We have tilted the ruler side to side slightly in most videos, so that you can pick a frame in which the ruler is nicely vertical.  Use the ruler portion of each video to establish a distance calibration, via the steps below.  You should also verify that the distance scale is constant over the height of the liquid. 
 
-In the top toolbar, click “Create,” then “Calibration Tools,” and then “calibration tape.”  A yellow instruction bar at the lower right will tell you to hold down the **Shift** key and then **click** where you want the first end of your calibration tape to be; then release the shift key.  After you have created the first end, you can click and drag it to fine-tune its position.
-Still following the yellow instruction bar, hold down the **shift** key and **click** somewhere else to place the other end of your calibration tape.  You can now click and drag it to adjust it further.
+In the top toolbar, click “Create,” then “Calibration Tools,” and then “calibration tape.”  A yellow instruction bar at the lower right will tell you to hold down the **Shift** key and then **click** where you want the first end of your calibration tape to be; then release the shift key.  After you have created the first end, you can click and drag it to fine-tune its position.  Still following the yellow instruction bar, hold down the **shift** key and **click** somewhere else to place the other end of your calibration tape.  You can now click and drag it to adjust it further.
 
 A length should appear next to the calibration tape and also in the calibration tape info just above the video image.  Click on either place the length appears, to type in the actual or “world length” you want to assign to this tape.  This sets the conversion Tracker will use from pixels to actual distance.  Note:  Use a space between numbers and units, i.e., “60.0 mm” rather than “60.0mm” to get Tracker to recognize your units.  If you enter the distance in units other than meters, Tracker will ask you to confirm that you want to change the length unit.
 
@@ -163,7 +162,7 @@ The calibration tape will now appear overlaid on all frames of this video.  If y
 
 Note:  If you accidentally click and drag one end of the tape after you have done the calibration, Tracker will change the “world length” of the tape to match the new location of the end; your accidental drag will not mess up the pixels-to-distance calibration you already established.  This is one advantage of using “calibration tape” instead of “calibration stick.”
 
-Tracking the sphere:
+**Tracking the sphere:**
 
 Select a portion of the video to analyze.  You can do this by dragging the two black arrows beneath the video progress bar.  You will want to start your analysis when the sphere is clearly visible and freely falling, and end your analysis while the sphere is clearly visible and has not yet started to settle on the bottom of the beaker.  If you would like to see how the motion approaches terminal velocity, start your analysis as soon as possible after the sphere is clear of the tweezers.  Near the bottom of the cylinder, the sphere falls through one or more stripes of altered background or lighting.  Autotracking is not likely to work across these transitions, so your work will be easier if you end your analysis just before the sphere crosses the first change in lighting.
 
@@ -201,7 +200,7 @@ After all your selected frames have been analyzed, the video will halt on the fi
 
 If incorrect matches are made, either automatically or manually, Tracker does allow you go back to individual frames / data points after the fact and delete single points, or delete all points after a certain one.
 
-Analyzing position vs. time:
+**Analyzing position vs. time:**
 
 Throughout the tracking process, a graph of position vs. time and a table of data have been updating to the right of the video.  To view vertical position as a function of time, click on the vertical axis label and select “y:  position y-component” from the menu that appears.  Your Tracker window should now look something like this:
 
@@ -209,7 +208,7 @@ Throughout the tracking process, a graph of position vs. time and a table of dat
  
 Use the graph of y vs. t to check that, at least after a short initial time period, the ball’s velocity is roughly constant – that is, the ball’s position is a roughly linear function of time.  Identify a time interval over which this is true, and then use the data table to find a terminal velocity via $$v_T=\frac{y_f-y_i}{t_f-t_i}$$.  To minimize the impact of small fluctuations in the individual $$y_f$$ and $$y_i$$ values, try to use a relatively large time interval over which the position vs. time graph looks linear.
 
-File management:
+**File management:**
 
 To save everything you have done to the current video (including video frames, calibration, position vs. time information from tracking a sphere, and anything else currently open), go back to the main Tracker window and use the “Save Project As...” option in the File menu there.  This will create a .trz project file that can be loaded into Tracker again at a later time.  The .trz project file will contain a re-save of the video itself in addition to a .trk file containing everything you have done to the video in Tracker.
 
