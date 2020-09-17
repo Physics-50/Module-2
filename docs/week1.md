@@ -154,8 +154,8 @@ Calibrating distance:
 
 In the latter portion of each video, after the sphere has landed on the floor of the cylinder, you will see that a ruler has been inserted into the beaker to help you determine an actual distance scale for measuring the falling sphere’s trajectory.  In each video, the ruler is placed, to the best of our ability, directly at and above the final location of the sphere, so that the millimeter markings on the ruler occupy the same locations in physical space (and in the video frame) as the trajectory of the sphere.   We have tilted the ruler side to side slightly in most videos, so that you can pick a frame in which the ruler is nicely vertical.  Use the ruler portion of each video to establish a distance calibration, via the steps below.  You should also verify that the distance scale is constant over the height of the liquid. 
 
-In the top toolbar, click “Create,” then “Calibration Tools,” and then “calibration tape.”  A yellow instruction bar at the lower right will tell you to hold down the shift key and then click where you want the first end of your calibration tape to be; then release the shift key.  After you have created the first end, you can click and drag it to fine-tune its position.
-Still following the yellow instruction bar, hold down the shift key and click somewhere else to place the other end of your calibration tape.  You can now click and drag it to adjust it further.
+In the top toolbar, click “Create,” then “Calibration Tools,” and then “calibration tape.”  A yellow instruction bar at the lower right will tell you to hold down the **Shift** key and then **click** where you want the first end of your calibration tape to be; then release the shift key.  After you have created the first end, you can click and drag it to fine-tune its position.
+Still following the yellow instruction bar, hold down the **shift** key and **click** somewhere else to place the other end of your calibration tape.  You can now click and drag it to adjust it further.
 
 A length should appear next to the calibration tape and also in the calibration tape info just above the video image.  Click on either place the length appears, to type in the actual or “world length” you want to assign to this tape.  This sets the conversion Tracker will use from pixels to actual distance.  Note:  Use a space between numbers and units, i.e., “60.0 mm” rather than “60.0mm” to get Tracker to recognize your units.  If you enter the distance in units other than meters, Tracker will ask you to confirm that you want to change the length unit.
 
@@ -171,7 +171,7 @@ After setting the start and end frames, use the large marker on top of the video
 
 In the top menu list, select “Track,” then “New,” and then “Point Mass.”  A small “Track Control” window will appear, listing “mass A.”  Go back to the top menu and select “Track,” then “mass A,” then “Autotracker…”  Now a third “Autotracker:  mass A position” window will appear.
 
-You will now take steps to tell the software what the sphere looks like and to help it track the sphere’s position in the frames you have selected.  We suggest you zoom in to get a clear and detailed view of the sphere in your first frame.  Now following the instructions in the Autotracker window, hold down Shift and Control and click on the sphere in the video frame.  After you have done that, you should see something like this:
+You will now take steps to tell the software what the sphere looks like and to help it track the sphere’s position in the frames you have selected.  We suggest you zoom in to get a clear and detailed view of the sphere in your first frame.  Now following the instructions in the Autotracker window, hold down **Shift** and **Control** and **click** on the sphere in the video frame.  After you have done that, you should see something like this:
 
 <img src="images/autotrack.jpg" alt="Autotracker window shows blue message indicating the current frame is the key frame.  Main video window shows dotted red square, solid red oval, and central red cross defining the mass to track." width="400"/>
     
@@ -199,7 +199,7 @@ You must click “Close” in this window to proceed with the tracking process. 
 
 After all your selected frames have been analyzed, the video will halt on the final frame.  
 
-If incorrect matches are made, either automatically or manually, Tracker oes allow you go back to individual frames / data points after the fact and delete single points, or delete all points after a certain one.
+If incorrect matches are made, either automatically or manually, Tracker does allow you go back to individual frames / data points after the fact and delete single points, or delete all points after a certain one.
 
 Analyzing position vs. time:
 
