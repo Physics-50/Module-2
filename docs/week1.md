@@ -1,7 +1,5 @@
 # Week 1: Exploratory Phase
 
-<img src="images/exploratory-phase.png" alt="Exploratory Phase" width="400"/>
-
 --------------
 1. [Background Reading](#background-reading)
 2. [The Experiment](#the-experiment)
