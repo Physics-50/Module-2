@@ -218,12 +218,16 @@ To save an image of what the Tracker window looks like at any given time, just u
 
 Close each video or .trz/.trk file before opening and analyzing a new video in Tracker.
 
+**To-Do Reminder:**
+
+You've made it through your first video analysis!  As a reminder, your task this week is to analyze several videos of 3.5 mm spheres to find a terminal speed from each video.  From there, you can calculate an average terminal speed and a random error in terminal speed (standard error of the mean).  You will use these to find a preliminary value for the liquid viscosity and its random error.
+
 -------------
 
 ## Checkpoint 1
 
 + [Submit your Week 1 results on Gradescope](https://www.gradescope.com/courses/165932/assignments/654518){:target="_blank"}
-You should submit (1) a screenshot of the Tracker window for any single video, showing a graph of y vs. t and the table that indicates the units for time and position; (2) your preliminary value for the terminal speed (in m/s) of a 3.5-mm sphere, along with the random error in this value (the standard error of the mean from several trials); and (3) your preliminary viscosity value in $$\mathrm{Pa}\cdot\mathrm{s}$$, along with the uncertainty in viscosity propagated from the standard error of your terminal speed results.
+You should submit (1) a screenshot of the Tracker window for any single video, showing a graph of y vs. t and the table that indicates the units for time and position; (2) your preliminary value for the terminal speed (in m/s) of a 3.5-mm sphere, along with the random error in this value (the standard error of the mean from several videos); and (3) your preliminary viscosity value in $$\mathrm{Pa}\cdot\mathrm{s}$$, along with the uncertainty in viscosity propagated from the standard error of your terminal speed results.
 
 + And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-1){:target="_blank"}
 
