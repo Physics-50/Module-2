@@ -22,7 +22,7 @@ Once the sphere is in motion at speed $$v$$, it also experiences a viscous drag 
 
 Assuming that only gravity, buoyant force, and viscous drag are significant, set up Newton’s second law for a falling sphere.  Remember to do this in your lab notebook!  When the sphere is falling slowly, what direction will the net force and acceleration point in?  Will the sphere speed up or slow down?  If the sphere is falling very fast (e.g., if it is thrown down with a large initial speed), what direction will the net force and acceleration point in?  Will the sphere speed up or slow down?  Find a formula for the terminal speed $$v_T$$ that the sphere should approach, regardless of its initial velocity, after it has been falling for a long time.  (The terminal *velocity* $$\vec{v}_T$$ has magnitude $$v_T$$ and points downward.)  Remember that an object’s terminal velocity is the velocity at which it experiences zero net force and therefore at which its acceleration becomes zero.
 
-#### Miniquestion: Terminal Speed Under Viscous Drag Force
+#### Miniquestion 1: Terminal Speed Under Viscous Drag Force
 [*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSdWtojxTUSbOQ8q3gGGaOYhMket8eiRAB5L-Jyw6q3cTwR72Q/viewform){:target="_blank"}
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdWtojxTUSbOQ8q3gGGaOYhMket8eiRAB5L-Jyw6q3cTwR72Q/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
@@ -34,7 +34,7 @@ Assuming that only gravity, buoyant force, and viscous drag are significant, set
 
 You will use videos of spheres falling through a glycerin solution to find the terminal speed of a sphere and use it to calculate the viscosity of the liquid.  Use terminal speed because, as you have seen above, it is insensitive to variations in the initial conditions of each sphere drop, which are hard to control precisely.  One further experimental note:  it is important to use data from situations where the sphere is far from walls or floor of container – otherwise not just the viscosity of the fluid is involved, but the fluid’s adhesion to the solid surfaces as well.  For this reason, we have used a fairly wide 500-mL beaker in the videos, and have attempted to drop the spheres at the center of the beaker in each trial.
 
-#### Miniquestion: What Else Goes into Finding Terminal Speed?
+#### Miniquestion 2: What Else Goes into Finding Terminal Speed?
 [*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSexx5OysAF5UuAoDAvcDROzKvL3F4BWM5nqgIZgcEqLnnvdPg/viewform){:target="_blank"}
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSexx5OysAF5UuAoDAvcDROzKvL3F4BWM5nqgIZgcEqLnnvdPg/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
@@ -42,7 +42,7 @@ You will use videos of spheres falling through a glycerin solution to find the t
 
 -----------------------
 
-#### Miniquestion: What Else Goes into Finding Viscosity?
+#### Miniquestion 3: What Else Goes into Finding Viscosity?
 [*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSdKiHbgik4x-4SbWPJXXVLAhDbKKsZaUJJCS5JlRIAKbTUjJA/viewform){:target="_blank"}
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdKiHbgik4x-4SbWPJXXVLAhDbKKsZaUJJCS5JlRIAKbTUjJA/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
@@ -122,12 +122,12 @@ To analyze the videos, first install Tracker from https://physlets.org/tracker. 
 
 Use Tracker (detailed instructions below) to generate and plot vertical position vs. time information for a sphere as it falls.  Use the shape of the position vs. time curve to verify that the sphere approaches terminal velocity, and then use the position vs. time data to calculate the terminal speed.  Do NOT use the velocities calculated by Tracker, since these are calculated from position vs. time data in a way that is quite sensitive to noise, especially when the sphere position cannot be marked in every frame.  (See https://physlets.org/tracker/help/frameset.html for details on Tracker’s velocity calculations if you are interested in following up on this.)  Use only the position vs. time data from Tracker.  
 
-Use data from several trials (i.e., several videos) to determine an average terminal speed for this particular size and mass of sphere, and to determine a random error in your terminal speed value.  The random error will be determined by calculating the standard error of the mean (SEM) from your several trials.  Then use your terminal speed value and other known quantities to calculate the viscosity of the glycerin solution, and also calculate the uncertainty in the viscosity based on the random error in terminal speed.  The viscosity is quite sensitive to glycerin/water ratio, temperature and humidity (as the solution can absorb additional water from the air), so gain confidence in your results based on the measurements and analysis, rather than by looking for detailed agreement with a “glycerin viscosity” found even in a reliable reference.  However, to help you quickly check your work, note that a good order-of-magnitude estimate for the viscosity is approximately $$1 \mathrm{Pa}\cdot\mathrm{s}$$ or $$1 \frac{\mathrm{kg}}{\mathrm{m}\cdot\mathrm{s}}$$.
+Analyze several different videos to determine an average terminal speed for this particular size and mass of sphere, and to determine a random error in your terminal speed value.  The random error will be determined by calculating the standard error of the mean (SEM) from your several trials.  Then use your terminal speed value and other known quantities to calculate the viscosity of the glycerin solution, and also calculate the uncertainty in the viscosity based on the random error in terminal speed.  The viscosity is quite sensitive to glycerin/water ratio, temperature and humidity (as the solution can absorb additional water from the air), so gain confidence in your results based on the measurements and analysis, rather than by looking for detailed agreement with a “glycerin viscosity” found even in a reliable reference.  However, to help you quickly check your work, note that a good order-of-magnitude estimate for the viscosity is approximately $$1 \mathrm{Pa}\cdot\mathrm{s}$$ or $$1 \frac{\mathrm{kg}}{\mathrm{m}\cdot\mathrm{s}}$$.
 
 In Week 1, we are presuming that every other quantity that goes into the viscosity calculation is an infinitely precise constant, and focus only on the uncertainty that comes from the random error in terminal speed.  Still, in calculating the uncertainty in viscosity due to random error in terminal speed, you will need to propagate error through a formula.  You might want to review Prof. Gerbode's video tutorial on how to do such propagations:
 [![Click on the link to get to the video](images/uncertainty-propagation-video-preview.png)](https://drive.google.com/file/d/1ilJNsVSgB_asmDdfjQwoyRdhedsSjaWO/view?usp=sharing)
 
-#### Miniquestion: Propagating Error from Terminal Speed to Viscosity
+#### Miniquestion 4: Propagating Error from Terminal Speed to Viscosity
 [*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSfN_9bu9VkA7aEr6lyVUvddwqyQ9i76D7L3HRkSNcxkbsTRkQ/viewform){:target="_blank"}
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfN_9bu9VkA7aEr6lyVUvddwqyQ9i76D7L3HRkSNcxkbsTRkQ/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
