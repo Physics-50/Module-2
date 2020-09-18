@@ -192,7 +192,7 @@ If the tentative match is significantly incorrect, we suggest you Skip, or shift
 
 After skipping one or more frames, you will find a frame you are willing to Accept, or perhaps the software itself will come to a frame whose match score is high enough to be automatically accepted.  At this point you will see a warning window:
 
-<img src="images/warning.jpg" alt="Caution: skipping steps when marking positions leaves gaps in the data set.  Velocities and accelerations around the gaps cannot be determined until all steps are marked." width="150"/>
+<img src="images/warning.jpg" alt="Caution: skipping steps when marking positions leaves gaps in the data set.  Velocities and accelerations around the gaps cannot be determined until all steps are marked." width="250"/>
  
 You must click “Close” in this window to proceed with the tracking process.  You can choose to mark “Don’t show this again.”  Recall that we are, indeed, not planning to use velocities or accelerations calculated by this program.
 
