@@ -216,6 +216,8 @@ If you'd like to save a little bit of time or file space, you can use "Save Tab 
 
 To save an image of what the Tracker window looks like at any given time, just use the screenshot or printscreen feature on your computer.
 
+Close each video or .trz/.trk file before opening and analyzing a new video in Tracker.
+
 -------------
 
 ## Checkpoint 1
