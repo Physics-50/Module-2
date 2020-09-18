@@ -54,50 +54,50 @@ Videos were taken of several spheres dropping through the glycerin solution as d
 
 We used spheres of five different nominal diameters.  For each nominal diameter, we took videos of eight different spheres dropping through the liquid.  All videos were taken with a GoPro Hero 5 Black, at 60 frames per second and with the lens set to “linear” imaging.
 
-Links in the table below will take you to individual video files you can download.  You can also download [a single zip file of all the videos for this module.](https://drive.google.com/file/d/18jI8qFw_sgsLIaM1595JGgZ9DL437Rkt/view?usp=sharing)
+Links in the table below will take you to individual video files you can download.  You can also download [a single zip file of all the videos for this module.](https://drive.google.com/file/d/18jI8qFw_sgsLIaM1595JGgZ9DL437Rkt/view?usp=sharing){:target="_blank"}
 
 | Nominal sphere diameter | Video files  |
 | ----------------------- | ------------ |
-| 1.8 mm                  | [GOPR0647.mp4](https://drive.google.com/file/d/10B7cbQD88SPTW30Xvo_4XGm1WKSjWkDh/view?usp=sharing) |
-|                         | [GOPR0648.mp4](https://drive.google.com/file/d/1nSZdnRi0wY0gB0uilev9zSnv0eiGOUA1/view?usp=sharing) |
-|                         | [GOPR0649.mp4](https://drive.google.com/file/d/1cNmMRhOz7WRywdEGR8CRRmAc9eMeGMJZ/view?usp=sharing) |
-|                         | [GOPR0650.mp4](https://drive.google.com/file/d/1nZ5dPm8pu-CeXUkxv9s7qCz1R0QMKuBy/view?usp=sharing) |
-|                         | [GOPR0651.mp4](https://drive.google.com/file/d/1F79leVawJahhLKqBrNYxJUYSPSWPpJmo/view?usp=sharing) |
-|                         | [GOPR0652.mp4](https://drive.google.com/file/d/1msfTqh3LDlRCANK2YarWMUUaVHDWmvAo/view?usp=sharing) |
-|                         | [GOPR0653.mp4](https://drive.google.com/file/d/1Dqgy6eNjtNuTKThoPmwLmCtxZXoRbfwU/view?usp=sharing) |
-|                         | [GOPR0654.mp4](https://drive.google.com/file/d/1cIVIzZ7b_m6_knNucm1ogcL-u9pCRGKd/view?usp=sharing) |
-| 2.5 mm                  | [GOPR0655.mp4](https://drive.google.com/file/d/166kotkt-kqZeNnRDFufHhNGKdiRWXmfp/view?usp=sharing) |
-|                         | [GOPR0656.mp4](https://drive.google.com/file/d/1v0Xr4hfHqp2JWZFXg44xfW4YapbupUPH/view?usp=sharing) |
-|                         | [GOPR0657.mp4](https://drive.google.com/file/d/1XEqaopz-rlQ8mqsJzeKmTWgdhu3YHxm-/view?usp=sharing) |
-|                         | [GOPR0658.mp4](https://drive.google.com/file/d/1MS_fhSP6-1DEFJ8IJnduXbOG1YGCZNfA/view?usp=sharing) |
-|                         | [GOPR0659.mp4](https://drive.google.com/file/d/1bu0SCdmyImJhS2AUirW3NrQAsos2kuqU/view?usp=sharing) |
-|                         | [GOPR0660.mp4](https://drive.google.com/file/d/16ZjEiRp7vAa0hKWE1nZeCq3MGSNl5T-1/view?usp=sharing) |
-|                         | [GOPR0661.mp4](https://drive.google.com/file/d/1JAy5R2SeifFhrKsQDszlxVpw3SbIjkYR/view?usp=sharing) |
-|                         | [GOPR0662.mp4](https://drive.google.com/file/d/1llW2KIzhftzhr6ulqKcKuJ0Lb1E7BmhS/view?usp=sharing) |
-| 3.5 mm                  | [GOPR0663.mp4](https://drive.google.com/file/d/1EFeKvalMKsoec0XY9Jayx-OXJMrIFnY-/view?usp=sharing) |
-|                         | [GOPR0664.mp4](https://drive.google.com/file/d/1KsD2E3Dx3ThLY_qYnPcy8oQHPwGz-8hI/view?usp=sharing) |
-|                         | [GOPR0665.mp4](https://drive.google.com/file/d/1nJxLSfcVfUGqXCxIDznVN1kvuU3dQAgC/view?usp=sharing) |
-|                         | [GOPR0666.mp4](https://drive.google.com/file/d/1HgUNbqOIEd7WUoDAlLnMf49m1ZDPbb7_/view?usp=sharing) |
-|                         | [GOPR0667.mp4](https://drive.google.com/file/d/1Ytq51vgbdnQ7qRN61QiNahjbH6KfdMQd/view?usp=sharing) |
-|                         | [GOPR0668.mp4](https://drive.google.com/file/d/1ENQF-hMVaktyyX8EsSFD2auf0KieEiK3/view?usp=sharing) |
-|                         | [GOPR0669.mp4](https://drive.google.com/file/d/17di9JXp9E5AXSB0R_pJTjmkfqO-73TMG/view?usp=sharing) |
-|                         | [GOPR0670.mp4](https://drive.google.com/file/d/1EhG04ZObIQhq_8Q6GZHUYSuQFgn2RgXD/view?usp=sharing) |
-| 4.5 mm                  | [GOPR0671.mp4](https://drive.google.com/file/d/11_rcNDaQCZveMmZMcOKvxyT3gSODYQqI/view?usp=sharing) |
-|                         | [GOPR0672.mp4](https://drive.google.com/file/d/1ER7XEsqxVLCCKDmc5zaG1Brm3rfZP1R0/view?usp=sharing) |
-|                         | [GOPR0673.mp4](https://drive.google.com/file/d/1hap1nRpYMqwclYnWmnms4X1GbBsELFQI/view?usp=sharing) |
-|                         | [GOPR0674.mp4](https://drive.google.com/file/d/1CpcQkeTqoqaH0bEKoerRUOpR6AK_U9Ls/view?usp=sharing) |
-|                         | [GOPR0675.mp4](https://drive.google.com/file/d/1XQEMTFkEXnPzAmd2iuWWyXPk9gzv2hZV/view?usp=sharing) |
-|                         | [GOPR0676.mp4](https://drive.google.com/file/d/1C5jZjWTL98AGurEA0Fk_31iahqn0a-NU/view?usp=sharing) |
-|                         | [GOPR0677.mp4](https://drive.google.com/file/d/1Nytxi4tkkguZ4riBURpfk_MFKQdx4BnE/view?usp=sharing) |
-|                         | [GOPR0680.mp4](https://drive.google.com/file/d/1kmxCT087OSiWkfasg352Un1mnTQP7lNm/view?usp=sharing) |
-| 6.0 mm                  | [GOPR0682.mp4](https://drive.google.com/file/d/1pnz0Y9tOA2EIlr5Wtsl6wpMws8pHzMUs/view?usp=sharing) |
-|                         | [GOPR0683.mp4](https://drive.google.com/file/d/1NxsfOgOYwH896YB15-NPdbuqlPPHtISL/view?usp=sharing) |
-|                         | [GOPR0684.mp4](https://drive.google.com/file/d/1lLBSI-StkUpFB91EtxoSnFMnjjCEeIjF/view?usp=sharing) |
-|                         | [GOPR0687.mp4](https://drive.google.com/file/d/1f6mclJzLHrB-OPZQLsxLd4rSSRdTrLa4/view?usp=sharing) |
-|                         | [GOPR0688.mp4](https://drive.google.com/file/d/1he8mJAHOZ_8CjLCyVRcEEI-VBuHpRMlc/view?usp=sharing) |
-|                         | [GOPR0689.mp4](https://drive.google.com/file/d/1TOH-owYZyQch9SJbG7CnMQE6WIv8u90X/view?usp=sharing) |
-|                         | [GOPR0690.mp4](https://drive.google.com/file/d/13j09bVJhON19U6wtBOxNFKBjEiCf4ErG/view?usp=sharing) |
-|                         | [GOPR0691.mp4](https://drive.google.com/file/d/1vO6kC1vntg0hSGCeObj9up7CMW-BwrIZ/view?usp=sharing) |
+| 1.8 mm                  | [GOPR0647.mp4](https://drive.google.com/file/d/10B7cbQD88SPTW30Xvo_4XGm1WKSjWkDh/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0648.mp4](https://drive.google.com/file/d/1nSZdnRi0wY0gB0uilev9zSnv0eiGOUA1/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0649.mp4](https://drive.google.com/file/d/1cNmMRhOz7WRywdEGR8CRRmAc9eMeGMJZ/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0650.mp4](https://drive.google.com/file/d/1nZ5dPm8pu-CeXUkxv9s7qCz1R0QMKuBy/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0651.mp4](https://drive.google.com/file/d/1F79leVawJahhLKqBrNYxJUYSPSWPpJmo/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0652.mp4](https://drive.google.com/file/d/1msfTqh3LDlRCANK2YarWMUUaVHDWmvAo/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0653.mp4](https://drive.google.com/file/d/1Dqgy6eNjtNuTKThoPmwLmCtxZXoRbfwU/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0654.mp4](https://drive.google.com/file/d/1cIVIzZ7b_m6_knNucm1ogcL-u9pCRGKd/view?usp=sharing){:target="_blank"} |
+| 2.5 mm                  | [GOPR0655.mp4](https://drive.google.com/file/d/166kotkt-kqZeNnRDFufHhNGKdiRWXmfp/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0656.mp4](https://drive.google.com/file/d/1v0Xr4hfHqp2JWZFXg44xfW4YapbupUPH/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0657.mp4](https://drive.google.com/file/d/1XEqaopz-rlQ8mqsJzeKmTWgdhu3YHxm-/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0658.mp4](https://drive.google.com/file/d/1MS_fhSP6-1DEFJ8IJnduXbOG1YGCZNfA/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0659.mp4](https://drive.google.com/file/d/1bu0SCdmyImJhS2AUirW3NrQAsos2kuqU/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0660.mp4](https://drive.google.com/file/d/16ZjEiRp7vAa0hKWE1nZeCq3MGSNl5T-1/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0661.mp4](https://drive.google.com/file/d/1JAy5R2SeifFhrKsQDszlxVpw3SbIjkYR/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0662.mp4](https://drive.google.com/file/d/1llW2KIzhftzhr6ulqKcKuJ0Lb1E7BmhS/view?usp=sharing){:target="_blank"} |
+| 3.5 mm                  | [GOPR0663.mp4](https://drive.google.com/file/d/1EFeKvalMKsoec0XY9Jayx-OXJMrIFnY-/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0664.mp4](https://drive.google.com/file/d/1KsD2E3Dx3ThLY_qYnPcy8oQHPwGz-8hI/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0665.mp4](https://drive.google.com/file/d/1nJxLSfcVfUGqXCxIDznVN1kvuU3dQAgC/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0666.mp4](https://drive.google.com/file/d/1HgUNbqOIEd7WUoDAlLnMf49m1ZDPbb7_/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0667.mp4](https://drive.google.com/file/d/1Ytq51vgbdnQ7qRN61QiNahjbH6KfdMQd/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0668.mp4](https://drive.google.com/file/d/1ENQF-hMVaktyyX8EsSFD2auf0KieEiK3/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0669.mp4](https://drive.google.com/file/d/17di9JXp9E5AXSB0R_pJTjmkfqO-73TMG/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0670.mp4](https://drive.google.com/file/d/1EhG04ZObIQhq_8Q6GZHUYSuQFgn2RgXD/view?usp=sharing){:target="_blank"} |
+| 4.5 mm                  | [GOPR0671.mp4](https://drive.google.com/file/d/11_rcNDaQCZveMmZMcOKvxyT3gSODYQqI/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0672.mp4](https://drive.google.com/file/d/1ER7XEsqxVLCCKDmc5zaG1Brm3rfZP1R0/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0673.mp4](https://drive.google.com/file/d/1hap1nRpYMqwclYnWmnms4X1GbBsELFQI/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0674.mp4](https://drive.google.com/file/d/1CpcQkeTqoqaH0bEKoerRUOpR6AK_U9Ls/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0675.mp4](https://drive.google.com/file/d/1XQEMTFkEXnPzAmd2iuWWyXPk9gzv2hZV/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0676.mp4](https://drive.google.com/file/d/1C5jZjWTL98AGurEA0Fk_31iahqn0a-NU/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0677.mp4](https://drive.google.com/file/d/1Nytxi4tkkguZ4riBURpfk_MFKQdx4BnE/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0680.mp4](https://drive.google.com/file/d/1kmxCT087OSiWkfasg352Un1mnTQP7lNm/view?usp=sharing){:target="_blank"} |
+| 6.0 mm                  | [GOPR0682.mp4](https://drive.google.com/file/d/1pnz0Y9tOA2EIlr5Wtsl6wpMws8pHzMUs/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0683.mp4](https://drive.google.com/file/d/1NxsfOgOYwH896YB15-NPdbuqlPPHtISL/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0684.mp4](https://drive.google.com/file/d/1lLBSI-StkUpFB91EtxoSnFMnjjCEeIjF/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0687.mp4](https://drive.google.com/file/d/1f6mclJzLHrB-OPZQLsxLd4rSSRdTrLa4/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0688.mp4](https://drive.google.com/file/d/1he8mJAHOZ_8CjLCyVRcEEI-VBuHpRMlc/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0689.mp4](https://drive.google.com/file/d/1TOH-owYZyQch9SJbG7CnMQE6WIv8u90X/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0690.mp4](https://drive.google.com/file/d/13j09bVJhON19U6wtBOxNFKBjEiCf4ErG/view?usp=sharing){:target="_blank"} |
+|                         | [GOPR0691.mp4](https://drive.google.com/file/d/1vO6kC1vntg0hSGCeObj9up7CMW-BwrIZ/view?usp=sharing){:target="_blank"} |
 
 The spheres themselves were massed on a digital scale with resolution 0.0001g.  Ten different spheres of the same nominal diameter were each massed once.  We will come back to the issue of mass variation in Week 3, but for now the table below lists the average measured mass for each nominal sphere size.
 
@@ -118,14 +118,14 @@ The density of the glycerin solution was measured by finding the mass difference
 
 In Week 1 you will analyze data from spheres of nominal diameter 3.5 mm (video files GOPR0663.mp4 through GOPR0670.mp4).  Your goal for Week 1 is to learn to extract position vs. time from these video files and use your results to find first-pass estimates for the viscosity of the liquid and the uncertainty in the viscosity. 
 
-To analyze the videos, first install Tracker from https://physlets.org/tracker.  This program allows you to step through a video frame by frame in the forwards or backwards direction.  It also has features for tracking and plotting the position of an object as a function of time, using a distance scale that you calibrate and a time scale that Tracker automatically sets from the frame-rate info in the video file.  Also download to your computer each video (.mp4) file from the table above that you want to analyze.
+To analyze the videos, first install Tracker from [https://physlets.org/tracker](https://physlets.org/tracker){:target="_blank"}.  This program allows you to step through a video frame by frame in the forwards or backwards direction.  It also has features for tracking and plotting the position of an object as a function of time, using a distance scale that you calibrate and a time scale that Tracker automatically sets from the frame-rate info in the video file.  Also download to your computer each video (.mp4) file from the table above that you want to analyze.
 
-Use Tracker (detailed instructions below) to generate and plot vertical position vs. time information for a sphere as it falls.  Use the shape of the position vs. time curve to verify that the sphere approaches terminal velocity, and then use the position vs. time data to calculate the terminal speed.  Do NOT use the velocities calculated by Tracker, since these are calculated from position vs. time data in a way that is quite sensitive to noise, especially when the sphere position cannot be marked in every frame.  (See https://physlets.org/tracker/help/frameset.html for details on Tracker’s velocity calculations if you are interested in following up on this.)  Use only the position vs. time data from Tracker.  
+Use Tracker (detailed instructions below) to generate and plot vertical position vs. time information for a sphere as it falls.  Use the shape of the position vs. time curve to verify that the sphere approaches terminal velocity, and then use the position vs. time data to calculate the terminal speed.  Do NOT use the velocities calculated by Tracker, since these are calculated from position vs. time data in a way that is quite sensitive to noise, especially when the sphere position cannot be marked in every frame.  (See [https://physlets.org/tracker/help/frameset.html](https://physlets.org/tracker/help/frameset.html){:target="_blank"} for details on Tracker’s velocity calculations if you are interested in following up on this.)  Use only the position vs. time data from Tracker.  
 
 Analyze several different videos to determine an average terminal speed for this particular size and mass of sphere, and to determine a random error in your terminal speed value.  The random error will be determined by calculating the standard error of the mean (SEM) from your several trials.  Then use your terminal speed value and other known quantities to calculate the viscosity of the glycerin solution, and also calculate the uncertainty in the viscosity based on the random error in terminal speed.  The viscosity is quite sensitive to glycerin/water ratio, temperature and humidity (as the solution can absorb additional water from the air), so gain confidence in your results based on the measurements and analysis, rather than by looking for detailed agreement with a “glycerin viscosity” found even in a reliable reference.  However, to help you quickly check your work, note that a good order-of-magnitude estimate for the viscosity is approximately $$1 \mathrm{Pa}\cdot\mathrm{s}$$ or $$1 \frac{\mathrm{kg}}{\mathrm{m}\cdot\mathrm{s}}$$.
 
 In Week 1, we are presuming that every other quantity that goes into the viscosity calculation is an infinitely precise constant, and focus only on the uncertainty that comes from the random error in terminal speed.  Still, in calculating the uncertainty in viscosity due to random error in terminal speed, you will need to propagate error through a formula.  You might want to review Prof. Gerbode's video tutorial on how to do such propagations:
-[![Click on the link to get to the video](images/uncertainty-propagation-video-preview.png)](https://drive.google.com/file/d/1ilJNsVSgB_asmDdfjQwoyRdhedsSjaWO/view?usp=sharing)
+[![Click on the link to get to the video](images/uncertainty-propagation-video-preview.png)](https://drive.google.com/file/d/1ilJNsVSgB_asmDdfjQwoyRdhedsSjaWO/view?usp=sharing){:target="_blank"}
 
 #### Miniquestion 4: Propagating Error from Terminal Speed to Viscosity
 [*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSfN_9bu9VkA7aEr6lyVUvddwqyQ9i76D7L3HRkSNcxkbsTRkQ/viewform){:target="_blank"}
