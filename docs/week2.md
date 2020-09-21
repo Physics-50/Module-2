@@ -79,12 +79,12 @@ This week you will analyze videos of falling spheres with five different diamete
 
 ---------------
 
-*Possible digression here about how we aren't doing a hypothesis-testing experiment per se in this module, but really there is an implicit hypothesis in this little analysis, that we understand the equation of motion and inertial drag is negligible for some of the spheres we are using -- if that hypothesis is not supported by our data, we go back to the drawing board on the whole notion of what we are doing in this module and how we propose to measure the viscosity of the liquid!*
+At this point we offer a quick note about hypothesis testing.  Module 2 is not framed as a hypothesis-testing activity, but in fact there is an implicit hypothesis-testing cycle in the exploratory weeks of this module.  Our implicit hypothesis is that we understand the equation of motion for these spheres:  terminal velocity is indeed approached,  and inertial drag is negligible for some of the spheres we are using, so for some appropriate subset of the sphere sizes we can find a consistent value of liquid viscosity from their different terminal speeds.  If that hypothesis is not supported by our data, we go back to the drawing board on the whole notion of what we are doing in this module and how we propose to measure the viscosity of the liquid!  But if the hypothesis is supported by our data, we gain confidence in our ability to proceed with our final determination of viscosity.
 
 
 ## Week 2 To-Do Summary
 
-In Week 2 you will analyze at least one video for each nominal sphere diameter:  1.8 mm, 2.5 mm, 3.5 mm, 4.5 mm, and 6.0 mm.  Your goal for Week 2 is to sketch out how the "viscosity" of the liquid, calculated from terminal speed using a formula that neglects inertial drag, varies as a function of sphere diameter.  At the end of this week, you should have a clear idea of which sphere diameter(s), if any, truly have their trajectories negligibily influenced by inertial drag.
+In Week 2 you will analyze at least one video for each nominal sphere diameter:  1.8 mm, 2.5 mm, 3.5 mm (already done), 4.5 mm, and 6.0 mm.  Your goal for Week 2 is to sketch out how the "viscosity" of the liquid, calculated from terminal speed using a formula that neglects inertial drag, varies as a function of sphere diameter.  At the end of this week, you should have a clear idea of which sphere diameter(s), if any, truly have their trajectories negligibily influenced by inertial drag.
 
 Choose at least one video from each sphere diameter you have not already analyzed.  Following the method you used in Week 1, extract a terminal speed from each video you have chosen, and calculate a viscosity value from that terminal speed and the other necessary quantities.
 
