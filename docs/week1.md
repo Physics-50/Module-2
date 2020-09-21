@@ -20,7 +20,29 @@ Often the first step is to do some background reading and theoretical analysis. 
 
 Once the sphere is in motion at speed $$v$$, it also experiences a viscous drag force directed opposite its motion, with magnitude $$F_d=6\pi r\eta v$$.  You may recall from Physics 24 that a viscous drag force comes from the reluctance of “layers” of fluid to separate from each other so an object can move through them, and the viscous drag force is linearly proportional to the object’s speed and linear size.  The specific numerical factor of $$6\pi$$ applies to a spherical object.  The object also experiences an inertial drag force, which comes not from an interaction between fluid molecules but just from the fact that an object moving through the fluid must push individual fluid molecules ahead of it as it moves.  In our experiment, we hope that the inertial drag force is negligibly small compared to the viscous drag.  At the beginning of Module 2, you should assume that this is the case, and neglect the inertial drag force entirely.  Later in the module you will be asked to check this assumption.
 
-Assuming that only gravity, buoyant force, and viscous drag are significant, set up Newton’s second law for a falling sphere.  Remember to do this in your lab notebook!  When the sphere is falling slowly, what direction will the net force and acceleration point in?  Will the sphere speed up or slow down?  If the sphere is falling very fast (e.g., if it is thrown down with a large initial speed), what direction will the net force and acceleration point in?  Will the sphere speed up or slow down?  Find a formula for the terminal speed $$v_T$$ that the sphere should approach, regardless of its initial velocity, after it has been falling for a long time.  (The terminal *velocity* $$\vec{v}_T$$ has magnitude $$v_T$$ and points downward.)  Remember that an object’s terminal velocity is the velocity at which it experiences zero net force and therefore at which its acceleration becomes zero.
+Assuming that only gravity, buoyant force, and viscous drag are significant, **set up Newton’s second law for a falling sphere.**  Remember to do this in your lab notebook!  When the sphere is falling slowly, what direction will the net force and acceleration point in?  Will the sphere speed up or slow down?  If the sphere is falling very fast (e.g., if it is thrown down with a large initial speed), what direction will the net force and acceleration point in?  Will the sphere speed up or slow down?  Find a formula for the terminal speed $$v_T$$ that the sphere should approach, regardless of its initial velocity, after it has been falling for a long time.  (The terminal *velocity* $$\vec{v}_T$$ has magnitude $$v_T$$ and points downward.)  Remember that an object’s terminal velocity is the velocity at which it experiences zero net force and therefore at which its acceleration becomes zero.
+
+--------------------------------------------
+
+#### Summary of Forces
+
+Force | Functional Form
+----- | --------------
+Gravity | $$F_g = mg$$
+Buoyancy | $$F_b=\frac{4}{3}\pi r^3 \rho g$$
+Viscous Drag | $$F_d=6\pi r\eta v$$
+
+#### Summary of Physical Variables
+
+Symbol | Variable Description
+----- | --------------
+$$r$$ | radius of the sphere
+$$m$$ | mass of the sphere
+$$\rho$$ | density of the liquid
+$$\eta$$ | viscosity of the liquid
+
+------------------------
+
 
 #### Miniquestion 1: Terminal Speed Under Viscous Drag Force
 [*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSdWtojxTUSbOQ8q3gGGaOYhMket8eiRAB5L-Jyw6q3cTwR72Q/viewform){:target="_blank"}
@@ -54,50 +76,7 @@ Videos were taken of several spheres dropping through the glycerin solution as d
 
 We used spheres of five different nominal diameters.  For each nominal diameter, we took videos of eight different spheres dropping through the liquid.  All videos were taken with a GoPro Hero 5 Black, at 60 frames per second and with the lens set to “linear” imaging.
 
-Links in the table below will take you to individual video files you can download.  You can also download [a single zip file of all the videos for this module.](https://drive.google.com/file/d/18jI8qFw_sgsLIaM1595JGgZ9DL437Rkt/view?usp=sharing){:target="_blank"}
-
-| Nominal sphere diameter | Video files  |
-| ----------------------- | ------------ |
-| 1.8 mm                  | [GOPR0647.mp4](https://drive.google.com/file/d/10B7cbQD88SPTW30Xvo_4XGm1WKSjWkDh/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0648.mp4](https://drive.google.com/file/d/1nSZdnRi0wY0gB0uilev9zSnv0eiGOUA1/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0649.mp4](https://drive.google.com/file/d/1cNmMRhOz7WRywdEGR8CRRmAc9eMeGMJZ/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0650.mp4](https://drive.google.com/file/d/1nZ5dPm8pu-CeXUkxv9s7qCz1R0QMKuBy/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0651.mp4](https://drive.google.com/file/d/1F79leVawJahhLKqBrNYxJUYSPSWPpJmo/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0652.mp4](https://drive.google.com/file/d/1msfTqh3LDlRCANK2YarWMUUaVHDWmvAo/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0653.mp4](https://drive.google.com/file/d/1Dqgy6eNjtNuTKThoPmwLmCtxZXoRbfwU/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0654.mp4](https://drive.google.com/file/d/1cIVIzZ7b_m6_knNucm1ogcL-u9pCRGKd/view?usp=sharing){:target="_blank"} |
-| 2.5 mm                  | [GOPR0655.mp4](https://drive.google.com/file/d/166kotkt-kqZeNnRDFufHhNGKdiRWXmfp/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0656.mp4](https://drive.google.com/file/d/1v0Xr4hfHqp2JWZFXg44xfW4YapbupUPH/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0657.mp4](https://drive.google.com/file/d/1XEqaopz-rlQ8mqsJzeKmTWgdhu3YHxm-/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0658.mp4](https://drive.google.com/file/d/1MS_fhSP6-1DEFJ8IJnduXbOG1YGCZNfA/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0659.mp4](https://drive.google.com/file/d/1bu0SCdmyImJhS2AUirW3NrQAsos2kuqU/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0660.mp4](https://drive.google.com/file/d/16ZjEiRp7vAa0hKWE1nZeCq3MGSNl5T-1/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0661.mp4](https://drive.google.com/file/d/1JAy5R2SeifFhrKsQDszlxVpw3SbIjkYR/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0662.mp4](https://drive.google.com/file/d/1llW2KIzhftzhr6ulqKcKuJ0Lb1E7BmhS/view?usp=sharing){:target="_blank"} |
-| 3.5 mm                  | [GOPR0663.mp4](https://drive.google.com/file/d/1EFeKvalMKsoec0XY9Jayx-OXJMrIFnY-/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0664.mp4](https://drive.google.com/file/d/1KsD2E3Dx3ThLY_qYnPcy8oQHPwGz-8hI/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0665.mp4](https://drive.google.com/file/d/1nJxLSfcVfUGqXCxIDznVN1kvuU3dQAgC/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0666.mp4](https://drive.google.com/file/d/1HgUNbqOIEd7WUoDAlLnMf49m1ZDPbb7_/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0667.mp4](https://drive.google.com/file/d/1Ytq51vgbdnQ7qRN61QiNahjbH6KfdMQd/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0668.mp4](https://drive.google.com/file/d/1ENQF-hMVaktyyX8EsSFD2auf0KieEiK3/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0669.mp4](https://drive.google.com/file/d/17di9JXp9E5AXSB0R_pJTjmkfqO-73TMG/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0670.mp4](https://drive.google.com/file/d/1EhG04ZObIQhq_8Q6GZHUYSuQFgn2RgXD/view?usp=sharing){:target="_blank"} |
-| 4.5 mm                  | [GOPR0671.mp4](https://drive.google.com/file/d/11_rcNDaQCZveMmZMcOKvxyT3gSODYQqI/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0672.mp4](https://drive.google.com/file/d/1ER7XEsqxVLCCKDmc5zaG1Brm3rfZP1R0/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0673.mp4](https://drive.google.com/file/d/1hap1nRpYMqwclYnWmnms4X1GbBsELFQI/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0674.mp4](https://drive.google.com/file/d/1CpcQkeTqoqaH0bEKoerRUOpR6AK_U9Ls/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0675.mp4](https://drive.google.com/file/d/1XQEMTFkEXnPzAmd2iuWWyXPk9gzv2hZV/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0676.mp4](https://drive.google.com/file/d/1C5jZjWTL98AGurEA0Fk_31iahqn0a-NU/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0677.mp4](https://drive.google.com/file/d/1Nytxi4tkkguZ4riBURpfk_MFKQdx4BnE/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0680.mp4](https://drive.google.com/file/d/1kmxCT087OSiWkfasg352Un1mnTQP7lNm/view?usp=sharing){:target="_blank"} |
-| 6.0 mm                  | [GOPR0682.mp4](https://drive.google.com/file/d/1pnz0Y9tOA2EIlr5Wtsl6wpMws8pHzMUs/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0683.mp4](https://drive.google.com/file/d/1NxsfOgOYwH896YB15-NPdbuqlPPHtISL/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0684.mp4](https://drive.google.com/file/d/1lLBSI-StkUpFB91EtxoSnFMnjjCEeIjF/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0687.mp4](https://drive.google.com/file/d/1f6mclJzLHrB-OPZQLsxLd4rSSRdTrLa4/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0688.mp4](https://drive.google.com/file/d/1he8mJAHOZ_8CjLCyVRcEEI-VBuHpRMlc/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0689.mp4](https://drive.google.com/file/d/1TOH-owYZyQch9SJbG7CnMQE6WIv8u90X/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0690.mp4](https://drive.google.com/file/d/13j09bVJhON19U6wtBOxNFKBjEiCf4ErG/view?usp=sharing){:target="_blank"} |
-|                         | [GOPR0691.mp4](https://drive.google.com/file/d/1vO6kC1vntg0hSGCeObj9up7CMW-BwrIZ/view?usp=sharing){:target="_blank"} |
+You can download [a single zip file of all the videos for this module.](https://drive.google.com/file/d/18jI8qFw_sgsLIaM1595JGgZ9DL437Rkt/view?usp=sharing){:target="_blank"} This zip file is quite large (1.7 Gb). If you'd prefer to selectively download the video files for this week (for the 3.5 mm diameter sphere), you can [download the individual video files here instead](module2data){:target="_blank"}.
 
 The spheres themselves were massed on a digital scale with resolution 0.0001g.  Ten different spheres of the same nominal diameter were each massed once.  We will come back to the issue of mass variation in Week 3, but for now the table below lists the average measured mass for each nominal sphere size.
 
@@ -107,7 +86,7 @@ The sphere diameters were measured repeatedly with digital calipers (resolution 
 | ----------------------- | ------------ | ----------------- |
 | 1.8 mm                  | 0.0245 g     | 1.80 mm           |
 | 2.5 mm                  | 0.0655 g     | 2.495 mm          |
-| 3.5 mm                  | 0.1772 g     | 3.47 mm           |
+| **3.5 mm** (Week 1)                 | **0.1772 g**     | **3.47 mm**           |
 | 4.5 mm                  | 0.3812 g     | 4.50 mm           |
 | 6.0 mm                  | 0.8997 g     | 5.99 mm           |
 
@@ -118,14 +97,16 @@ The density of the glycerin solution was measured by finding the mass difference
 
 In Week 1 you will analyze data from spheres of nominal diameter 3.5 mm (video files GOPR0663.mp4 through GOPR0670.mp4).  Your goal for Week 1 is to learn to extract position vs. time from these video files and use your results to find first-pass estimates for the viscosity of the liquid and the uncertainty in the viscosity. 
 
-To analyze the videos, first install Tracker from [https://physlets.org/tracker](https://physlets.org/tracker){:target="_blank"}.  This program allows you to step through a video frame by frame in the forwards or backwards direction.  It also has features for tracking and plotting the position of an object as a function of time, using a distance scale that you calibrate and a time scale that Tracker automatically sets from the frame-rate info in the video file.  Also download to your computer each video (.mp4) file from the table above that you want to analyze.
+To analyze the videos, first install Tracker from [physlets.org/tracker](https://physlets.org/tracker){:target="_blank"}.  This program allows you to step through a video frame by frame.  It also has features for tracking and plotting the position of an object as a function of time, using a distance scale that you calibrate and a time scale that Tracker automatically sets from the frame-rate info in the video file.  Also download to your computer each video (.mp4) file from the table above that you want to analyze.
 
 Use Tracker (detailed instructions below) to generate and plot vertical position vs. time information for a sphere as it falls.  Use the shape of the position vs. time curve to verify that the sphere approaches terminal velocity, and then use the position vs. time data to calculate the terminal speed.  Do NOT use the velocities calculated by Tracker, since these are calculated from position vs. time data in a way that is quite sensitive to noise, especially when the sphere position cannot be marked in every frame.  (See [https://physlets.org/tracker/help/frameset.html](https://physlets.org/tracker/help/frameset.html){:target="_blank"} for details on Tracker’s velocity calculations if you are interested in following up on this.)  Use only the position vs. time data from Tracker.  
 
 Analyze several different videos to determine an average terminal speed for this particular size and mass of sphere, and to determine a random error in your terminal speed value.  The random error will be determined by calculating the standard error of the mean (SEM) from your several trials.  Then use your terminal speed value and other known quantities to calculate the viscosity of the glycerin solution, and also calculate the uncertainty in the viscosity based on the random error in terminal speed.  The viscosity is quite sensitive to glycerin/water ratio, temperature and humidity (as the solution can absorb additional water from the air), so gain confidence in your results based on the measurements and analysis, rather than by looking for detailed agreement with a “glycerin viscosity” found even in a reliable reference.  However, to help you quickly check your work, note that a good order-of-magnitude estimate for the viscosity is approximately $$1 \mathrm{Pa}\cdot\mathrm{s}$$ or $$1 \frac{\mathrm{kg}}{\mathrm{m}\cdot\mathrm{s}}$$.
 
 In Week 1, we are presuming that every other quantity that goes into the viscosity calculation is an infinitely precise constant, so we focus only on the uncertainty that comes from the random error in terminal speed.  Still, in calculating the uncertainty in viscosity due to random error in terminal speed, you will need to propagate error through a formula.  You might want to review Prof. Gerbode's video tutorial on how to do such propagations:
-[![Click on the link to get to the video](images/uncertainty-propagation-video-preview.png)](https://drive.google.com/file/d/1ilJNsVSgB_asmDdfjQwoyRdhedsSjaWO/view?usp=sharing){:target="_blank"}
+[Click on the link to get to the video](https://drive.google.com/file/d/1ilJNsVSgB_asmDdfjQwoyRdhedsSjaWO/view?usp=sharing){:target="_blank"}
+
+--------------------------------------------------------
 
 #### Miniquestion 4: Propagating Error from Terminal Speed to Viscosity
 [*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSfN_9bu9VkA7aEr6lyVUvddwqyQ9i76D7L3HRkSNcxkbsTRkQ/viewform){:target="_blank"}
@@ -135,10 +116,23 @@ In Week 1, we are presuming that every other quantity that goes into the viscosi
 
 --------------------
 
-A few common "gotchas" to look out for in your calcuations:  (i) make sure you are converting diameter to radius when needed; (ii) check that you are converting masses to kilograms throughout your calculation, including where a unit of mass appears in a density; and (iii) check that you are converting distances to meters throughout your calculation, including where a unit of distance appears in a density or a velocity.
+A few common "gotchas" to look out for in your calculations: 
 
+1. make sure you are converting diameter to radius when needed
+2. check that you are converting masses to kilograms throughout your calculation, including where a unit of mass appears in a density
+3. check that you are converting distances to meters throughout your calculation, including where a unit of distance appears in a density or a velocity.
+
+---------------------------------
 
 ## Step-By-Step Tracker Instructions
+
+Learn how to use Tracker to extract the terminal velocity from a falling sphere by
+[following along with this step-by-step video (click to open in new tab)](https://drive.google.com/file/d/1PWLR3sS8bN848P969W5R_YPJW0h_p1CK/view?usp=sharing){:target="_blank"}
+
+<iframe src="https://drive.google.com/file/d/1PWLR3sS8bN848P969W5R_YPJW0h_p1CK/preview" width="640" height="480">
+</iframe>
+
+We recommend opening tracker and working alongside the video, or you can follow the detailed instructions below:
 
 Open Tracker.  In the “File” menu, select “Open File” and choose the first video you want to analyze.  It will take a few seconds to load a several-second-long video; you’ll see a pop-up window with a progress bar.  Tracker is fairly user friendly, so if you enjoy messing around on your own you can ignore all of these instructions and figure out the features as you go along.
 
