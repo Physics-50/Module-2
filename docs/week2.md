@@ -98,10 +98,10 @@ Here is a subtle but important point that illustrates the difference between sta
 
 ## Checkpoint 2
 
-+ Submit your Week 2 results in [Checkpont 2 on Gradescope](https://www.gradescope.com/courses/165932/assignments/654616){:target="_blank"} by the end of Week 2.  You should submit (1) a scatter plot of calculated viscosity vs. sphere diameter, with no lines between points.  Your axes should be labeled with the quantity shown and the units used.  If you have analyzed multiple trials for some sphere diameters, include vertical error bars showing the uncertainty in each calculated viscosity, but this is not required in Week 2 except for the 3.5-mm spheres which you have already analyzed in Week 1.  You should also submit (2) a list of the sphere diameters for which you believe inertial drag is negligible.
++ Submit your Week 2 results in [Checkpont 2 on Gradescope](https://www.gradescope.com/courses/165932/assignments/654616){:target="_blank"} by the end of Week 2.  You should submit (1) a scatter plot of calculated viscosity vs. sphere diameter, with no lines between points.  Your axes should be labeled with the quantity shown and the units used.  If you have analyzed multiple videos for each sphere size, include vertical error bars showing the uncertainty in each calculated viscosity based on the *standard error of the mean* of the terminal speed in each case.  If you have analyzed just one video for each sphere size, include a vertical error bar on the 3.5-mm data point showing the uncertainty in calculated viscosity based on the *standard deviation* of the terminal speed.  You should also submit (2) a list of the sphere diameters for which you believe inertial drag is negligible.
 
 + And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-2){:target="_blank"}
 
 ## Final Note
 
-When you're ready, move on to [Week 3 - Final Determination of Viscosity](week3).
+When you're ready, move on to Week 3 - Final Determination of Viscosity.
