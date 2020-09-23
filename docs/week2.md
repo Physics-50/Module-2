@@ -57,7 +57,7 @@ You may recall that the inertial drag force is proportional to the object’s sp
 
 ------------------
 
-By comparing the formulas for the inertial and viscous drag formulas, we can begin to understand the conditions under which inertial drag should be negligible.  The ratio of the inertial drag to the viscous drag is $$\frac{F_i}{F_d} = \frac{C\rho\pi r^2 v^2}{6\pi\eta r v} = \frac{C\rho}{6\eta}rv$$.  In the last step we have split up the ratio into two factors; the first factor of $$\frac{C\rho}{6\eta}$$ depends only on the fluid we use and the fact that we are dropping spherical objects, but the second factor $$rv$$ depends on the details of the sphere we use.  Inertial drag is negligible if the ratio $$\frac{F_i}{F_d}$$ is much less than $$1$$.
+By comparing the formulas for the inertial and viscous drag forces, we can begin to understand the conditions under which inertial drag should be negligible.  The ratio of the inertial drag to the viscous drag is $$\frac{F_i}{F_d} = \frac{C\rho\pi r^2 v^2}{6\pi\eta r v} = \frac{C\rho}{6\eta}rv$$.  In the last step we have split up the ratio into two factors; the first factor of $$\frac{C\rho}{6\eta}$$ depends only on the fluid we use and the fact that we are dropping spherical objects, but the second factor $$rv$$ depends on the details of what sphere we use.  Inertial drag is negligible if the ratio $$\frac{F_i}{F_d}$$ is much less than $$1$$.
 
 This week you will analyze videos of falling spheres with five different diameters.  For each sphere size, you will find a terminal velocity and use it to calculate viscosity based on your formula from Week 1.  Use the discussion above, along with your Newton's second law calculations from last week, to answer the following question.
 
