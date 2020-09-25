@@ -39,7 +39,7 @@ In your analysis from Week 1, you assumed that the terminal speed of your sphere
 
 You may recall that the inertial drag force is proportional to the object’s speed squared and its cross-sectional area, and also depends on the density $$\rho$$ of the fluid:  $$F_i=C\rho\pi r^2 v^2$$.  The numerical prefactor $$C$$ is of order unity (i.e., it is something closer to 1 than to 0.1 or 10).  Our method for finding viscosity from terminal speed is only valid if the inertial drag force is negligibly small compared to the viscous drag.  If inertial drag is actually significant, the fact that we have neglected it will cause a systematic error in our viscosity result.  Go back to your Week 1 theory calculation based on Newton's second law.  Consider how your calculations would change if you added an inertial drag force, and use that logic to help you answer the following questions. 
 
-#### Miniquestion: Inertial Drag's Effect on Terminal Speed
+#### Miniquestion 1: Inertial Drag's Effect on Terminal Speed
 *[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSfZpZFcl7kh_80P_gHqDr5hORdw9DOy-DgZa1nTftGv-f_aVw/viewform){:target="_blank"}*
 
 
@@ -48,7 +48,7 @@ You may recall that the inertial drag force is proportional to the object’s sp
 
 ------------------
 
-#### Miniquestion: Inertial Drag's Effect on Our "Viscosity" Values
+#### Miniquestion 2: Inertial Drag's Effect on Our "Viscosity" Values
 *[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSfu_yOuiAE2wPP3Oe-t_9GZhQB4Bfb1yODihRUZavIwjz4WdQ/viewform){:target="_blank"}*
 
 
@@ -61,7 +61,7 @@ By comparing the formulas for the inertial and viscous drag forces, we can begin
 
 This week you will analyze videos of falling spheres with five different diameters.  For each sphere size, you will find a terminal velocity and use it to calculate viscosity based on your formula from Week 1.  Use the discussion above, along with your Newton's second law calculations from last week, to answer the following questions.
 
-#### Miniquestion: Drag Forces and Sphere Size 
+#### Miniquestion 3: Drag Forces and Sphere Size 
 *[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLScGuhxtTAdqzns252fsxyNZMolGFawRNVmB7xkzwjH8gG2VOg/viewform){:target="_blank"}*
 
 
@@ -70,7 +70,7 @@ This week you will analyze videos of falling spheres with five different diamete
 
 ---------------
 
-#### Miniquestion: What Varying Sphere Size Should Tell Us
+#### Miniquestion 4: What Varying Sphere Size Should Tell Us
 *[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSfagWdq8Zsw0XMmLYP9M-jMLmSEhqorlAUohRS8G6yfPmmVdw/viewform){:target="_blank"}*
 
 
