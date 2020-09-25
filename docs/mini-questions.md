@@ -39,7 +39,7 @@ On this page you will find all of the mini-questions for Module 2. Although each
 
 --------------------
 
-## Week 2 -- DRAFT:  DO NOT COMPLETE YET
+## Week 2
 
 #### Miniquestion: Inertial Drag's Effect on Terminal Speed
 *[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSfZpZFcl7kh_80P_gHqDr5hORdw9DOy-DgZa1nTftGv-f_aVw/viewform){:target="_blank"}*
