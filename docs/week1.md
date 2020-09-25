@@ -227,4 +227,4 @@ You should submit (1) a screenshot of the Tracker window for any single video, s
 
 
 
-When you're all finished and ready to move on, you can start Week 2 - Exploratory Phase (part 2).
+When you're all finished and ready to move on, you can start [Week 2 - Exploratory Phase (part 2)](week2).
