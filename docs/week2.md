@@ -1,4 +1,4 @@
-# Week 2: Exploratory Phase (continued) -- DRAFT
+# Week 2: Exploratory Phase (continued)
 
 
 --------------
@@ -100,7 +100,7 @@ You might think, then, that you should use the same random error in viscosity ($
 
 The upshot of this discussion is as follows:  **to estimate a viscosity uncertainty for your new sphere diameters, go back to your 3.5-mm data and calculate an uncertainty in viscosity based on the *sample standard deviation* of your several terminal speed values.  Take this single-trial uncertainty in viscosity and use it as an approximate vertical error bar for all of this week's viscosity values that are based on single trials (single videos).**
 
-Now that you have a plot of calculated viscosity vs. sphere diameter, with estimated random error bars, use it to decide on a list of sphere diameters for which you are confident that inertial drag is negligible.  You should consider the variation between data points, compared to the size of their error bars; in addition, you should look at the entire data set to see wheter variations look like fluctuations or trends, and whether the trends are things you can understand based on our discussion of the theory above.  Be ready to explain your choice of sphere diameters for which inertial drag is negligible.
+Now that you have a plot of calculated viscosity vs. sphere diameter, with estimated random error bars, use it to decide on a list of sphere diameters for which you are confident that inertial drag is negligible.  You should consider the variation between data points, compared to the size of their error bars; in addition, you should look at the entire data set to see whether variations look like fluctuations or trends, and whether the trends are things you can understand based on our discussion of the theory above.  Be ready to explain your choice of sphere diameters for which inertial drag is negligible.
 
 
 ## Checkpoint 2
@@ -111,4 +111,4 @@ Now that you have a plot of calculated viscosity vs. sphere diameter, with estim
 
 ## Final Note
 
-When you're ready, move on to [Week 3 - Final Determination of Viscosity](week3).
+When you're ready, move on to Week 3 - Final Determination of Viscosity.
