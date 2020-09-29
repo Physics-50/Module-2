@@ -35,7 +35,7 @@ So how does this actually affect our results, since we placed the ruler separate
 
 #### 2 Systematic Error from Sphere Diameter and Mass?  Probably Randomized!
 
-Terminal speed is not the only measured quantity that goes into our calculation of viscosity.  The mass and diameter of the sphere are also important, so we shoud examine our knowledge of these a bit more closely.  Our mass measurements had some trial-to-trial variation, while our diameter measurements were primarily limited by resolution error.  For example, for the nominal 3.5-mm diameter spheres, our measurements of ten sphere diameters all came out to 3.47mm.
+Terminal speed is not the only measured quantity that goes into our calculation of viscosity.  The mass and diameter of the sphere are also important, so we shoud examine our knowledge of these a bit more closely.  Our mass measurements had some trial-to-trial variation, while our diameter measurements were primarily limited by resolution error.  For example, for the nominal 3.5-mm spheres, our measurements of ten sphere masses ranged from 0.1768 g to 0.1777 g, but our measurements of ten sphere diameters all came out to 3.47mm.
 
 | Nominal Sphere Diameter | Average Mass | Standard Error of Mass | Measured Diameter |
 | ----------------------- | ------------ | ---------------------- | ----------------- |
@@ -45,7 +45,7 @@ Terminal speed is not the only measured quantity that goes into our calculation 
 | 4.5 mm                  | 0.3812 g     | 0.0002 g               | 4.50 mm           |
 | 6.0 mm                  | 0.8997 g     | 0.0002 g               | 5.99 mm           |
 
-The variation in measured masses suggests there may also be some variation in diameters that our digital calipers simply lack the digits to resolve.  What if the diameters of the 3.5-mm spheres actually ranged between about 3.467mm and 3.473mm?  This would roughly explain the variations in measured masses (mean mass 0.1772 g, but individual measurements ranged from 0.1768 g to 0.1777 g).  
+The variation in measured masses suggests there may also be some variation in diameters that our digital calipers simply lack the digits to resolve.  What if the diameters of the 3.5-mm spheres actually ranged between about 3.467mm and 3.473mm?  This would roughly explain the variations in measured masses.  
 
 How much should we worry about this?  If we had used a single sphere for all the videos, then we would have a systematic error in our viscosity results if that sphere were actually slightly larger or smaller than the values we used in our calculation.  But we used a different sphere in each video -- so the variation in terminal speeds should automatically be averaging over the range of sphere diameters and masses already!
 
