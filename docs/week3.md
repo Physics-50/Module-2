@@ -75,7 +75,7 @@ $$\delta\eta_{overall} = \frac{1}{\sqrt{n}}\sqrt{\frac{\frac{1}{(\delta\eta_1)^2
 
 You do not need to understand the detailed justification of these formulas -- in fact, we have not presented it at all -- but you should be able to use the formulas to combine several values with different random errors.  The following miniquestion asks you to practice that skill.
 
-#### Miniquestion 2: Weighted Average and Random Error
+#### Miniquestion 2: Weighted Average with Random Errors
 *[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSeW-8yZSb0sUzIWmsd7WmYPsJQJpFcopulOO81FoRn0jRWqbA/viewform){:target="_blank"}*
 
 
