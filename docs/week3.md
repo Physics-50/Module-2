@@ -21,7 +21,7 @@ In Week 2 we discussed the idea of systematic error and you may have brainstorme
 
 One factor you might have put on your list is error in the pixels-to-distance calibration.  Our calibration of distance affects the terminal speed we extract from each video and thus the viscosity we calculate.  The short video [GOPR0702.mp4](https://drive.google.com/file/d/11u-_Ott90CjFBwaUwRasEXF7gqRn2tDB/view?usp=sharing) shows what could happen if the calibration ruler is placed too far forward or too far backward relative to the location where the sphere actually falls; you can see that if ruler is forward/backward of the actual sphere drop, the pixels-to-distance calibration based on the ruler will be slightly off.  Using the video and stepping through your method for finding terminal speed and then viscosity, answer the following question:
 
-#### Miniquestion: How Ruler Placement Affects Results
+#### Miniquestion 1: How Ruler Placement Affects Results
 *[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSfgLlDCQo_g__WABqmSmHxOC2VvgXbUYT6GBc_g0vER5hY93A/viewform){:target="_blank"}*
 
 
@@ -75,7 +75,7 @@ $$\delta\eta_{overall} = \frac{1}{\sqrt{n}}\sqrt{\frac{\frac{1}{(\delta\eta_1)^2
 
 You do not need to understand the detailed justification of these formulas -- in fact, we have not presented it at all -- but you should be able to use the formulas to combine several values with different random errors.  The following miniquestion asks you to practice that skill.
 
-#### Miniquestion: Weighted Average and Random Error
+#### Miniquestion 2: Weighted Average and Random Error
 *[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSeW-8yZSb0sUzIWmsd7WmYPsJQJpFcopulOO81FoRn0jRWqbA/viewform){:target="_blank"}*
 
 
