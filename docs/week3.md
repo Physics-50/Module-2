@@ -54,7 +54,7 @@ One caveat remains:  because we used different spheres for each trial, the effec
 
 #### 3 Systematic Error from Liquid Density Value and Acceleration Due to Gravity
 
-Back in Week 1 we reported our best values for the liquid density $$\rho$$ and the acceleration due to gravity in Claremont, $$g$$.  Each of these has an associated uncertainty (given in Week 1):  $$\rho=1.241 \pm 0.003 \mathrm{g}/\mathrm{cm}^3$$ and $$g=9.7959 \pm 0.0001 \mathrm{m}/\mathrm{s}^2$$.  We have used the values $$\rho=1.241 \mathrm{g}/\mathrm{cm}^3$$ and $$g=9.7959 \mathrm{m}/\mathrm{s}^2$$ in all our calculations, but these values could be slightly shifted from the true liquid density and acceleration due to gravity.  Since we use the same beaker full of liquid and the same location in Earth's gravitational field in each video, our uncertainty in $$\rho$$ and our uncertainty in $$g$$ each contribute a systematic error in $$\eta$$ that is NOT included in the trial-to-trial variation.  For each of these, we can find out the size of the systematic error in $$\eta$$ by treating every other quantity in the $$\eta$$ formula as a constant and propagating the error due to just $$\delta\rho$$, or due to just $$\delta\g$$.
+Back in Week 1 we reported our best values for the liquid density $$\rho$$ and the acceleration due to gravity in Claremont, $$g$$.  Each of these has an associated uncertainty (given in Week 1):  $$\rho=1.241 \pm 0.003 \mathrm{g}/\mathrm{cm}^3$$ and $$g=9.7959 \pm 0.0001 \mathrm{m}/\mathrm{s}^2$$.  We have used the values $$\rho=1.241 \mathrm{g}/\mathrm{cm}^3$$ and $$g=9.7959 \mathrm{m}/\mathrm{s}^2$$ in all our calculations, but these values could be slightly shifted from the true liquid density and acceleration due to gravity.  Since we use the same beaker full of liquid and the same location in Earth's gravitational field in each video, our uncertainty in $$\rho$$ and our uncertainty in $$g$$ each contribute a systematic error in $$\eta$$ that is NOT included in the trial-to-trial variation.  For each of these, we can find out the size of the systematic error in $$\eta$$ by treating every other quantity in the $$\eta$$ formula as a constant and propagating the error due to just $$\delta\rho$$, or due to just $$\delta g$$.
 
 
 ## Mathematical Tools for Final Value and Uncertainty
@@ -67,11 +67,11 @@ If you have decided that data from several sphere sizes can be used reliably to 
 
 Just averaging the different values is not the best method, because some of the values are more certain than others.  If we are getting directions in a strange town, we naturally weight conflicting advice according to how certain each person seems about the directions they are giving us.  We need to do something similar -- but more quantitative -- with our several viscosity values.  It makes sense to do a *weighted* average, in which the values with smaller uncertainties are given the most weight in determining the final value.  A much more detailed mathematical analysis leads to a specific formula for the best weighted average and its uncertainty.  The best weighted average is:
 
-$$\eta_{overall} = \frac{\frac{1}{(\delta\eta_1)^2}\eta_1 + \frac{1}{(\delta\eta_2)^2}\eta_2 + ... + \frac{1}{(\delta\eta_n)^2}\eta_n}{\frac{1}{(\delta\eta_1)^2} + \frac{1}{(\delta\eta_2)^2} + ... + \frac{1}{(\delta\eta_n)^2}}$$
+$$\eta_{weighted} = \frac{\frac{1}{(\delta\eta_1)^2}\eta_1 + \frac{1}{(\delta\eta_2)^2}\eta_2 + ... + \frac{1}{(\delta\eta_n)^2}\eta_n}{\frac{1}{(\delta\eta_1)^2} + \frac{1}{(\delta\eta_2)^2} + ... + \frac{1}{(\delta\eta_n)^2}}$$
 
 and its random error is best represented by:
 
-$$\delta\eta_{overall} = \frac{1}{\sqrt{n}}\sqrt{\frac{\frac{1}{(\delta\eta_1)^2}(\eta_1-\eta_{overall})^2 + \frac{1}{(\delta\eta_2)^2}(\eta_2-\eta_{overall})^2 + ... + \frac{1}{(\delta\eta_n)^2}(\eta_n-\eta_{overall})^2}{\frac{1}{(\delta\eta_1)^2} + \frac{1}{(\delta\eta_2)^2} + ... + \frac{1}{(\delta\eta_n)^2}}}$$
+$$\delta\eta_{weighted} = \frac{1}{\sqrt{n}}\sqrt{\frac{\frac{1}{(\delta\eta_1)^2}(\eta_1-\eta_{weighted})^2 + \frac{1}{(\delta\eta_2)^2}(\eta_2-\eta_{weighted})^2 + ... + \frac{1}{(\delta\eta_n)^2}(\eta_n-\eta_{weighted})^2}{\frac{1}{(\delta\eta_1)^2} + \frac{1}{(\delta\eta_2)^2} + ... + \frac{1}{(\delta\eta_n)^2}}}$$
 
 You do not need to understand the detailed justification of these formulas -- in fact, we have not presented it at all -- but you should be able to use the formulas to combine several values with different random errors.  The following miniquestion asks you to practice that skill.
 
