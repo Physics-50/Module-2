@@ -89,7 +89,7 @@ On this page you will find all of the mini-questions for Module 2. Although each
 
 --------------
 
-#### Miniquestion: Weighted Average and Random Error
+#### Miniquestion: Weighted Average with Random Errors
 *[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSeW-8yZSb0sUzIWmsd7WmYPsJQJpFcopulOO81FoRn0jRWqbA/viewform){:target="_blank"}*
 
 
