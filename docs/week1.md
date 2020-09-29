@@ -82,6 +82,8 @@ The spheres themselves were massed on a digital scale with resolution 0.0001g.  
 
 The sphere diameters were measured repeatedly with digital calipers (resolution 0.01mm).  For almost all sphere sizes, measurements of ten spheres gave identical results; for one sphere size, results were evenly split between two values different by 0.01mm, so the table below assigns a diameter value halfway between the two.
 
+#### Sphere Sizes and Masses
+
 | Nominal Sphere Diameter | Average Mass | Measured Diameter |
 | ----------------------- | ------------ | ----------------- |
 | 1.8 mm                  | 0.0245 g     | 1.80 mm           |
