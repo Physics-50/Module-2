@@ -35,7 +35,7 @@ So how does this actually affect our results, since we placed the ruler separate
 
 #### 2 Systematic Error from Sphere Diameter and Mass?  Probably Randomized!
 
-Terminal speed is not the only measured quantity that goes into our calculation of viscosity.  The mass and diameter of the sphere are also important, so we shoud examine our knowledge of these a bit more closely.  Our mass measurements had some trial-to-trial variation, while our diameter measurements were primarily limited by resolution error.  A more complete version of the sphere data table from Week 1 is shown below:
+Terminal speed is not the only measured quantity that goes into our calculation of viscosity.  The mass and diameter of the sphere are also important, so we shoud examine our knowledge of these a bit more closely.  Our mass measurements had some trial-to-trial variation, while our diameter measurements were primarily limited by resolution error.  A slightly expanded version of the sphere data table from Week 1 is shown below:
 
 | Nominal Sphere Diameter | Average Mass | Standard Error of Mass | Measured Diameter |
 | ----------------------- | ------------ | ---------------------- | ----------------- |
@@ -47,7 +47,7 @@ Terminal speed is not the only measured quantity that goes into our calculation 
 
 The variation in measured masses suggests there may be some variation in diameters that our digital calipers simply lack the digits to resolve.  For example, for the nominal 3.5-mm diameter spheres, our measurements of ten sphere diameters all came out to 3.47mm, but what if they actually ranged between about 3.467mm and 3.473mm?  This would roughly explain the variations in measured masses (mean mass 0.1772 g, but individual measurements ranged from 0.1768 g to 0.1777 g).  
 
-How much should we worry about this?  If we had used a single sphere for each trial, then we would have a systematic error in our viscosity results if that sphere were actually slightly larger or smaller than the values we used in our calculation.  But we used a different sphere in each trial -- so the variation in terminal speeds should automatically be averaging over the range of sphere diameters and masses already!
+How much should we worry about this?  If we had used a single sphere for all the videos, then we would have a systematic error in our viscosity results if that sphere were actually slightly larger or smaller than the values we used in our calculation.  But we used a different sphere in each video -- so the variation in terminal speeds should automatically be averaging over the range of sphere diameters and masses already!
 
 One caveat remains:  because we used different spheres for each trial, the effect of sphere-to-sphere size variation is automatically included in the variation in terminal speed values.  However, this does not quite insure us against the possibility that the sphere diameters are distributed around some true average value that is not exactly 3.470 mm (or 1.800 mm or 2.495 mm ...).  Thus we could have a small systematic error in our viscosity results from sphere diameter despite our best efforts.  However, results from each nominal sphere diameter would not all be shifted in the same direction, or at least there is no reason to suppose that would be the case.  Using data from several nominal sphere diameters might allow us to randomize this sytematic error as well.
 
