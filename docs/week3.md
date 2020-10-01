@@ -59,7 +59,7 @@ Back in Week 1 we reported our best values for the liquid density $$\rho$$ and t
 
 ## Mathematical Tools for Final Value and Uncertainty
 
-At this point you have quite a few things to take into account as you work toward your final value for the liquid viscosity and its uncertainty.  Two mathematical tools will probably be useful at this stage.  The first, which might be useful as you find your final viscosity *value*, is a technique for averaging several different values that have different uncertainties.  The second, which might be useful as you find your overall *uncertainty*, is a reminder of how to mathematically combine several independent sources of error.
+At this point you have quite a few things to take into account as you work toward your final value for the liquid viscosity and its uncertainty.  Two mathematical tools will probably be useful at this stage.  The first, which might be useful as you find your final viscosity *value*, is a technique for averaging several different values that have different uncertainties.  The second, which might be useful as you find your overall *uncertainty*, is a discussion of how to combine errors from several different sources.
 
 #### 1 Weighted Average of Several Values with Uncertainties
 
@@ -84,13 +84,11 @@ You do not need to understand the detailed justification of these formulas -- in
 
 ------------------
 
-#### 2 Adding Independent Uncertainties in Quadrature
+#### 2 Dealing with Uncertainties from Several Independent Sources
 
-After you have found your best overall viscosity value and random error, you may still have some separate systematic errors to take into account.  In Module 1 you read about a method for combining uncertainties from several independent sources; we remind you of it quickly here.  By "independent sources," we mean factors that have no correlation, i.e., that have no particular reason to cause errors in the same direction as each other (or in opposite directions) when it comes to the final value.  One source of error steps us away from the true value in one direction, and the next source steps us either in the same direction or back toward the true value -- but we have no way of knowing which.  In this case the theory of random walks tells us to estimate our overall distance from the true value by combining the independent errors *in quadrature* as follows:
+After you have found your best final viscosity value and its random error, you may still have some independent sources of error to take into account, like uncertainty in $\eta$ due to $\delta\rho$ and uncertainty in $\eta$ due to $\delta g$.  Though all of us did our best -- we in collecting the raw data and you in your analysis choices -- to minimize or average over these other errors, a little bit of uncertainty from them still remains.  If the uncertainty from these other effects is larger than the random error, or comparable to it, then you will need to find a way to take it into account in your final reporting; you might do that by combining all the various errors in quadrature (discussed in Module 1), or you might report separately the uncertainty from each source.
 
-$$\delta\eta_{final} = \sqrt{(\delta\eta_{random})^2 + (\delta\eta_{systematic1})^2 + (\delta\eta_{systematic2})^2 + ...}.$$
-
-However, remember that you will only report the most significant digit of the final uncertainty value.  Therefore, if one of the contributing $$\delta\eta$$ terms in the expression above is much larger than the others, then actually using the formula above turns out to be overkill!  In this situation you will do just as well by simply using the largest $$\delta\eta$$ contribution and ignoring the others.  How much larger is "much larger?"  One $$\delta\eta$$ contributor that is just 2-3 times the sum of the others turns out to be large enough to be dominant; you can play with the formula above if you want to convince yourself that this is true.
+However, before we get too far into these choices, you should actually calculate the uncertainties in $\eta$ from the other effects not already included in your random error.  Compare them to the random error.  *In this experiment,* we expect that if you have done a careful job of your measurements and fixed any errors in your calculations, *the random error will be much larger than the other(s)*.  In fact, when making the raw measurements to provide to you, we decided to stop trying to measure $\rho$ more precisely when we believed we had already passed that threshold!  (You might wonder what "much larger" means.  Remember that you will only report the most significant digit of the final uncertainty value.  Therefore, if the uncertainty from one source is ten times as large as the others, it is certainly dominant.  In fact, because of the way independent uncertainties are mathematically combined, the uncertainty from one source can actually be dominant when it is even two or three times as large as the others.)  **You should check that we are right, but we expect that random error will dominate the uncertainty in your result, and you will not need to worry about how to combine it with errors from other sources.**
 
 
 ## Week 3 To-Do Summary
@@ -99,7 +97,7 @@ In Week 3 you will carefully analyze whichever set(s) of sphere-drop data you be
 
 ## Checkpoint 3
 
-+ Submit your Week 3 results in [Checkpont 3 on Gradescope](){:target="_blank"} by the end Week 3.  You should submit what you believe will be your final value of viscosity and its associated uncertainty, with units.  *Assignment not yet created or linked.  Do we just want these two numbers, or something more?*
++ Submit your Week 3 results in [Checkpont 3 on Gradescope](){:target="_blank"} by the end of Week 3.  You will be asked to submit a list of sphere diameters whose data you used in calculating your final viscosity value.  For each diameter you used, report how many videos you analyzed, and what viscosity value and random error you got for that sphere diameter.  Last, report what you believe will be your final value of viscosity and its associated uncertainty.  We will ask for all the viscosities in units of $$Pa*s$$.
 
 + And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-3){:target="_blank"}
 
