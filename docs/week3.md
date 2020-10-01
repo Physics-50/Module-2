@@ -97,7 +97,7 @@ In Week 3 you will carefully analyze whichever set(s) of sphere-drop data you be
 
 ## Checkpoint 3
 
-+ Submit your Week 3 results in [Checkpoint 3 on Gradescope](){:target="_blank"} by the end of Week 3.  You will be asked to submit a list of sphere diameters whose data you used in calculating your final viscosity value.  For each diameter you used, report how many videos you analyzed, and what viscosity value and random error you got for that sphere diameter.  Last, report what you believe will be your final value of viscosity and its associated uncertainty.  We will ask for all the viscosities in units of $$Pa*s$$.
++ Submit your Week 3 results in [Checkpoint 3 on Gradescope](https://www.gradescope.com/courses/165932/assignments/723476){:target="_blank"} by the end of Week 3.  You will be asked to submit a list of sphere diameters whose data you used in calculating your final viscosity value.  For each diameter you used, report how many videos you analyzed, and what viscosity value and random error you got for that sphere diameter.  Last, report what you believe will be your final value of viscosity and its associated uncertainty.  We will ask for all the viscosities in units of $$Pa*s$$.
 
 + And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-3){:target="_blank"}
 
