@@ -111,4 +111,4 @@ Now that you have a plot of calculated viscosity vs. sphere diameter, with estim
 
 ## Final Note
 
-When you're ready, move on to Week 3 - Final Determination of Viscosity.
+When you're ready, move on to [Week 3 - Final Determination of Viscosity](week3).
