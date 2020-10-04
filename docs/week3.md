@@ -1,4 +1,4 @@
-# Week 3:  Final Determination of Viscosity -- DRAFT
+# Week 3:  Final Determination of Viscosity
 
 
 --------------
