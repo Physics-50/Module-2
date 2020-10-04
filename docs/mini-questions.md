@@ -78,7 +78,7 @@ On this page you will find all of the mini-questions for Module 2. Although each
 
 ---------------
 
-## Week 3 -- DRAFT:  DO NOT COMPLETE YET
+## Week 3
 
 #### Miniquestion: How Ruler Placement Affects Results
 *[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSfgLlDCQo_g__WABqmSmHxOC2VvgXbUYT6GBc_g0vER5hY93A/viewform){:target="_blank"}*
