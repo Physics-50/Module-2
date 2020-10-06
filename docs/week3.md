@@ -11,7 +11,7 @@
 ------------------
 
 
-**Make sure you have your [Module 2 Data Sheet and Lab Notebook](https://classroom.google.com/c/MTI2NjQ0NDEyMTAx/a/MTYyMDg1ODM5NjY3/details){:target="_blank"} handy as you go through the content on this Week 2 page.**
+**Make sure you have your [Module 2 Data Sheet and Lab Notebook](https://classroom.google.com/c/MTI2NjQ0NDEyMTAx/a/MTYyMDg1ODM5NjY3/details){:target="_blank"} handy as you go through the content on this Week 3 page.**
 
 ## Thinking Through Systematic Errors
 
