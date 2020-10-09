@@ -1,4 +1,4 @@
-# Week 4: Communicating written scientific results, physics-style
+# Week 4: DRAFT.  DO NOT FOLLOW YET!
 
 In Physics 50, you will ultimately get to experience what it’s like to create a physics poster, which is like a mini version of a physics paper. In Module 1, you created a single figure with a caption. For the Module 2 deliverable, you will produce a series of figures, with captions, that summarize the method and logic you used, leading to your final result for the liquid viscosity in this module.  We repeat here the guidelines from Module 1 regarding each individual figure.
 
