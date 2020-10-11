@@ -18,7 +18,19 @@ Coming Friday October 16
 
 ## Example of a sequence of figures
 
-Coming Friday October 16
+
+![Fig 1](images/Fig1.jpg)
+
+-----------------------------------
+
+![Tab 1](images/Tab1.jpg)
+
+
+-----------------------------------
+
+![Fig 2](images/Fig2.jpg)
+
+
 
 ## When to use a table vs figure?
 
