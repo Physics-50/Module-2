@@ -146,7 +146,7 @@ The uncertainty in the weighted average, $$\delta K_\mathrm{avg}$$, is estimatin
 
 What do I need to make for Module 2?
 
-For Module 2, your deliverable is a series of two to four figures (which might also include a table), summarizing the data and analysis you used (including the logic that drove your decisions) and leading up to your final result for the viscosity of the liquid in this module.  Keep in mind that your figures should make the overall process and results understandable to someone who has your physics background but who is not enrolled in this course and has not seen the experimental videos or read any of the instructions.  Your final result for the liquid viscosity (including uncertainty!) should be given somewhere in the last figure or its caption.
+For Module 2, your deliverable is a series of two to four figures (which might also include a table and supporting equations), summarizing the data and analysis you used (including the logic that drove your decisions) and leading up to your final result for the viscosity of the liquid in this module.  Keep in mind that your figures should make the overall process and results understandable to someone who has your physics background but who is not enrolled in this course and has not seen the experimental videos or read any of the instructions.  Your final result for the liquid viscosity (including uncertainty!) should be given somewhere in the last figure or its caption.
 
 ### Evaluation
 
