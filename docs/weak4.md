@@ -39,11 +39,11 @@ So to summarize:
 
 While most of the time we want to display information in figures that contain images and plots, sometimes a table can be helpful. You might want to add a table if: 
 
-1. There is a lot of qualitative information, or the relationship between variables is not important for what you want your reader to take away. 
+1) There is a lot of qualitative information, or the relationship between variables is not important for what you want your reader to take away. 
 
 **AND**
 
-2. The information you are presenting does not appear elsewhere. **Do not include a table of data that you also plot!** 
+2) The information you are presenting does not appear elsewhere. **Do not include a table of data that you also plot!** 
 
 If you do include a table in your sequence of figures, please read [this guide to formatting tables](https://people.inf.ethz.ch/markusp/teaching/guides/guide-tables.pdf#page=6).
 
@@ -67,19 +67,28 @@ But if you'd prefer to see something that might more closely resemble the types 
 
 ------------------------------------------------
 
+### Outlining
 
-Suppose we had taken videos of midge larvae jumping, and when we looked at the kinetic energy of the jumps we noticed the following:
+Suppose we had taken videos of midge larvae jumping, and when we looked at the kinetic energy of the jumps we noticed that the smallest larvae's jumps had kinetic energy that depended on their size, but the kinetic energy of the largest larvae's jumps were all approximately constant.
 
+So the main result here is that there's a maximum average value of the kinetic energy for the jumping midge larvae (**Reminder: this is made up and not actually true in nature**).
 
+This is the basis of what we would want to turn into our money plot.  
 
+But what information does a reader need to understand this money plot? They need context for the following:
 
++ where does the kinetic energy come from? 
+    + mass and takeoff speed
++ where does mass come from?
+    + measured directly
++ where does takeoff speed come from?
+    + measured from position vs. time plot
++ where does the position vs. time plot come from? 
+    + videos of midge jumping
 
-Let's think about the midge jumping example paper. In that example, the "raw" data are the many videos of the midge larvae jumping. The "processed" data are the average kinematic quantities. For our example sequence of figures we are going to  
+We see that we have traced the evidence back to the "raw" data from the experiment. In this example, the "raw" data are the many videos of the midge larvae jumping. The "processed" data are the average kinematic quantities. 
 
-
-
-
-
+Based on this information, and after several revisions, we might come up with the following sequence of figures to support our claim.
 
 ---------------------------------------------
 
