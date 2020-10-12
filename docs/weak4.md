@@ -21,7 +21,7 @@ For example, in our Module 1 experiments, the main result was presented in your 
 
 After you have an idea of your main figure, you need to decide what information a reader will need to understand your main result. This required information/context will inform what other figures need to be included. You should provide a visual representation of how you obtained data, some of the intermediate data processing steps that occur, and any other relevant information a reader might need (e.g. other important quantities used to generate the information in the money plot).
 
-The sequence of figures often builds in complexity towards the main result. Sometimes starting with an ["overview figure"](https://www.nature.com/articles/nmeth0511-365){target="_blank"} provides a useful schematic context to understand your experimental process and what data will emerge. 
+The sequence of figures often builds in complexity towards the main result. Sometimes starting with an ["overview figure"](https://www.nature.com/articles/nmeth0511-365){:target="_blank"} provides a useful schematic context to understand your experimental process and what data will emerge. 
 
 After you have the main result sequence down, you should ask yourself if there are any interesting secondary results that you have discovered. Then go through the same process you did for the main result, and try to weave the secondary results into your sequence of figures. Unless the main result relies on them, these secondary results usually appear in the sequence after the main result because we don't want to bury our main result behind a series of less-important secondary information. 
 
@@ -45,7 +45,7 @@ While most of the time we want to display information in figures that contain im
 
 2) The information you are presenting does not appear elsewhere. **Do not include a table of data that you also plot!** 
 
-If you do include a table in your sequence of figures, please read [this guide to formatting tables](https://people.inf.ethz.ch/markusp/teaching/guides/guide-tables.pdf#page=6){target="_blank"}.
+If you do include a table in your sequence of figures, please read [this guide to formatting tables](https://people.inf.ethz.ch/markusp/teaching/guides/guide-tables.pdf#page=6){:target="_blank"}.
 
 Briefly summarized here:
 
