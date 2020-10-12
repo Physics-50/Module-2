@@ -19,7 +19,7 @@ Coming Friday October 16
 ## Example of a sequence of figures
 
 Coming Friday October 16
-
+    
 ## When to use a table vs figure?
 
 Coming Friday October 16
