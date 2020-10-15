@@ -1,13 +1,8 @@
-# Week 4: DRAFT.  DO NOT FOLLOW YET!
+# Week 4 - A sequence of figures
 
 In Physics 50, you will ultimately get to experience what it’s like to create a physics poster, which is like a mini version of a physics paper. In Module 1, you created a single figure with a caption. For the Module 2 deliverable, you will produce a series of figures, with captions, that summarize the method and logic you used, leading to your final result for the liquid viscosity in this module.  
 
 First, you should remind yourself of the [guidelines for creating a single figure](https://physics-50.github.io/Module-1/week4#week-4-communicating-written-scientific-results-physics-style){:target="_blank"}, and look up any feedback you received about your Module 1 deliverable on Gradescope. We are building off of the single figure from Module 1, and the same standards apply to each of the figures you create for the Module 2 deliverable.
-
-
-**THE INSTRUCTIONS FOR THE MODULE 2 DELIVERABLE WILL BE RELEASED FRIDAY OCTOBER 16**
-
-Until then, we have our Ph50 Fall Break. After you submit your Week 3 checkpoint, you can take a break. The Module 2 Deliverable is due Friday October 23. 
 
 ## How to use a sequence of figures to make a claim
 
@@ -147,6 +142,18 @@ The uncertainty in the weighted average, $$\delta K_\mathrm{avg}$$, is estimatin
 
 <br>
 
+### MATLAB scripts
+
+The MATLAB commands used to generate the plots in the example figure sequence are based on our Module 1 plotting, but with some modifications:
++ plotting without error bars (Fig. 1b)
++ plotting with open vs closed circles (Fig. 2)
++ adding horizontal lines to the plot (Fig. 2)
+
+All of the other annotations on the figures were added using Powerpoint.
+
+As a reminder, here is the [Module 1 plotting script](https://physics-50.github.io/Module-1/plotting_script_for_figure.m).
+
+And for a demo of the features introduced in the example figure sequence above, run the script ["using_the_plot_function.m"](using_the_plot_function.m).
 
 
 ---------------------------
