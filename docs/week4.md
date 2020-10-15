@@ -149,11 +149,12 @@ The MATLAB commands used to generate the plots in the example figure sequence ar
 + plotting with open vs closed circles (Fig. 2)
 + adding horizontal lines to the plot (Fig. 2)
 
+Run the script ["using_the_plot_function.m"](using_the_plot_function.m) to see an example of how to perform all three of those modifications.
+
 All of the other annotations on the figures were added using Powerpoint.
 
 As a reminder, here is the [Module 1 plotting script](https://physics-50.github.io/Module-1/plotting_script_for_figure.m).
 
-And for a demo of the features introduced in the example figure sequence above, run the script ["using_the_plot_function.m"](using_the_plot_function.m).
 
 
 ---------------------------
