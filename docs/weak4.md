@@ -2,7 +2,7 @@
 
 In Physics 50, you will ultimately get to experience what it’s like to create a physics poster, which is like a mini version of a physics paper. In Module 1, you created a single figure with a caption. For the Module 2 deliverable, you will produce a series of figures, with captions, that summarize the method and logic you used, leading to your final result for the liquid viscosity in this module.  
 
-First, you should remind yourself of the [guidelines for creating a single figure](https://physics-50.github.io/Module-1/week4){:target="_blank"}, and look up any feedback you received about your Module 1 deliverable on Gradescope. We are building off of the single figure from Module 1, and the same standards apply to each of the figures you create for the Module 2 deliverable.
+First, you should remind yourself of the [guidelines for creating a single figure](https://physics-50.github.io/Module-1/week4#week-4-communicating-written-scientific-results-physics-style){:target="_blank"}, and look up any feedback you received about your Module 1 deliverable on Gradescope. We are building off of the single figure from Module 1, and the same standards apply to each of the figures you create for the Module 2 deliverable.
 
 
 **THE INSTRUCTIONS FOR THE MODULE 2 DELIVERABLE WILL BE RELEASED FRIDAY OCTOBER 16**
@@ -13,7 +13,7 @@ Until then, we have our Ph50 Fall Break. After you submit your Week 3 checkpoint
 
 As with any piece of writing, we always recommend starting from an (evidentiary) outline. The first step is often to determine: **what is my main result/claim?** 
 
-What interesting/exciting/new idea have you discovered? What was your scientific goal of doing the experiments you just completed? The answer to these kinds of questions can inform what you consider your main result. Unless you had a specific hypothesis you were testing with your experiment, since the main result is coming from your data, often you need to play around with your data by plotting it in different ways. Are there any relationships between the variables or quantities you can calculate? This will form the evidence that you will use to support your main result.
+What interesting/exciting/new idea have you discovered? What was your scientific goal of doing the experiments you just completed? The answer to these kinds of questions can inform what you consider your main result. Unless you had a specific hypothesis you were testing with your experiment, since the main result is coming from your data, often you need to play around with your data by plotting it in different ways. Are there any relationships between the variables or quantities you can calculate? Plotting these relationships gives you the evidence that you will use to support your main result.
 
  The main result is important, so it should be the focus of your most prominent figure. This main figure/plot is often referred to as the "money plot". When others think about the results of your work, this compelling visual will provide them with a convenient way to remember your result. The evidence that supports your main result is what goes in the money plot. What evidence do you have to support the main claim/result? In experimental work, this evidence is almost always some "processed" data that is extracted out from the "raw" data of your experiment. 
 
@@ -33,28 +33,6 @@ So to summarize:
 + add in any secondary claims and evidence to support them; add any additional context needed to understand evidence for these too
 + consider making an overview figure if your sequence of figures might be difficult to follow
 
-
-
-### A note on using tables
-
-While most of the time we want to display information in figures that contain images and plots, sometimes a table can be helpful. You might want to add a table if: 
-
-1) There is a lot of qualitative information, or the relationship between variables is not important for what you want your reader to take away. 
-
-**AND**
-
-2) The information you are presenting does not appear elsewhere. **Do not include a table of data that you also plot!** 
-
-If you do include a table in your sequence of figures, please read [this guide to formatting tables](https://people.inf.ethz.ch/markusp/teaching/guides/guide-tables.pdf#page=6){:target="_blank"}.
-
-Briefly summarized here:
-
-+ Avoid vertical lines
-+ Avoid “boxing up” cells with many horizontal lines
-    + usually 3 horizontal lines are enough: above the table, below the table, and after the heading row
-+ Avoid double horizontal lines
-+ Add enough space between rows so items don't look cluttered
-+ By default, align each column to its left hand side
 
 <br>
 <br>
@@ -88,33 +66,63 @@ But what information does a reader need to understand this money plot? They need
 
 We see that we have traced the evidence back to the "raw" data from the experiment. In this example, the "raw" data are the many videos of the midge larvae jumping. The "processed" data are the average kinematic quantities. 
 
-Based on this information, and after several revisions, we might come up with the following sequence of figures to support our claim.
+Based on this information, and after several revisions, we might come up with the following sequence of two figures to support our claim.
 
 ---------------------------------------------
 
-### Figure 1
+### Figure Sequence
 
 [*Click  to enlarge in a new tab*
 ![Fig 1](images/Fig1.jpg)](images/Fig1.jpg){:target="_blank"}
 
 -----------------------------------
 
-### Table 1
-[*Click to enlarge in a new tab*
-![Tab 1](images/Tab1.jpg)](images/Tab1.jpg){:target="_blank"}
-
-
-
------------------------------------
-
-### Figure 2
 [*Click  to enlarge in a new tab*
 ![Fig 2](images/Fig2.jpg)](images/Fig2.jpg){:target="_blank"}
 
 
 -------------------------------------
 
-### Equation 1
+Let's think about the underlying purpose of each of those two figures with the following miniquestions: 
+
+#### Miniquestion 1: What was the purpose of Figure 1?
+(make sure you click "View score" after completion)
+
+*[Click here to open in a new tab](https://forms.gle/vytFUxLEgTfBQt3K7){:target="_blank"}*
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScTOJ4ciCjps3Jx-SFOx3djpzWydPSf0iT5sRAMciMb9Ev05w/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
+</iframe>
+
+
+#### Miniquestion 2: What was the purpose of Figure 2?
+(make sure you click "View score" after completion)
+
+*[Click here to open in a new tab](https://forms.gle/k2xF6EaWcc95ymEA9){:target="_blank"}*
+
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc2u3O6oH8HD-3ifyGipgOVB-6rex1uvTub_CVnyGeYpqAu8Q/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
+</iframe>
+
+### Assumed information
+
+In that example figure sequence, we are assuming that the reader has other information. In the figure captions, there are references to a table and equations. These other items would appear in the main text of the paper/poster, but the main text isn't our focus here in Module 2. But based on the above information, we might expect this table to appear in a "Results" section (or perhaps even in a "Supplementary Information" section):
+
+[*Click to enlarge in a new tab*
+![Tab 1](images/Tab1.jpg)](images/Tab1.jpg){:target="_blank"}
+
+Although you are not going to make a table for our Module 2 deliverable, you may want to read this quick [guide to tables](#tables){:target="_blank"} in case you use tables in your future work.
+
+Coming back to the example figure sequence, there are also references to equations. We would expect that information to be found in the "Methods" or "Experimental Procedure" section:
+
+...
+
+From the mean takeoff speed determined for each individual, the kinetic energy at takeoff for the $$i^\mathrm{th}$$ individual is calculated using
+\begin{equation}
+K_i = \frac{1}{2} m_i v_\mathrm{to}^2,
+\end{equation}
+where $$m_i$$ is the body mass of the $$i^\mathrm{th}$$ larva.
+
+...
 
 The weighted average of the kinetic energy, $$K_\mathrm{avg}$$ is calculated from the individual measured kinetic energies $$K_i$$ and uncertainties $$\delta K_i$$ for each mass as 
 
@@ -122,11 +130,10 @@ The weighted average of the kinetic energy, $$K_\mathrm{avg}$$ is calculated fro
 K_\mathrm{avg} = \frac{\sum_{i=1}^{n} \frac{K_i}{(\delta K_i)^2}}{\sum_{i=1}^{n} \frac{1}{(\delta K_i)^2}},
 \end{equation}
 
-where $$i$$ enumerates over all $$n=4$$ data points from Fig. 2 used to calculate the weighted average. 
+where $$i$$ enumerates over all $$n=4$$ larvae from Fig. 2 used to calculate the weighted average. 
 
----------------------------------------------
 
-### Equation 2
+...
 
 The uncertainty in the weighted average, $$\delta K_\mathrm{avg}$$, is estimating using 
 
@@ -135,6 +142,8 @@ The uncertainty in the weighted average, $$\delta K_\mathrm{avg}$$, is estimatin
 \end{equation}
 
 <br>
+
+**Note: You DO NOT need to create a write-up of your "assumed information" in your deliverable. You do not need to create a table. You do not need to write out the equations you used.** 
 
 <br>
 
@@ -146,7 +155,7 @@ The uncertainty in the weighted average, $$\delta K_\mathrm{avg}$$, is estimatin
 
 What do I need to make for Module 2?
 
-For Module 2, your deliverable is a series of two to four figures (which might also include a table and supporting equations), summarizing the data and analysis you used (including the logic that drove your decisions) and leading up to your final result for the viscosity of the liquid in this module.  Keep in mind that your figures should make the overall process and results understandable to someone who has your physics background but who is not enrolled in this course and has not seen the experimental videos or read any of the instructions.  Your final result for the liquid viscosity (including uncertainty!) should be given somewhere in the last figure or its caption.
+For Module 2, your deliverable is a series of two figures, summarizing the data and analysis you used (including the logic that drove your decisions) and leading up to your final result for the viscosity of the liquid in this module.  Keep in mind that your figures should make the overall process and results understandable to someone who has your physics background but who is not enrolled in this course and has not seen the experimental videos or read any of the instructions.  Your final result for the liquid viscosity (including uncertainty!) should be given somewhere in the last figure or its caption.
 
 ### Evaluation
 
@@ -167,3 +176,19 @@ Arguable might seem like an unusual criteria here, and we are going to take it t
 We will also be evaluating the global coherence of your sequence of figures and the context you provide for your intended audience.
 
 Additionally, each individual figure will be assessed according to the criteria of Module 1.  
+
+### Assumed Information
+
+You can assume the following information is defined for your reader somewhere in the main text of where this sequence of figures appears:
+
++ any equations you used (feel free to include made-up equation numbers in your captions)
++ tabular information about the spheres (their masses, radii, and your measured terminal speed)
++ the values with uncertainties of $$g$$ and $$\rho$$, and how those quantities were measured
+
+## What do I need to submit?
+
++ Images of your sequence of figures: two images (.jpg or .png), one image for each of your two figures
++ Your powerpoint file (or other file type) used to assemble the figures
++ A link to all of your data from Module 2, with access shared with your instructors (``` jarlett@g.hmc.edu, connolly@g.hmc.edu, gerbode@g.hmc.edu, milton@g.hmc.edu ``` )
+
+
