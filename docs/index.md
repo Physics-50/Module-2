@@ -7,7 +7,7 @@
 + [Week 1 - Exploratory Phase (part 1)](week1)
 + [Week 2 - Exploratory Phase (part 2)](week2)
 + [Week 3 - Final Determination of Viscosity](week3)
-+ Week 4 - Scientific Communication
++ [Week 4 - Scientific Communication](week4)
 
 [Background Reading](#background-reading)
 

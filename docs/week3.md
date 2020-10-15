@@ -103,4 +103,4 @@ In Week 3 you will carefully analyze whichever set(s) of sphere-drop data you be
 
 ## Final Note
 
-When you're ready, move on to Week 4 - Scientific Communication.
+When you're ready, move on to [Week 4 - Scientific Communication](week4)
