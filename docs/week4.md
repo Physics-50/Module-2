@@ -199,4 +199,4 @@ You can assume the following information is defined for your reader somewhere in
 + Your powerpoint file (or other file type) used to assemble the figures
 + A link to all of your data from Module 2, with access shared with your instructors (``` jarlett@g.hmc.edu, connolly@g.hmc.edu, gerbode@g.hmc.edu, milton@g.hmc.edu ``` )
 
-
+You can submit your Module 2 Deliverable [here on Gradescope](https://www.gradescope.com/courses/165932/assignments/770299){:target="_blank"}.  Reminder, the deliverable is **due Friday, October 23 11:55pm PT**.
