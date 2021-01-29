@@ -78,9 +78,9 @@ We used spheres of four different nominal diameters.  For each nominal diameter,
 
 You can download [a single zip file of all the videos for this module.](https://drive.google.com/file/d/18jI8qFw_sgsLIaM1595JGgZ9DL437Rkt/view?usp=sharing){:target="_blank"} This zip file is quite large (1.7 Gb). If you'd prefer to selectively download the video files for this week (for the 3.5 mm diameter sphere), you can [download the individual video files here instead](module2data){:target="_blank"}.
 
-The spheres themselves were massed on a digital scale with resolution 0.0001 \&nbsp; g.  Ten different spheres of the same nominal diameter were each massed once.  We will come back to the issue of mass variation in Week 3, but for now the table below lists the average measured mass for each nominal sphere size.
+The spheres themselves were massed on a digital scale with resolution 0.0001 g.  Ten different spheres of the same nominal diameter were each massed once.  We will come back to the issue of mass variation in Week 3, but for now the table below lists the average measured mass for each nominal sphere size.
 
-The sphere diameters were measured repeatedly with digital calipers (resolution 0.01mm).  For almost all sphere sizes, measurements of ten spheres gave identical results; for one sphere size, results were evenly split between two values different by 0.01mm, so the table below assigns a diameter value halfway between the two.
+The sphere diameters were measured repeatedly with digital calipers (resolution 0.01 mm).  For almost all sphere sizes, measurements of ten spheres gave identical results; for one sphere size, results were evenly split between two values different by 0.01 mm, so the table below assigns a diameter value halfway between the two.
 
 #### Sphere Sizes and Masses
 
@@ -92,7 +92,7 @@ The sphere diameters were measured repeatedly with digital calipers (resolution 
 | 4.5 mm                  | 0.3812 g     | 4.50 mm           |
 | 6.0 mm                  | 0.8997 g     | 5.99 mm           |
 
-The density of the glycerin solution was measured by finding the mass difference between an empty 50-mL graduated cylinder and the same cylinder with 50mL of glycerin solution in it.  This measurement was repeated several times.  The density measured in this way was $$1.241 \pm 0.003 \mathrm{g}/\mathrm{cm}^3$$.
+The density of the glycerin solution was measured by finding the mass difference between an empty 50-mL graduated cylinder and the same cylinder with 50mL of glycerin solution in it.  This measurement was repeated several times.  The density measured in this way was $$1.241 \pm 0.003 \ \mathrm{g}/\mathrm{cm}^3$$.
 
 
 ## Week 1 To-Do Summary
@@ -103,7 +103,7 @@ To analyze the videos, first install Tracker from [physlets.org/tracker](https:/
 
 Use Tracker (detailed instructions below) to generate and plot vertical position vs. time information for a sphere as it falls.  Use the shape of the position vs. time curve to verify that the sphere approaches terminal velocity, and then use the position vs. time data to calculate the terminal speed.  Do NOT use the velocities calculated by Tracker, since these are calculated from position vs. time data in a way that is quite sensitive to noise, especially when the sphere position cannot be marked in every frame.  (See [https://physlets.org/tracker/help/frameset.html](https://physlets.org/tracker/help/frameset.html){:target="_blank"} for details on Tracker’s velocity calculations if you are interested in following up on this.)  Use only the position vs. time data from Tracker.  
 
-Analyze several different videos to determine an average terminal speed for this particular size and mass of sphere, and to determine a random error in your terminal speed value.  The random error will be determined by calculating the standard error of the mean (SEM) from your several trials.  Then use your terminal speed value and other known quantities to calculate the viscosity of the glycerin solution, and also calculate the uncertainty in the viscosity based on the random error in terminal speed.  The viscosity is quite sensitive to glycerin/water ratio, temperature and humidity (as the solution can absorb additional water from the air), so gain confidence in your results based on the measurements and analysis, rather than by looking for detailed agreement with a “glycerin viscosity” found even in a reliable reference.  However, to help you quickly check your work, note that a good order-of-magnitude estimate for the viscosity is approximately $$1 \mathrm{Pa}\cdot\mathrm{s}$$ or $$1 \frac{\mathrm{kg}}{\mathrm{m}\cdot\mathrm{s}}$$.
+Analyze several different videos to determine an average terminal speed for this particular size and mass of sphere, and to determine a random error in your terminal speed value.  The random error will be determined by calculating the standard error of the mean (SEM) from your several trials.  Then use your terminal speed value and other known quantities to calculate the viscosity of the glycerin solution, and also calculate the uncertainty in the viscosity based on the random error in terminal speed.  The viscosity is quite sensitive to glycerin/water ratio, temperature and humidity (as the solution can absorb additional water from the air), so gain confidence in your results based on the measurements and analysis, rather than by looking for detailed agreement with a “glycerin viscosity” found even in a reliable reference.  However, to help you quickly check your work, note that a good order-of-magnitude estimate for the viscosity is approximately $$1 \mathrm{Pa}\cdot\mathrm{s}$$ or $$1 \ \frac{\mathrm{kg}}{\mathrm{m}\cdot\mathrm{s}}$$.
 
 In Week 1, we are presuming that every other quantity that goes into the viscosity calculation is an infinitely precise constant, so we focus only on the uncertainty that comes from the random error in terminal speed.  Still, in calculating the uncertainty in viscosity due to random error in terminal speed, you will need to propagate error through a formula.  You might want to review Prof. Gerbode's video tutorial on how to do such propagations:
 [Click on the link to get to the video](https://drive.google.com/file/d/1ilJNsVSgB_asmDdfjQwoyRdhedsSjaWO/view?usp=sharing){:target="_blank"}
@@ -134,7 +134,7 @@ Learn how to use Tracker to extract the terminal velocity from a falling sphere 
 <iframe src="https://drive.google.com/file/d/1PWLR3sS8bN848P969W5R_YPJW0h_p1CK/preview" width="640" height="480">
 </iframe>
 
-We recommend opening tracker and working alongside the video, or you can follow the detailed instructions below:
+We recommend opening Tracker and working alongside the video, or you can follow the detailed instructions below:
 
 Open Tracker.  In the “File” menu, select “Open File” and choose the first video you want to analyze.  It will take a few seconds to load a several-second-long video; you’ll see a pop-up window with a progress bar.  Tracker is fairly user friendly, so if you enjoy messing around on your own you can ignore all of these instructions and figure out the features as you go along.
 
