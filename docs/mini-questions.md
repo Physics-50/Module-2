@@ -45,16 +45,15 @@ On this page you will find all of the mini-questions for Module 2. Although each
 *[Click here to open in a new tab](https://forms.gle/QNWEZbpt55Axmz4z7/viewform){:target="_blank"}*
 
 
-<iframe src="https://forms.gle/QNWEZbpt55Axmz4z7/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSePcnLzd84ND07RFbY2eoFs9F904PXDh8rPRV5GFafDmb7wYw/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
 ------------------
 
 #### Miniquestion: Inertial Drag's Effect on Our "Viscosity" Values
-*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSfu_yOuiAE2wPP3Oe-t_9GZhQB4Bfb1yODihRUZavIwjz4WdQ/viewform){:target="_blank"}*
+*[Click here to open in a new tab](https://forms.gle/jt2WzJof5eqLHjZT9/viewform){:target="_blank"}*
 
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfu_yOuiAE2wPP3Oe-t_9GZhQB4Bfb1yODihRUZavIwjz4WdQ/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScfjpNauOA5B2L2efeGS2mCBk-a_i1Wtx8mSnMAOCriVYre8g/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
 -----------------
