@@ -10,7 +10,7 @@
 --------------
 
 
-We begin our investigation of viscosity -- denoted with the Greek letter $$\eta$$ (eta), pronounced "EH-tah" -- by doing an initial exploration. Our goal is to learn how to use the available data to find a value of the viscosity of our glycerin solution. In the Exploratory Phase it can be especially important to take detailed notes. Organizing a digital lab notebook and data spreadsheet can be tricky, so for Week 1 we are providing a [template for you to follow along with that we've assigned from Google Classroom](https://classroom.google.com/c/MTI2NjQ0NDEyMTAx/a/MTYyMDg1ODM5NjY3/details){:target="_blank"}. 
+We begin our investigation of viscosity -- denoted with the Greek letter $$\eta$$ (eta), pronounced "EH-tah" -- by doing an initial exploration. Our goal is to learn how to use the available data to find a value of the viscosity of our glycerin solution. In the Exploratory Phase it can be especially important to take detailed notes. Organizing a digital lab notebook and data spreadsheet can be tricky, so for Week 1 we are providing a [template for you to follow along with that we've assigned from Google Classroom](https://classroom.google.com/u/0/w/MjUxNTgyMzY1MDM5/tc/MjUxNTgyMzY1MDQ2){:target="_blank"}. 
 
 **Make sure you have this spreadsheet and your Module 2 Lab Notebook handy as you go through the content on this Week 1 page.**
 
