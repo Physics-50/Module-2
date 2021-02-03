@@ -76,7 +76,7 @@ Videos were taken of several spheres dropping through the glycerin solution as d
 
 We used spheres of four different nominal diameters.  For each nominal diameter, we took videos of five different spheres dropping through the liquid.  All videos were taken with a GoPro Hero 5 Black, at 60 frames per second and with the lens set to “linear” imaging.
 
-You can download [a single zip file of all the videos for this module.](https://drive.google.com/file/d/18jI8qFw_sgsLIaM1595JGgZ9DL437Rkt/view?usp=sharing){:target="_blank"} This zip file is quite large (1.7 Gb). If you'd prefer to selectively download the video files for this week (for the 3.5 mm diameter sphere), you can [download the individual video files here instead](https://drive.google.com/drive/folders/1TUSCJrpfsHUwvsdA5mZCNaW4uW_KCt8x?usp=sharing){:target="_blank"}.
+You can download [a single zip file of all the videos for this module.](https://drive.google.com/file/d/1mq6X3mSFBtJesws0HiknjeBh-Jb7IdTo/view?usp=sharing){:target="_blank"} This zip file is quite large (1.7 Gb). If you'd prefer to selectively download the video files for this week (for the 3.5 mm diameter sphere), you can [download the individual video files here instead](https://drive.google.com/drive/folders/1TUSCJrpfsHUwvsdA5mZCNaW4uW_KCt8x?usp=sharing){:target="_blank"}.
 
 The spheres themselves were massed on a digital scale with resolution 0.0001 g.  Ten different spheres of the same nominal diameter were each massed once.  We will come back to the issue of mass variation in Week 3, but for now the table below lists the average measured mass for each nominal sphere size.
 
