@@ -60,7 +60,7 @@ By comparing the formulas for the inertial and viscous drag forces, we can begin
 This week you will analyze videos of falling spheres with five different diameters.  For each sphere size, you will find a terminal velocity and use it to calculate viscosity based on your formula from Week 1.  Use the discussion above, along with your Newton's second law calculations from last week, to answer the following questions.
 
 #### Miniquestion 3: Drag Forces and Sphere Size 
-*[Click here to open in a new tab](hhttps://forms.gle/oGqPY6BPCdWq5Y3f7){:target="_blank"}*
+*[Click here to open in a new tab](https://forms.gle/oGqPY6BPCdWq5Y3f7){:target="_blank"}*
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeLe7_PHiLJnIIDUzCKCoekzEvG2RNRx5nMUSUYDmVQA-fTpw/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
