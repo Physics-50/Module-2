@@ -196,13 +196,13 @@ After all your selected frames have been analyzed, the video will halt on the fi
 
 If incorrect matches are made, either automatically or manually, Tracker does allow you go back to individual frames / data points after the fact and delete single points, or delete all points after a certain one.
 
-**Analyzing position vs. time:**
+**Analyzing position vs. time to get the terminal velocity:**
 
 Throughout the tracking process, a graph of position vs. time and a table of data have been updating to the right of the video.  To view vertical position as a function of time, click on the vertical axis label and select “y:  position y-component” from the menu that appears.  Your Tracker window should now look something like this:
 
 <img src="images/tracking-done.jpg" alt="Clockwise from left:  video with tracked positions, graph of y vs. t, table of t, x, and y values from tracking." width="400"/>
  
-Use the graph of y vs. t to check that, at least after a short initial time period, the ball’s velocity is roughly constant – that is, the ball’s position is a roughly linear function of time.  Identify a time interval over which this is true, and then use the data table to find a terminal velocity via $$v_T=\frac{y_f-y_i}{t_f-t_i}$$.  To minimize the impact of small fluctuations in the individual $$y_f$$ and $$y_i$$ values, try to use a relatively large time interval over which the position vs. time graph looks linear.
+Take a look at your graph of $$y$$ vs. $$t$$ and notice that it is not linear throughout the entire video! Initially the ball velocity increases until it reaches terminal velocity. Then, near the end of its drop, the velocity changes again due to fluid flow interactions between the ball and the bottom surface of the beaker. However, for each video you will analyze, there will be a central part of the $$y$$ vs. $$t$$ plot over which the velocity is fairly constant. This should be most of the plot -- you just need to avoid the beginning and the end bits where it is clearly not just a straight line. Identify a starting time $$t_i$$ at the beginning of the linear region and an ending time $$t_f$$ at the end of the linear region, then use the data table to find a terminal velocity via $$v_T=\frac{y_f-y_i}{t_f-t_i}$$. Hooray, you have just found your terminal velocity from your first video!
 
 **File management:**
 
