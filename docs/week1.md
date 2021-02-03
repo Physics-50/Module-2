@@ -76,7 +76,7 @@ Videos were taken of several spheres dropping through the glycerin solution as d
 
 We used spheres of four different nominal diameters.  For each nominal diameter, we took videos of five different spheres dropping through the liquid.  All videos were taken with a GoPro Hero 5 Black, at 60 frames per second and with the lens set to “linear” imaging.
 
-You can download [a single zip file of all the videos for this module.](https://drive.google.com/file/d/18jI8qFw_sgsLIaM1595JGgZ9DL437Rkt/view?usp=sharing){:target="_blank"} This zip file is quite large (1.7 Gb). If you'd prefer to selectively download the video files for this week (for the 3.5 mm diameter sphere), you can [download the individual video files here instead](module2data){:target="_blank"}.
+You can download [a single zip file of all the videos for this module.](https://drive.google.com/file/d/18jI8qFw_sgsLIaM1595JGgZ9DL437Rkt/view?usp=sharing){:target="_blank"} This zip file is quite large (1.7 Gb). If you'd prefer to selectively download the video files for this week (for the 3.5 mm diameter sphere), you can [download the individual video files here instead](https://drive.google.com/drive/folders/1TUSCJrpfsHUwvsdA5mZCNaW4uW_KCt8x?usp=sharing){:target="_blank"}.
 
 The spheres themselves were massed on a digital scale with resolution 0.0001 g.  Ten different spheres of the same nominal diameter were each massed once.  We will come back to the issue of mass variation in Week 3, but for now the table below lists the average measured mass for each nominal sphere size.
 
@@ -97,7 +97,7 @@ The density of the glycerin solution was measured by finding the mass difference
 
 ## Week 1 To-Do Summary
 
-In Week 1 you will analyze data from spheres of nominal diameter 3.5 mm (video files GOPR0663.mp4 through GOPR0670.mp4).  Your goal for Week 1 is to learn to extract position vs. time from these video files and use your results to find first-pass estimates for the viscosity of the liquid and the uncertainty in the viscosity. 
+In Week 1 you will analyze data from five spheres of nominal diameter 3.5 mm (video files GOPR0663.mp4 through GOPR0670.mp4, note that some video file numbers were skipped along the way).  Your goal for Week 1 is to learn to extract position vs. time from these video files and use your results to find first-pass estimates for the viscosity of the liquid and the uncertainty in the viscosity. 
 
 To analyze the videos, first install Tracker from [physlets.org/tracker](https://physlets.org/tracker){:target="_blank"}.  This program allows you to step through a video frame by frame.  It also has features for tracking and plotting the position of an object as a function of time, using a distance scale that you calibrate and a time scale that Tracker automatically sets from the frame-rate info in the video file.  Also download to your computer each video (.mp4) file from the table above that you want to analyze.
 
@@ -216,14 +216,14 @@ Close each video or .trz/.trk file before opening and analyzing a new video in T
 
 **To-Do Reminder:**
 
-You've made it through your first video analysis!  As a reminder, your task this week is to analyze several videos of 3.5 mm spheres to find a terminal speed from each video.  From there, you can calculate an average terminal speed and a random error in terminal speed (standard error of the mean).  You will use these to find a preliminary value for the liquid viscosity and its random error.
+You've made it through your first video analysis!  As a reminder, your task this week is to analyze the five videos of 3.5 mm spheres to find a terminal speed from each video.  From there, you can calculate an average terminal speed and a random error in terminal speed (standard error of the mean).  You will use these to find a preliminary value for the liquid viscosity and its random error.
 
 -------------
 
 ## Checkpoint 1
 
 + [Submit your Week 1 results on Gradescope](https://www.gradescope.com/courses/165932/assignments/654518){:target="_blank"}
-You should submit (1) a screenshot of the Tracker window for any single video, showing a graph of y vs. t and the table that indicates the units for time and position; (2) your preliminary value for the terminal speed (in m/s) of a 3.5-mm sphere, along with the random error in this value (the standard error of the mean from several videos); and (3) your preliminary viscosity value in $$\mathrm{Pa}\cdot\mathrm{s}$$, along with the uncertainty in viscosity propagated from the standard error of your terminal speed results.
+You should submit (1) a screenshot of the Tracker window for any single video, showing a graph of y vs. t and the table that indicates the units for time and position; (2) your preliminary value for the terminal speed (in m/s) of a 3.5-mm sphere, along with the random error in this value (the standard error of the mean from the five videos); and (3) your preliminary viscosity value in $$\mathrm{Pa}\cdot\mathrm{s}$$, along with the uncertainty in viscosity propagated from the standard error of your terminal speed results.
 
 + And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-1){:target="_blank"}
 
