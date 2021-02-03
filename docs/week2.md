@@ -18,7 +18,7 @@
 
 #### 0 Find a Preliminary Viscosity Value
 
-From Week 1, you should have measured the terminal velocity of a 3.5-mm diameter sphere from several different videos, and calculated the average terminal speed $$v_T$$ and the standard error $$\delta v_T$$.  From that you calculated a preliminary viscosity $$\eta$$ for our glycerin solution, and propagated the uncertainty to calculate $$\delta\eta$$ based on the random error in your terminal speed results.  If that isn't the case, please revisit [Week 1](week1),  [consult your classmates on Piazza](https://piazza.com/class/kijtj4yqer66na){:target="_blank"} or [come to Office Hours](https://calendar.google.com/calendar/u/0?cid=Y19tM2pzaTYyYXA2dHRjMDJramI5bDhxYzRnc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t){:target=_"blank"}. 
+From Week 1, you should have measured the terminal velocity of a 3.5 $$~$$mm diameter sphere from several different videos, and calculated the average terminal speed $$v_T$$ and the standard error $$\delta v_T$$.  From that you calculated a preliminary viscosity $$\eta$$ for our glycerin solution, and propagated the uncertainty to calculate $$\delta\eta$$ based on the random error in your terminal speed results.  If that isn't the case, please revisit [Week 1](week1),  [consult your classmates on Piazza](https://piazza.com/class/kijtj4yqer66na){:target="_blank"} or [come to Office Hours](https://calendar.google.com/calendar/u/0?cid=Y19tM2pzaTYyYXA2dHRjMDJramI5bDhxYzRnc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t){:target=_"blank"}. 
 
 
 #### 1 Systematic Errors in General
