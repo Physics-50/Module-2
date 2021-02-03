@@ -18,7 +18,7 @@
 
 #### 0 Find a Preliminary Viscosity Value
 
-From Week 1, you should have measured the terminal velocity of a 3.5 $$~$$mm diameter sphere from several different videos, and calculated the average terminal speed $$v_T$$ and the standard error $$\delta v_T$$.  From that you calculated a preliminary viscosity $$\eta$$ for our glycerin solution, and propagated the uncertainty to calculate $$\delta\eta$$ based on the random error in your terminal speed results.  If that isn't the case, please revisit [Week 1](week1),  [consult your classmates on Piazza](https://piazza.com/class/kijtj4yqer66na){:target="_blank"} or [come to Office Hours](https://calendar.google.com/calendar/u/0?cid=Y19tM2pzaTYyYXA2dHRjMDJramI5bDhxYzRnc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t){:target=_"blank"}. 
+From Week 1, you should have measured the terminal velocity of a 3.5 mm diameter sphere from several different videos, and calculated the average terminal speed $$v_T$$ and the standard error $$\delta v_T$$.  From that you calculated a preliminary viscosity $$\eta$$ for our glycerin solution, and propagated the uncertainty to calculate $$\delta\eta$$ based on the random error in your terminal speed results.  If that isn't the case, please revisit [Week 1](week1),  [consult your classmates on Piazza](https://piazza.com/class/kijtj4yqer66na){:target="_blank"} or [come to Office Hours](https://calendar.google.com/calendar/u/0?cid=Y19tM2pzaTYyYXA2dHRjMDJramI5bDhxYzRnc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t){:target=_"blank"}. 
 
 
 #### 1 Systematic Errors in General
@@ -80,7 +80,7 @@ At this point we offer a quick note about hypothesis testing.  Module 2 is not f
 
 ## Week 2 To-Do Summary
 
-In Week 2 you will analyze one video for each nominal sphere diameter:  1.8 mm, 2.5 mm, 3.5 mm (already done), 4.5 mm, and 6.0 mm.  Your goal for Week 2 is to sketch out how the "viscosity" of the liquid, calculated from terminal speed using a formula that neglects inertial drag, varies as a function of sphere diameter.  At the end of this week, you should have an idea of which sphere diameter(s), if any, truly have their trajectories negligibily influenced by inertial drag.
+In Week 2 you will analyze one video for each nominal sphere diameter:  1.8 mm, 2.5 mm, 3.5 mm (already done), and 6.0 mm.  Your goal for Week 2 is to sketch out how the "viscosity" of the liquid, calculated from terminal speed using a formula that neglects inertial drag, varies as a function of sphere diameter.  At the end of this week, you should have an idea of which sphere diameter(s), if any, truly have their trajectories negligibily influenced by inertial drag.
 
 Why aren't we asking you to analyze several videos from each diameter, as we did in Week 1 for 3.5-mm spheres?  Remember that this week is still *exploratory*, and your goal is to *sketch* the variation in results as a function of sphere diameter.  This week's investigation is meant to tell you which diameters, if any, should be analyzed more carefully and fully to give a reliable value of viscosity.  Analyzing multiple videos of all the sphere diameters would certainly generate more data, but we want to strike a balance between quantity of data and efficient use of your time.  The repeated trials you have already done in the 3.5-mm case will give you a way to estimate random error, as discussed more fully below.  Given that, one trial per diameter for the other cases should allow you to get a sense of the role of inertial drag and when it is and isn't negligible.
 
@@ -88,7 +88,7 @@ Choose one video from each new sphere diameter (1.8 mm, 2.5 mm, 4.5 mm, and 6.0 
 
 Plot your calculated viscosities as a function of sphere diameter, with vertical error bars attached to each point (see below).
 
-For 3.5-mm spheres, your repeated trials from last week allowed you to calculate a mean terminal velocity and a standard error of that mean.  From those, you calculated a viscosity and a random error in the viscosity.  You can use that value and uncertainty this week for the 3.5-mm point on your graph.
+For 3.5 $$~$$ mm spheres, your repeated trials from last week allowed you to calculate a mean terminal velocity and a standard error of that mean.  From those, you calculated a viscosity and a random error in the viscosity.  You can use that value and uncertainty this week for the 3.5 $$~$$ mm point on your graph.
 
 For each of this week's new sphere diameters, you have just *one* terminal speed measurement. Without repeated trials, you can't really know the random error of the viscosity calculated from that single measurement.  However, we can make a reasonable approximation that random error will influence the vicosity about as much for one size of sphere as for another.  With that assumption, we can use our more extensive 3.5-mm data to estimate a viscosity uncertainty for the other sphere diameters.  
 
