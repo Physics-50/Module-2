@@ -60,10 +60,9 @@ On this page you will find all of the mini-questions for Module 2. Although each
 
 
 #### Miniquestion: Drag Forces and Sphere Size 
-*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLScGuhxtTAdqzns252fsxyNZMolGFawRNVmB7xkzwjH8gG2VOg/viewform){:target="_blank"}*
+*[Click here to open in a new tab](hhttps://forms.gle/oGqPY6BPCdWq5Y3f7/viewform){:target="_blank"}*
 
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScGuhxtTAdqzns252fsxyNZMolGFawRNVmB7xkzwjH8gG2VOg/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeLe7_PHiLJnIIDUzCKCoekzEvG2RNRx5nMUSUYDmVQA-fTpw/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
 ----------------
