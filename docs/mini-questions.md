@@ -42,10 +42,10 @@ On this page you will find all of the mini-questions for Module 2. Although each
 ## Week 2
 
 #### Miniquestion: Inertial Drag's Effect on Terminal Speed
-*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSfZpZFcl7kh_80P_gHqDr5hORdw9DOy-DgZa1nTftGv-f_aVw/viewform){:target="_blank"}*
+*[Click here to open in a new tab](https://forms.gle/QNWEZbpt55Axmz4z7/viewform){:target="_blank"}*
 
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfZpZFcl7kh_80P_gHqDr5hORdw9DOy-DgZa1nTftGv-f_aVw/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
+<iframe src="https://forms.gle/QNWEZbpt55Axmz4z7/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
 ------------------
