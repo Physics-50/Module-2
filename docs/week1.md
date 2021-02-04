@@ -223,15 +223,17 @@ You've made it through your first video analysis!  As a reminder, your task this
 ## Checkpoint 1
 
 + Submit your Week 1 results on Gradescope
-You should submit (1) The assigned sample calculation posted as question 1 on Gradescope. (2) A screenshot of the Tracker window for any single video, showing a graph of y vs. t and the table that indicates the units for time and position. (3) Your preliminary value for the terminal speed (in m/s) of a 3.5-mm sphere, along with the random error in this value (the standard error of the mean from the five videos); and (4) your preliminary viscosity value in $$\mathrm{Pa}\cdot\mathrm{s}$$, along with the uncertainty in viscosity propagated from the standard error of the mean from your terminal speed results. You should then enter exactly the same response for question 5 as question 4 (we apologize for the redundancy). Your response will be graded for correct use of significant figures so please look back to the discusssion in module 1, week 3 and stop by during office hours if unsure.
+You should submit (1) The assigned sample calculation posted as question 1 on Gradescope. (2) A screenshot of the Tracker window for any single video, showing a graph of y vs. t and the table that indicates the units for time and position. (3) Your preliminary value for the terminal speed (in m/s) of a 3.5-mm sphere, along with the random error in this value (the standard error of the mean from the five videos); and (4) your preliminary viscosity value in $$\mathrm{Pa}\cdot\mathrm{s}$$, along with the uncertainty in viscosity propagated from the standard error of the mean from your terminal speed results. You should then enter exactly the same response for question 5 as question 4 (we apologize for the redundancy). Your response will be graded for correct use of significant figures so please look back to the [discusssion of significant figures](https://physics-50.github.io/Module-1/week3#reporting-data-with-significant-figures){:target="_blank"} in module 1, week 3 and stop by during office hours if unsure.
 
 The tentative rubric that will be used to evaluate this deliverable is provided below. Please keep in mind that these rubric items are subject to change as we can never foresee all the issues that may arise. This is meant to give you a sense of how it will be graded.
 
 The checkpoint will be graded out of 10 points.
 
-+ Question 1 will be graded for correctness. It will be auto-graded so please follow the instructions, there will be no partial credit. (2 points, 1 for each part)
++ Question 1 [2 points]: 
+    -Graded for correctness of the calculation. It will be auto-graded so please follow the instructions, there will be no partial credit. (1 point for each of the two part)
 
-+ Question 2 [2 points]: Deductions of up to 2 points for issues with the screenshot and/or units of distance
++ Question 2 [2 points]: 
+    - Deductions of up to 2 points for issues with the screenshot and/or units of distance
 
 + Question 3 [3 points]:
     - 1 point deduction if you did not analyze 5 trials
@@ -242,7 +244,7 @@ The checkpoint will be graded out of 10 points.
     - 1 point deduction if your value for the viscosity is unreasonably small/large or was not in the units specified on Gradescope for the question
     - 1 point deduction if your value for the uncertainty is unreasonably small/large or is not in the units specified on Gradescope for the question.
 
-+ Question 5 [1 points]:
++ Question 5 [1 point]:
     - Deduction of up to 1 point for incorrect use of significant figures.
 
 + And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-1){:target="_blank"}
