@@ -103,6 +103,12 @@ Now that you have a plot of calculated viscosity vs. sphere diameter, with estim
 
 + Submit your Week 2 results in [Checkpont 2 on Gradescope](https://www.gradescope.com/courses/165932/assignments/654616){:target="_blank"} by the end of Week 2.  You should submit (1) a scatter plot of calculated viscosity vs. sphere diameter, with no lines between points.  Your axes should be labeled with the quantity shown and the units used, and points should have vertical error bars.  The 3.5 mm viscosity value should have the random error you found in Week 1, based on *standard error of the mean* of terminal velocity values (but if you made a mistake in your calculations in Week 1, please do fix it this week).  To estimate a viscosity uncertainty for the other sphere diameters, go back to your 3.5-mm data and calculate an uncertainty in viscosity based on the *sample standard deviation* of the terminal speed values.  Use this uncertainty in viscosity for all of the new sphere diameters -- so all three of those points should have identical error bars.  You should also submit (2) a list of the sphere diameters for which you believe inertial drag is negligible, along with a brief explanation of your reasons.
 
+The tentative rubric that will be used to evaluate this deliverable is provided below. Please keep in mind that these rubric items are subject to change as we can never foresee all the issues that may arise. This is meant to give you a sense of how it will be graded.
+
+The checkpoint will be graded out of 10 points.
+
+<img src="images/module2-checkpoint2.png"  width="400"/>
+
 + And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-2){:target="_blank"}
 
 ## Final Note
