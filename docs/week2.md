@@ -16,22 +16,22 @@
 
 ## Systematic Errors
 
-#### 0 Find a Preliminary Viscosity Value
+#### Find a Preliminary Viscosity Value
 
-From Week 1, you should have measured the terminal velocity of a 3.5 mm diameter sphere from several different videos, and calculated the average terminal speed $$v_T$$ and the standard error $$\delta v_T$$.  From that you calculated a preliminary viscosity $$\eta$$ for our glycerin solution, and propagated the uncertainty to calculate $$\delta\eta$$ based on the random error in your terminal speed results.  If that isn't the case, please revisit [Week 1](week1),  [consult your classmates on Piazza](https://piazza.com/class/kijtj4yqer66na){:target="_blank"} or [come to Office Hours](https://calendar.google.com/calendar/u/0?cid=Y19tM2pzaTYyYXA2dHRjMDJramI5bDhxYzRnc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t){:target=_"blank"}. 
+From Week 1, you should have measured the terminal velocity of a 3.5 mm diameter sphere from several different videos, and calculated the average terminal speed $$v_T$$ and the standard error $$\delta v_T$$.  From that you calculated a preliminary viscosity $$\eta$$ for our glycerin solution, and propagated the uncertainty to calculate $$\delta\eta$$ based on the random error in your terminal speed results.  If that isn't the case, please revisit [Week 1](week1),  [consult your classmates on Piazza](https://piazza.com/class/kijtj4yqer66na){:target="_blank"} or [come to Office Hours](https://calendar.google.com/calendar/u/0?cid=Y19tM2pzaTYyYXA2dHRjMDJramI5bDhxYzRnc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t){:target="_blank"}. 
 
 
-#### 1 Systematic Errors in General
+#### Systematic Errors in General
 
 In Module 1 you learned about random and systematic errors.  Random errors cause variation in your results from trial to trial; the variation produces a distribution of results that is probably centered on the actual value you are trying to determine, so the presence of random error limits the *precision* of your measurement but not its *accuracy*.  Systematic errors, on the other hand, are consistent shifts of your results in one direction; they may allow for a deceptively high *precision* in your measurement but could be limiting the *accuracy*.  In Module 2, we will learn more about systematic errors and how to either minimize them or turn them into random errors -- thus at least avoiding the situation in which a precise result is lacking in accuracy, and we are not even aware of it!  Both of these ways of dealing with systematic error are issues of careful experimental design.
 
 
-#### 2 Explore Various Factors
+#### Explore Various Factors
 
 It's a good idea to think about how the experiment was done, plus what facts go into your analysis, and make a list of factors that might affect the final viscosity result. These factors might be sources of systematic error.  We will think more carefully about some items on your list during Week 3, but focus on one particular issue this week.
 
 
-#### 3 Systematic Error from Inertial Drag?
+#### Systematic Error from Inertial Drag?
 
 In your analysis from Week 1, you assumed that the terminal speed of your sphere could be calculated theoretically by considering just gravity, buoyant force, and viscous drag force.  Using this assumption, it was possible to calculate the liquid viscosity from the terminal speed and other measured or known quantities.  However, we have already mentioned that an object falling through a fluid also experiences inertial drag.  If we have missed an entire force in Newton's second law, then our formula relating viscosity to terminal speed is incomplete and we can expect that to introduce a systematic error in our results.  This week we will focus on checking for that systematic error, and minimizing it by discovering which data is least affected by inertial drag and restricting our future analysis to that data.
 
