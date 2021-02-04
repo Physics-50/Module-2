@@ -222,8 +222,10 @@ You've made it through your first video analysis!  As a reminder, your task this
 
 ## Checkpoint 1
 
-+ [Submit your Week 1 results on Gradescope](https://www.gradescope.com/courses/165932/assignments/654518){:target="_blank"}
-You should submit (1) a screenshot of the Tracker window for any single video, showing a graph of y vs. t and the table that indicates the units for time and position; (2) your preliminary value for the terminal speed (in m/s) of a 3.5-mm sphere, along with the random error in this value (the standard error of the mean from the five videos); and (3) your preliminary viscosity value in $$\mathrm{Pa}\cdot\mathrm{s}$$, along with the uncertainty in viscosity propagated from the standard error of your terminal speed results.
++ Submit your Week 1 results on Gradescope
+You should submit (1) The assigned sample calculation posted as question 1 on Gradescope. (2) A screenshot of the Tracker window for any single video, showing a graph of y vs. t and the table that indicates the units for time and position. (3) Your preliminary value for the terminal speed (in m/s) of a 3.5-mm sphere, along with the random error in this value (the standard error of the mean from the five videos); and (4) your preliminary viscosity value in $$\mathrm{Pa}\cdot\mathrm{s}$$, along with the uncertainty in viscosity propagated from the standard error of the mean from your terminal speed results.
+
+Your checkpoint will be graded on the following:
 
 + And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-1){:target="_blank"}
 
