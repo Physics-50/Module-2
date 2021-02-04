@@ -108,7 +108,7 @@ The tentative rubric that will be used to evaluate this deliverable is provided 
 The checkpoint will be graded out of 10 points.
 
 **Click on the below images to enlarge in a new tab:**
-[![Figure Mechanics Rubric](module2-checkpoint2.png)](images/module2-checkpoint2.png){:target="_blank"}
+[![Checkpoint Rubric](module2-checkpoint2.png)](images/module2-checkpoint2.png){:target="_blank"}
 
 + And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-2){:target="_blank"}
 
