@@ -35,7 +35,7 @@ So how does this actually affect our results, since we placed the ruler separate
 
 #### 2 Systematic Error from Sphere Diameter and Mass?  Probably Randomized!
 
-Terminal speed is not the only measured quantity that goes into our calculation of viscosity.  The mass and diameter of the sphere are also important, so we shoud examine our knowledge of these a bit more closely.  Our mass measurements had some trial-to-trial variation, while our diameter measurements were primarily limited by resolution error.  For example, for the nominal 3.5-mm spheres, our measurements of ten sphere masses ranged from 0.1768 g to 0.1777 g, but our measurements of ten sphere diameters all came out to 3.47mm.
+Terminal speed is not the only measured quantity that goes into our calculation of viscosity.  The mass and diameter of the sphere are also important, so we shoud examine our knowledge of these a bit more closely.  Our mass measurements had some trial-to-trial variation, while our diameter measurements were primarily limited by resolution error.  For example, for the nominal 3.5-mm spheres, our measurements of ten sphere masses ranged from 0.1768 g to 0.1777 g, but our measurements of ten sphere diameters all came out to 3.47 mm.
 
 | Nominal Sphere Diameter | Average Mass | Standard Error of Mass | Measured Diameter |
 | ----------------------- | ------------ | ---------------------- | ----------------- |
@@ -45,7 +45,7 @@ Terminal speed is not the only measured quantity that goes into our calculation 
 | 4.5 mm                  | 0.3812 g     | 0.0002 g               | 4.50 mm           |
 | 6.0 mm                  | 0.8997 g     | 0.0002 g               | 5.99 mm           |
 
-The variation in measured masses suggests there may also be some variation in diameters that our digital calipers simply lack the digits to resolve.  What if the diameters of the 3.5-mm spheres actually ranged between about 3.467mm and 3.473mm?  This would roughly explain the variations in measured masses.  
+The variation in measured masses suggests there may also be some variation in diameters that our digital calipers simply lack the digits to resolve.  What if the diameters of the 3.5-mm spheres actually ranged between about 3.467 mm and 3.473 mm?  This would roughly explain the variations in measured masses.  
 
 How much should we worry about this?  If we had used a single sphere for all the videos, then we would have a systematic error in our viscosity results if that sphere were actually slightly larger or smaller than the values we used in our calculation.  But we used a different sphere in each video -- so the variation in terminal speeds should automatically be averaging over the range of sphere diameters and masses already!
 
@@ -54,7 +54,7 @@ One caveat remains:  because we used different spheres for each trial, the effec
 
 #### 3 Systematic Error from Liquid Density Value and Acceleration Due to Gravity
 
-Back in Week 1 we reported our best values for the liquid density $$\rho$$ and the acceleration due to gravity in Claremont, $$g$$.  Each of these has an associated uncertainty (given in Week 1):  $$\rho=1.241 \pm 0.003 \mathrm{g}/\mathrm{cm}^3$$ and $$g=9.7959 \pm 0.0001 \mathrm{m}/\mathrm{s}^2$$.  We have used the values $$\rho=1.241 \mathrm{g}/\mathrm{cm}^3$$ and $$g=9.7959 \mathrm{m}/\mathrm{s}^2$$ in all our calculations, but these values could be slightly shifted from the true liquid density and acceleration due to gravity.  Since we use the same beaker full of liquid and the same location in Earth's gravitational field in each video, our uncertainty in $$\rho$$ and our uncertainty in $$g$$ each contribute a systematic error in $$\eta$$ that is NOT included in the trial-to-trial variation.  For each of these, we can find out the size of the systematic error in $$\eta$$ by treating every other quantity in the $$\eta$$ formula as a constant and propagating the error due to just $$\delta\rho$$, or due to just $$\delta g$$.
+Back in Week 1 we reported our best values for the liquid density $$\rho$$ and the acceleration due to gravity in Claremont, $$g$$.  Each of these has an associated uncertainty (given in Week 1):  $$\rho=1.241 \pm 0.003 ~\mathrm{g}/\mathrm{cm}^3$$ and $$g=9.7959 \pm 0.0001 ~\mathrm{m}/\mathrm{s}^2$$.  We have used the values $$\rho=1.241 ~\mathrm{g}/\mathrm{cm}^3$$ and $$g=9.7959 ~\mathrm{m}/\mathrm{s}^2$$ in all our calculations, but these values could be slightly shifted from the true liquid density and acceleration due to gravity.  Since we use the same beaker full of liquid and the same location in Earth's gravitational field in each video, our uncertainty in $$\rho$$ and our uncertainty in $$g$$ each contribute a systematic error in $$\eta$$ that is NOT included in the trial-to-trial variation.  For each of these, we can find out the size of the systematic error in $$\eta$$ by treating every other quantity in the $$\eta$$ formula as a constant and propagating the error due to just $$\delta\rho$$, or due to just $$\delta g$$.
 
 
 ## Mathematical Tools for Final Value and Uncertainty
