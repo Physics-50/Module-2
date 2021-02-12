@@ -179,7 +179,7 @@ Does the main claim (and secondary claims, if applicable) meet the S.A.F.E. crit
 
 **E**vidence-based
 
-Arguable might seem like an unusual criteria here, and we are going to take it to apply fairly loosely here. For example, a claim that the viscosity of the liquid measured in this module was found to be $$1000 \pm ~2000\, \mathrm{Pa}\,\mathrm{s}$$ would not make an arguable claim in our context.
+Arguable might seem like an unusual criteria here, and we are going to take it to apply fairly loosely here. For example, a claim that the viscosity of the liquid measured in this module was found to be $$1000 \pm 2000\, ~\mathrm{Pa}\,\mathrm{s}$$ would not make an arguable claim in our context.
 
 We will also be evaluating the global coherence of your sequence of figures and the context you provide for your intended audience.
 
