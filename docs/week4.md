@@ -163,7 +163,7 @@ As a reminder, here is the [Module 1 plotting script](https://physics-50.github.
 
 What do I need to make for Module 2?
 
-For Module 2, your deliverable is a series of two figures (each including a caption), summarizing the data and analysis you used (including the logic that drove your decisions) and leading up to your final result for the viscosity of the liquid in this module.  We encourage you to use Keep in mind that your figures should make the overall process and results understandable to someone who has your physics background but who is not enrolled in this course and has not seen the experimental videos or read any of the instructions.  Your final result for the liquid viscosity (including uncertainty!) should be given somewhere in the last figure or its caption.
+For Module 2, your deliverable is a series of two figures (each including a caption), summarizing the data and analysis you used (including the logic that drove your decisions) and leading up to your final result for the viscosity of the liquid in this module.  We encourage you to use Keep in mind that your figures should make the overall process and results understandable to someone who has your physics background but who is not enrolled in this course and has not seen the experimental videos or read any of the instructions. The two example figures provided above were carefully chosen to be representative of what we are looking for in a two figure sequence. We encourage you to look at them carefully and come talk to us in office hours if you are unsure how to approach your two figure sequence in a similar way. Your final result for the liquid viscosity (including uncertainty!) should be given somewhere in the last figure and its caption.
 
 ### Evaluation
 
@@ -179,7 +179,7 @@ Does the main claim (and secondary claims, if applicable) meet the S.A.F.E. crit
 
 **E**vidence-based
 
-Arguable might seem like an unusual criteria here, and we are going to take it to apply fairly loosely here. For example, a claim that the viscosity of the liquid measured in this module was found to be $$1000 \pm 2000\, \mathrm{Pa}\,\mathrm{s}$$ would not make an arguable claim in our context.
+Arguable might seem like an unusual criteria here, and we are going to take it to apply fairly loosely here. For example, a claim that the viscosity of the liquid measured in this module was found to be $$1000 \pm ~2000\, \mathrm{Pa}\,\mathrm{s}$$ would not make an arguable claim in our context.
 
 We will also be evaluating the global coherence of your sequence of figures and the context you provide for your intended audience.
 
