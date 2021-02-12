@@ -8,9 +8,9 @@ First, you should remind yourself of the [guidelines for creating a single figur
 
 As with any piece of writing, we always recommend starting from an (evidentiary) outline. The first step is often to determine: **what is my main result/claim?** 
 
-What interesting/exciting/new idea have you discovered? What was your scientific goal of doing the experiments you just completed? The answer to these kinds of questions can inform what you consider your main result. Unless you had a specific hypothesis you were testing with your experiment, since the main result is coming from your data, often you need to play around with your data by plotting it in different ways. Are there any relationships between the variables or quantities you can calculate? Plotting these relationships gives you the evidence that you will use to support your main result.
+What interesting/exciting/new idea have you discovered? What was your scientific goal of doing the experiments you just completed? Your experiment was conceived to test a specific hypothesis, and the data taking process you developed was designed to elucidate relationships between a specific set of parameters, relationships that will ultimately let you test that hypothesis. For the data you have taken, which relationships between parameters - there may be more than one - allow you to make a statement about the validity of your hypothesis?Plotting these relationships gives you the evidence that you will use to support your main result.
 
- The main result is important, so it should be the focus of your most prominent figure. This main figure/plot is often referred to as the "money plot". When others think about the results of your work, this compelling visual will provide them with a convenient way to remember your result. The evidence that supports your main result is what goes in the money plot. What evidence do you have to support the main claim/result? In experimental work, this evidence is almost always some "processed" data that is extracted out from the "raw" data of your experiment. 
+ The main result is important, so it should be the focus of your most prominent figure. This main figure/plot is often referred to as the "money plot." When others think about the results of your work, this compelling visual will provide them with a convenient way to remember your result. The evidence that supports your main result is what goes in the money plot. What evidence do you have to support the main claim/result? In experimental work, this evidence is almost always some "processed" data that is extracted out from the "raw" data of your experiment. 
 
 For example, in our Module 1 experiments, the main result was presented in your plot of the coefficient of static friction versus mass. The "raw" data were the individual measurements of the angle, and from that "raw" data you extracted the "processed" data: coefficient of static friction.
 
@@ -44,7 +44,7 @@ But if you'd prefer to see something that might more closely resemble the types 
 
 Suppose we had taken videos of midge larvae jumping, and when we looked at the kinetic energy of the jumps we noticed that the smallest larvae's jumps had kinetic energy that depended on their size, but the kinetic energy of the largest larvae's jumps were all approximately constant.
 
-So the main result here is that there's a maximum average value of the kinetic energy for the jumping midge larvae (**Reminder: this is made up and not actually true in nature**).
+So the main result here is that there's a maximum average value of the kinetic energy for the jumping midge larvae. (**Reminder: this is made up and not actually true in nature.**)
 
 This is the basis of what we would want to turn into our money plot.  
 
@@ -163,7 +163,7 @@ As a reminder, here is the [Module 1 plotting script](https://physics-50.github.
 
 What do I need to make for Module 2?
 
-For Module 2, your deliverable is a series of two figures, summarizing the data and analysis you used (including the logic that drove your decisions) and leading up to your final result for the viscosity of the liquid in this module.  Keep in mind that your figures should make the overall process and results understandable to someone who has your physics background but who is not enrolled in this course and has not seen the experimental videos or read any of the instructions.  Your final result for the liquid viscosity (including uncertainty!) should be given somewhere in the last figure or its caption.
+For Module 2, your deliverable is a series of two figures (each including a caption), summarizing the data and analysis you used (including the logic that drove your decisions) and leading up to your final result for the viscosity of the liquid in this module.  We encourage you to use Keep in mind that your figures should make the overall process and results understandable to someone who has your physics background but who is not enrolled in this course and has not seen the experimental videos or read any of the instructions.  Your final result for the liquid viscosity (including uncertainty!) should be given somewhere in the last figure or its caption.
 
 ### Evaluation
 
