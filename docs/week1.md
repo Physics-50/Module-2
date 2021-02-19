@@ -54,7 +54,7 @@ $$\eta$$ | viscosity of the liquid
 
 ## The Experiment
 
-You will use videos of spheres falling through a glycerin solution to find the terminal speed of a sphere and use it to calculate the viscosity of the liquid.  Use terminal speed because, as you have seen above, it is insensitive to variations in the initial conditions of each sphere drop, which are hard to control precisely.  One further experimental note:  it is important to use data from situations where the sphere is far from walls or floor of container – otherwise not just the viscosity of the fluid is involved, but the fluid’s adhesion to the solid surfaces as well.  For this reason, we have used a fairly wide 500-mL beaker in the videos, and have attempted to drop the spheres at the center of the beaker in each trial.
+You will use videos of spheres falling through a glycerin solution to find the terminal speed of a sphere and use it to calculate the viscosity of the liquid.  Use terminal speed because, as you have seen above, it is insensitive to variations in the initial conditions of each sphere drop, which are hard to control precisely.  One further experimental note:  **it is important to use data from situations where the sphere is far from walls or floor of container** – otherwise not just the viscosity of the fluid is involved, but the fluid’s adhesion to the solid surfaces as well.  For this reason, we have used a fairly wide 500-mL beaker in the videos, and have attempted to drop the spheres at the center of the beaker in each trial.
 
 #### Miniquestion 2: What Else Goes into Finding Terminal Speed?
 [*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSexx5OysAF5UuAoDAvcDROzKvL3F4BWM5nqgIZgcEqLnnvdPg/viewform){:target="_blank"}
