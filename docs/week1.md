@@ -118,7 +118,7 @@ In Week 1, we are presuming that every other quantity that goes into the viscosi
 
 --------------------
 
-A few common "gotchas" to look out for in your calculations: 
+**A few common "gotchas" to look out for in your calculations:**
 
 1. make sure you are converting diameter to radius when needed
 2. check that you are converting masses to kilograms throughout your calculation, including where a unit of mass appears in a density
@@ -160,7 +160,7 @@ Note:  If you accidentally click and drag one end of the tape after you have don
 
 **Tracking the sphere:**
 
-Select a portion of the video to analyze.  You can do this by dragging the two black arrows beneath the video progress bar.  You will want to start your analysis when the sphere is clearly visible and freely falling (this is not necessary or expected but if you would like to see how the motion approaches terminal velocity, start your analysis as soon as possible after the sphere is clear of the tweezers; the region in which the sphere is approaching terminal velocity should be excluded from the final analysis), and end your analysis well before the sphere reaches the bottom of the beaker. This last point might come as a surprise. Aren't we trying to determine the **terminal** velocity? The answer is yes. However, due to the high viscosity of glycerin, the sphere reaches a terminal velocity relatively quickly. Deviations from linearity near the lower surface may be due to interactions with the lower surface and should be avoided (remember we said we wanted to stay well away from walls). Near the bottom of the cylinder, the sphere falls through one or more stripes of altered background or lighting.  Autotracking is not likely to work across these transitions, so your work will be easier if you end your analysis just before the sphere crosses the first change in lighting.
+Select a portion of the video to analyze.  You can do this by dragging the two black arrows beneath the video progress bar.  You will want to start your analysis when the sphere is clearly visible and freely falling. Near the bottom of the cylinder, the sphere falls through one or more stripes of altered background or lighting.  Autotracking is not likely to work across these transitions, so your work will be easier if you end your analysis just before the sphere crosses the first change in lighting.
 
 If you zoom in closely on your data you may see that it is never fully linear. You may be tempted to fit to a narrow regiong to get a good linear fit, but how would you choose which region? Deviations from linearity come from changes in the density of the solution with increasing depth. While interesting this is not the focus of your experiment. For our purposes we are satisified with finding an average value. Therefore, apart from avoiding the very initial region and the region close to the bottom of the beaker **we encourage you to fit over a wide region of your data**, averaging out other effects. 
 
