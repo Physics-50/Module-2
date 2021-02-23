@@ -230,7 +230,7 @@ You should submit:
 
 The tentative rubric that will be used to evaluate this deliverable is provided below. Please keep in mind that these rubric items are subject to change as we can never foresee all the issues that may arise. This is meant to give you a sense of how it will be graded.
 
-The checkpoint will be graded out of 10 points.
+The checkpoint will be graded out of 10.5 points.
 
 + Question 1 [2 points]: 
     -Graded for correctness of the calculation. It will be auto-graded so please follow the instructions, there will be no partial credit. (1 point for each of the two part)
@@ -247,8 +247,9 @@ The checkpoint will be graded out of 10 points.
     - 1 point deduction if your value for the viscosity is unreasonably small/large or was not in the units specified on Gradescope for the question
     - 1 point deduction if your value for the uncertainty is unreasonably small/large or is not in the units specified on Gradescope for the question.
 
-+ Question 5 [1 point]:
++ Question 5 [1.5 point]:
     - Deduction of up to 1 point for incorrect use of significant figures.
+    - Deduction of 0.5 points if you do not provide a link to the Google spreadsheet you used for data analysis.
 
 + And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-1){:target="_blank"}
 
