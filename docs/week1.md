@@ -89,7 +89,6 @@ The sphere diameters were measured repeatedly with digital calipers (resolution 
 | 1.8 mm                  | 0.0245 g     | 1.80 mm           |
 | 2.5 mm                  | 0.0655 g     | 2.495 mm          |
 | **3.5 mm** (Week 1)                 | **0.1772 g**     | **3.47 mm**           |
-| 4.5 mm                  | 0.3812 g     | 4.50 mm           |
 | 6.0 mm                  | 0.8997 g     | 5.99 mm           |
 
 The density of the glycerin solution was measured by finding the mass difference between an empty 50-mL graduated cylinder and the same cylinder with 50mL of glycerin solution in it.  This measurement was repeated several times.  The density measured in this way was $$1.241 \pm 0.003 \ \mathrm{g}/\mathrm{cm}^3$$.
