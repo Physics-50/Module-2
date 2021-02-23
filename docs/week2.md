@@ -6,6 +6,7 @@
 1. [Systematic Errors](#systematic-errors)
 2. [Viscous and Inertial Drag](#viscous-and-inertial-drag)
 3. [Week 2 Instructions](#week-2-instructions)
+4. [Error Bars for Exploratory Single Data Point Measurements](#error-bars-for-exploratory-single-data-point-measurements)
 4. [Checkpoint: So-Called Viscosity vs Sphere Diameter](#checkpoint-2)
 
 ------------------
@@ -90,11 +91,12 @@ Plot your calculated viscosities as a function of sphere diameter, with vertical
 
 For 3.5 mm spheres, your repeated trials from last week allowed you to calculate a mean terminal velocity and a standard error of that mean.  From those, you calculated a viscosity and a random error in the viscosity.  You can use that value for viscosity, $$\eta \pm \delta\eta$$ this week for the 3.5 mm point on your graph.
 
+## Error Bars for Exploratory Single Data Point Measurements
 For each of this week's new sphere diameters, you have just *one* terminal speed measurement. Without repeated trials, you can't really know the random error of the viscosity calculated from that single measurement.  However, we can make a reasonable approximation that random error will influence the vicosity about as much for one size of sphere as for another.  With that assumption, we can use our more extensive 3.5-mm data to estimate a viscosity uncertainty for the other sphere diameters.  
 
 You might think, then, that you should use the same random error in viscosity ($$\delta\eta$$) for each sphere diameter.  However, this is *not quite appropriate*!  The reason is a subtle but important point that illustrates the difference between sample standard deviation and standard error of the mean.  Standard error of the mean indicates how far away a many-trial average is likely to be from another many-trial average, due to random error.  But for this week's new sphere diameters, we don't have many-trial averages.  We only have single-trial results.  And **sample standard deviation** is the quantity that says how far a single-trial result is likely to be from a many-trial average, due to random error.
 
-The upshot of this discussion is as follows:  **to estimate a viscosity uncertainty for your new sphere diameters, go back to your 3.5-mm data and calculate an uncertainty in viscosity based on the *sample standard deviation* of your several terminal speed values.  Take this single-trial uncertainty in viscosity and use it as an approximate vertical error bar for all of this week's viscosity values that are based on single trials (single videos).**
+The upshot of this discussion is as follows:  **this week, to estimate a viscosity uncertainty for the 1.8 mm, 2.5 mm, and 6.0 mm diameter spheres, use your 3.5 mm data to calculate an uncertainty in viscosity based on the *sample standard deviation* of your 3.5mm terminal speed values.  Take this uncertainty in viscosity and use it as an approximate error bar for all of this week's viscosity values that are based on single trials (single videos) i.e. 1.8 mm, 2.5 mm, and 6.0 mm.**
 
 Now that you have a plot of calculated viscosity vs. sphere diameter, with estimated random error bars, use it to decide on a list of sphere diameters for which you are confident that inertial drag is negligible.  You should consider the variation between data points, compared to the size of their error bars; in addition, you should look at the entire data set to see whether variations look like fluctuations or trends, and whether the trends are things you can understand based on our discussion of the theory above.  Be ready to explain your choice of sphere diameters for which inertial drag is negligible.
 
