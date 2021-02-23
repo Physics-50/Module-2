@@ -68,7 +68,7 @@ When considering fewer than about five data points, each with its own uncertaint
 
 Picture of figure here
 
-You can now directly read off the best fit value of viscosity $$\rho$$, with uncertainty, from the quoted fitting parameters. Remembering to follow the sig fig rules described in Module 1 (give link), in this example we would find that $$\rho = 0.61 \pm 0.02~\mathrm{Pa}-\mathrm{s}$$. 
+You can now directly read off the best fit value of viscosity $$\rho$$, with uncertainty, from the quoted fitting parameters. Remembering to follow the sig fig rules described in Module 1 (give link), in this example we would find that $$\rho = 0.61 \pm 0.02~\mathrm{Pa}\cdot\mathrm{s}$$. 
 
 ## Week 3 To-Do Summary
 
