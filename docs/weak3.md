@@ -64,7 +64,7 @@ By now you have decided that data from several sphere sizes can be used reliably
 
 Just averaging the different values is not the best method, because some of the values are more certain than others.  If we are getting directions in a strange town, we naturally weight conflicting advice according to how certain each person seems about the directions they are giving us.  We need to do something similar -- but more quantitative -- with our several viscosity values.  
 
-When considering fewer than about five data points, each with its own uncertainty value, one way to find the "best fit average" of those points is to find the best fit horizontal line to match the data. We will talk a lot more about curve fitting in Module 3 (if you want to see it now, here's the detailed [Curve Fitting Guide](https://physics-50.github.io/Module-3/curve-fitting){:target="_blank"} ). For Module 2, all you need to do is download this matlab file, replace the fake data in lines 8-10 with your viscosity data, and run it. The result should look something like the figure below.
+When considering fewer than about five data points, each with its own uncertainty value, one way to find the "best fit average" of those points is to find the best fit horizontal line to match the data. We will talk a lot more about curve fitting in Module 3 (if you want to see it now, here's the detailed [Curve Fitting Guide](https://physics-50.github.io/Module-3/curve-fitting){:target="_blank"} ). For Module 2, all you need to do is download [this matlab file](link to the file) and replace the fake data in lines 8-10 with your viscosity data. When you run the file, it will throw an error that you can ignore. The resulting figure should look like the below.
 
 Picture of figure here
 
@@ -76,7 +76,7 @@ In Week 3 you will carefully analyze whichever set(s) of sphere-drop data you be
 
 ## Checkpoint 3
 
-+ Submit your Week 3 results in [Checkpoint 3 on Gradescope](https://www.gradescope.com/courses/165932/assignments/723476){:target="_blank"} by the end of Week 3.  You will be asked to submit a list of sphere diameters whose data you used in calculating your final viscosity value.  For each diameter you used, report how many videos you analyzed, and what viscosity value and random error you got for that sphere diameter.  Last, report what you believe will be your final value of viscosity and its associated uncertainty.  We will ask for all the viscosities in units of $$Pa*s$$.
++ Submit your Week 3 results in [Checkpoint 3 on Gradescope](https://www.gradescope.com/courses/165932/assignments/723476){:target="_blank"} by the end of Week 3.  You will be asked to submit a list of sphere diameters whose data you used in calculating your final viscosity value.  For each diameter you used, report how many videos you analyzed, and what viscosity value and random error you got for that sphere diameter.  Last, report what you believe will be your final value of viscosity and its associated uncertainty.  We will ask for all the viscosities in units of $$Pa\cdot s$$.
 
 + And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-3){:target="_blank"}
 
