@@ -64,11 +64,11 @@ By now you have decided that data from several sphere sizes can be used reliably
 
 Just averaging the different values is not the best method, because some of the values are more certain than others.  If we are getting directions in a strange town, we naturally weight conflicting advice according to how certain each person seems about the directions they are giving us.  We need to do something similar -- but more quantitative -- with our several viscosity values.  It makes sense to do a *weighted* average, in which the values with smaller uncertainties are given the most weight in determining the final value.  
 
-When considering fewer than about five data points, each with its own uncertainty value, one way to find the "best fit average" of those points is to find the best fit horizontal line to match the data. We will talk a lot more about curve fitting in Module 3 (if you want to see it now, here's the detailed [Curve Fitting Guide](https://physics-50.github.io/Module-3/curve-fitting){:target="_blank"}* )._ For Module 2, all you need to do is download this matlab file, replace the fake data in lines 8-10 with your viscosity data, and run it. The result should look something like the figure below._
+When considering fewer than about five data points, each with its own uncertainty value, one way to find the "best fit average" of those points is to find the best fit horizontal line to match the data. We will talk a lot more about curve fitting in Module 3 (if you want to see it now, here's the detailed [Curve Fitting Guide](https://physics-50.github.io/Module-3/curve-fitting){:target="_blank"} )._ For Module 2, all you need to do is download this matlab file, replace the fake data in lines 8-10 with your viscosity data, and run it. The result should look something like the figure below._
 
 Picture of figure here
 
-You can now directly read off the best fit value of viscosity $$\rho$$, with uncertainty, from the quoted fitting parameters. Remembering to follow the sig fig rules described in Module 1 (give link), in this example we would find that $$\rho = 0.63 \pm 0.01~\mathrm{Pa-s}$$. 
+You can now directly read off the best fit value of viscosity $$\rho$$, with uncertainty, from the quoted fitting parameters. Remembering to follow the sig fig rules described in Module 1 (give link), in this example we would find that $$\rho = 0.61 \pm 0.02~\mathrm{Pa}-\mathrm{s}$$. 
 
 ## Week 3 To-Do Summary
 
