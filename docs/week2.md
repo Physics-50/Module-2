@@ -5,7 +5,7 @@
 
 1. [Systematic Errors](#systematic-errors)
 2. [Viscous and Inertial Drag](#viscous-and-inertial-drag)
-3. [Week 2 To-Do Summary](#week-2-to-do-summary)
+3. [Week 2 Instructions](#week-2-instructions)
 4. [Checkpoint: So-Called Viscosity vs Sphere Diameter](#checkpoint-2)
 
 ------------------
@@ -18,12 +18,12 @@
 
 #### Find a Preliminary Viscosity Value
 
-From Week 1, you should have measured the terminal velocity of a 3.5 mm diameter sphere from several different videos, and calculated the average terminal speed $$v_T$$ and the standard error $$\delta v_T$$.  From that you calculated a preliminary viscosity $$\eta$$ for our glycerin solution, and propagated the uncertainty to calculate $$\delta\eta$$ based on the random error in your terminal speed results.  If that isn't the case, please revisit [Week 1](week1),  [consult your classmates on Piazza](https://piazza.com/class/kijtj4yqer66na){:target="_blank"} or [come to Office Hours](https://calendar.google.com/calendar/u/0?cid=Y19tM2pzaTYyYXA2dHRjMDJramI5bDhxYzRnc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t){:target="_blank"}. 
+From Week 1, you should have measured the terminal velocity of a 3.5 mm diameter sphere from several different videos, and calculated the average terminal speed $$v_T$$ and the SEM $$\delta v_T$$.  From that you calculated a preliminary viscosity $$\eta$$ for our glycerin solution, and propagated the uncertainty to calculate $$\delta\eta$$ based on the SEM in your terminal speed results.  If that isn't the case, please revisit [Week 1](week1),  [consult your classmates on Piazza](https://piazza.com/class/kijtj4yqer66na){:target="_blank"} or [come to Office Hours](https://calendar.google.com/calendar/u/0?cid=Y19tM2pzaTYyYXA2dHRjMDJramI5bDhxYzRnc0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t){:target="_blank"}. 
 
 
 #### Systematic Errors in General
 
-In Module 1 you learned about random and systematic errors.  Random errors cause variation in your results from trial to trial; the variation produces a distribution of results that is probably centered on the actual value you are trying to determine, so the presence of random error limits the *precision* of your measurement but not its *accuracy*.  Systematic errors, on the other hand, are consistent shifts of your results in one direction; they may allow for a deceptively high *precision* in your measurement but could be limiting the *accuracy*.  In Module 2, we will learn more about systematic errors and how to either minimize them or turn them into random errors -- thus at least avoiding the situation in which a precise result is lacking in accuracy, and we are not even aware of it!  Both of these ways of dealing with systematic error are issues of careful experimental design.
+In Module 1 you learned about random and systematic errors.  Random errors cause variation in your results from trial to trial; the variation produces a distribution of results that is probably centered on the actual value you are trying to determine, so the presence of random error limits the *precision* of your measurement but not its *accuracy*.  Systematic errors, on the other hand, are consistent shifts of your results in one direction; they may allow for a deceptively high *precision* in your measurement but could be limiting the *accuracy*.  In Module 3, we will learn more about systematic errors and how to either minimize them or turn them into random errors -- thus at least avoiding the situation in which a precise result is lacking in accuracy, and we are not even aware of it!  Both of these ways of dealing with systematic error are issues of careful experimental design.
 
 
 #### Explore Various Factors
@@ -78,7 +78,7 @@ This week you will analyze videos of falling spheres with five different diamete
 At this point we offer a quick note about hypothesis testing.  Module 2 is not framed as a hypothesis-testing activity, but in fact there is an implicit hypothesis-testing cycle in the exploratory weeks of this module.  Our implicit hypothesis is that we understand the equation of motion for these spheres:  terminal velocity is indeed approached,  and inertial drag is negligible for some of the spheres we are using, so for some appropriate subset of the sphere sizes we can find a consistent value of liquid viscosity from their different terminal speeds.  If that hypothesis is not supported by our data, we go back to the drawing board on the whole notion of what we are doing in this module and how we propose to measure the viscosity of the liquid!  But if the hypothesis is supported by our data, we gain confidence in our ability to proceed with our final determination of viscosity.
 
 
-## Week 2 To-Do Summary
+## Week 2 Instructions
 
 In Week 2 you will analyze one video for each nominal sphere diameter:  1.8 mm, 2.5 mm, 3.5 mm (already done), and 6.0 mm.  Your goal for Week 2 is to sketch out how the "viscosity" of the liquid, calculated from terminal speed using a formula that neglects inertial drag, varies as a function of sphere diameter.  At the end of this week, you should have an idea of which sphere diameter(s), if any, truly have their trajectories negligibily influenced by inertial drag.
 
@@ -88,7 +88,7 @@ Choose one video from each new sphere diameter (1.8 mm, 2.5 mm, and 6.0 mm).  Fo
 
 Plot your calculated viscosities as a function of sphere diameter, with vertical error bars attached to each point (see below).
 
-For 3.5 mm spheres, your repeated trials from last week allowed you to calculate a mean terminal velocity and a standard error of that mean.  From those, you calculated a viscosity and a random error in the viscosity.  You can use that value and uncertainty this week for the 3.5 mm point on your graph.
+For 3.5 mm spheres, your repeated trials from last week allowed you to calculate a mean terminal velocity and a standard error of that mean.  From those, you calculated a viscosity and a random error in the viscosity.  You can use that value for viscosity, $$\eta \pm \delta\eta$$ this week for the 3.5 mm point on your graph.
 
 For each of this week's new sphere diameters, you have just *one* terminal speed measurement. Without repeated trials, you can't really know the random error of the viscosity calculated from that single measurement.  However, we can make a reasonable approximation that random error will influence the vicosity about as much for one size of sphere as for another.  With that assumption, we can use our more extensive 3.5-mm data to estimate a viscosity uncertainty for the other sphere diameters.  
 
