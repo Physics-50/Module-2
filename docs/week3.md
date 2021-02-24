@@ -5,8 +5,9 @@
 
 1. [Thinking Through Systematic Errors](#thinking-through-systematic-errors)
 2. [Mathematical Tools for Final Value and Uncertainty](#mathematical-tools-for-final-value-and-uncertainty)
-3. [Week 3 To-Do Summary](#week-3-to-do-summary)
-4. [Checkpoint: Final Viscosity and Uncertainty](#checkpoint-3)
+3. [Finding the Viscosity Value and Random Error by Fitting a Horizontal Line](#finding-the-viscosity-value-and-random-error-by-fitting-a-horizontal-line)
+4. [Week 3 To-Do Summary](#week-3-to-do-summary)
+5. [Checkpoint: Final Viscosity and Uncertainty](#checkpoint-3)
 
 ------------------
 
