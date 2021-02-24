@@ -88,7 +88,7 @@ To use the script for your own data, simply replace the "import data" section of
 
 ![horizLineFigure](images/horizLineFit.jpg)
 
-You can now directly read off the best fit value of viscosity $$\eta$$, with uncertainty, from the quoted fitting parameter called $$b$$. You will learn in Module 3 how fitting parameters are determined, but for now you are free to just report the value and uncertainty, remembering to follow the sig fig rules described in Module 1 (give link). In this example, using the fake data we would find that $$\eta = 0.61 \pm 0.02~\mathrm{Pa}\cdot\mathrm{s}$$. 
+You can now directly read off the best fit value of viscosity $$\eta$$, with uncertainty, from the quoted fitting parameter called $$b$$. You will learn in Module 3 how fitting parameters are determined, but for now you are free to just report the value and uncertainty, remembering to follow the sig fig rules described in Module 1 (give link). In this example, using the fake data we would find that $$\eta = 0.605 \pm 0.017~\mathrm{Pa}\cdot\mathrm{s}$$. 
 
 ## Week 3 To-Do Summary
 
