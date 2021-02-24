@@ -55,49 +55,48 @@ One caveat remains:  because we used different spheres for each trial, the effec
 #### 3 Systematic Error from Liquid Density Value and Acceleration Due to Gravity
 
 Back in Week 1 we reported our best values for the liquid density $$\rho$$ and the acceleration due to gravity in Claremont, $$g$$.  Each of these has an associated uncertainty (given in Week 1):  $$\rho=1.241 \pm 0.003 ~\mathrm{g}/\mathrm{cm}^3$$ and $$g=9.7959 \pm 0.0001 ~\mathrm{m}/\mathrm{s}^2$$.  We have used the values $$\rho=1.241 ~\mathrm{g}/\mathrm{cm}^3$$ and $$g=9.7959 ~\mathrm{m}/\mathrm{s}^2$$ in all our calculations, but these values could be slightly shifted from the true liquid density and acceleration due to gravity.  Since we use the same beaker full of liquid and the same location in Earth's gravitational field in each video, our uncertainty in $$\rho$$ and our uncertainty in $$g$$ each contribute a systematic error in $$\eta$$ that is NOT included in the trial-to-trial variation.  For each of these, we can find out the size of the systematic error in $$\eta$$ by treating every other quantity in the $$\eta$$ formula as a constant and propagating the error due to just $$\delta\rho$$, or due to just $$\delta g$$.
+If the uncertainty from these effects is comparable to or larger than the random error in viscosity, as determined by fitting a horizontal line to your data (see next section) then you would need to find a way to take it into account in your final reporting; you might do that by combining all the various errors in quadrature (discussed in Module 1), or you might report separately the uncertainty from each source. *In this experiment, we expect that the systematic errors in viscosity due to $$\rho$$ and variations in $$g$$ will be negligable compared to the random error in viscosity*, as long as you have done a careful job of your measurements and fixed any errors in your calculations. 
 
 
-## Mathematical Tools for Final Value and Uncertainty
+## Finding the Viscosity Value and Random Error by Fitting a Horizontal Line
 
-At this point you have quite a few things to take into account as you work toward your final value for the liquid viscosity and its uncertainty.  Two mathematical tools will probably be useful at this stage.  The first, which might be useful as you find your final viscosity *value*, is a technique for averaging several different values that have different uncertainties.  The second, which might be useful as you find your overall *uncertainty*, is a discussion of how to combine errors from several different sources.
+By now you have decided that data from several sphere sizes can be used reliably to find viscosity, and you may be wondering how to combine the viscosity values and random errors from different sphere sizes to get a single final viscosity value with uncertainty.  Before you are ready to do this, you will need to analyze multiple videos of each chosen sphere size; unlike Week 2, this is no longer an exploratory analysis, and for each chosen sphere size you will need to do a full, multi-trial analysis like the one you did for 3.5-mm spheres in Week 1.  After you have done this, you will have multiple viscosity values $$\eta_1, \eta_2, ..., \eta_n$$ which each have their own random error $$\delta\eta_1, \delta\eta_2, ..., \delta\eta_n$$.  How should you combine these to get the best final value for viscosity?  What is the correct random error for that final value?
 
-#### 1 Weighted Average of Several Values with Uncertainties
+Just averaging the different values is not the best method, because some of the values are more certain than others.  If we are getting directions in a strange town, we naturally weight conflicting advice according to how certain each person seems about the directions they are giving us.  We need to do something similar -- but more quantitative -- with our several viscosity values.  
 
-If you have decided that data from several sphere sizes can be used reliably to find viscosity, you may be wondering how to combine the viscosity values and random errors from different sphere sizes to get a single final value.  Before you are ready to do this, you will need to analyze multiple videos of each chosen sphere size; unlike Week 2, this is no longer an exploratory analysis, and for each chosen sphere size you will need to do a full, multi-trial analysis like the one you did for 3.5-mm spheres in Week 1.  After you have done this, you will have multiple viscosity values $$\eta_1, \eta_2, ..., \eta_n$$ which each have their own random error $$\delta\eta_1, \delta\eta_2, ..., \delta\eta_n$$.  How should you combine these to get the best final value for viscosity?  What is the correct random error for that final value?
+When considering fewer than about five data points, each with its own uncertainty value, one way to find the "best fit average" of those points is to find the best fit horizontal line to match the data. We will talk a lot more about curve fitting in Module 3 (if you want to see it now, here's the detailed [Curve Fitting Guide](https://physics-50.github.io/Module-3/curve-fitting){:target="_blank"}). For Module 2, all you need to do is download and run a matlab file that will fit a horizontal line to your data, as described below.
 
-Just averaging the different values is not the best method, because some of the values are more certain than others.  If we are getting directions in a strange town, we naturally weight conflicting advice according to how certain each person seems about the directions they are giving us.  We need to do something similar -- but more quantitative -- with our several viscosity values.  It makes sense to do a *weighted* average, in which the values with smaller uncertainties are given the most weight in determining the final value.  A much more detailed mathematical analysis leads to a specific formula for the best weighted average and its uncertainty.  The best weighted average is:
+### MATLAB Code
 
-$$\eta_{weighted} = \frac{\frac{1}{(\delta\eta_1)^2}\eta_1 + \frac{1}{(\delta\eta_2)^2}\eta_2 + ... + \frac{1}{(\delta\eta_n)^2}\eta_n}{\frac{1}{(\delta\eta_1)^2} + \frac{1}{(\delta\eta_2)^2} + ... + \frac{1}{(\delta\eta_n)^2}}$$
+To use the MATLAB code first make sure you have the "curve fitting toolbox" installed. In the MATLAB environment, go to "HOME"-->"Add-Ons"-->"Get Add-Ons":
+![get add ons](images/get_add_ons.png)
 
-and its random error is best represented by:
+and search for the "curve fitting toolbox":
 
-$$\delta\eta_{weighted} = \frac{1}{\sqrt{n}}\sqrt{\frac{\frac{1}{(\delta\eta_1)^2}(\eta_1-\eta_{weighted})^2 + \frac{1}{(\delta\eta_2)^2}(\eta_2-\eta_{weighted})^2 + ... + \frac{1}{(\delta\eta_n)^2}(\eta_n-\eta_{weighted})^2}{\frac{1}{(\delta\eta_1)^2} + \frac{1}{(\delta\eta_2)^2} + ... + \frac{1}{(\delta\eta_n)^2}}}$$
+![curve fitting toolbox](images/curve_fitting_toolbox.png)
 
-You do not need to understand the detailed justification of these formulas -- in fact, we have not presented it at all -- but you should be able to use the formulas to combine several values with different random errors.  The following miniquestion asks you to practice that skill.
+If it says "Installed" you are good to go. Otherwise, click on the Curve Fitting Toolbox page and install it.
 
-#### Miniquestion 2: Weighted Average with Random Errors
-*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSeW-8yZSb0sUzIWmsd7WmYPsJQJpFcopulOO81FoRn0jRWqbA/viewform){:target="_blank"}*
+Now that you have the curve fitting toolbox, please download the file [curve_fitting_demo_Mod2Week3.m](curve_fitting_demo_Mod2Week3.m) and run the script. 
 
+Every time you run the script, you will get the following warning in the command window:
+![warning](images/warning.png)
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeW-8yZSb0sUzIWmsd7WmYPsJQJpFcopulOO81FoRn0jRWqbA/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
-</iframe>
+This warning appears because we aren't providing an initial guess for the fitting parameter, and the function is picking an initial guess randomly. **You can safely ignore this warning.**
 
-------------------
+To use the script for your own data, simply replace the "import data" section of the code (lines 8-10) with your own data pasted in. **Make sure to report sphere diameters in mm and viscosities in Pa $$\cdot$$ s.** You shouldn't need to change anything else in the script if you are fitting a horizontal line to your data. The resulting figure should look like the below.
 
-#### 2 Dealing with Uncertainties from Several Independent Sources
+![horizLineFigure](images/horizLineFit.jpg)
 
-After you have found your best final viscosity value and its random error, you may still have some independent sources of error to take into account, like uncertainty in $$\eta$$ due to $$\delta\rho$$ and uncertainty in $$\eta$$ due to $$\delta g$$.  Though all of us did our best -- we in collecting the raw data and you in your analysis choices -- to minimize or average over these other errors, a little bit of uncertainty from them still remains.  If the uncertainty from these other effects is larger than the random error, or comparable to it, then you will need to find a way to take it into account in your final reporting; you might do that by combining all the various errors in quadrature (discussed in Module 1), or you might report separately the uncertainty from each source.
-
-However, before we get too far into these choices, you should actually calculate the uncertainties in $$\eta$$ from the other effects not already included in your random error.  Compare them to the random error.  *In this experiment,* we expect that if you have done a careful job of your measurements and fixed any errors in your calculations, *the random error will be much larger than the other(s)*.  In fact, when making the raw measurements to provide to you, we stopped trying to measure $$\rho$$ more precisely when we believed we had already passed that threshold!  (You might wonder what "much larger" means.  Remember that you will only report the most significant digit of the final uncertainty value.  Therefore, if the uncertainty from one source is ten times as large as the others, it is certainly dominant.  In fact, because of the way independent uncertainties are mathematically combined, the uncertainty from one source can actually be dominant when it is even two or three times as large as the others.)  **You should check that we are right, but we expect that random error will dominate the uncertainty in your result, and you will not need to worry about how to combine it with errors from other sources.**
-
+You can now directly read off the best fit value of viscosity $$\eta$$, with uncertainty, from the quoted fitting parameter called $$b$$. You will learn in Module 3 how fitting parameters are determined, but for now you are free to just report the value and uncertainty, remembering to follow the [sig fig rules](https://physics-50.github.io/Module-1/week3#reporting-data-with-significant-figures) described in Module 1. In this example, using the default fake data shown in the figure above, we would find that $$\eta = 0.605 \pm 0.017~\mathrm{Pa}\cdot\mathrm{s}$$. 
 
 ## Week 3 To-Do Summary
 
-In Week 3 you will carefully analyze whichever set(s) of sphere-drop data you believe offer the most reliable basis for finding the viscosity of our glycerin solution. You will now need to analyze all five videos for those sphere sizes that your exploratory data indicates will provide useful data on the viscosity.  Use appropriate data from your careful analysis to determine your best value for the viscosity and for its uncertainty, based on all the considerations of Weeks 1-3.
+In Week 3 you will carefully analyze whichever set(s) of sphere-drop data you believe offer the most reliable basis for finding the viscosity of our glycerin solution.  For example, you may now need to analyze multiple videos for some sphere sizes.  Use appropriate data from your careful analysis to determine your best value for the viscosity and for its uncertainty, based on all the considerations of Weeks 1-3.
 
 ## Checkpoint 3
 
-+ Submit your Week 3 results in [Checkpoint 3 on Gradescope](https://www.gradescope.com/courses/165932/assignments/723476){:target="_blank"} by the end of Week 3.  You will be asked to submit a list of sphere diameters whose data you used in calculating your final viscosity value.  For each diameter you used, report how many videos you analyzed, and what viscosity value and random error you got for that sphere diameter.  Last, report what you believe will be your final value of viscosity and its associated uncertainty.  We will ask for all the viscosities in units of $$Pa*s$$.
++ Submit your Week 3 results in [Checkpoint 3 on Gradescope](https://www.gradescope.com/courses/165932/assignments/723476){:target="_blank"} by the end of Week 3.  You will be asked to submit a list of sphere diameters whose data you used in calculating your final viscosity value.  For each diameter you used, report how many videos you analyzed, and what viscosity value and random error you got for that sphere diameter.  Last, report what you believe will be your final value of viscosity and its associated uncertainty.  We will ask for all the viscosities in units of $$\mathrm{Pa}\cdot \mathrm{s}$$.
 
 + And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-3){:target="_blank"}
 
