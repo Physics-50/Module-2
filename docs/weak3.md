@@ -82,7 +82,7 @@ Now that you have the curve fitting toolbox, please download the file [curve_fit
 Every time you run the script, you will get the following warning in the command window:
 ![warning](images/warning.png)
 
-This warning appears because we aren't providing the fit function with an initial guess of the slope and intercept. The function is picking an initial guess randomly. The initial guess might affect the fitting if you have many fitting parameters, but because we only have 2 fitting parameters $$(m,b)$$, **you can safely ignore this warning.**
+This warning appears because we aren't providing an initial guess for the fitting parameter, and the function is picking an initial guess randomly. **You can safely ignore this warning.**
 
 To use the script for your own data, simply replace the "import data" section of the code (lines 8-10) with your own data pasted in. You should also customize the plot (lines 14-24) by changing the axis labels and limits. Everything else should not need modification in the script if you are fitting a horizontal line to your data. The resulting figure should look like the below.
 
