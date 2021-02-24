@@ -64,11 +64,31 @@ By now you have decided that data from several sphere sizes can be used reliably
 
 Just averaging the different values is not the best method, because some of the values are more certain than others.  If we are getting directions in a strange town, we naturally weight conflicting advice according to how certain each person seems about the directions they are giving us.  We need to do something similar -- but more quantitative -- with our several viscosity values.  
 
-When considering fewer than about five data points, each with its own uncertainty value, one way to find the "best fit average" of those points is to find the best fit horizontal line to match the data. We will talk a lot more about curve fitting in Module 3 (if you want to see it now, here's the detailed [Curve Fitting Guide](https://physics-50.github.io/Module-3/curve-fitting){:target="_blank"} ). For Module 2, all you need to do is download [this matlab file](link to the file) and replace the fake data in lines 8-10 with your viscosity data. When you run the file, it will throw an error that you can ignore. The resulting figure should look like the below.
+When considering fewer than about five data points, each with its own uncertainty value, one way to find the "best fit average" of those points is to find the best fit horizontal line to match the data. We will talk a lot more about curve fitting in Module 3 (if you want to see it now, here's the detailed [Curve Fitting Guide](https://physics-50.github.io/Module-3/curve-fitting){:target="_blank"}). For Module 2, all you need to do is download and run a matlab file that will fit a horizontal line to your data, as described below.
 
-Picture of figure here
+### MATLAB Code
 
-You can now directly read off the best fit value of viscosity $$\rho$$, with uncertainty, from the quoted fitting parameters. Remembering to follow the sig fig rules described in Module 1 (give link), in this example we would find that $$\rho = 0.61 \pm 0.02~\mathrm{Pa}\cdot\mathrm{s}$$. 
+To use the MATLAB code first make sure you have the "curve fitting toolbox" installed. In the MATLAB environment, go to "HOME"-->"Add-Ons"-->"Get Add-Ons":
+![get add ons](images/get_add_ons.png)
+
+and search for the "curve fitting toolbox":
+
+![curve fitting toolbox](images/curve_fitting_toolbox.png)
+
+If it says "Installed" you are good to go. Otherwise, click on the Curve Fitting Toolbox page and install it.
+
+Now that you have the curve fitting toolbox, please download the file [curve_fitting_demo_Mod2Week3.m](curve_fitting_demo_Mod2Week3.m) and run the script. 
+
+Every time you run the script, you will get the following warning in the command window:
+![warning](images/warning.png)
+
+This warning appears because we aren't providing an initial guess for the fitting parameter, and the function is picking an initial guess randomly. **You can safely ignore this warning.**
+
+To use the script for your own data, simply replace the "import data" section of the code (lines 8-10) with your own data pasted in. You should also customize the plot (lines 14-24) by changing the axis labels and limits. Everything else should not need modification in the script if you are fitting a horizontal line to your data. The resulting figure should look like the below.
+
+![horizLineFigure](images/horizLineFit.jpg)
+
+You can now directly read off the best fit value of viscosity $$\eta$$, with uncertainty, from the quoted fitting parameter called $$b$$. You will learn in Module 3 how fitting parameters are determined, but for now you are free to just report the value and uncertainty, remembering to follow the [sig fig rules](https://physics-50.github.io/Module-1/week3#reporting-data-with-significant-figures) described in Module 1. In this example, using the fake data we would find that $$\eta = 0.605 \pm 0.017~\mathrm{Pa}\cdot\mathrm{s}$$. 
 
 ## Week 3 To-Do Summary
 
