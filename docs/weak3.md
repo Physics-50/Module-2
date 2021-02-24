@@ -92,7 +92,7 @@ You can now directly read off the best fit value of viscosity $$\eta$$, with unc
 
 ## Week 3 To-Do Summary
 
-In Week 3 you will carefully analyze whichever set(s) of sphere-drop data you believe offer the most reliable basis for finding the viscosity of our glycerin solution.  For example, you may now need to analyze multiple videos for some sphere sizes.  Use appropriate data from your careful analysis to determine your best value for the viscosity and for its uncertainty, based on all the considerations of Weeks 1-3.
+In Week 3 you will carefully analyze whichever set(s) of sphere-drop data you believe offer the most reliable basis for finding the viscosity of our glycerin solution. You will now need to analyze all five videos for those sphere sizes that your exploratory data indicates will provide useful data on the viscosity.  Use appropriate data from your careful analysis to determine your best value for the viscosity and for its uncertainty, based on all the considerations of Weeks 1-3.
 
 ## Checkpoint 3
 
