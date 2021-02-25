@@ -65,7 +65,7 @@ By now you have decided that data from several sphere sizes can be used reliably
 
 Just averaging the different values is not the best method, because some of the values are more certain than others.  If we are getting directions in a strange town, we naturally weight conflicting advice according to how certain each person seems about the directions they are giving us.  We need to do something similar -- but more quantitative -- with our several viscosity values.  
 
-When considering fewer than about five data points, each with its own uncertainty value, one way to find the "best fit average" of those points is to find the best fit horizontal line to match the data. We will talk a lot more about curve fitting in Module 3 (if you want to see it now, here's the detailed [Curve Fitting Guide](https://physics-50.github.io/Module-3/curve-fitting){:target="_blank"}). For Module 2, all you need to do is download and run a matlab file that will fit a horizontal line to your data, as described below.
+When considering fewer than about five data points, each with its own uncertainty value, one way to find the "best fit average" of those points is to find the best fit horizontal line to match the data when plotting viscoscity versus sphere size (see figure below). We will talk a lot more about curve fitting in Module 3 (if you want to see it now, here's the detailed [Curve Fitting Guide](https://physics-50.github.io/Module-3/curve-fitting){:target="_blank"}). For Module 2, all you need to do is download and run a matlab file that will fit a horizontal line to your data, as described below.
 
 ### MATLAB Code
 
