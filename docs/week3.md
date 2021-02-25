@@ -91,7 +91,7 @@ To use the script for your own data, simply replace the "import data" section of
 
 You can now directly read off the best fit value of viscosity $$\eta$$, with uncertainty, from the quoted fitting parameter called $$b$$. You will learn in Module 3 how fitting parameters are determined, but for now you are free to just report the value and uncertainty, remembering to follow the [sig fig rules](https://physics-50.github.io/Module-1/week3#reporting-data-with-significant-figures) described in Module 1. In this example, using the default fake data shown in the figure above, we would find that $$\eta = 0.605 \pm 0.017~\mathrm{Pa}\cdot\mathrm{s}$$. 
 
-If you are unsure how the significant figures were deermined please follow the link to review the [sig fig rules](https://physics-50.github.io/Module-1/week3#reporting-data-with-significant-figures)]. In this case the leading digit of the uncertainty is a 1 so two digits are kept: 0.017.  Since the uncertainty is quoted to the “thousandths” decimal place the viscosity should also be quoted to the “thousandths” decimal place so it is quoted as 0.605. 
+(If you are unsure how the significant figures were determined please follow the link to review the [sig fig rules](https://physics-50.github.io/Module-1/week3#reporting-data-with-significant-figures). Here the leading digit of the uncertainty is a 1 so two digits are kept: 0.017.  Since the uncertainty is quoted to the “thousandths” decimal place the viscosity should also be quoted to the “thousandths” decimal place, so it is quoted as 0.605.) 
 
 ## Week 3 To-Do Summary
 
