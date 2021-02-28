@@ -181,10 +181,16 @@ You can assume the following information is defined for your reader somewhere in
 + Images of your sequence of figures: two images (.jpg or .png), one image for each of your two figures. You are expected to upload each figure 3 times. Please follow the instructions on Gradescope.
 + A link to all of your data from Module 2, with access shared with your instructors (``` jarlett@g.hmc.edu, connolly@g.hmc.edu, gerbode@g.hmc.edu, milton@g.hmc.edu ``` )
 
+
+You will submit your Module 2 Deliverable Gradescope. Reminder, the deliverable is **due Thursday, April 1, at 1:00pm PT**.
+
+
 ## Grading rubric
 
 The tentative rubric that will be used to evaluate this checkpoint is provided below. Please keep in mind that these rubric items are subject to change as we can never foresee all the issues that may arise. This is meant to give you a sense of how it will be graded.
 
 Your deliverable will be graded out of 18 points. 
 
-You will submit your Module 2 Deliverable Gradescope. Reminder, the deliverable is **due Thursday, April 1, at 1:00pm PT**.
+**Click on the below images to enlarge in a new tab:**
+[![p1](images/m2-d-r-1.png)](images/m2-d-r-1.png){:target="_blank"}
+
