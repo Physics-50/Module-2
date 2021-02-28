@@ -194,3 +194,10 @@ Your deliverable will be graded out of 18 points.
 **Click on the below images to enlarge in a new tab:**
 [![p1](images/m2-d-r-1.png)](images/m2-d-r-1.png){:target="_blank"}
 
+[![p2](images/m2-d-r-2.png)](images/m2-d-r-2.png){:target="_blank"}
+
+[![p1](images/m2-d-r-3.png)](images/m2-d-r-3.png){:target="_blank"}
+
+[![p1](images/m2-d-r-4.png)](images/m2-d-r-4.png){:target="_blank"}
+
+[![p1](images/m2-d-r-5.png)](images/m2-d-r-5.png){:target="_blank"}
