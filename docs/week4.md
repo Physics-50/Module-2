@@ -192,6 +192,8 @@ The tentative rubric that will be used to evaluate this checkpoint is provided b
 Your deliverable will be graded out of 18 points. 
 
 **Click on the below images to enlarge in a new tab:**
+[![Checkpoint Rubric](images/module2-checkpoint2-rubric.png)](images/module2-checkpoint2-rubric.png){:target="_blank"}
+
 [![p1](images/m2-d-r-1.png)](images/m2-d-r-1.png){:target="_blank"}
 
 [![p2](images/m2-d-r-2.png)](images/m2-d-r-2.png){:target="_blank"}
