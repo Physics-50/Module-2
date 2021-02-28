@@ -142,19 +142,22 @@ The uncertainty in the weighted average, $$\delta K_\mathrm{avg}$$, is estimatin
 
 <br>
 
-### MATLAB scripts
+### Specific Expectations for Figures and MATLAB Scripts
 
-The MATLAB commands used to generate the plots in the example figure sequence are based on our Module 1 plotting, but with some modifications:
+The MATLAB commands used to generate the plots in the example figure sequence are based on our Matlab scripts to date, but with some modifications. You will want to use the sample figure 2 as a guide for your second figure. Notice that in the sample figure both the data from the range of masses for which the kinetic energy at take-off depends on mass and that for which it does not, have been included in the plot; but only the data for which the kinetic energy does not depend on mass is included in the fit. This allows both the primary and secondary results to be presented in the same figure. Notice how solid v.s. hollow circles were used to distinguish the data points that were and were not included in the fit.Do you see an analogy with your results from this module? 
+
+We expect your second figure to include your results from all four sphere diameters, but only the spheres for which inertial drag was negligible should be included in the fit. This will mean using the results of your fit from week 3, but now superimposing them as a horizontal line on a plot of the entire data set. We also expect you to plot your uncertainty (as determined in week 3) as dashed horizontal lines as was done in Fig. 2 and to make use of solid v.s. hollow circles to distinguish points that were and were not included in the fit.
+
+Finally, take a look at figure 1. Notice how the multipanel video sequence gives a clearer indication of the experiment than a single picture. Do you see an analogy to this experiment? Similarly take another look at the panel showing how the data was extracted. Key features include the circling of the data points used to extract a velocity from the plot. We expect you to similarly give us a clear visual of determined the terminal velocity from one sample plot. Showing a screen shot from Tracker will not be sufficient, for the deliverable you need to plot the data in Matlab and pay attention to the aesthetics of your plot.
+
+To help you with this we are providing the Matlab script used for the above figures to get you started. You will have to modify the script appropriately for your own data. New features you will need that we have introduced in this script are:
 + plotting without error bars (Fig. 1b)
 + plotting with open vs closed circles (Fig. 2)
 + adding horizontal lines to the plot (Fig. 2)
 
-Run the script ["using_the_plot_function.m"](using_the_plot_function.m) to see an example of how to perform all three of those modifications.
+Run the script ["using_the_plot_function.m"](using_the_plot_function.m) to see an example of how to perform all three of those modifications. 
 
 All of the other annotations on the figures were added using Powerpoint.
-
-As a reminder, here is the [Module 1 plotting script](https://physics-50.github.io/Module-1/plotting_script_for_figure.m).
-
 
 
 ---------------------------
@@ -163,27 +166,7 @@ As a reminder, here is the [Module 1 plotting script](https://physics-50.github.
 
 What do I need to make for Module 2?
 
-For Module 2, your deliverable is a series of two figures (each including a caption), summarizing the data and analysis you used (including the logic that drove your decisions) and leading up to your final result for the viscosity of the liquid in this module.  We encourage you to use Keep in mind that your figures should make the overall process and results understandable to someone who has your physics background but who is not enrolled in this course and has not seen the experimental videos or read any of the instructions. The two example figures provided above were carefully chosen to be representative of what we are looking for in a two figure sequence. We encourage you to look at them carefully and come talk to us in office hours if you are unsure how to approach your two figure sequence in a similar way. Your final result for the liquid viscosity (including uncertainty!) should be given somewhere in the last figure and its caption.
-
-### Evaluation
-
-Your sequence of figures is an example of academic writing, and so we will be evaluating it based on a similar criteria that you experienced in your Writ 1 class.
-
-Does the main claim (and secondary claims, if applicable) meet the S.A.F.E. criteria:
-
-**S**ignificant
-
-**A**rguable
-
-**F**ocused
-
-**E**vidence-based
-
-Arguable might seem like an unusual criteria here, and we are going to take it to apply fairly loosely here. For example, a claim that the viscosity of the liquid measured in this module was found to be $$1000 \pm 2000\, ~\mathrm{Pa}\,\mathrm{s}$$ would not make an arguable claim in our context.
-
-We will also be evaluating the global coherence of your sequence of figures and the context you provide for your intended audience.
-
-Additionally, each individual figure will be assessed according to the criteria of Module 1.  
+For Module 2, your deliverable is a series of two figures (each including a caption), summarizing the data and analysis you used (including the logic that drove your decisions) and leading up to your final result for the viscosity of the liquid in this module.  Keep in mind that your figures should make the overall process and results understandable to someone who has your physics background but who is not enrolled in this course and has not seen the experimental videos or read any of the instructions. The two example figures provided above were carefully chosen to be representative of what we are looking for in a two figure sequence. We encourage you to look at them carefully and come talk to us in office hours if you are unsure how to approach your two figure sequence in a similar way. Your final result for the liquid viscosity (including uncertainty!) should be given somewhere in both the last figure and its caption.
 
 ### Assumed Information
 
@@ -195,8 +178,13 @@ You can assume the following information is defined for your reader somewhere in
 
 ## What do I need to submit?
 
-+ Images of your sequence of figures: two images (.jpg or .png), one image for each of your two figures
-+ Your powerpoint file (or other file type) used to assemble the figures
++ Images of your sequence of figures: two images (.jpg or .png), one image for each of your two figures. You are expected to upload each figure 3 times. Please follow the instructions on Gradescope.
 + A link to all of your data from Module 2, with access shared with your instructors (``` jarlett@g.hmc.edu, connolly@g.hmc.edu, gerbode@g.hmc.edu, milton@g.hmc.edu ``` )
 
-You can submit your Module 2 Deliverable [here on Gradescope](https://www.gradescope.com/courses/165932/assignments/770299){:target="_blank"}.  Reminder, the deliverable is **due Friday, October 23 11:55pm PT**.
+## Grading rubric
+
+The tentative rubric that will be used to evaluate this checkpoint is provided below. Please keep in mind that these rubric items are subject to change as we can never foresee all the issues that may arise. This is meant to give you a sense of how it will be graded.
+
+Your deliverable will be graded out of 18 points. 
+
+You will submit your Module 2 Deliverable Gradescope. Reminder, the deliverable is **due Thursday, April 1, at 1:00pm PT**.
