@@ -112,7 +112,7 @@ The checkpoint will be graded out of 12 points.
 **Click on the below images to enlarge in a new tab:**
 [![Checkpoint Rubric](images/module2-checkpoint2-rubric.png)](images/module2-checkpoint2-rubric.png){:target="_blank"}
 
-You will also be graded on the accuracy of your sample calculation on the your choice of sphere diameters for analysis and the reasoning behind your choice.
+You will also be graded on the accuracy of your sample calculation on the your choice of sphere diameters for analysis and the reasoning behind your choice. A deduction will be applied for late submissions as outlined in the syllabus.
 
 + And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-2){:target="_blank"}
 
