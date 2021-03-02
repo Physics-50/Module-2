@@ -87,10 +87,11 @@ parameter_names = coeffnames(curve);
 parameter_values = coeffvalues(curve);
 
 % assemble fitting information into a single string
-fitting_info_string = [newline+"Fit to function, "+formula_string];
+fitting_info_string = [newline];
+
 
 for i=1:length(parameter_names)
-    fitting_info_string = fitting_info_string+newline+parameter_names{i}+" = "+num2str(parameter_values(i))+"\pm"+num2str(parameter_uncertainty(i));
+    fitting_info_string = [parameter_names{i}+" = "+num2str(parameter_values(i))+"\pm"+num2str(parameter_uncertainty(i))];
 end
 
 % optionally add reduced chi2 to string
