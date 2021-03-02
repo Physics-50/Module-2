@@ -61,11 +61,11 @@ If the uncertainty from these effects is comparable to or larger than the random
 
 ## Finding the Viscosity Value and Random Error by Fitting a Horizontal Line
 
-By now you have decided that data from several sphere sizes can be used reliably to find viscosity, and you may be wondering how to combine the viscosity values and random errors from different sphere sizes to get a single final viscosity value with uncertainty.  Before you are ready to do this, you will need to analyze multiple videos of each chosen sphere size; unlike Week 2, this is no longer an exploratory analysis, and for each chosen sphere size you will need to do a full, multi-trial analysis like the one you did for 3.5-mm spheres in Week 1.  After you have done this, you will have multiple viscosity values $$\eta_1, \eta_2, ..., \eta_n$$ which each have their own random error $$\delta\eta_1, \delta\eta_2, ..., \delta\eta_n$$.  How should you combine these to get the best final value for viscosity?  What is the correct random error for that final value?
+By now you have decided that data from several sphere sizes can be used reliably to find viscosity, and you may be wondering how to combine the viscosity values and random errors from different sphere sizes to get a single final viscosity value with uncertainty.  Before you are ready to do this, you will need to analyze 5 different videos of each chosen sphere size; unlike Week 2, this is no longer an exploratory analysis.  After you have done this, you will have multiple viscosity values $$\eta_1, \eta_2, ..., \eta_n$$ from  measurements with different sphere diameters which each have their own random error $$\delta\eta_1, \delta\eta_2, ..., \delta\eta_n$$.  How should you combine these to get the best final value for viscosity?  What is the correct random error for that final value?
 
 Just averaging the different values is not the best method, because some of the values are more certain than others.  If we are getting directions in a strange town, we naturally weight conflicting advice according to how certain each person seems about the directions they are giving us.  We need to do something similar -- but more quantitative -- with our several viscosity values.  
 
-When considering fewer than about five data points, each with its own uncertainty value, one way to find the "best fit average" of those points is to find the best fit horizontal line to match the data when plotting viscoscity versus sphere size (see figure below). We will talk a lot more about curve fitting in Module 3 (if you want to see it now, here's the detailed [Curve Fitting Guide](https://physics-50.github.io/Module-3/curve-fitting){:target="_blank"}). For Module 2, all you need to do is download and run a matlab file that will fit a horizontal line to your data, as described below.
+One way to find the "best fit average" of those points, which we will make use of, is to find the best fit horizontal line to match the data when plotting viscoscity versus sphere size (see figure below). We will talk a lot more about curve fitting in Module 3 (if you want to see it now, here's the detailed [Curve Fitting Guide](https://physics-50.github.io/Module-3/curve-fitting){:target="_blank"}). For Module 2, all you need to do is download and run a MATLAB file that will fit a horizontal line to your data, as described below.
 
 ### MATLAB Code
 
@@ -85,7 +85,7 @@ Every time you run the script, you will get the following warning in the command
 
 This warning appears because we aren't providing an initial guess for the fitting parameter, and the function is picking an initial guess randomly. **You can safely ignore this warning.**
 
-To use the script for your own data, simply replace the "import data" section of the code (lines 8-10) with your own data pasted in. **Make sure to report sphere diameters in mm and viscosities in Pa $$\cdot$$ s.** You shouldn't need to change anything else in the script if you are fitting a horizontal line to your data. The resulting figure should look like the below.
+To use the script for your own data, simply replace the "import data" section of the code (lines 8-10) with your own data pasted in. **Make sure to report sphere diameters in mm and viscosities in Pa $$\cdot$$ s.** You shouldn't need to change anything else in the script if you are fitting a horizontal line to your data. The resulting figure should look like the figure below.
 
 ![horizLineFigure](images/horizLineFit.jpg)
 
