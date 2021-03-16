@@ -179,7 +179,7 @@ You can assume the following information is defined for your reader somewhere in
 ## What do I need to submit?
 
 + Images of your sequence of figures: two images (.jpg or .png), one image for each of your two figures. You are expected to upload each figure 3 times. Please follow the instructions on Gradescope.
-+ A link to all of your data from Module 2, with access shared with your instructors (``` jarlett@g.hmc.edu, connolly@g.hmc.edu, gerbode@g.hmc.edu, milton@g.hmc.edu ``` )
++ A link to all of your data from Module 2, with access shared with your instructors 
 
 
 You will submit your Module 2 Deliverable Gradescope. Reminder, the deliverable is **due Thursday, April 1, at 1:00pm PT**.
