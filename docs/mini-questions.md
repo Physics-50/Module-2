@@ -86,13 +86,6 @@ On this page you will find all of the mini-questions for Module 2. Although each
 
 --------------
 
-#### Miniquestion: Weighted Average with Random Errors
-*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSeW-8yZSb0sUzIWmsd7WmYPsJQJpFcopulOO81FoRn0jRWqbA/viewform){:target="_blank"}*
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc4tgEZrP9jCt7ZDul1_5hDFhZmfPnN02X7hfc2acIossKgtA/viewform?embedded=true"  width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
-</iframe>
-
-------------------
 
 ## Week 4 -- DRAFT:  DO NOT COMPLETE YET
 
