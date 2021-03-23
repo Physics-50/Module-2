@@ -148,14 +148,15 @@ You will submit your Module 2 Deliverable Gradescope. Reminder, the deliverable 
         * a **scale bar** placed in a lower corner of the photo
         * minimal visual distractions (no tracker trails)
     * position vs. time plot showing how terminal speed was determined (including suggestions made under specific expectations above)
-2. Figure 2
- + plot of viscosity as a function of sphere diameter, with
-   + **axes**, with axis labels, units, and tick marks
-   + **data points**, with consistent data point symbols
-   + **error bars**, attached to the individual data points
-   + **main result**, your main result should be included in this figure. In this case a graphic representation (horizontal lines) showing the determined viscosity and its uncertainty
-   + **secondary result**, in this case the determination of those spheres for which inertial drag was and was not significant
-   + pay attention to suggestions made under specific expectations above
+
+* Figure 2
+    * plot of viscosity as a function of sphere diameter, with
+    * **axes**, with axis labels, units, and tick marks
+    * **data points**, with consistent data point symbols
+    * **error bars**, attached to the individual data points
+    * **main result**, your main result should be included in this figure. In this case a graphic representation (horizontal lines) showing the determined viscosity and its uncertainty
+    * **secondary result**, in this case the determination of those spheres for which inertial drag was and was not significant
+    * pay attention to suggestions made under specific expectations above
    
 The figures must also include captions with the following:
 1. **Both Figures:** A **title sentence** (with a verb) that briefly states what to conclude from the figure
