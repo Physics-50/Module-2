@@ -93,6 +93,8 @@ You can now directly read off the best fit value of viscosity $$\eta$$, with unc
 
 (If you are unsure how the significant figures were determined please follow the link to review the [sig fig rules](https://physics-50.github.io/Module-1/week3#reporting-data-with-significant-figures). Here the leading digit of the uncertainty is a 1 so two digits are kept: 0.017.  Since the uncertainty is quoted to the “thousandths” decimal place the viscosity should also be quoted to the “thousandths” decimal place, so it is quoted as 0.605.) 
 
+NOTE: In the above example data, one data point's error bars do not overlap with the horizontal line. This is actually a good thing - a rule of thumb is that **we should expect the data points to be about one error bar away from the line on average**. We will learn more about this in Module 3.
+
 ## Week 3 To-Do Summary
 
 In Week 3 you will carefully analyze whichever set(s) of sphere-drop data you believe offer the most reliable basis for finding the viscosity of our glycerin solution.  We anticipate that in week 2 you will have found three sphere diameters to give consistent results, while inertial drag will have played a role for the fourth diameter. If this is not the case you should talk to one of the instructors in office hours before proceeding. By the end of week 3 you should have analyzed all five videos for each of the 3 sphere diameters for which inertial drag did not play a significant role. (You may reuse the data from those videos that were anaylzed previously). Use appropriate data from your careful analysis to determine your best value for the viscosity and for its uncertainty, based on all the considerations of Weeks 1-3.
