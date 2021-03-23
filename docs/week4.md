@@ -172,7 +172,7 @@ The figures must also include captions with the following:
    + a clear indication as to what the horizontal lines represent
    + appropriate use of significant figures in reporting the final result
  
- <!--
+ <!---
 ## Grading rubric
 
 The tentative rubric that will be used to evaluate this checkpoint is provided below. Please keep in mind that these rubric items are subject to change as we can never foresee all the issues that may arise. This is meant to give you a sense of how it will be graded.
@@ -190,4 +190,4 @@ Your deliverable will be graded out of 18 points.
 [![p1](images/m2-d-r-4.png)](images/m2-d-r-4.png){:target="_blank"}
 
 [![p1](images/m2-d-r-5.png)](images/m2-d-r-5.png){:target="_blank"}
--->
+--->
