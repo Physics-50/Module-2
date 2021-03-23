@@ -101,11 +101,11 @@ Let's think about the underlying purpose of each of those two figures with the f
 
 ### Specific Expectations for Figures and MATLAB Scripts
 
-The MATLAB commands used to generate the plots in the example figure sequence are based on our Matlab scripts to date, but with some modifications. You will want to use the sample figure 2 as a guide for your second figure. Notice that in the sample figure both the data from the range of masses for which the kinetic energy at take-off depends on mass and that for which it does not, have been included in the plot; but only the data for which the kinetic energy does not depend on mass is included in the fit. This allows both the primary and secondary results to be presented in the same figure. Notice how solid v.s. hollow circles were used to distinguish the data points that were and were not included in the fit.Do you see an analogy with your results from this module? 
+The MATLAB commands used to generate the plots in the example figure sequence are based on our Matlab scripts to date, but with some modifications. You will want to use the sample figure 2 as a guide for your second figure. Notice that in the sample figure both the data from the range of masses for which the kinetic energy at take-off depends on mass and that for which it does not, have been included in the plot; but only the data for which the kinetic energy does not depend on mass is included in the fit. This allows both the primary and secondary results to be presented in the same figure. Notice how solid v.s. hollow circles were used to distinguish the data points that were and were not included in the fit. Do you see an analogy with your results from this module? 
 
-We expect your second figure to include your results from all four sphere diameters, but only the spheres for which inertial drag was negligible should be included in the fit. This will mean using the results of your fit from week 3, but now superimposing them as a horizontal line on a plot of the entire data set. We also expect you to plot your uncertainty (as determined in week 3) as dashed horizontal lines as was done in Fig. 2 and to make use of solid v.s. hollow circles to distinguish points that were and were not included in the fit.
+**We expect your second figure to include your results from all four sphere diameters, but only the spheres for which inertial drag was negligible should be included in the fit. This will mean using the results of your fit from week 3, but now superimposing them as a horizontal line on a plot of the entire data set. We also expect you to plot your uncertainty (as determined in week 3) as dashed horizontal lines as was done in Fig. 2 and to make use of solid v.s. hollow circles to distinguish points that were and were not included in the fit.**
 
-Finally, take a look at figure 1. Notice how the multipanel video sequence gives a clearer indication of the experiment than a single picture. Do you see an analogy to this experiment? Similarly take another look at the panel showing how the data was extracted. Key features include the circling of the data points used to extract a velocity from the plot. We expect you to similarly give us a clear visual of determined the terminal velocity from one sample plot. Showing a screen shot from Tracker will not be sufficient, for the deliverable you need to plot the data in Matlab and pay attention to the aesthetics of your plot.
+Finally, take a look at figure 1. Notice how the multipanel video sequence gives a clearer indication of the experiment than a single picture. Do you see an analogy to this experiment? Similarly take another look at the panel showing how the data was extracted. **Key features include the circling of the data points used to extract a velocity from the plot. We expect you to similarly give us a clear visual of determined the terminal velocity from one sample plot. Showing a screen shot from Tracker will not be sufficient, for the deliverable you need to plot the data in Matlab and pay attention to the aesthetics of your plot.**
 
 To help you with this we are providing the Matlab script used for the above figures to get you started. You will have to modify the script appropriately for your own data. New features you will need that we have introduced in this script are:
 + plotting without error bars (Fig. 1b)
@@ -147,22 +147,27 @@ You will submit your Module 2 Deliverable Gradescope. Reminder, the deliverable 
   + a sequence of photos demonstrating how data was collected, with
    +  a **scale bar** placed in a lower corner of the photo
    +  minimal visual distractions (no tracker trails)
-  + position vs. time plot showing how terminal speed was determined
+  + position vs. time plot showing how terminal speed was determined (including suggestions made under specific expectations above)
 2. Figure 2
  + plot of viscosity as a function of sphere diameter, with
    + **axes**, with axis labels, units, and tick marks
    + **data points**, with consistent data point symbols
    + **error bars**, attached to the individual data points
+   + **main result**, your main result should be included in this figure. In this case a graphic representation (horizontal lines) showing the determined viscosity and its uncertainty
+   + **secondary result**, in this case the determination of those spheres for which inertial drag was and was not significant
+   + pay attention to suggestions made under specific expectations above
    
 The figures must also include captions with the following:
-1. A **title sentence** (with a verb) that briefly states what to conclude from the figure
+1. **Both Figures:** A **title sentence** (with a verb) that briefly states what to conclude from the figure
 
-2. A description of panel (a), including 
+2. **Figure 1:** 
    + a brief **explanation of the experiment**
    + a definition of the **scale bar**
-3. A description of panel (b), including
-   + a **connection to data** sentence that directly connects your conclusion to the data shown in the plot
+   + a **connection to data** sentence that directly connects your conclusion (from this plot) to the data shown in the plot, in this case indicating how the terminal speed was determined.
+
+3. **Figure 2:**
    + a definition of the **error bars**
+   + appropriate use of significant figures in reporting the final result
  
 ## Grading rubric
 
