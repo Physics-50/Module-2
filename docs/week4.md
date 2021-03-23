@@ -98,49 +98,6 @@ Let's think about the underlying purpose of each of those two figures with the f
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc2u3O6oH8HD-3ifyGipgOVB-6rex1uvTub_CVnyGeYpqAu8Q/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
-### Assumed information
-
-In that example figure sequence, we are assuming that the reader has other information. In the figure captions, there are references to a table and equations. These other items would appear in the main text of the paper/poster, but the main text isn't our focus here in Module 2. But based on the above information, we might expect this table to appear in a "Results" section (or perhaps even in a "Supplementary Information" section):
-
-[*Click to enlarge in a new tab*
-![Tab 1](images/Tab1.jpg)](images/Tab1.jpg){:target="_blank"}
-
-Although you are not going to make a table for our Module 2 deliverable, you may want to read this quick [guide to tables](#tables){:target="_blank"} in case you use tables in your future work.
-
-Coming back to the example figure sequence, there are also references to equations. We would expect that information to be found in the "Methods" or "Experimental Procedure" section:
-
-...
-
-From the mean takeoff speed determined for each individual, the kinetic energy at takeoff for the $$i^\mathrm{th}$$ individual is calculated using
-\begin{equation}
-K_i = \frac{1}{2} m_i v_\mathrm{to}^2,
-\end{equation}
-where $$m_i$$ is the body mass of the $$i^\mathrm{th}$$ larva.
-
-...
-
-The weighted average of the kinetic energy, $$K_\mathrm{avg}$$ is calculated from the individual measured kinetic energies $$K_i$$ and uncertainties $$\delta K_i$$ for each mass as 
-
-\begin{equation}
-K_\mathrm{avg} = \frac{\sum_{i=1}^{n} \frac{K_i}{(\delta K_i)^2}}{\sum_{i=1}^{n} \frac{1}{(\delta K_i)^2}},
-\end{equation}
-
-where $$i$$ enumerates over all $$n=4$$ larvae from Fig. 2 used to calculate the weighted average. 
-
-
-...
-
-The uncertainty in the weighted average, $$\delta K_\mathrm{avg}$$, is estimating using 
-
-\begin{equation}
-\delta K_\mathrm{avg} = \frac{1}{\sqrt{n}}\sqrt{\frac{ \sum_{i=1}^{n} \frac{(K_i-K_\mathrm{avg})^2}{(\delta K_i)^2}   }{   \sum_{i=1}^{n} \frac{1}{(\delta K_i)^2} }   }.
-\end{equation}
-
-<br>
-
-**Note: You DO NOT need to create a write-up of your "assumed information" in your deliverable. You do not need to create a table. You do not need to write out the equations you used.** 
-
-<br>
 
 ### Specific Expectations for Figures and MATLAB Scripts
 
@@ -172,8 +129,8 @@ For Module 2, your deliverable is a series of two figures (each including a capt
 
 You can assume the following information is defined for your reader somewhere in the main text of where this sequence of figures appears:
 
-+ any equations you used (feel free to include made-up equation numbers in your captions)
-+ tabular information about the spheres (their masses, radii, and your measured terminal speed)
++ any equations you used
++ information about the spheres (eg. their masses and radii)
 + the values with uncertainties of $$g$$ and $$\rho$$, and how those quantities were measured
 
 ## What do I need to submit?
@@ -184,7 +141,29 @@ You can assume the following information is defined for your reader somewhere in
 
 You will submit your Module 2 Deliverable Gradescope. Reminder, the deliverable is **due Thursday, April 1, at 1:00pm PT**.
 
+## Your figure sequence must include
 
+1. Figure 1
+  + a sequence of photos demonstrating how data was collected, with
+   +  a **scale bar** placed in a lower corner of the photo
+   +  minimal visual distractions (no tracker trails)
+  + position vs. time plot showing how terminal speed was determined
+2. Figure 2
+ + plot of viscosity as a function of sphere diameter, with
+   + **axes**, with axis labels, units, and tick marks
+   + **data points**, with consistent data point symbols
+   + **error bars**, attached to the individual data points
+   
+The figures must also include captions with the following:
+1. A **title sentence** (with a verb) that briefly states what to conclude from the figure
+
+2. A description of panel (a), including 
+   + a brief **explanation of the experiment**
+   + a definition of the **scale bar**
+3. A description of panel (b), including
+   + a **connection to data** sentence that directly connects your conclusion to the data shown in the plot
+   + a definition of the **error bars**
+ 
 ## Grading rubric
 
 The tentative rubric that will be used to evaluate this checkpoint is provided below. Please keep in mind that these rubric items are subject to change as we can never foresee all the issues that may arise. This is meant to give you a sense of how it will be graded.
