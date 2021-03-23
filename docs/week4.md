@@ -167,6 +167,8 @@ The figures must also include captions with the following:
 
 3. **Figure 2:**
    + a definition of the **error bars**
+   + a **connection to data** sentence that directly connects your conclusion to the data shown in the plot
+   + a clear connection to the secondary result
    + appropriate use of significant figures in reporting the final result
  
 ## Grading rubric
