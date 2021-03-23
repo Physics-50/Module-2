@@ -155,7 +155,7 @@ You will submit your Module 2 Deliverable Gradescope. Reminder, the deliverable 
     * **data points**, with consistent data point symbols
     * **error bars**, attached to the individual data points
     * **main result**, your main result should be included in this figure. In this case a graphic representation (horizontal lines) showing the determined viscosity and its uncertainty
-    * **secondary result**, in this case the determination of those spheres for which inertial drag was and was not significant
+    * **secondary result**, in this case the exploration of those spheres for which inertial drag was and was not significant
     * pay attention to suggestions made under specific expectations above
    
 The figures must also include captions with the following:
