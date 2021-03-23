@@ -144,7 +144,7 @@ You will submit your Module 2 Deliverable Gradescope. Reminder, the deliverable 
 ## Your figure sequence must include
 
 * Figure 1
-    * a sequence of photos demonstrating how data was collected, with
+    * a **sequence** of photos demonstrating how data was collected, with
         * a **scale bar** placed in a lower corner of the photo
         * minimal visual distractions (no tracker trails)
     * position vs. time plot showing how terminal speed was determined (including suggestions made under specific expectations above)
