@@ -149,7 +149,7 @@ You will submit your Module 2 Deliverable Gradescope. Reminder, the deliverable 
         * minimal visual distractions (no tracker trails)
     * position vs. time plot showing how terminal speed was determined (including suggestions made under specific expectations above)
 
-* Figure 2
++ Figure 2
     * plot of viscosity as a function of sphere diameter, with
     * **axes**, with axis labels, units, and tick marks
     * **data points**, with consistent data point symbols
