@@ -191,5 +191,6 @@ Your deliverable will be graded out of 18 points.
 
 [![p1](images/d2r4.png)](images/d2r4.png){:target="_blank"}
 
-Your deliverable will also be graded for the quality of your data and the conclusions you drew. This will appear in Gradescope as Question 4: Figure 2 - Content. [4 points]
+Your deliverable will also be graded for the quality of your data and the conclusions you drew. This will appear in Gradescope as:<br>
+"Question 4: Figure 2 - Content". [4 points]
  
