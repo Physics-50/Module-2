@@ -174,4 +174,22 @@ The figures must also include captions with the following:
    + a clear connection to the secondary result
    + a clear indication as to what the horizontal lines represent
    + appropriate use of significant figures in reporting the final result
+
+   ## Grading rubric
+
+The tentative rubric that will be used to evaluate this checkpoint is provided below. Please keep in mind that these rubric items are subject to change as we can never foresee all the issues that may arise. This is meant to give you a sense of how it will be graded.
+
+Your deliverable will be graded out of 18 points. 
+
+**Click on the below images to enlarge in a new tab:**
+
+[![p1](images/d2r1.png)](images/d2r1.png){:target="_blank"}
+
+[![p2](images/d2r2.png)](images/d2r2.png){:target="_blank"}
+
+[![p1](images/d2r3.png)](images/d2r3.png){:target="_blank"}
+
+[![p1](images/d2r4.png)](images/d2r4.png){:target="_blank"}
+
+Your deliverable will also be graded for the quality of your data and the conclusions you drew. This will appear in Gradescope as Question 4: Figure 2 - Content. [4 points]
  
