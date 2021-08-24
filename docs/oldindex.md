@@ -46,7 +46,7 @@ Module 2 is four weeks long. Each of the first three weeks, you will have a chec
     - Checkpoint: preliminary measurement of the speed of sound
 2. Week 2 - Exploratory Phase (continued)
     - Checkpoint: results of an investigation of a key source of systematic error in the experiment
-3. Week 3 - Final Determination of Viscosity
+3. Week 3 - Final Determination of speed of sound
     - Checkpoint: final best values for viscosity and uncertainty.
 4. Week 4 - Scientific Communication
     - Deliverable: a sequence of figures with captions that communicate your reasoning and results.
