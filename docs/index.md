@@ -48,6 +48,6 @@ Module 2 is five weeks long. Each of the first three weeks, you will have a chec
 2. Week 2 - Exploratory Phase (continued)
     - Checkpoint: calculated viscosity as a function of sphere diameter, to check assumptions.
 3. Week 3 - Final Determination of Viscosity
-    - Checkpoint: final best values for viscosity and uncertainty.
+    - Checkpoint: Plot of bead position v.s. antinode number, estimate of viscosity and uncertainty.
 4. Week 4 - Scientific Communication
     - Deliverable: a sequence of figures with captions that communicate your reasoning and results.
