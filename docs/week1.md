@@ -1,5 +1,14 @@
 # Week 1: Exploratory Phase
 
+--------------
+1. [Introduction](#introduction)
+2. [Background Reading](#background-reading)
+3. [Week 1 To-Do Summary](#week-1-to-do-summary)
+4. [Step-by-Step Tracker Instructions](#step-by-step-tracker-instructions)
+5. [Checkpoint: Preliminary Viscosity Value](#checkpoint-1)
+
+--------------
+
 <strong>Quick Navigation:</strong>
 <a href="#P1-1">P1.1 Introduction</a>
 <a href="#P1-2">P1.2 Learning Objectives</a>
