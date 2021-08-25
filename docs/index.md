@@ -54,6 +54,8 @@ Module 2 is five weeks long. Each of the first three weeks, you will have a chec
 
 
 ### P1.6 Optional: DIY Acoustic Levitator!</strong>
-If after this Module you are interested in building your own levitator you can find the AIP publication as well as a link to the materials and instructions below. Happy levitating!</p>
+If after this Module you are interested in building your own levitator you can find the AIP publication as well as a link to the materials and instructions below. Happy levitating!
+
 [AIP Paper](https://aip.scitation.org/doi/full/10.1063/1.4989995){:target="_blank"}
+
 [Materials and instructions](https://www.instructables.com/id/Acoustic-Levitator/){:target="_blank"}
