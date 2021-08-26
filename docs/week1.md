@@ -111,8 +111,7 @@ Before turning on the power supply, double check all connections, and turn all t
 Levitating a Bead
 Now let's try to levitate a styrofoam bead! See the following [video for instructions on how to load a bead into the levitator](https://youtu.be/YrpVdlcYu7Y){:target="_blank"}.
 
-Place a few beads on a lens wipe or dryer sheet and move them around between the speakers of the acoustic levitator until they hop into position.&nbsp;<span style="text-align: justify;">This should not be too difficult. If the bead doesn't stay, double check all your connections, the function generator settings (including if the output is on), and that the light on the driver is on. Ask an instructor if problems persist.</span></p>
-<p id="aliasing" style="font-size: 80%;">$latex ^1$&nbsp;<a href="https://www.tek.com/support/faqs/what-aliasing-and-how-do-i-detect-it-and-fix-it-my-oscilloscope">https://www.tek.com/support/faqs/what-aliasing-and-how-do-i-detect-it-and-fix-it-my-oscilloscope</a>
+Place a few beads on a lens wipe or dryer sheet and move them around between the speakers of the acoustic levitator until they hop into position. This should not be too difficult. If the bead doesn't stay, double check all your connections, the function generator settings (including if the output is on), and that the light on the driver is on. Ask an instructor if problems persist.
 
 --------------
 
