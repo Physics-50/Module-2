@@ -76,28 +76,17 @@ By the end of the day today you will be able to successfully levitate, using sou
 Our goal is to create a standing wave with the acoustic levitator. The speakers create sound by exerting force on the air. To create sound of a given pitch, or frequency, the speaker pushes the air back and forth in a repeatingpattern at that frequency. The exact pattern – sinusoidally varying force, short bursts, or something else– influences the timbre of the sound produced. Our speakers are piezos, or piezoelectrics, meaning that applying a potential difference across the speaker will result in the speaker exerting a force on the air. If we want the speaker to create a tone, we need to give it a periodic signal. A&nbsp;<em>function generator--</em>abbreviated in our lab manual as "FG"-- is a piece of equipment that creates periodic signals, see <a href="#attachment_636">Figure 1</a> below.</p>
 
 
-[caption id="attachment_1585" align="aligncenter" width="300"]<img class="wp-image-1585 size-medium" src="https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/09/equipment2-300x225.png" alt="" width="300" height="225"> Figure 1: The electrical equipment used in this experiment.[/caption]
-<p style="padding-left: 30px;">A function generator's&nbsp;waveform, frequency, amplitude and offset are set in the following manner:</p>
-<p style="padding-left: 60px;">–The waveform is selected by the buttons to the right of the display
-–The F1 button on the function generator adjusts the FREQUENCY. Use the number pad to type in the numerical frequency desired followed by pressing the button with the appropriate units (Hz, kHz, MHz) to the right of the numbers; press&nbsp;<strong>enter</strong>&nbsp;when done. Note: If you would only like to adjust the frequency a bit from its present value you can also use the dial.
-–The F2 and F3 buttons adjust AMPLITUDE and OFFSET settings. Again, use the number pad to type in your desired value followed by the units; press enter.
-–Make sure the button above the output of the function generator is ON (illuminated).</p>
-<p style="padding-left: 30px;">In order to 'see' the output of the function generator, we can use an oscilloscope.</p>
+<img class="wp-image-1585 size-medium" src="https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/09/equipment2-300x225.png" alt="" width="300" height="225"> 
 
+A function generator's waveform, frequency, amplitude and offset are set in the following manner:
 
-[caption id="attachment_1112" align="aligncenter" width="453"]<img class="wp-image-1112 size-full" src="http://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/08/oscope_screen.png" alt="" width="453" height="363"> Figure 2: Sample oscilloscope screen[/caption]
++ Turn on the function generator
++ The waveform is selected by the buttons to the right of the display
+    –The F1 button on the function generator adjusts the FREQUENCY. Use the number pad to type in the numerical frequency desired followed by pressing the button with the appropriate units (Hz, kHz, MHz) to the right of the numbers; press enter when done. Note: If you would only like to adjust the frequency a bit from its present value you can also use the dial.
+    –The F2 and F3 buttons adjust AMPLITUDE and OFFSET settings. Again, use the number pad to type in your desired value followed by the units; press enter.
+    –Make sure the button above the output of the function generator is ON (illuminated).
++ Set the function generator (FG) to create a 40 kHz SQUARE wave with amplitude 5V and offset 2.5V. "Amplitude" for the FG means peak to peak voltage variation of the signal. The speakers are designed to work best at this frequency. 
 
-[caption id="attachment_1652" align="alignright" width="178"]<img class="wp-image-1652" src="https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/09/50-ohm-terminator-300x253.jpg" alt="" width="178" height="150"> 50 Ohm terminator[/caption]
-<p style="padding-left: 60px;"><strong><strong>II.</strong>2.5.1.a&nbsp;</strong>Connect a BNC cable to the OUTPUT of the function generator.&nbsp; At the other end of the BNC cable, attach a BNC T-adapter (it looks like a capital T and splits the BNC signal into two)&nbsp;with a 50 Ohm terminator (shown at the right).&nbsp; Plug this into CH1 on the oscilloscope.</p>
-<p style="padding-left: 60px;"><strong><strong>II.</strong>2.5.1.b&nbsp;</strong>Turn on both the function generator and the oscilloscope. Set the function generator (FG) to create a 1 Hz SQUARE wave with amplitude 5V and offset 2.5V.&nbsp; "Amplitude" for the FG means peak to peak voltage variation of the signal.</p>
-<p style="padding-left: 60px; text-align: left;"><strong>II.2.5.1.c</strong>&nbsp;Observe the FG signal on the oscilloscope. Remember, you might not be able to see your signal very well if the scale on the oscilloscope is not appropriate to view your signal. Additionally, your signal may be off-screen.</p>
-<p style="padding-left: 60px; text-align: left;"><strong>II.2.5.1.d</strong>&nbsp;Confirm that your signal is indeed 1 Hz and has a peak to peak amplitude of 5.00 V with an offset of $latex +2.50$ V by counting the number of boxes the signal spans. You can also pause the oscilloscope by pressing the RUN/STOP button as shown below in figure 3.</p>
-
-
-[caption id="attachment_1587" align="aligncenter" width="300"]<img class="wp-image-1587 size-medium" src="https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/09/oscilloscope_run-stop-highlighted-300x230.png" alt="" width="300" height="230"> Figure 3: The oscilloscope with the RUN/STOP button highlighted.[/caption]
-<p style="padding-left: 60px; text-align: left;">The oscilloscope displays whether it is running at the top center screen.</p>
-<p style="padding-left: 90px; text-align: left;">Do your frequency, amplitude, and offset settings on the function generator match your measurement with the oscilloscope? If not, note any discrepancies. When you make measurements, it is important to know if you can trust the numbers displayed on the equipment or if you need to measure the quantity with a different instrument. <strong>Also, if you get stuck, ask your instructor for assistance!</strong></p>
-<p style="padding-left: 60px; text-align: left;"><strong>II.2.5.1.e</strong>&nbsp;Now, change the frequency on the function generator to 40 kHz, because the speakers are designed to work best at this frequency. Do a quick calculation to determine what the time scaling should be and adjust your oscilloscope accordingly to view the new signal.&nbsp;<span style="text-align: justify;">Look at the signal on the oscilloscope and adjust the amplitude and offset settings&nbsp; on the FG, if necessary, until the signal oscillates between 0 and 5V at a frequency of 40kHz.</span></p>
 <p style="padding-left: 60px; text-align: left;">(<em>Note:</em>&nbsp;You may notice when you change the frequency of your function generator that the signal on your oscilloscope still looks like it is oscillating at a lower frequency. This behavior is called <em>aliasing&nbsp;</em>--a form of under sampling-- and what is displayed on the oscilloscope is a waveform that looks like a slower frequency waveform, or a flat line in the case of the sample rate being the same as the frequency of your signal<a href="#aliasing">$latex ^1$</a>.&nbsp;If you're seeing something unexpected or are lost, ask an instructor)</p>
 <p style="text-align: justify; padding-left: 30px;"><strong id="2-5-2">II.2.5.2 Powering the Acoustic Levitator</strong>
 Let's turn our electric signal into a sound wave!</p>
@@ -126,7 +115,7 @@ Let's turn our electric signal into a sound wave!</p>
 Now let's try to levitate a styrofoam bead! See the following video for instructions on how to load a bead into the levitator.</span></p>
 [embed]https://youtu.be/YrpVdlcYu7Y[/embed]
 <p style="text-align: justify; padding-left: 30px;">Place a few beads on a lens wipe or dryer sheet and move them around between the speakers of the acoustic levitator until they hop into position.&nbsp;<span style="text-align: justify;">This should not be too difficult. If the bead doesn't stay, double check all your connections, the function generator settings (including if the output is on), and that the light on the driver is on. Ask an instructor if problems persist.</span></p>
-<p id="aliasing" style="font-size: 80%;">$latex ^1$&nbsp;<a href="https://www.tek.com/support/faqs/what-aliasing-and-how-do-i-detect-it-and-fix-it-my-oscilloscope">https://www.tek.com/support/faqs/what-aliasing-and-how-do-i-detect-it-and-fix-it-my-oscilloscope</a></p>
+<p id="aliasing" style="font-size: 80%;">$latex ^1$&nbsp;<a href="https://www.tek.com/support/faqs/what-aliasing-and-how-do-i-detect-it-and-fix-it-my-oscilloscope">https://www.tek.com/support/faqs/what-aliasing-and-how-do-i-detect-it-and-fix-it-my-oscilloscope</a>
 
 --------------
 
