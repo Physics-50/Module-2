@@ -131,9 +131,8 @@ Now let's try to levitate a styrofoam bead! See the following video for instruct
 --------------
 
 ### References
-1. <a href="http://www.phy.uct.ac.za/sites/default/files/image_tool/images/281/people/buffler/new_gum-compliant/Introduction%20to%20Measurement%20manual%20%28UCT%20Physics%29.pdf">Introduction to Measurement in the Physics Laboratory: A probabilistic approach</a>
 
-2. Gorkov, L. P., “Forces acting on a small particle in an acoustic field within an ideal fluid,” Dokl. Akad. Nauk SSSR 140(1), 88 (1961).
+1. Gorkov, L. P., “Forces acting on a small particle in an acoustic field within an ideal fluid,” Dokl. Akad. Nauk SSSR 140(1), 88 (1961).
 
-3. A. Marzo, A. Barnes, and B. W. Drinkwater, “<span class="NLM_article-title">Tinylev: A multi-emitter single-axis acoustic levitator</span>,” Rev. Sci. Instrum. <b>88</b>(8), 085105 (2017).
+2. A. Marzo, A. Barnes, and B. W. Drinkwater, “<span class="NLM_article-title">Tinylev: A multi-emitter single-axis acoustic levitator</span>,” Rev. Sci. Instrum. <b>88</b>(8), 085105 (2017).
 
