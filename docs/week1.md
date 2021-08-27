@@ -163,10 +163,8 @@ It is helpful to begin your exploratory analysis with a back of the envelope est
 
 Let's practice with a mini-question. Please download the following image of levitated beads and use it to answer the mini-question. Make sure to download it at full resolution.
 
-**Click on the below images to enlarge in a new tab:**
-[![Image of levitated beads](images/module2-checkpoint2-rubric.png)](images/module2-checkpoint2-rubric.png){:target="_blank"}
-
-
+**Click on the below images to enlarge in a new tab and download the image:**
+[![Image of levitated beads](images/Image_of_levitated_beads.jpg)](images/Image_of_levitated_beads.jpg){:target="_blank"}
 
 ---------
 Miniquestion  -practice calculation
