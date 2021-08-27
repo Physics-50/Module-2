@@ -16,19 +16,19 @@ This week in lab you will be working with a standing wave of sound to levitate s
 #### A Brief Review of Standing Waves
 The acoustic levitators we will use in lab make use of standing waves of sound. Let us harken back to Ph 24 for a brief review of the basics of standing waves.
 
-As you may recall, in a transverse wave the disturbance away from equilibrium, y, in a wave traveling in the x direction can be described by the equation $$y=Asin(k x-\omega t)=Asin(2\pi(\frac{x}{\lambda}-\nu t))$$ where $$ A$$ is the maximum amplitude, $$ \nu=\frac{\omega}{2\pi}$$ is the frequency, and $latex \lambda$ is the wavelength of the wave. The speed $$ v$$ of the wave is given by $$v=\lambda \nu.$$
+As you may recall, in a transverse wave the disturbance away from equilibrium, y, in a wave traveling in the x direction can be described by the equation $$y=Asin(k x-\omega t)=Asin(2\pi(\frac{x}{\lambda}-\nu t))$$ where $$ A$$ is the maximum amplitude, $$ \nu=\frac{\omega}{2\pi}$$ is the frequency, and $$\lambda$$ is the wavelength of the wave. The speed $$ v$$ of the wave is given by $$v=\lambda \nu.$$
 
 In the case of a wave on a string the wave travels along the length of the string and the disturbance y is the displacement of bits of string perpendicular to the length. Imagine an apparatus that consists of a string held under constant tension; one end is attached to a mechanical oscillator that jiggles the string, creating a sine wave that propagates towards the other end which is fixed (imagine it is tied to a post). The wave then hits the fixed end and reflects, creating a sine wave that propagates back toward the oscillator in the opposite direction. We now have two waves traveling in opposite directions and what we observe will be the result of these two waves added together.
 
-Recall that the superposition of two waves traveling in opposite directions can be represented by $$y_{total}(x,t)=Asin(k x-\omega t) + Asin(k x+\omega t +\phi)$$ where the reflected wave has the same maximum amplitude as the incident wave but has picked up a phase $$ \phi$$. Our combined wave can now be represented as $$y_{total}(x,t)=Asin(k x-\omega t) - Asin(k x+\omega t )$$ where we have made use of the fact that $$ sin(\theta+\pi) = -sin(\theta)$$. Making use of one more fun fact, $$ sin(A + B)=sin(A)cos(B)+sin(B)cos(A)$$, and a little bit of algebra you can show that this simplifies to $$y_{total}(x,t)=-2Asin(\omega t)cos(kx)$$</p>
+Recall that the superposition of two waves traveling in opposite directions can be represented by $$y_{total}(x,t)=Asin(k x-\omega t) + Asin(k x+\omega t +\phi)$$ where the reflected wave has the same maximum amplitude as the incident wave but has picked up a phase $$ \phi$$. Our combined wave can now be represented as $$y_{total}(x,t)=Asin(k x-\omega t) - Asin(k x+\omega t )$$ where we have made use of the fact that $$ sin(\theta+\pi) = -sin(\theta)$$. Making use of one more fun fact, $$ sin(A + B)=sin(A)cos(B)+sin(B)cos(A)$$, and a little bit of algebra you can show that this simplifies to $$y_{total}(x,t)=-2Asin(\omega t)cos(kx)$$
 
 The takeaway from this is that the position and time dependence are now separate! It is as though the wave is fixed in space along the x axis while the effective "maximum amplitude" oscillates in time as $$ 2 A sin(\omega t)$$. This is known as a standing wave and is shown in the figure below.
 
 <img class="size-full wp-image-1493" src="https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/08/standing-waves.gif" alt="" width="288" height="288" /> 
 
-Above is a  standing wave formed by counter-propagating sine waves. The blue standing wave is the sum of the upper two traveling waves. Animation courtesy of D. Russell
+Above is a  standing wave formed by counter-propagating sine waves. The blue standing wave is the sum of the upper two traveling waves. Animation courtesy of D. Russell.
 
-If both ends of the string are fixed (or nearly so), this puts restrictions on the wavelengths and therefore the frequencies that will produce stable standing waves on a given string. In this example, our string can be thought of has having two fixed ends <strong>--nodes --</strong>a distance L apart.  The places where the string doesn’t move ($latex y_{total}=0$) are called <strong>nodes</strong>, whereas places where the string oscillates with maximum amplitude are called <strong>antinodes</strong>. Only particular wavelengths will allow both ends of the string to be nodes; the wavelengths and frequencies that produce this type of stable standing waves are called <strong>resonant.</strong> (Note:  We have arrived at this condition by considering the boundary conditions for the disturbance at the ends of the string.  An equivalent method would be to require that the twice-reflected wave after one round trip is perfectly in phase with the brand new wave just now being emitted by the oscillator.  This second method offers some insight into what happens when the oscillator frequency is <em>not</em> resonant:  the vibrations on the string will be unstable and tend to die out.)
+If both ends of the string are fixed (or nearly so), this puts restrictions on the wavelengths and therefore the frequencies that will produce stable standing waves on a given string. In this example, our string can be thought of has having two fixed ends <strong>--nodes --</strong>a distance L apart.  The places where the string doesn’t move ($$ y_{total}=0$$) are called <strong>nodes</strong>, whereas places where the string oscillates with maximum amplitude are called <strong>antinodes</strong>. Only particular wavelengths will allow both ends of the string to be nodes; the wavelengths and frequencies that produce this type of stable standing waves are called <strong>resonant.</strong> (Note:  We have arrived at this condition by considering the boundary conditions for the disturbance at the ends of the string.  An equivalent method would be to require that the twice-reflected wave after one round trip is perfectly in phase with the brand new wave just now being emitted by the oscillator.  This second method offers some insight into what happens when the oscillator frequency is <em>not</em> resonant:  the vibrations on the string will be unstable and tend to die out.)
 
 What happens if instead of a fixed end we have a second mechanical oscillator shaking the string at the same frequency? We will end up with a standing wave but the ends will not be nodes and it will not be defined by a resonant condition, meaning we are free to pick any frequency. This is the situation we have in the acoustic resonator and we will revisit it in more detail in the following section.
 
@@ -134,12 +134,12 @@ Each measurement method also comes with unique considerations, but here are some
 + Does it matter where the ruler is, relative to the beads, when you measure the distance between the nodes?
 + How many data points are necessary? How can you tell? What kind of data needs to be repeated?
 
-### Calipers and rulers</p>
+### Calipers and rulers
 + Does putting an object (such as calipers or a ruler) in between the actuators affect the standing wave?
 + Do the calipers and rulers exert forces (such as static force) on the Styrofoam beads?
 + How far away (both vertically and horizontally!) can you hold a ruler or calipers from the object you wish to measure and still obtain a reasonably accurate reading?</span>
 
-[Click here for instructions on using the calipers](https://www.physics.hmc.edu/~physics50/wp/?page_id=2253&amp;preview=true"){target="_blank"} 
+[Click here for instructions on using the calipers](https://www.physics.hmc.edu/~physics50/wp/?page_id=2253&amp;preview=true"){:target="_blank"}
 
 ### Camera
 + What is the conversion rate between pixels on the image and actual distance? Tip: take a photo of a ruler and do a lineout over several millimeters or centimeters to get a pixels per mm (or cm) conversion.
@@ -151,7 +151,27 @@ Each measurement method also comes with unique considerations, but here are some
 
 ### Preliminary Data Analysis
 
-It is helpful to begin your exploratory analysis with a back of the envelope estimate. Go ahead and make use of the measured spacing between beads to estimate the speed of sound. Is your result reasonable? (Go ahead and look up the speed of sound in air for comparison). If your result does not appear to be in reasonable agreement with the expected value you should pause here and try to work out why (talk to your instructor if unsure).
+It is helpful to begin your exploratory analysis with a back of the envelope estimate. Go ahead and make use of the measured spacing between beads to estimate the speed of sound. It is difficult to get a good estimate by directly measuring the distance between beads. Instead try the following:
+
+1. Take a picture of levitated beads. Your picture should also include a ruler for calibration. To minimize the effects of parallax the distance from the camera to the ruler should be as close as possible to the distance from the camera to the beads.
+
+2. Determine the separate between beads in pixels.
+
+3. Use the ruler to determine a conversion factor from pixels to milimeters.
+
+4. Use the measured separation between nodes to determine the speed of sound.
+
+Let's practice with a mini-question. Please download the following image of levitated beads and use it to answer the mini-question. Make sure to download it at full resolution.
+
+**Click on the below images to enlarge in a new tab:**
+[![Image of levitated beads](images/module2-checkpoint2-rubric.png)](images/module2-checkpoint2-rubric.png){:target="_blank"}
+
+
+
+---------
+Miniquestion  -practice calculation
+----------
+Is your result reasonable? (Go ahead and look up the speed of sound in air for comparison). If your result does not appear to be in reasonable agreement with the expected value you should pause here and try to work out why (talk to your instructor if unsure).
 
 ### Data Analysis
 One of the most important ideas we want you to take from Module 3 is to think of a data set as a whole, not as individual points. 
@@ -161,6 +181,10 @@ In the "back-of-the-envelope" check you just did, you measured the spacing betwe
 At the end of module 1 we introduced MATLAB and made use of it to fit a horizontal line of best fit. In this module we will continue to make use of MATLAB for data analysis. 
 
 How do we extract a slope from our measured data? You have previously fit a horizontal line, but now you will fit a line with a nonzero slope. To understand this fitting process, you now need to carefully read the [curve fitting guide](curve-fitting){:target="_blank"}. In it you will find a MATLAB script that includes a linear fit with both an intercept and a slope.
+
+----
+Miniquestion - getting speed of sound from sample plot - slope
+-----
 
 ### References
 
