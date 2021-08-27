@@ -73,7 +73,7 @@ How does a standing wave of sound produce acoustic levitation?  Take a good loo
 ### Week 1 Instructions
 By the end of the day today you will be able to successfully levitate, using sound waves, small polystyrene beads!
 
-Our goal is to create a standing wave with the acoustic levitator. The speakers create sound by exerting force on the air. To create sound of a given pitch, or frequency, the speaker pushes the air back and forth in a repeatingpattern at that frequency. The exact pattern – sinusoidally varying force, short bursts, or something else– influences the timbre of the sound produced. Our speakers are piezos, or piezoelectrics, meaning that applying a potential difference across the speaker will result in the speaker exerting a force on the air. If we want the speaker to create a tone, we need to give it a periodic signal. A&nbsp;<em>function generator--</em>abbreviated in our lab manual as "FG"-- is a piece of equipment that creates periodic signals, see <a href="#attachment_636">Figure 1</a> below.</p>
+Our goal is to create a standing wave with the acoustic levitator. The speakers create sound by exerting force on the air. To create sound of a given pitch, or frequency, the speaker pushes the air back and forth in a repeatingpattern at that frequency. The exact pattern – sinusoidally varying force, short bursts, or something else– influences the timbre of the sound produced. Our speakers are piezos, or piezoelectrics, meaning that applying a potential difference across the speaker will result in the speaker exerting a force on the air. If we want the speaker to create a tone, we need to give it a periodic signal. A&nbsp;<em>function generator--</em>abbreviated in our lab manual as "FG"-- is a piece of equipment that creates periodic signals, see <a href="#attachment_636">Figure 1</a> below.
 
 
 <img class="wp-image-1585 size-medium" src="https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/09/equipment2-300x225.png" alt="" width="300" height="225"> 
@@ -87,18 +87,22 @@ A function generator's waveform, frequency, amplitude and offset are set in the 
     –Make sure the button above the output of the function generator is ON (illuminated).
 + Set the function generator (FG) to create a 40 kHz SQUARE wave with amplitude 5V and offset 2.5V. "Amplitude" for the FG means peak to peak voltage variation of the signal. The speakers are designed to work best at this frequency. 
 
-#### Powering the Acoustic Levitator</strong>
+#### Powering the Acoustic Levitator
 Let's turn our electric signal into a sound wave! Ensure that the switch on the levitator is set to "AMP." Be careful, as the switch has 3 possible positions, and you want to set it all the way to "AMP." This sets the output from the FG go through a digital driver -- a device that sets the potential difference at its output to either whatever is supplied by the power supply (labeled; PS OUTPUT (+)) or to 0 V, according to the value of the logic inputs, which are in this case set by the function generator. In other words, the output of the driver will be a square wave oscillating at the same frequency as the function generator, between 0 V and the the power supply output voltage.
 
 
-<img class="wp-image-1413" src="http://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/08/digital-driver.png" alt="" width="400" height="400"> The above image shows a schematic of the driver used in our circuit "L298N Motor Drive Controller Board." This board is actually able to drive two devices with outputs A and B. We will only be using one in our circuit. "PS OUTPUT(+)" is the connection to the positive power supply output and "PS GND" is the power supply ground.[/caption]
+<img class="wp-image-1413" src="http://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/08/digital-driver.png" alt="" width="400" height="400"> 
+
+The above image shows a schematic of the driver used in our circuit "L298N Motor Drive Controller Board." This board is actually able to drive two devices with outputs A and B. We will only be using one in our circuit. "PS OUTPUT(+)" is the connection to the positive power supply output and "PS GND" is the power supply ground.
 
 Replace the BNC cable attached to the FG OUTPUT with a BNC T-adapter. Connect one T-adapter output to CH1 of the oscilloscope, as before. Connect the other to a BNC cable and plug it into the "FG" input on the case of the levitator as shown below. Do not connect the power supply.
 
 
-<img class="wp-image-1588 size-full" src="https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/09/levitator-back.png" alt="" width="469" height="327"> The above image shows the back of the levitator. The inputs for both the function generator and power supply are highlighted. There should already be BNC cables attached to both of these in your apparatus.
+<img class="wp-image-1588 size-full" src="https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/09/levitator-back.png" alt="" width="469" height="327">
 
-Safety Warning: Whenever you are connecting elements in a circuit, make sure the power supply and function generator output are off. Do not turn on the power supply until you have completed teh circuit.
+The above image shows the back of the levitator. The inputs for both the function generator and power supply are highlighted. There should already be BNC cables attached to both of these in your apparatus.
+
+Safety Warning: Whenever you are connecting elements in a circuit, make sure the power supply and function generator output are off. Do not turn on the power supply until you have completed the circuit.
 
 With the power supply turned off ensure that the negative (-, black) terminal on the power supply is connected to the ground (GND, green) terminal. This simple connection ensures that the levitator apparatus, power supply and function generator all have a common ground. If there is no metal clip connecting the black and green terminals, notify your instructor and together you can make this connection with a small piece of wire.
 
@@ -106,15 +110,48 @@ Using a BNC/banana adapter, connect the red banana connector to the red positive
 
 Safety Tip: Never touch the leads of the power supply together! This will short circuit the power supply and could damage it. The power supply will click if it has been short circuited. The voltage has to be constant throughout a wire -- there's nothing to change it. The power supply has internal electronics to create a voltage difference across its two terminals. If you connect the two terminals with a wire, you force the terminals to be the same potential, so something must change inside the power supply to allow this to happen.
 
-Before turning on the power supply, double check all connections, and turn all the knobs on the power supply to zero (all the way counter clockwise). Now turn on the power supply. The light labeled C.V. (coarse voltage) should be green, meaning that the output of the power supply is limited by the voltage dial settings. Turn the coarse dial for the voltage slowly up (clockwise). Observe that the voltage reading on the front panel of the power supply rises, but the current stays at zero. When you reach a voltage output of around 5 Volts (it may not be exactly 5V), the current will start to rise, the green C.V. light will go off and the red C.C. light will go on. At this point both the current and the voltage will stop rising in response to further increases of the coarse voltage dial. The red C.C. light indicates that the power supply output is now being limited by the current dial settings. Turn the coarse current dial up until the green C.V. light comes back on.Alternate between increasing the voltage setting and the current setting as necessary until you have reached an output voltage of about 11 or 12 V. Keep an eye on how much current the power supply is providing. If it goes above 225mA turn the power supply off and check your circuit or ask an instructor. The driver is now being powered, and you should see a red light on the rear of the levitator box below the AMP/NO AMP switch.
+Before turning on the power supply, double check all connections, and turn all the knobs on the power supply to zero (all the way counter clockwise). Now turn on the power supply. The light labeled C.V. (coarse voltage) should be green, meaning that the output of the power supply is limited by the voltage dial settings. Turn the coarse dial for the voltage slowly up (clockwise). Observe that the voltage reading on the front panel of the power supply rises, but the current stays at zero. When you reach a voltage output of around 5 Volts (it may not be exactly 5V), the current will start to rise, the green C.V. light will go off and the red C.C. light will go on. At this point both the current and the voltage will stop rising in response to further increases of the coarse voltage dial. The red C.C. light indicates that the power supply output is now being limited by the current dial settings. Turn the coarse current dial up until the green C.V. light comes back on. Alternate between increasing the voltage setting and the current setting as necessary until you have reached an output voltage of about 11 or 12 V. Keep an eye on how much current the power supply is providing. If it goes above 225mA turn the power supply off and check your circuit or ask an instructor. The driver is now being powered, and you should see a red light on the rear of the levitator box below the AMP/NO AMP switch.
 
 Levitating a Bead
 Now let's try to levitate a styrofoam bead! See the following [video for instructions on how to load a bead into the levitator](https://youtu.be/YrpVdlcYu7Y){:target="_blank"}.
 
 Place a few beads on a lens wipe or dryer sheet and move them around between the speakers of the acoustic levitator until they hop into position. This should not be too difficult. If the bead doesn't stay, double check all your connections, the function generator settings (including if the output is on), and that the light on the driver is on. Ask an instructor if problems persist.
 
+### Collecting data
+
+Your primary goal this week is to practice levitating beads and reach a point where both partners can comfortably levitate beads for data collection. Once you have reached this point you should collect sufficient exploratory data to make a preliminary estimate of the speed of sound.
+
+You also have several methods at your disposal to make your measurements. There are calipers, rulers, and cameras available in the lab. If you think of other methods that involve different materials around the lab, ask your instructor if you can use these materials. Creativity is encouraged!
+
+Each measurement method also comes with unique considerations, but here are some general considerations to ponder:
+
++ Does your measurement method affect what you are trying to measure? If so, by how much?
++ How certain are you of your measurement?
++ Do you need to take repeated trials?
++ What part of the experiment do I need to reset each time to do "repeated trials" in order to find and randomize systematic errors?
++ Is the distance between the nodes consistent?
++ Does the number of beads trapped at a particular node impact the spacing?
++ Does it matter where the ruler is, relative to the beads, when you measure the distance between the nodes?
++ How many data points are necessary? How can you tell? What kind of data needs to be repeated?
+
+### Calipers and rulers</p>
++ Does putting an object (such as calipers or a ruler) in between the actuators affect the standing wave?
++ Do the calipers and rulers exert forces (such as static force) on the Styrofoam beads?
++ How far away (both vertically and horizontally!) can you hold a ruler or calipers from the object you wish to measure and still obtain a reasonably accurate reading?</span>
+
+[Click here for instructions on using the calipers](https://www.physics.hmc.edu/~physics50/wp/?page_id=2253&amp;preview=true"){target="_blank"} 
+
+### Camera
++ What is the conversion rate between pixels on the image and actual distance? Tip: take a photo of a ruler and do a lineout over several millimeters or centimeters to get a pixels per mm (or cm) conversion.
++ How well does a 3D world translate into a 2D image? How do objects on different planes scale in a 2D image? (i.e. does it matter how far away the object, bead or ruler, is from the camera?) Try placing your ruler at different heights - how much does it affect the conversion factor you obtain?
++ Is the contrast sufficient to resolve the bead position. If not is there anything you can adjust (e.g. use a different background to get better contrast) in order to obtain higher quality image?
++ Does the part of the image you are analyzing change your measurement of the wavelength? Does it matter if you are measuring beads at the edge of the photo or in the middle?
++ Does the angle of the camera with respect to the beads/ruler affect the measurement? 
 --------------
 
+### Data Analysis
+
+For this first week of exploratory analysis 
 ### References
 
 1. Gorkov, L. P., “Forces acting on a small particle in an acoustic field within an ideal fluid,” Dokl. Akad. Nauk SSSR 140(1), 88 (1961).
