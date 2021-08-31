@@ -147,6 +147,7 @@ Each measurement method also comes with unique considerations, but here are some
 + Is the contrast sufficient to resolve the bead position. If not is there anything you can adjust (e.g. use a different background to get better contrast) in order to obtain higher quality image?
 + Does the part of the image you are analyzing change your measurement of the wavelength? Does it matter if you are measuring beads at the edge of the photo or in the middle?
 + Does the angle of the camera with respect to the beads/ruler affect the measurement? 
+
 --------------
 
 ### Preliminary Data Analysis
