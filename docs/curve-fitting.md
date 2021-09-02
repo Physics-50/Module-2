@@ -103,7 +103,7 @@ and search for the "curve fitting toolbox":
 
 ![curve fitting toolbox](images/curve_fitting_toolbox.png)
 
-If it says "Installed" you are good to go. Otherwise, click on the Curve Fitting Toolbox page and install it.
+If it says "Installed" you are good to go. Otherwise, click on the Curve Fitting Toolbox page and install it. Now do the save for the "Statistics and Machine Learning Toolbox".
 
 Now that you have the curve fitting toolbox, please download the file [curve_fitting_demo.m](curve_fitting_demo.m) and run the script. 
 
