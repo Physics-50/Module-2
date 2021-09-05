@@ -208,9 +208,20 @@ To ensure you are prepared to analyze your data, please make use of the followin
 
 [![Image of sample data](images/sample_data-beads.jpg)](images/sample_data-beads.jpg){:target="_blank"}
 ----
-Miniquestion - getting speed of sound from sample plot - slope
------
 
+#### Miniquestion 4: Estimating the speed of sound from a sample plot
+[*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSdyYDI3QEI4FDsfW4d0M4krPmhwPUsgcYBsDG48WcajfMYhgg/viewform?usp=sf_link){:target="_blank"}
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdyYDI3QEI4FDsfW4d0M4krPmhwPUsgcYBsDG48WcajfMYhgg/viewform?embedded=true" width="640" height="1346" frameborder="0" marginheight="0" marginwidth="0">Loading…
+</iframe>
+
+-----
+### Module 2, Checkpoint 1
+
+
+
+
+----------------
 ### References
 
 1. Gorkov, L. P., “Forces acting on a small particle in an acoustic field within an ideal fluid,” Dokl. Akad. Nauk SSSR 140(1), 88 (1961).
