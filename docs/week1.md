@@ -73,10 +73,9 @@ How does a standing wave of sound produce acoustic levitation?  Take a good loo
 ### Week 1 Instructions
 By the end of the day today you will be able to successfully levitate, using sound waves, small polystyrene beads!
 
-Our goal is to create a standing wave with the acoustic levitator. The speakers create sound by exerting force on the air. To create sound of a given pitch, or frequency, the speaker pushes the air back and forth in a repeatingpattern at that frequency. The exact pattern – sinusoidally varying force, short bursts, or something else– influences the timbre of the sound produced. Our speakers are piezos, or piezoelectrics, meaning that applying a potential difference across the speaker will result in the speaker exerting a force on the air. If we want the speaker to create a tone, we need to give it a periodic signal. A&nbsp;<em>function generator--</em>abbreviated in our lab manual as "FG"-- is a piece of equipment that creates periodic signals, see <a href="#attachment_636">Figure 1</a> below.
+Our goal is to create a standing wave with the acoustic levitator. The speakers create sound by exerting force on the air. To create sound of a given pitch, or frequency, the speaker pushes the air back and forth in a repeatingpattern at that frequency. The exact pattern – sinusoidally varying force, short bursts, or something else– influences the timbre of the sound produced. Our speakers are piezos, or piezoelectrics, meaning that applying a potential difference across the speaker will result in the speaker exerting a force on the air. If we want the speaker to create a tone, we need to give it a periodic signal. A function generator, shown below and abbreviated in our lab manual as "FG"-- is a piece of equipment that creates periodic signals.
 
-
-<img class="wp-image-1585 size-medium" src="https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/09/equipment2-300x225.png" alt="" width="300" height="225"> 
+[![Image of FG](images/fg_and_power.jpg)](images/fg_and_power.jpg){:target="_blank"}
 
 A function generator's waveform, frequency, amplitude and offset are set in the following manner:
 
@@ -205,6 +204,9 @@ At the end of module 1 we introduced MATLAB and made use of it to fit a horizont
 
 How do we extract a slope from our measured data? You have previously fit a horizontal line, but now you will fit a line with a nonzero slope. To understand this fitting process, you now need to carefully read the [curve fitting guide](curve-fitting){:target="_blank"}. In it you will find a MATLAB script that includes a linear fit with both an intercept and a slope.
 
+To ensure you are prepared to analyze your data, please make use of the following figure to answer the subsequent mini-question.
+
+[![Image of sample data](images/sample_data-beads.jpg)](images/sample_data-beads.jpg){:target="_blank"}
 ----
 Miniquestion - getting speed of sound from sample plot - slope
 -----
