@@ -206,7 +206,7 @@ How do we extract a slope from our measured data? You have previously fit a hori
 
 To ensure you are prepared to analyze your data, please make use of the following figure to answer the subsequent mini-question.
 
-[![Image of sample data](images/sample_data-beads.jpg)](images/sample_data-beads.jpg){:target="_blank"}
+[![Image of sample data](images/sample_data-beads.png)](images/sample_data-beads.png){:target="_blank"}
 ----
 
 #### Miniquestion 4: Estimating the speed of sound from a sample plot
