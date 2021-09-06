@@ -235,6 +235,9 @@ To ensure you are prepared to analyze your data, please make use of the followin
 
 
 ----------------
+
++ And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-1){:target="_blank"}
+
 ### References
 
 1. Gorkov, L. P., “Forces acting on a small particle in an acoustic field within an ideal fluid,” Dokl. Akad. Nauk SSSR 140(1), 88 (1961).
