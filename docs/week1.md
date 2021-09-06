@@ -81,9 +81,9 @@ A function generator's waveform, frequency, amplitude and offset are set in the 
 
 + Turn on the function generator
 + The waveform is selected by the buttons to the right of the display
-    –The F1 button on the function generator adjusts the FREQUENCY. Use the number pad to type in the numerical frequency desired followed by pressing the button with the appropriate units (Hz, kHz, MHz) to the right of the numbers; press enter when done. Note: If you would only like to adjust the frequency a bit from its present value you can also use the dial.
-    –The F2 and F3 buttons adjust AMPLITUDE and OFFSET settings. Again, use the number pad to type in your desired value followed by the units; press enter.
-    –Make sure the button above the output of the function generator is ON (illuminated).
+    + The F1 button on the function generator adjusts the FREQUENCY. Use the number pad to type in the numerical frequency desired followed by pressing the button with the appropriate units (Hz, kHz, MHz) to the right of the numbers; press enter when done. Note: If you would only like to adjust the frequency a bit from its present value you can also use the dial.
+    + The F2 and F3 buttons adjust AMPLITUDE and OFFSET settings. Again, use the number pad to type in your desired value followed by the units; press enter.
+    + Make sure the button above the output of the function generator is ON (illuminated).
 + Set the function generator (FG) to create a 40 kHz SQUARE wave with amplitude 5V and offset 2.5V. "Amplitude" for the FG means peak to peak voltage variation of the signal. The speakers are designed to work best at this frequency. 
 
 #### Powering the Acoustic Levitator
