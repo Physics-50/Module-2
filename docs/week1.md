@@ -196,7 +196,7 @@ Let's practice with a mini-question. Please download the following image of levi
 Is your result reasonable? (Go ahead and look up the speed of sound in air for comparison). If your result does not appear to be in reasonable agreement with the expected value you should pause here and try to work out why (talk to your instructor if unsure).
 
 ### Data Analysis
-One of the most important ideas we want you to take from Module 3 is to think of a data set as a whole, not as individual points. 
+One of the most important ideas we want you to take from Module 2 is to think of a data set as a whole, not as individual points. 
 
 In the "back-of-the-envelope" check you just did, you measured the spacing between a single, fixed number of nodes. But the "node number" provides us with an independent variable that we can control, so by measuring the position of multiple nodes, we can create a plot of position versus node number data. Plotting the data and looking at the data set as a whole gives us confidence in our ability to determine the speed of sound, since it allows us to fit the data to the theoretical prediction in a more robust way. You do not need beads in every node to use this method, but you do need to use sound judgement and consistency with the theory to appropriately assign the node numbers to your levitated beads. 
 
