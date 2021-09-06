@@ -4,7 +4,7 @@
 1. [Introduction](#introduction)
 2. [Background Reading](#background-reading)
 3. [Week 1 Instructions](#week-1-instructions)
-4. [Summary: What you need to leave lab with this week](#summary:-what-you-need-to-leave-lab-with-today)
+4. [Summary: What you need to leave lab with today](#summary-of-what-you-need-to-leave-lab-with-today)
 5. [Checkpoint Instructions](#module-2-checkpoint-1)
 6. [References](#references)
 
@@ -219,7 +219,7 @@ To ensure you are prepared to analyze your data, please make use of the followin
 </iframe>
 
 -----
-### Summary: What you need to leave lab with today
+### Summary of what you need to leave lab with today
 
 + You should have a preliminary estimate of the speed of sound based on the spacing between levitated beads. Ideally this will include analyzing a figure or figure(s) with enough trapped beads for you to make a plot of Bead Position v.s. Node Number and use this plot to determine the speed of sound.
 
