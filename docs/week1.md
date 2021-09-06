@@ -3,7 +3,9 @@
 --------------
 1. [Introduction](#introduction)
 2. [Background Reading](#background-reading)
-4. [Week 1 Instructions](#week-1-instructions)
+3. [Week 1 Instructions](#week-1-instructions)
+4. [Summary: What you need to leave lab with this week](#Summary:-what-you-need-to-leave-lab-with-this-week)
+5. [Checkpoint Instructions](#module-2-checkpoint-1)
 
 --------------
 
