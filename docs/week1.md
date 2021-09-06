@@ -216,6 +216,16 @@ To ensure you are prepared to analyze your data, please make use of the followin
 </iframe>
 
 -----
+### Summary: What you need to leave lab with today
+
++ You should have a preliminary estimate of the speed of sound based on the spacing between levitated beads. Ideally this will include analyzing a figure or figure(s) with enough trapped beads for you to make a plot of Bead Position v.s. Node Number and use this plot to determine the speed of sound.
+
++ You should have established a method of calibration to convert the distances in "pixels" in a picture of levitated beads to units of mm.
+
++ You should use any remaining time to explore sources of uncertainty. You will likely find it helpful to touch base with your instructor when you get to this point. This is something we will continue to investigate in more detail next week.
+
+----------------
+
 ### Module 2, Checkpoint 1
 
 
