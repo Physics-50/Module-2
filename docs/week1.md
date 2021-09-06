@@ -231,7 +231,13 @@ To ensure you are prepared to analyze your data, please make use of the followin
 
 ### Module 2, Checkpoint 1
 
+For this week's checkpoint you will be asked to report:
 
++ Your preliminary estimate for the speed of sound with uncertainty based on your week 1 results
+
++ A brief explanation of how you reached the estimate
+
++ A summary of what you learned from your preliminary exploration of sources of uncertainty. 
 
 
 ----------------
