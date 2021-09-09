@@ -76,9 +76,9 @@ In our acoustic levitator apparatus, the two sources are two sets of tiny speake
 How does a standing wave of sound produce acoustic levitation?  Take a good look at the standing wave in the previous figure .  A standing wave of sound consists of “pressure antinodes,” fixed positions in space where the pressure <em>deviates the most from the equilibrium</em>, atmospheric value, and “pressure nodes,” fixed positions in space where the <em>pressure stays constant</em>.  You might imagine a small styrofoam bead placed in the standing wave, being pushed away from a pressure antinode when the pressure is high there, and then being pulled toward it when the pressure is low there.  This doesn’t sound like it creates stable trapping!  However, the key to acoustic radiation pressure is that the standing waves oscillate too fast for a big, heavy particle (even a styrofoam bead) to follow the cycles of push and pull in a simple way.  Instead, the air in each region pushes the particle with an effective force proportional to the time average of the square of the pressure, $$ \langle p^2 \rangle $$.  There is a well-developed theoretical foundation for this force (see Gorkov, 1961 and Marzo *et al*, 2017) but we will not go into it here.  What’s important to note for now is that $$ \langle p^2 \rangle $$ is larger at the pressure antinodes than at the pressure nodes, so particles are consistently pushed either to the pressure nodes or to the pressure antinodes.  Most solid particles are pushed to (and trapped in) the pressure nodes; the exact details depend on the density of the object compared to air and the speed of sound through the object. 
 
 ### Week 1 Instructions
-By the end of the day today you will be able to successfully levitate, using sound waves, small polystyrene beads!
+By the end of the day today you will be able to successfully levitate, using sound waves, small polystyrene beads! And you will make a preliminary measurement of the speed of sound in air by measuring the separations between suspended beads.
 
-Our goal is to create a standing wave with the acoustic levitator. The speakers create sound by exerting force on the air. To create sound of a given pitch, or frequency, the speaker pushes the air back and forth in a repeating pattern at that frequency. The exact pattern — sinusoidally varying force, short bursts, or something else — influences the timbre of the sound produced. Our speakers are piezos, or piezoelectrics, meaning that applying a potential difference across the speaker will result in the speaker exerting a force on the air. If we want the speaker to create a tone, we need to give it a periodic signal. A **function generator**, shown below and abbreviated as “FG”-- is a piece of equipment that creates periodic signals.
+Our first goal is to create a standing wave with the acoustic levitator. The speakers create sound by exerting force on the air. To create sound of a given pitch, or frequency, the speaker pushes the air back and forth in a repeating pattern at that frequency. The exact pattern — sinusoidally varying force, short bursts, or something else — influences the timbre of the sound produced. Our speakers are piezos, or piezoelectrics, meaning that applying a potential difference across the speaker will result in the speaker exerting a force on the air. If we want the speaker to create a tone, we need to give it a periodic signal. A **function generator**, shown below and abbreviated as “FG”-- is a piece of equipment that creates periodic signals.
 
 [![Image of FG](images/fg_and_power.jpg)](images/fg_and_power.jpg){:target="_blank"}
 
@@ -123,9 +123,17 @@ Place a few beads on a lens wipe or dryer sheet and move them around between the
 
 ### Collecting data
 
-Your primary goal this week is to practice levitating beads and reach a point where both partners can comfortably levitate beads for data collection. Once you have reached this point you should collect sufficient exploratory data to make a preliminary estimate of the speed of sound.
+You have two main golas this week: first, you will practice levitating beads and reach a point where both partners can comfortably levitate beads for data collection. Second, you will collect sufficient exploratory data to make a preliminary estimate of the speed of sound.
 
-You also have several methods at your disposal to make your measurements. There are calipers, rulers, and cameras available in the lab. If you think of other methods that involve different materials around the lab, ask your instructor if you can use these materials. Creativity is encouraged!
+The basic strategy for determining the speed of sound using your acoustic levitator is as follows:
+
++ Place beads in the levitator. Using the provided materials and recommended parameters, you can trap one bead at each node position.
++ Each node is separated from the neighboring node by one half wavelength.
++ You will take a photo of the beads and digitally measure the distance between the nodes to compute the wavelength $$\lambda$$. This requires knowing the size of each pixel in the camera image, so you will need to include a ruler or something similar to calibrate the camera pixel size in the image you take.
++ You know the frequency $$\nu$$ of the wave, because you have set it with the function generator.
++ You can compute the speed of sound from $$v = \lambda \nu$$.
+
+You have several methods at your disposal to make your measurements. There are calipers, rulers, and cameras available in the lab. If you think of other methods that involve different materials around the lab, ask your instructor if you can use these materials. Creativity is encouraged!
 
 Each measurement method also comes with unique considerations, but here are some general considerations to ponder:
 
@@ -140,7 +148,7 @@ Each measurement method also comes with unique considerations, but here are some
 
 ### Calipers and rulers
 + Does putting an object (such as calipers or a ruler) in between the actuators affect the standing wave?
-+ Do the calipers and rulers exert forces (such as static force) on the Styrofoam beads?
++ Do the calipers and rulers exert forces (such as an electrostatic force) on the Styrofoam beads?
 + How far away (both vertically and horizontally!) can you hold a ruler or calipers from the object you wish to measure and still obtain a reasonably accurate reading?
 
 [Click here for instructions on using the calipers](https://www.physics.hmc.edu/~physics50/wp/?page_id=2253&amp;preview=true"){:target="_blank"}
@@ -221,7 +229,7 @@ For this week’s checkpoint you will be asked to report:
 
 + A brief explanation of how you reached the estimate
 
-+ A summary of what you learned from your preliminary exploration of sources of uncertainty. 
++ A summary of what you learned from your preliminary exploration of sources of uncertainty 
 
 
 ----------------
