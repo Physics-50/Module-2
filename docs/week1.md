@@ -207,7 +207,7 @@ Is your result reasonable? (Go ahead and look up the speed of sound in air for c
 
 ### Summary of what you need to leave lab with today
 
-+ You should have a preliminary estimate of the speed of sound based on the spacing between levitated beads. This should come from a picture that includes several levitated beads and a ruler that can be used for image calibration.
++ You should have a preliminary estimate of the speed of sound based on the spacing between levitated beads. This should come from a picture that includes four or more levitated beads and a ruler that can be used for image calibration.
 
 + You should use any remaining time to explore sources of uncertainty. You will likely find it helpful to touch base with your instructor when you get to this point. This is something we will continue to investigate in more detail next week.
 
