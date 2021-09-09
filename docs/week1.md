@@ -154,6 +154,10 @@ Each measurement method also comes with unique considerations, but here are some
 
 --------------
 
+## Setting up the camera to take a picture of the levitated beads
+
+The provided cell phone camera mount, mounted to a vertical pole can be used to position your cell phone above the acoustic levitator to take pictures of the beads for analysis. Make sure to include a ruler in the image for calibration purposes (give some thought to the best positioning of the ruler for accurate results).
+
 ### Preliminary Data Analysis
 
 It is helpful to begin your exploratory analysis with a back of the envelope estimate. Go ahead and make use of the measured spacing between beads to estimate the speed of sound. It is difficult to get a good estimate by directly measuring the distance between beads. Instead try the following:
@@ -200,32 +204,10 @@ Let’s practice with a mini-question. Please download the following image of le
 
 Is your result reasonable? (Go ahead and look up the speed of sound in air for comparison). If your result does not appear to be in reasonable agreement with the expected value you should pause here and try to work out why (talk to your instructor if unsure).
 
-### Data Analysis
-One of the most important ideas we want you to take from Module 2 is to think of a data set as a whole, not as individual points. 
 
-In the “back-of-the-envelope” check you just did, you measured the spacing between a single, fixed number of nodes. But the “node number” provides us with an independent variable that we can control, so by measuring the position of multiple nodes, we can create a plot of position versus node number data. Plotting the data and looking at the data set as a whole gives us confidence in our ability to determine the speed of sound, since it allows us to fit the data to the theoretical prediction in a more robust way. You do not need beads in every node to use this method, but you do need to use sound judgement and consistency with the theory to appropriately assign the node numbers to your levitated beads. 
-
-At the end of module 1 we introduced MATLAB and made use of it to fit a horizontal line of best fit. In this module we will continue to make use of MATLAB for data analysis. 
-
-How do we extract a slope from our measured data? You have previously fit a horizontal line, but now you will fit a line with a nonzero slope. To understand this fitting process, you now need to carefully read the [curve fitting guide](curve-fitting){:target="_blank"}. In it you will find a MATLAB script that includes a linear fit with both an intercept and a slope.
-
-To ensure you are prepared to analyze your data, please make use of the following figure to answer the subsequent mini-question.
-
-[![Image of sample data](images/sample_data-beads.png)](images/sample_data-beads.png){:target="_blank"}
-----
-
-#### Miniquestion 4: Estimating the speed of sound from a sample plot
-[*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSdyYDI3QEI4FDsfW4d0M4krPmhwPUsgcYBsDG48WcajfMYhgg/viewform?usp=sf_link){:target="_blank"}
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdyYDI3QEI4FDsfW4d0M4krPmhwPUsgcYBsDG48WcajfMYhgg/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
-</iframe>
-
------
 ### Summary of what you need to leave lab with today
 
-+ You should have a preliminary estimate of the speed of sound based on the spacing between levitated beads. Ideally this will include analyzing a figure or figure(s) with enough trapped beads for you to make a plot of Bead Position vs. Node Number and use this plot to determine the speed of sound.
-
-+ You should have established a method of calibration to convert the distances in “pixels” in a picture of levitated beads to units of mm.
++ You should have a preliminary estimate of the speed of sound based on the spacing between levitated beads. This should come from a picture that includes several levitated beads and a ruler that can be used for image calibration.
 
 + You should use any remaining time to explore sources of uncertainty. You will likely find it helpful to touch base with your instructor when you get to this point. This is something we will continue to investigate in more detail next week.
 
