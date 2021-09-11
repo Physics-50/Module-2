@@ -5,7 +5,7 @@
 
 [Weekly Plan](#weekly-plan)
 + [Week 1 - Exploratory Phase](week1)
-+ [Week 2 - Investigation of a systematic error](week2)
++ [Week 2 - Investigation of a Source of Uncertainty](week2)
 + [Week 3 - Final Determination of Speed of Sound](week3)
 + [Week 4 - Scientific Communication](week4)
 
