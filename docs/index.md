@@ -4,9 +4,9 @@
 [Module 2 Overview](#module-2-overview)
 
 [Weekly Plan](#weekly-plan)
-+ [Week 1 - Exploratory Phase (part 1)](week1)
-+ [Week 2 - Exploratory Phase (part 2)](week2)
-+ [Week 3 - Final Determination of Viscosity](week3)
++ [Week 1 - Exploratory Phase](week1)
++ [Week 2 - Investigation of a systematic error](week2)
++ [Week 3 - Final Determination of Speed of Sound](week3)
 + [Week 4 - Scientific Communication](week4)
 
 [Background Reading](#background-reading)
@@ -41,14 +41,14 @@ Although we are going to treat these phases as separate, linear progression, the
 
 In this module, you will use the position at which beads can be suspended in an acoustic levitator to determine the speed of sound in air.  The theory behind this module gives you a chance to review and extend your understanding of vibrations and waves from Physics 24.  On the laboratory side, this module is an opportunity to consider the interplay between several sources of error in a final quantity, and to focus on systematic as well as random errors.  In setting up the experiment, you will make your own choices that can in turn influence the accuracy and precision of your results. 
 
-Module 2 is five weeks long. Each of the first three weeks, you will have a checkpoint due. These checkpoints will give us a chance to provide you feedback as you work towards the Module 2 deliverable: a series of figures with captions that convey the nature of the data and logic, leading to a final result. In this module you should start with Week 1, and the relevant concepts will be linked in context as you go along through this and other weeks.
+Module 2 is four weeks long. Each of the first three weeks, you will have a checkpoint due. These checkpoints will give us a chance to provide you feedback as you work towards the Module 2 deliverable: a series of figures with captions that convey the nature of the data and logic, leading to a final result. 
 
 1. [Week 1 - Exploratory Phase](week1)
-    - Checkpoint: preliminary measurement of viscosity ($$\eta$$) from trajectories of 3.5-mm diameter spheres, with uncertainty from random error in terminal speed ($$v_T$$) values.
-2. Week 2 - Exploratory Phase (continued)
-    - Checkpoint: calculated viscosity as a function of sphere diameter, to check assumptions.
-3. Week 3 - Final Determination of Viscosity
-    - Checkpoint: Plot of bead position v.s. antinode number, estimate of viscosity and uncertainty.
+    - Checkpoint: preliminary measurement of the speed of sound from an image
+2. Week 2 - Investigation of a source of systematic error
+    - Checkpoint: results showing the significance of the position of the ruler used for calibration to the overall uncertainty of the measurement
+3. Week 3 - Final Determination of Speed of SOund
+    - Checkpoint: Plot of bead position v.s. antinode number, estimate of the speed of sound, and uncertainty.
 4. Week 4 - Scientific Communication
     - Deliverable: a sequence of figures with captions that communicate your reasoning and results.
 
