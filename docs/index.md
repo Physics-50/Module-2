@@ -28,7 +28,7 @@ In Module 2 you will encounter an experiment designed to determine the value of 
 1. Exploratory Phase
     - this open-ended phase often involves doing some background reading, getting familiar with a measurement technique, trying to take and analyze some preliminary data, and exploring what choices you can make to improve the reliability of your results.
 
-2. Final Determination of Viscosity Phase
+2. Final Determination of Result (Speed of Sound) Phase
     - in this phase you follow the experimental plan you developed in the "Exploratory Phase" to obtain your best values for the physical quantity of interest, and its uncertainty.
 
 3. Communication Phase
