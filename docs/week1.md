@@ -19,15 +19,19 @@ This week in lab you will be working with a standing wave of sound to levitate s
 #### A Brief Review of Standing Waves
 The acoustic levitators we will use in lab make use of standing waves of sound. Let us harken back to Ph 24 for a brief review of the basics of standing waves.
 
-As you may recall, in a transverse wave the disturbance away from equilibrium, y, in a wave traveling in the x direction can be described by the equation $$y=A \sin(k x-\omega t)=A \sin(2\pi(\frac{x}{\lambda}-\nu t))$$ where $$ A$$ is the maximum amplitude, $$ \nu=\frac{\omega}{2\pi}$$ is the frequency, and $$\lambda$$ is the wavelength of the wave. The speed $$ v$$ of the wave is given by $$v=\lambda \nu.$$
+As you may recall, in a transverse wave the disturbance away from equilibrium, y, in a wave traveling in the x direction can be described by the equation $$y=A \sin(k x-\omega t)=A \sin[2\pi(\frac{x}{\lambda}-\nu t)]$$ where $$ A$$ is the maximum amplitude, $$ \nu=\frac{\omega}{2\pi}$$ is the frequency, and $$\lambda$$ is the wavelength of the wave. The speed $$ v$$ of the wave is given by $$v=\lambda \nu.$$
 
 In the case of a wave on a string the wave travels along the length of the string and the disturbance $$ y $$ is the displacement of bits of string perpendicular to the length. Imagine a string tied at one end to a fixed spot on a post, held under constant tension and attached at the other end to a mechanical oscillator that jiggles the string. The oscillator creates a sine wave that propagates towards the fixed end, where it reflects, creating another sine wave that propagates back toward the oscillator in the opposite direction. We now have two waves traveling in opposite directions and what we observe will be the result of these two waves added together.
 
-Recall that the superposition of two waves traveling in opposite directions can be represented by $$ y_{\rm total}(x,t)=A \sin(k x-\omega t) + A \sin(k x+\omega t +\phi)$$ where the reflected wave has the same maximum amplitude as the incident wave but has picked up a phase $$ \phi$$. Our combined wave can now be represented as $$y_{\rm total}(x,t)=A \sin(k x-\omega t) - A \sin(k x+\omega t )$$ where we have made use of the fact that $$ \sin(\theta+\pi) = -\sin(\theta)$$. Making use of one more fun fact, $$ \sin(A + B)=\sin(A)\cos(B)+\sin(B)\cos(A)$$, and a little bit of algebra you can show that this simplifies to $$y_{\rm total}(x,t)=-2A \sin(\omega t)\ cos(kx)$$
+Recall that the superposition of two waves traveling in opposite directions can be represented by
+\begin{equation}
+ y_{\rm total}(x,t)=A \sin(k x-\omega t) + A \sin(k x+\omega t +\phi)
+\end{equation}
+where the reflected wave has the same maximum amplitude as the incident wave but has picked up a phase $$ \phi$$. Our combined wave can now be represented as $$y_{\rm total}(x,t)=A \sin(k x-\omega t) - A \sin(k x+\omega t )$$ where we have made use of the fact that $$ \sin(\theta+\pi) = -\sin(\theta)$$. Making use of one more fun fact, $$ \sin(A + B)=\sin(A)\cos(B)+\sin(B)\cos(A)$$, and a little bit of algebra you can show that this simplifies to $$y_{\rm total}(x,t)=-2A \sin(\omega t)\ cos(kx)$$
 
 The takeaway from this is that the position and time dependence are now separate! It is as though the wave is fixed in space along the x axis while the effective "maximum amplitude" oscillates in time as $$ 2 A \sin(\omega t)$$. This is known as a standing wave and is shown in the figure below.
 
-<img class="size-full wp-image-1493" src="https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/08/standing-waves.gif" alt="" width="288" height="288" /> 
+<img class="size-full wp-image-1493" src="https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/08/standing-waves.gif" alt="" width="288" height="288" />
 
 Above is a  standing wave formed by counter-propagating sine waves. The blue standing wave is the sum of the upper two traveling waves. Animation courtesy of D. Russell.
 
@@ -46,13 +50,13 @@ Given that sound is vibrations of the air, might sound waves push and even levit
 
 First we’ll discuss the generation and propagation of a traveling wave of sound. Consider the following thought experiment. There is a speaker placed on a table, so that sound projects from the speaker to the ceiling. Suppose the speaker is attached to a function generator, and so outputs a noise with a constant frequency. The speaker operates by vibrating a “plate” up and down at the frequency set by the function generator, thus creating regular disturbances in the air, which your eardrums interpret as sound. These disturbances are longitudinal waves, unlike the transverse waves we imagined on a string earlier. Whereas a transverse wave vibrates in the direction perpendicular to the direction along which the wave is moving, longitudinal waves vibrate in the direction along the direction of motion of the wave. These distinctions are hopefully made clear by the following two animations. The left is a transverse wave while the right is a longitudinal wave like sound:
 
-<img class="wp-image-1517" src="https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/08/transverse-longitudinal-waves2.gif" alt="" width="529" height="320" /> 
+<img class="wp-image-1517" src="https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/08/transverse-longitudinal-waves2.gif" alt="" width="529" height="320" />
 
 Above are animations of transverse (left) and longitudinal (right) travelling waves. Note the difference in the behavior of individual particles in each wave type. Sound waves are longitudinal and look like the right-hand picture. Animation credit D. Russell.
 
 Electromagnetic waves are transverse, as are tsunamis in the open ocean. However, tsunami waves at the shore and slinky compression waves are longitudinal, as are sound waves.
 
-<img class="wp-image-561" src="http://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/07/Water-2016.gif" alt="Water waves GIF" width="300" height="130" /> 
+<img class="wp-image-561" src="http://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/07/Water-2016.gif" alt="Water waves GIF" width="300" height="130" />
 
 Fun fact! The waves you see at the surface of the water in the ocean, those which “break” at the beach, are called surface or circular waves since particles in them effectively move in circles, and are neither longitudinal nor transverse, but rather a combination of the two as illustrated above.
 
@@ -63,7 +67,7 @@ We learned in the previous section that traveling waves of the same frequency, m
 The sinusoidal waves shown in the figure below represent the pattern of pressure variations in the air; they also looked exactly like the geometric shape of the string in our thought experiment above.  However, because sound waves are longitudinal, the actual motion of the air molecules looks geometrically a little different as shown in the figure below.
 
 
-<img class="wp-image-1520" src="https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/08/standing-displacement-antinode-vert-cropped-4.gif" alt="" width="600" height="416" /> 
+<img class="wp-image-1520" src="https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/08/standing-displacement-antinode-vert-cropped-4.gif" alt="" width="600" height="416" />
 
 The above animation shows a standing pressure wave that is oscillating at its resonance frequency. In the left animation we see the air particles being driven back and forth, creating regions of high and low pressure. The middle animation shows the displacement from equilibrium of a particle as a function of position. The right animation represents the deviation from equilibrium pressure as a function of position. Note this pressure wave is oscillating about the equilibrium pressure, not zero pressure. Notice the motion of the <span style="color: #ff0000;">red particles</span> for various locations and how the displacement and pressure animations relate to that motion.
 
@@ -73,7 +77,7 @@ Resonant standing waves of sound are very common.  (To play with some, consult 
 
 In our acoustic levitator apparatus, the two sources are two sets of tiny speakers driven by the same electrical signal.  Each speaker set is arranged in a slightly concave bowl-like shape, and the two bowls face each other on opposite ends of a plastic frame.  The curved, concave shape of each source is a detail we haven’t yet discussed.  Its purpose is to shape the standing waves, making them focused and strongest in the middle of the apparatus.  The same thing is very commonly done for standing waves of light, with pairs of curved mirrors.  You can get a rough idea of how the curved surfaces produce curved wave patterns in the second half of <a href="https://www.youtube.com/watch?v=tVWemRbgLW4">this</a> video.
 
-How does a standing wave of sound produce acoustic levitation?  Take a good look at the standing wave in the previous figure .  A standing wave of sound consists of “pressure antinodes,” fixed positions in space where the pressure <em>deviates the most from the equilibrium</em>, atmospheric value, and “pressure nodes,” fixed positions in space where the <em>pressure stays constant</em>.  You might imagine a small styrofoam bead placed in the standing wave, being pushed away from a pressure antinode when the pressure is high there, and then being pulled toward it when the pressure is low there.  This doesn’t sound like it creates stable trapping!  However, the key to acoustic radiation pressure is that the standing waves oscillate too fast for a big, heavy particle (even a styrofoam bead) to follow the cycles of push and pull in a simple way.  Instead, the air in each region pushes the particle with an effective force proportional to the time average of the square of the pressure, $$ \langle p^2 \rangle $$.  There is a well-developed theoretical foundation for this force (see Gorkov, 1961 and Marzo *et al*, 2017) but we will not go into it here.  What’s important to note for now is that $$ \langle p^2 \rangle $$ is larger at the pressure antinodes than at the pressure nodes, so particles are consistently pushed either to the pressure nodes or to the pressure antinodes.  Most solid particles are pushed to (and trapped in) the pressure nodes; the exact details depend on the density of the object compared to air and the speed of sound through the object. 
+How does a standing wave of sound produce acoustic levitation?  Take a good look at the standing wave in the previous figure .  A standing wave of sound consists of “pressure antinodes,” fixed positions in space where the pressure <em>deviates the most from the equilibrium</em>, atmospheric value, and “pressure nodes,” fixed positions in space where the <em>pressure stays constant</em>.  You might imagine a small styrofoam bead placed in the standing wave, being pushed away from a pressure antinode when the pressure is high there, and then being pulled toward it when the pressure is low there.  This doesn’t sound like it creates stable trapping!  However, the key to acoustic radiation pressure is that the standing waves oscillate too fast for a big, heavy particle (even a styrofoam bead) to follow the cycles of push and pull in a simple way.  Instead, the air in each region pushes the particle with an effective force proportional to the time average of the square of the pressure, $$ \langle p^2 \rangle $$.  There is a well-developed theoretical foundation for this force (see Gorkov, 1961 and Marzo *et al*, 2017) but we will not go into it here.  What’s important to note for now is that $$ \langle p^2 \rangle $$ is larger at the pressure antinodes than at the pressure nodes, so particles are consistently pushed either to the pressure nodes or to the pressure antinodes.  Most solid particles are pushed to (and trapped in) the pressure nodes; the exact details depend on the density of the object compared to air and the speed of sound through the object.
 
 ### Week 1 Instructions
 By the end of the day today you will be able to successfully levitate, using sound waves, small polystyrene beads! And you will make a preliminary measurement of the speed of sound in air by measuring the separations between suspended beads.
@@ -95,7 +99,7 @@ For this experiment, <strong>set the function generator (FG) to create a 40 kHz 
 #### Powering the Acoustic Levitator
 Let’s turn our electric signal into a sound wave! Ensure that the switch on the levitator is set to “AMP.” Be careful, as the switch has 3 possible positions, and you want to set it all the way to “AMP.” This sets the output from the FG to go through a digital driver. A digital driver sets the potential difference at its output to one of two things: either 0 V, or the voltage supplied by the power supply (labeled PS OUTPUT (+)). The voltage on the logic inputs determines which of these two options is outputted. In our setup, the square wave output of the function generator is connected to the logic inputs. Thus, the output of the driver will be a square wave oscillating at the same frequency as the function generator, switching between 0 V and the power supply output voltage.
 
-<img class="wp-image-1413" src="http://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/08/digital-driver.png" alt="" width="400" height="400"> 
+<img class="wp-image-1413" src="http://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/08/digital-driver.png" alt="" width="400" height="400">
 
 The above image shows a schematic of the driver used in our circuit “L298N Motor Drive Controller Board.” This board is actually able to drive two devices with outputs A and B. We will only be using one in our circuit. “PS OUTPUT(+)” is the connection to the positive power supply output and “PS GND” is the power supply ground.
 
@@ -158,7 +162,7 @@ Each measurement method also comes with unique considerations, but here are some
 + How well does a 3D world translate into a 2D image? How do objects on different planes scale in a 2D image? (i.e. does it matter how far away the object, bead or ruler, is from the camera?) Try placing your ruler at different heights - how much does it affect the conversion factor you obtain?
 + Is the contrast sufficient to resolve the bead position. If not is there anything you can adjust (e.g. use a different background to get better contrast) in order to obtain higher quality image?
 + Does the part of the image you are analyzing change your measurement of the wavelength? Does it matter if you are measuring beads at the edge of the photo or in the middle?
-+ Does the angle of the camera with respect to the beads/ruler affect the measurement? 
++ Does the angle of the camera with respect to the beads/ruler affect the measurement?
 
 --------------
 
@@ -229,7 +233,7 @@ For this week’s checkpoint you will be asked to report:
 
 + A brief explanation of how you reached the estimate
 
-+ A summary of what you learned from your preliminary exploration of sources of uncertainty 
++ A summary of what you learned from your preliminary exploration of sources of uncertainty
 
 
 ----------------
@@ -241,4 +245,3 @@ For this week’s checkpoint you will be asked to report:
 1. Gorkov, L. P., “Forces acting on a small particle in an acoustic field within an ideal fluid,” Dokl. Akad. Nauk SSSR 140(1), 88 (1961).
 
 2. A. Marzo, A. Barnes, and B. W. Drinkwater, “<span class="NLM_article-title">Tinylev: A multi-emitter single-axis acoustic levitator</span>,” Rev. Sci. Instrum. <b>88</b>(8), 085105 (2017).
-
