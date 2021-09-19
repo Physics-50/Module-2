@@ -233,9 +233,11 @@ Is your result reasonable? (Go ahead and look up the speed of sound in air for c
 
 For this week’s checkpoint you will be asked to report:
 
-+ Your preliminary estimate for the speed of sound with uncertainty based on your week 1 results
++ An image of the levitated beads you used in your analysis
 
-+ A brief explanation of how you reached the estimate
++ The conversion factor you used for converting pixels to distance and a 1-2 sentence description of how you arrived at this conversion factor
+
++ An estimate of the speed of sound with uncertainty based on your preliminary data
 
 + A summary of what you learned from your preliminary exploration of sources of uncertainty
 
