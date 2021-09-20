@@ -20,11 +20,11 @@ Tackling systematic error is a two-step process, first you should try to reduce 
 
 For this week's checkpoint you will ask to submit the following:
 
-+ Answers to a couple of questions on Gradescope about the preliminary part of the exam when you "wiggled the parameters" to determine if parallax was a significant source of systematic error.
++ Answers to a couple of questions on Gradescope about the preliminary part of the investigation when you "wiggled the parameters" to determine if parallax was a significant source of systematic error.
 
 + A description of what you did to minimize parallax as a source of systematic error with an image showing your experimental setup. <!-- 098 -->
 
 + Your estimate for the wavelength of the sound wave in your experiment from 5 or more distinct measurements in which you attempted to randomize parallax as a source of uncertainty.
 
-+ Your estimate for the speed of sound, with uncertainty from 5 or more distinct measurements in which you attempted to randomize parallax as a source of uncertainty.
++ Your estimate for the speed of sound, with uncertainty, the measurements of the previous point.
 <!-- makes it sound like a different set of measurements, although I'm sure that is not what you mean. -->
