@@ -234,13 +234,16 @@ Is your result reasonable? (Go ahead and look up the speed of sound in air for c
 This week's checkpoint will be submitted in two parts. 
 
 **Part 1: Practice calculation**
-You can resubmit Module 2, checkpoint 1, Part 1 as many times as you like until you get the correct answer (it is autograded and will give you and immediate response). For this part (only) it is also okay to "save" your responses to the individual questions. You should do part 1 before part 2. You may find it helpful to attempt part 1 before your time in lab. You should make use of this image when completing part 1 of the checkpoint:
+**You can resubmit Module 2, checkpoint 1, Part 1 as many times as you like until you get the correct answer (it is autograded and will give you and immediate response). For this part (only) it is also okay to "save" your responses to the individual questions.**
+
+ You should do part 1 before part 2. You may find it helpful to attempt part 1 before your time in lab. You should make use of the image below when completing part 1 of the checkpoint (it is also included in the assignment on Gradescope):
 
 [![Practice image](images/Checkpoint1_practice.png)](images/Checkpoint1_practice.png){:target="_blank"}
 
 
 **Part 2: Post-lab analysis**
-For part 2 our usual rules of no resubmission (including not saving before submitting) apply.
+For part 2 our usual rules apply:
+**As a reminder: Please prepare your assignment in a separate document, enter all entries in a single sitting without using the "save" button and then make use of the "submit" button to submit your work. You may not resubmit your work once it has been submitted (and saving in Gradescope is equivalent to submitting).**
 
 For this week’s checkpoint, part 2 you will be asked to report:
 
