@@ -26,5 +26,5 @@ For this week's checkpoint you will ask to submit the following:
 
 + Your estimate for the wavelength of the sound wave in your experiment from 5 or more distinct measurements in which you attempted to randomize parallax as a source of uncertainty.
 
-+ Your estimate for the speed of sound, with uncertainty, the measurements of the previous point.
++ Your estimate for the speed of sound, with uncertainty, using the measurements of the previous item.
 <!-- makes it sound like a different set of measurements, although I'm sure that is not what you mean. -->
