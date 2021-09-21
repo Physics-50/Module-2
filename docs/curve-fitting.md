@@ -29,14 +29,14 @@ If you look at that sum, each term is the squared difference in height, on an $$
 
 For example if we have three data points $$(x_1,y_1)$$, $$(x_2,y_2)$$, $$(x_3,y_3)$$, an unweighted fit to those data points would minimize the total squared distance between the data and the fitted line.
  
-![unweighted fit](images/unweighted_fit.jpg)
+![unweighted fit](images/no-uncertainties.png)
 
 In the plot above, the fitting procedure adjusts the values of $$m$$ and $$b$$ to minimize the sum of the squared lengths of the pink lines.
 
 One shortcoming of the unweighted least squares fit of Eq.\eqref{eq:unweighted} is that it treats all data points equally, even ones with really big error bars. We often measure data points that have different error bars. Because these error bars represent how confident we are about our measured values, we should take into account our relative confidence about each data point.
 
 For example, let's look at those same three data points, but where each $$y_i$$ has a corresponding uncertainty $$\delta y_i$$. In this example, let's make the uncertainty in the third data point much larger than the other two:
-![why weighted fitting?](images/why_weighted_least_squares.jpg)
+![why weighted fitting?](images/why-weight.png)
 
 An unweighted fit (blue, solid line) treats all three of those data points equally. Although this fit line is "close" to all three data points, it doesn't account for the fact that some data points are more reliable than others. That's because the unweighted fit doesn't take into account the extra information we have about the uncertainty in the data. 
 
@@ -51,7 +51,7 @@ Performing a weighted least-squares fit on the example data above, we get the re
 #### 2. Uncertainties in the fitted slope and intercept
 
 For Module 2, we are giving you a weighted curve-fitting script for MATLAB that provides an estimate of the uncertainty in the fitted slope and intercept. The uncertainty in the slope and intercept are determined from the error bars and from how scattered the data are about the fit line. Here's an example of the output of the script on some sample data:
-![linear fit example](images/linear_fit_intermediate_chi2.jpg)
+![linear fit example](images/weighted-fit.png)
 
 The legend has some important information about the fit. The best-fit slope and intercept are provided, along with their uncertainties. 
 
@@ -68,7 +68,7 @@ In our example data above, we had 11 data points and two fitting parameters ($$m
 **The value of $$\chi_\nu^2$$ is important because it can tell us how good our fit is (or sometimes, how well we estimated the error bars).** If our error bars are an accurate representation of the uncertainty in the data, we would expect *on average* each data point to be approximately one error bar away from the line: $$\chi_\nu^2 \approx 1$$. In the example above, the value of $$\chi_\nu^2 = 0.78$$ supports the idea that our linear fit is a good model of the data. 
 
 Let's look at two examples where our reduced $$\chi^2$$ value differs significantly from 1. First, here's an example where $$\chi_\nu^2$$ is small:
-![overfit example](images/linear_fit_small_chi2.jpg)
+![overfit example](images/errors-too-big.png)
 In this example, each data point is much closer than 1 error bar to the fitted line. There are a few ways that a $$\chi_\nu^2 \ll 1$$ can occur: 
 
 + perhaps we have too many free parameters in the fitting function, allowing the function to hit all the data points. However, we only have 2 parameters here ($$m$$ and $$b$$), so that's not the issue;
@@ -78,7 +78,7 @@ In this example, each data point is much closer than 1 error bar to the fitted l
 The third option seems most likely in this case. So **if our data looked like this, we should double-check the error-bar calculation.**
 
 Finally, let's take a look at an example where the data points are typically much further than 1 error bar away from the fitted line:
-![underfit example](images/linear_fit_large_chi2.jpg)
+![underfit example](images/errors-too-small.png)
 
 
 This large reduced $$\chi^2$$ value tells us that:
