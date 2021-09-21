@@ -42,7 +42,7 @@ An unweighted fit (red, dashed line) treats all three of those data points equal
 
 **When the error bars aren't all the same, we want to use a weighted least-squares fit.** In a weighted least-squares fit, the minimization is performed in a slightly different way than Eq. \eqref{eq:unweighted}. The difference between data and the fit line is divided by the error bar (uncertainty) for each point. In the fit we determine the values of $$m$$ and $$b$$ that minimize the quantity 
 \begin{equation}\label{eq:weighted}
-\chi^2 = \underset{m,b}{\mathrm{min}} \sum_{i=1}^{n} \left(\frac{y_i - (mx_i+b)}{\delta y_i}\right)^2.
+\chi^2 = \underset{m,b}{\mathrm{min}} \sum_{i=1}^{n} \left(\frac{y_i - (mx_i+b)}{\delta y_i}\right)^2
 \end{equation}
 Here, $$\chi$$ is the Greek letter "chi" (pronounced like ["Kai"](https://www.marketplace.org/2020/10/01/canadas-tourist-driven-pne-pivots-to-hosting-film-production/){:target="_blank"}). *The form of Eq. \eqref{eq:weighted} is similar to the equation we used to calculate our weighted average in Module 2.*  <!-- is this right??? -->
 
@@ -109,7 +109,7 @@ Every time you run the script, you will get the following warning in the command
 
 This warning appears because we aren't providing the fit function with an initial guess of the slope and intercept. The function is picking an initial guess randomly. The initial guess might affect the fitting if you have many fitting parameters, but because we only have 2 fitting parameters $$(m,b)$$, **you can safely ignore this warning.**
 
-To use the script for your own data, simply replace the "import data" section of the code (lines 8-10) with your own data pasted in. You should also customize the plot (lines 14-24) by changing the axis labels and limits. Everything else should not need modification in the script if you are fitting a straight line to your data.
+To use the script for your own data, simply replace the "import data" section of the code (lines 8-10) with your own data pasted in. You should also customize the plot (lines 24-31) by changing the axis labels and limits. Everything else should not need modification in the script if you are fitting a straight line to your data.
 
 #### Optional 
 
@@ -117,15 +117,4 @@ In the future (i.e., not needed in Ph50), if you'd like to fit a different funct
 
 ``` MATLAB
 fit_func = @(a,b,c,x) a*x.^2 + b*x + c;  
-```
-
-As a fun check, you could try fitting your Module 2 data to a constant function by replacing line 27 with:
-``` MATLAB
-fit_func = @(b,x) b*x.^0;   % here, y = b (constant function); 
-                            % 1 free fit parameter "b";
-                            % need to "trick" MATLAB into thinking this is
-                            % a function of x (otherwise the "fit" function below throws an error)
-                            % x.^0 creates a vector of ones the size of x
-                            % the .^ is an element-by-element exponentiation
-
 ```
