@@ -74,7 +74,7 @@ In this example, each data point is much closer than 1 error bar to the fitted l
 
 + perhaps we have too many free parameters in the fitting function, allowing the function to hit all the data points. However, we only have 2 parameters here ($$m$$ and $$b$$), so that's not the issue;
 + perhaps it was just a random coincidence that the values lined up, but we have many data points lining up, so that's probably not it either; 
-+ we overestimated the error bars; 
++ we overestimated the error bars.
 
 The third option seems most likely in this case. So **if our data looked like this, we should double-check the error-bar calculation.**
 
@@ -82,7 +82,7 @@ Finally, let's take a look at an example where the data points are typically muc
 ![underfit example](images/errors-too-small.png)
 
 
-This large reduced $$\chi^2$$ value tells us that:
+This large value of $$\chi_\nu^2$$ tells us that:
 
 + perhaps our model (fitting function) isn't right;
 + perhaps there's a coincidence occurring, but we have many data points not falling on the line so that's probably not the issue;
@@ -92,7 +92,7 @@ The first and third options are both plausible, so we would have to think carefu
 
 ### MATLAB Code
 
-To use the MATLAB code first make sure you have the "curve fitting toolbox" installed. In the MATLAB environment, go to "HOME"-->"Add-Ons"-->"Get Add-Ons":
+To use the MATLAB code first make sure you have the "curve fitting toolbox" and the "statistics and machine learning toolbox" installed. In the MATLAB environment, go to "HOME"-->"Add-Ons"-->"Get Add-Ons":
 
 ![get add ons](images/get_add_ons.png)
 
