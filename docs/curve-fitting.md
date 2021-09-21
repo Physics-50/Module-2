@@ -56,11 +56,11 @@ For Module 2, we are giving you a weighted curve-fitting script for MATLAB that 
 The legend has some important information about the fit. The best-fit slope and intercept are provided, along with their uncertainties. 
 
 
-#### 3. Using reduced $$\chi^2$$, $$\chi_\nu^2$$, to determine how good your fit is
+#### 3. Using reduced chi-squared, $$\chi_\nu^2$$, to determine how good your fit is
 
-Also reported in the legend is the "reduced chi-squared", $$\chi_\nu^2$$, which is a normalized version of $$\chi^2$$ from Eq. \eqref{eq:weighted}. The reduced chi-squared calculated by 
+Also reported in the legend is the "reduced chi-squared", $$\chi_\nu^2$$, which is a normalized version of $$\chi^2$$ from Eq. \eqref{eq:weighted}. The reduced chi-squared is defined by 
 \begin{equation}
-\chi_\nu^2 = \frac{\chi^2}{\textrm{# data points - # fitting parameters}}.
+\chi_\nu^2 = \frac{\chi^2}{\text{# data points - # fitting parameters}}
 \end{equation}
 
 In the example data above, we had 11 data points and two fitting parameters ($$m$$ and $$b$$). Roughly speaking, the reduced $$\chi^2$$ value tells us on average how many error bars away each data point is from the fitted line. So the value $$\chi_\nu^2 = 0.86$$ in the example means that on average each data point is just within its error bar of the fitted line. Looking at the data and fit above, although there are a couple of data points that are farther away from the line than their error bars, on average they fall within their error bar of the fitted line.
@@ -68,6 +68,7 @@ In the example data above, we had 11 data points and two fitting parameters ($$m
 **The value of $$\chi_\nu^2$$ is important because it can tell us how good our fit is (or sometimes, how well we estimated the error bars).** If our error bars are an accurate representation of the uncertainty in the data, we would expect *on average* each data point to be approximately one error bar away from the line: $$\chi_\nu^2 \approx 1$$. In the example above, the value of $$\chi_\nu^2 = 0.86$$ supports the idea that our linear fit is a good model of the data. 
 
 Let's look at two examples where our reduced $$\chi^2$$ value differs significantly from 1. First, here's an example where $$\chi_\nu^2$$ is small:
+
 ![overfit example](images/errors-too-big.png)
 In this example, each data point is much closer than 1 error bar to the fitted line. There are a few ways that a $$\chi_\nu^2 \ll 1$$ can occur: 
 
@@ -92,6 +93,7 @@ The first and third options are both plausible, so we would have to think carefu
 ### MATLAB Code
 
 To use the MATLAB code first make sure you have the "curve fitting toolbox" installed. In the MATLAB environment, go to "HOME"-->"Add-Ons"-->"Get Add-Ons":
+
 ![get add ons](images/get_add_ons.png)
 
 and search for the "curve fitting toolbox":
@@ -100,7 +102,7 @@ and search for the "curve fitting toolbox":
 
 If it says "Installed" you are good to go. Otherwise, click on the Curve Fitting Toolbox page and install it. Now do the save for the "Statistics and Machine Learning Toolbox".
 
-Now that you have the curve fitting toolbox, please download the file [curve_fitting_demo.m](curve_fitting_demo.m) and run the script. 
+Now that you have the curve fitting toolbox, please download the file [curve_fitting.m](curve_fitting.m) and run the script. 
 
 Every time you run the script, you will get the following warning in the command window:
 ![warning](images/warning.png)
@@ -111,7 +113,7 @@ To use the script for your own data, simply replace the "import data" section of
 
 #### Optional 
 
-In the future (i.e. not needed in Ph50), if you'd like to fit a different function to your data, you can change line 27 of the code to a different function. You could, for example, fit to a quadratic by replacing line 27 with:
+In the future (i.e., not needed in Ph50), if you'd like to fit a different function to your data, you can change line 27 of the code to a different function. You could, for example, fit to a quadratic by replacing line 27 with:
 
 ``` MATLAB
 fit_func = @(a,b,c,x) a*x.^2 + b*x + c;  
