@@ -22,6 +22,6 @@ For this week's checkpoint you will ask to submit the following:
 
 + Answers to a couple of questions on Gradescope about the preliminary part of the investigation when you "wiggled the parameters" to determine if parallax was a significant source of systematic error.
 
-+ A description of what you did to minimize parallax as a source of systematic error with a images showing your experimental setup. You will need to show both a top view and sideview image to showcase your efforts to minimize parallax in both directions.
++ A description of what you did to minimize parallax as a source of systematic error with images showing your experimental setup. You will need to show both a top-view and side-view image to showcase your efforts to minimize parallax in both directions.
 
 + Your estimate for the wavelength of the sound wave in your experiment from 5 or more distinct measurements in which you attempted to randomize parallax as a source of uncertainty and subsequent estimate for the speed of sound, with uncertainty.
