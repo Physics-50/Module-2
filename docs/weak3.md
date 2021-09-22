@@ -52,7 +52,7 @@ Make sure to note which levitator you are using (hopefully you did this last wee
 
 + a link to your organized spreadsheet in which you have calculated the mean bead position and uncertainty for each node position. For any nodes for which you only have a single data point please indicate that the uncertainty is undetermined and do not use that data point in your plot. 
 
-+ a plot of bead position v.s. node number, prepared in MATLAB. Each data point should have an uncertainty from multiple measurements following the instructions in this week's manual. Please display the fit parameters including the $$\Chi^2$$ value on the plot (the provided script will do this for you)
++ a plot of bead position v.s. node number, prepared in MATLAB. Each data point should have an uncertainty from multiple measurements following the instructions in this week's manual. Please display the fit parameters including the reduced $$\chi^2$$ value on the plot (the provided script will do this for you)
 
 + a calculation of the speed of sound with uncertainty based on your line of best fit to the previous plot
 
