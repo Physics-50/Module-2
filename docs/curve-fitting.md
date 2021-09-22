@@ -44,7 +44,7 @@ An unweighted fit (red, dashed line) treats all three of those data points equal
 \begin{equation}\label{eq:weighted}
 \chi^2 = \underset{m,b}{\mathrm{min}} \sum_{i=1}^{n} \left(\frac{y_i - (mx_i+b)}{\delta y_i}\right)^2
 \end{equation}
-Here, $$\chi$$ is the Greek letter "chi" (pronounced like ["Kai"](https://www.marketplace.org/2020/10/01/canadas-tourist-driven-pne-pivots-to-hosting-film-production/){:target="_blank"}). *The form of Eq. \eqref{eq:weighted} is similar to the equation we used to calculate our weighted average in Module 2.*  <!-- is this right??? -->
+Here, $$\chi$$ is the Greek letter "chi" (pronounced like ["Kai"](https://www.marketplace.org/2020/10/01/canadas-tourist-driven-pne-pivots-to-hosting-film-production/){:target="_blank"}).
 
 Performing a weighted least-squares fit on the example data above, we get the solid blue line. When we do a weighted least-squares fit, we expect to find that **each data point is about one error bar away, on average, from the fitted line.**
 
