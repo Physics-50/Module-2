@@ -1,10 +1,10 @@
 ## Week 3
 
-1. [Background: Data Analysis](#background:-data-analysis)
-2. [Instructions: In Lab this Week](#instructions:-in-lab-this-week)
+1. [Background: Data Analysis](#background-reading-for-data-analysis)
+2. [Instructions: In Lab this Week](#instructions-for-in-lab-this-week)
 3. [Checkpoint #3](#checkpoint-#3)
 
-### Background: Data Analysis
+### Background Reading for Data Analysis
 One of the most important ideas we want you to take from Module 2 is to think of a data set as a whole, not as individual points. 
 
 In the analysis you completed in weeks 1 and 2, you measured the spacing between a single, fixed number of nodes. But the “node number” provides us with an independent variable that we can control, so by measuring the position of multiple nodes, we can create a plot of position versus node number data. Plotting the data and looking at the data set as a whole gives us confidence in our ability to determine the speed of sound, since it allows us to fit the data to the theoretical prediction in a more robust way. You do not need beads in every node to use this method, but you do need to use sound judgement and consistency with the theory to appropriately assign the node numbers to your levitated beads. 
@@ -26,7 +26,7 @@ To ensure you are prepared to analyze your data, please make use of the followin
 
 -----
 
-## Instructions: In Lab This Week
+## Instructions for In Lab This Week
 
 Make sure you are using the same levitator as last week (you should have made note of the levitator number)
 
