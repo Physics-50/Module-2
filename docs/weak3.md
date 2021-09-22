@@ -50,13 +50,13 @@ Make sure to note which levitator you are using (it should be the same one that 
 
 # Checkpoint #3
 
-+ a link to your organized spreadsheet in which you have calculated the mean bead position and uncertainty for each node position. For any nodes for which you only have a single data point please indicate that the uncertainty is undetermined and do not use that data point in your plot. 
++ A link to your organized spreadsheet in which you have calculated the mean bead position and uncertainty for each node position. For any nodes for which you only have a single data point please indicate that the uncertainty is undetermined and do not use that data point in your plot. 
 
-+ a plot of bead position vs. node number, prepared in MATLAB. Each data point should have an uncertainty from multiple measurements following the instructions in this week's manual. Please display the fit parameters including the $$\chi_\nu^2$$ value on the plot (the provided script will do this for you).
++ A plot of bead position vs. node number, prepared in MATLAB. Each data point should have an uncertainty from multiple measurements following the instructions in this week's manual. Please display the fit parameters including the $$\chi_\nu^2$$ value on the plot (the provided script will do this for you).
 
-+ a calculation of the speed of sound with uncertainty based on your line of best fit to the plot.
++ A calculation of the speed of sound with uncertainty based on your line of best fit to the plot.
 
-+ A statement responding to the following question: Based on the Matlab provided fit parameters, particularly the reduced $$\chi^2$$ value, do your error bars appear to do a good job representing the uncertainty in the experiment? Please answer in 1-2 sentences.
++ A statement responding to the following question: Based on the Matlab provided fit parameters, particularly the reduced $$\chi^2$$ value, do your error bars appear to do a good job representing the uncertainty in the experiment? Please answer in 1--2 sentences.
 
 
 
