@@ -56,6 +56,7 @@ Make sure to note which levitator you are using (hopefully you did this last wee
 
 + a calculation of the speed of sound with uncertainty based on your line of best fit to the previous plot
 
++ A statement responding to the following question: Based on the Matlab provided fit parameters, particularly the reduced $$\chi^2$$ value, do your error bars appear to do a good job representing the uncertainty in the experiment? Please answer in 1-2 sentences.
 
 
 
