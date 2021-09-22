@@ -122,7 +122,9 @@ Using a BNC/banana adapter, connect the red banana connector to the red positive
 
 Safety Tip: Never touch the leads of the power supply together! This will short circuit the power supply and could damage it. The power supply will click if it has been short circuited. The voltage has to be constant throughout a wire — there’s nothing to change it. The power supply has internal electronics to create a voltage difference across its two terminals. If you connect the two terminals with a wire, you force the terminals to be the same potential, so something must change inside the power supply to allow this to happen.
 
-Before turning on the power supply, double check all connections, and turn all the knobs on the power supply to zero (all the way counterclockwise). Now turn on the power supply. The light labeled C.V. (coarse voltage) should be green, meaning that the output of the power supply is limited by the voltage dial settings. Turn the coarse dial for the voltage slowly up (clockwise). Observe that the voltage reading on the front panel of the power supply rises, but the current stays at zero. When you reach a voltage output of around 5 volts (it may not be exactly 5V), the current will start to rise, the green C.V. light will go off and the red C.C. light will go on. At this point both the current and the voltage will stop rising in response to further increases of the coarse voltage dial. The red C.C. light indicates that the power supply output is now being limited by the current dial settings. Turn the coarse current dial up until the green C.V. light comes back on. Alternate between increasing the voltage setting and the current setting as necessary until you have reached an output voltage of about 11 or 12 V. Keep an eye on how much current the power supply is providing. If it goes above 225 mA turn the power supply off and check your circuit or ask an instructor. The driver is now being powered, and you should see a red light on the rear of the levitator box below the AMP/NO AMP switch.
+The L298N Motor Drive Controller Board has on-board logic that needs to be powered at 5V. This is separate from the power supply voltage that will pass through the PS terminal. The 5V logic supply input is connected to a USB connector. You should plug the USB terminal in to one of the wall outlets on your bench.
+
+Before turning on the power supply, double check all connections, and turn all the knobs on the power supply to zero (all the way counterclockwise). Now turn on the power supply. The light labeled C.V. (coarse voltage) should be green, meaning that the output of the power supply is limited by the voltage dial settings. Turn the coarse dial for the voltage slowly up (clockwise). Observe that the voltage reading on the front panel of the power supply rises, but the current stays at zero. When you reach a voltage output of around 6-8 volts, the current will start to rise, the green C.V. light will go off and the red C.C. light will go on. At this point both the current and the voltage will stop rising in response to further increases of the coarse voltage dial. The red C.C. light indicates that the power supply output is now being limited by the current dial settings. Turn the coarse current dial up until the green C.V. light comes back on. Alternate between increasing the voltage setting and the current setting as necessary until you have reached an output voltage of about 11 or 12 V. Keep an eye on how much current the power supply is providing. If it goes above 225 mA turn the power supply off and check your circuit or ask an instructor. The driver is now being powered, and you should see a red light on the rear of the levitator box below the AMP/NO AMP switch.
 
 ### Levitating a Bead
 Now let's try to levitate a styrofoam bead! See the following [video for instructions on how to load a bead into the levitator](https://youtu.be/YrpVdlcYu7Y){:target="_blank"}.
@@ -131,7 +133,7 @@ Place a few beads on a lens wipe or dryer sheet and move them around between the
 
 ### Collecting data
 
-You have two main golas this week: first, you will practice levitating beads and reach a point where both partners can comfortably levitate beads for data collection. Second, you will collect sufficient exploratory data to make a preliminary estimate of the speed of sound.
+You have two main goals this week: first, you will practice levitating beads and reach a point where both partners can comfortably levitate beads for data collection. Second, you will collect sufficient exploratory data to make a preliminary estimate of the speed of sound.
 
 The basic strategy for determining the speed of sound using your acoustic levitator is as follows:
 
@@ -141,32 +143,13 @@ The basic strategy for determining the speed of sound using your acoustic levita
 + You know the frequency $$\nu$$ of the wave, because you have set it with the function generator.
 + You can compute the speed of sound from $$v = \lambda \nu$$.
 
-You have several methods at your disposal to make your measurements. There are calipers, rulers, and cameras available in the lab. If you think of other methods that involve different materials around the lab, ask your instructor if you can use these materials. Creativity is encouraged!
-
-Each measurement method also comes with unique considerations, but here are some general considerations to ponder:
-
-+ Does your measurement method affect what you are trying to measure? If so, by how much?
-+ How certain are you of your measurement?
-+ Do you need to take repeated trials?
-+ What part of the experiment do I need to reset each time to do "repeated trials" in order to find and randomize systematic errors?
-+ Is the distance between the nodes consistent?
-+ Does the number of beads trapped at a particular node impact the spacing?
-+ Does it matter where the ruler is, relative to the beads, when you measure the distance between the nodes?
-+ How many data points are necessary? How can you tell? What kind of data needs to be repeated?
-
-### Calipers and rulers
-+ Does putting an object (such as calipers or a ruler) in between the actuators affect the standing wave?
-+ Do the calipers and rulers exert forces (such as an electrostatic force) on the Styrofoam beads?
-+ How far away (both vertically and horizontally!) can you hold a ruler or calipers from the object you wish to measure and still obtain a reasonably accurate reading?
+You have several methods at your disposal to make your measurements. There are calipers, rulers, and cameras available in the lab. You can try directly reading the separation with the calipers:
 
 [Click here for instructions on using the calipers](https://www.physics.hmc.edu/~physics50/wp/?page_id=2253&amp;preview=true"){:target="_blank"}
 
-### Camera
-+ What is the conversion rate between pixels on the image and actual distance? Tip: take a photo of a ruler and do a lineout over several millimeters or centimeters to get a pixels per mm (or cm) conversion.
-+ How well does a 3D world translate into a 2D image? How do objects on different planes scale in a 2D image? (i.e. does it matter how far away the object, bead or ruler, is from the camera?) Try placing your ruler at different heights - how much does it affect the conversion factor you obtain?
-+ Is the contrast sufficient to resolve the bead position. If not is there anything you can adjust (e.g. use a different background to get better contrast) in order to obtain higher quality image?
-+ Does the part of the image you are analyzing change your measurement of the wavelength? Does it matter if you are measuring beads at the edge of the photo or in the middle?
-+ Does the angle of the camera with respect to the beads/ruler affect the measurement?
+However, you will most likely find it difficult to get a reliable reading as you cannot bring the calipers close to the beads without disturbing them. 
+
+To combat this, you will collect your data by positioning a camera above the levitator and taking a picture. However, it is important that you have a plan to convert from a distance between beads in pixels to a measure of their separation in mm. This is much like adding the scale bar in your module 1 deliverable, you will need a ruler in your image whose markings you can use to compute the conversion factor. You will want to think about how best to position your ruler. If you think of materials around the lab that might be helpful, ask your instructor if you can use these materials. Creativity is encouraged!
 
 --------------
 
@@ -182,7 +165,7 @@ It is helpful to begin your exploratory analysis with a back of the envelope est
 
 2. Determine the separate between beads in pixels.
 
-3. Use the ruler to determine a conversion factor from pixels to milimeters.
+3. Use the ruler to determine a conversion factor from pixels to millimeters.
 
 4. Use the measured separation between nodes to determine the speed of sound.
 
@@ -219,6 +202,11 @@ Let’s practice with a mini-question. Please download the following image of le
 --------------
 
 Is your result reasonable? (Go ahead and look up the speed of sound in air for comparison). If your result does not appear to be in reasonable agreement with the expected value you should pause here and try to work out why (talk to your instructor if unsure).
+
+## Wiggling the parameters to explore sources of uncertainty
+
+Next week we will perform a detailed investigation of a significant source of uncertainty. But first we need to do an exploratory study to determine which sources of uncertainty might be the most significant.
+
 
 
 ### Summary of what you need to leave lab with today
