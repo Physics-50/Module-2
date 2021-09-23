@@ -241,7 +241,7 @@ Do you have ideas for additional parameters you might wiggle to understand poten
 
 + You should have a preliminary estimate of the speed of sound based on the spacing between levitated beads. This should come from a picture that includes four or more levitated beads and a ruler that can be used for image calibration.
 
-+ An investigation of potential sources of uncertainty. You should have investigated at least 3 potential sources of uncertainty.
++ An investigation of potential sources of uncertainty. You should have investigated at least 3 potential sources of uncertainty, and for each study you should have collected 3 data points before and after wiggling the parameter of interest. (Exception: the "ability to determine the bead position" option is slightly different, follow the instructions above)
 
 ----------------
 
