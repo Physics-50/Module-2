@@ -205,15 +205,43 @@ Is your result reasonable? (Go ahead and look up the speed of sound in air for c
 
 ## Wiggling the parameters to explore sources of uncertainty
 
-Next week we will perform a detailed investigation of a significant source of uncertainty. But first we need to do an exploratory study to determine which sources of uncertainty might be the most significant.
+Next week we will perform a detailed investigation of a significant source of uncertainty. But first we need to do an exploratory study to determine which sources of uncertainty might be the most significant. Please investigate at least 3 of the following:
 
+### Presence of beads in the levitator
+
+Are you concerned that the presence of the beads themselves might affect the speed of sound within the levitator? To investigate this try at least one of the following:
+
++ levitate as many beads as you can comfortably trap (in a reasonable time period). Take a picture. Now knock out all but the outermost beads (carefully). Take another picture. Compute the speed of sound in each case. Repeat this two more times. This is not enough data for statistical analysis but it can be enough to get a first impression as to whether there is a substantial effect
+
++ Some of the beads are of different sizes. Compare the results you get with small beads with those with larger beads. For now since we are just wiggling parameters rather than doing a systematic study, focus on the smallest beads available and the largest you can comfortably levitate (some may be too heavy). Again try this 3 times for each size of beads. 
+
+## Parallax
+Are you concerned that if the ruler is not at the same distance from the camera as the beads your results might be affected by parallax? To investigate this try at least one of the following:
+
++ try positioning your ruler 1cm above the beads and then 1cm below the beads. Repeat to get three photos with the ruler in each position (you can leave the beads in place and just move the ruler for this test). 
+
++ you might also want to consider parallax in the horizontal direction. Try positioning your camera centered between the beads and the ruler. Now try centering the camera over the beads. Repeat for 3 pictures in each position. Again you do not need to reset the beads between these tests, just the camera.
+
+## Your ability to determine the bead position
+
+Are you concerned by how accurately you can determine the center of the beads? Try doing so in several ways. 
+
+  + Can you guess where the center of the beads are and estimate the center that way?
+
+  + What if you measure from the left edge of the leftmost bead to the left edge of the rightmost bead. Now do the same with the right edges. Are there any potential issues with this method
+
+  + Can you use your left edge and right edge results to more accurately determine the center of the beads?
+
+## Additional sources of uncertainty
+
+Do you have ideas for additional parameters you might wiggle to understand potentially significant sources of uncertainty in this experiment?
 
 
 ### Summary of what you need to leave lab with today
 
 + You should have a preliminary estimate of the speed of sound based on the spacing between levitated beads. This should come from a picture that includes four or more levitated beads and a ruler that can be used for image calibration.
 
-+ You should use any remaining time to explore sources of uncertainty. You will likely find it helpful to touch base with your instructor when you get to this point. This is something we will continue to investigate in more detail next week.
++ An investigation of potential sources of uncertainty. You should have investigated at least 3 potential sources of uncertainty.
 
 ----------------
 
@@ -241,7 +269,7 @@ For this week’s checkpoint, part 2 you will be asked to report:
 
 + An estimate of the speed of sound with uncertainty based on your preliminary data
 
-+ A summary of what you learned from your preliminary exploration of sources of uncertainty
++ A summary of what you learned from your preliminary exploration of sources of uncertainty. 
 
 
 ----------------
