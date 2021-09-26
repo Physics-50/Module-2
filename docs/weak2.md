@@ -1,10 +1,10 @@
 # Module 2, Week 2
 
-Last week you made a preliminary estimate of the speed of sound.  This week we want to take a deeper dive into a primary source of uncertainty to improve the accuracy of both our quoted result and our estimated uncertainty.
+Last week you made a preliminary estimate of the speed of sound.  This week we want to take a deeper dive into a primary source of uncertainty, in order to improve the accuracy of both the result and the estimated uncertainty.
 
-At the time we encouraged you "to give some thought to the best positioning of the ruler for accurate measurements." This week we are going to explore that further.
+Last week, we encouraged you "to give some thought to the best positioning of the ruler for accurate measurements." This week we are going to explore this issue further.
 
-The first thing we would like you to do is set up the experiment using only your notes from last week (not the lab manual). If you need to refer back to the lab manual that is a sign that your notes are not sufficiently comprehensive. Take the time to prepare more detailed notes.
+The first thing we would like you to do is set up the experiment *using only your notes from last week* (not the lab manual). If you need to refer back to the lab manual, it is a sign that your notes are insufficiently comprehensive. *Take the time to prepare more detailed notes.*
 
 Take a picture with the ruler positioned ~1 cm above the beads. Now take one with it ~1 cm below. Estimate the speed of sound from both pictures. Is the difference significant? Hint: as a loose rule of thumb, experimentally a difference can be considered significant if it is greater than or comparable to your uncertainty from other sources. How does the difference between these two values compare with your uncertainty from last week?
 
