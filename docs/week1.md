@@ -267,18 +267,18 @@ For part 2 our usual rules apply:
 
 For this week’s checkpoint, part 2, you will be asked to report:
 
-+ An image of the levitated beads you used in your analysis
++ An image of the levitated beads you used in your analysis.
 
-+ The conversion factor you used for converting pixels to distance and a 1-2 sentence description of how you arrived at this conversion factor
++ The conversion factor you used for converting pixels to distance and a 1--2 sentence description of how you arrived at this conversion factor.
 
-+ An estimate of the speed of sound with uncertainty based on your preliminary data
++ An estimate of the speed of sound with uncertainty, based on your preliminary data.
 
 + A summary of what you learned from your preliminary exploration of sources of uncertainty. 
 
 
 ----------------
 
-+ And to double-check, make sure you have finished all of this week’s mini-questions by [checking here](mini-questions#week-1){:target="_blank"}
++ And to double-check, make sure you have finished all of this week’s miniquestions by [checking here](mini-questions#week-1){:target="_blank"}
 
 ### References
 
