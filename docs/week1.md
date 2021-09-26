@@ -164,7 +164,7 @@ The provided cell phone camera mount, mounted to a vertical pole, can be used to
 
 It is helpful to begin your exploratory analysis with a back-of-the-envelope estimate. Go ahead and make use of the measured spacing between beads to estimate the speed of sound. It is difficult to get a good estimate by directly measuring the distance between beads. Instead try the following:
 
-1. Take a picture of levitated beads. Your picture should also include a ruler for calibration. <!-- To minimize the effects of parallax the distance from the camera to the ruler should be as close as possible to the distance from the camera to the beads. -->
+1. Take a picture of levitated beads. Your picture should also include a ruler for calibration. 
 
 2. Determine the separation between beads in pixels.
 
