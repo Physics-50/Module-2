@@ -155,15 +155,15 @@ To combat this, you will collect your data by positioning a camera above the lev
 
 ## Setting up the camera to take a picture of the levitated beads
 
-The provided cell phone camera mount, mounted to a vertical pole can be used to position your cell phone above the acoustic levitator to take pictures of the beads for analysis. Make sure to include a ruler in the image for calibration purposes (give some thought to the best positioning of the ruler for accurate results).
+The provided cell phone camera mount, mounted to a vertical pole, can be used to position your cell phone above the acoustic levitator to take pictures of the beads for analysis. Make sure to include a ruler in the image for calibration purposes and give some thought to the best positioning of the ruler for accurate results.
 
 ### Preliminary Data Analysis
 
-It is helpful to begin your exploratory analysis with a back of the envelope estimate. Go ahead and make use of the measured spacing between beads to estimate the speed of sound. It is difficult to get a good estimate by directly measuring the distance between beads. Instead try the following:
+It is helpful to begin your exploratory analysis with a back-of-the-envelope estimate. Go ahead and make use of the measured spacing between beads to estimate the speed of sound. It is difficult to get a good estimate by directly measuring the distance between beads. Instead try the following:
 
-1. Take a picture of levitated beads. Your picture should also include a ruler for calibration. To minimize the effects of parallax the distance from the camera to the ruler should be as close as possible to the distance from the camera to the beads.
+1. Take a picture of levitated beads. Your picture should also include a ruler for calibration. <!-- To minimize the effects of parallax the distance from the camera to the ruler should be as close as possible to the distance from the camera to the beads. -->
 
-2. Determine the separate between beads in pixels.
+2. Determine the separation between beads in pixels.
 
 3. Use the ruler to determine a conversion factor from pixels to millimeters.
 
