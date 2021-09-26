@@ -145,7 +145,7 @@ The basic strategy for determining the speed of sound using your acoustic levita
 
 You have several methods at your disposal to make your measurements. There are calipers, rulers, and cameras available in the lab. You can try directly reading the separation with the calipers:
 
-[Click here for instructions on using the calipers](#caliper){:target="_blank"}
+[Click here for instructions on using the calipers](caliper)
 
 However, you will most likely find it difficult to get a reliable reading as you cannot bring the calipers close to the beads without disturbing them. 
 
