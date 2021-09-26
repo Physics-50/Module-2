@@ -180,23 +180,23 @@ Let’s practice with a mini-question. Please download the following image of le
 
 --------------------------------------------------------
 
-#### Miniquestion 1: Image Calibration
+<!--#### Miniquestion 1: Image Calibration
 [*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSeGfXJTqX8XZ1wKmUYtHE1oWlXGIhBalvSH6U20WFP1P6jCMg/viewform?usp=sf_link){:target="_blank"}
 
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeGfXJTqX8XZ1wKmUYtHE1oWlXGIhBalvSH6U20WFP1P6jCMg/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
---------------------
+---------------------->
 
-#### Miniquestion 2: Practice Calculation - Bead Separation
+#### Miniquestion 1: Practice Calculation - Bead Separation
 [*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSfcHYM0EXRutwU9snAkMcDvZ4mAs_osQWJDzQbT2q6VGvlNgg/viewform?usp=sf_link){:target="_blank"}
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfcHYM0EXRutwU9snAkMcDvZ4mAs_osQWJDzQbT2q6VGvlNgg/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
 ---------
-#### Miniquestion 3: Practice Calculation - Speed of Sound
+#### Miniquestion 2: Practice Calculation - Speed of Sound
 [*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSci324tKy0cSjFai2_doq3CFVgnK8_hwKeITrPGGVYvgSBB1A/viewform?usp=sf_link){:target="_blank"}
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSci324tKy0cSjFai2_doq3CFVgnK8_hwKeITrPGGVYvgSBB1A/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
