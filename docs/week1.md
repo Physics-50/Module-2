@@ -240,10 +240,14 @@ Are you concerned by how accurately you can determine the center of the beads? T
 
 Do you have ideas for additional parameters you might wiggle to understand potentially significant sources of uncertainty in this experiment? For this week's checkpoint you are asked to investigate 3 potential sources of uncertainty. At least 2 of those should come from the suggestions above, the third can also come from the suggestions above or can come from your own ideas.
 
+## Photo for Estimating the Speed of Sound
+
+Once you've finished exploring sources of uncertainty, take a moment to reflect on your initial measurement. Are you now aware of sources of systematic error that may have significantly affected the accuracy of the results? You do not need to collect a full data set to estimate the speed of sound with uncertainty, we will do that in future weeks. But please collect one photo in which you make an attempt to minimize any sources of systematic error you found to be significant. Since you are only taking a single photo you will not be able to estimate the uncertainty in your result. That is okay we'll have time to do that in the coming weeks. 
+
 
 ### Summary of what you need to leave lab with today
 
-+ You should have a preliminary estimate of the speed of sound based on the spacing between levitated beads. This should come from a picture that includes four or more levitated beads and a ruler that can be used for image calibration. It will also use the frequency of the function generator.
++ You should have a preliminary estimate of the speed of sound based on the spacing between levitated beads. This should come from the picture you took after completing your exploration of sources of uncertainty. It should include four or more levitated beads and a ruler that can be used for image calibration. You will also need to make use of the frequency of the function generator in your analysis.
 
 + An investigation of potential sources of uncertainty. You should have investigated at least 3 potential sources of uncertainty, and for each study you should have collected 3 data points before and after wiggling the parameter of interest. (Exception: the "ability to determine the bead position" option is slightly different, follow the instructions above.)
 
