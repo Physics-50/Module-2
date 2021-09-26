@@ -27,11 +27,11 @@ Recall that the superposition of two waves traveling in opposite directions can 
 \begin{equation}
  y_{\rm total}(x,t)=A \sin(k x-\omega t) + A \sin(k x+\omega t +\phi)
 \end{equation}
-where the reflected wave has the same maximum amplitude as the incident wave but has picked up a phase $$ \phi$$. Our combined wave can now be represented as
+where the reflected wave has the same maximum amplitude as the incident wave but has picked up a phase $$ \phi$$. Reflection off a fixed end as described above causes a phase shift of $$\phi=\pi$$.  Our combined wave can now be represented as
 \begin{equation}
   y_{\rm total}(x,t)=A \sin(k x-\omega t) - A \sin(k x+\omega t )
 \end{equation}
-where we have made use of the fact that $$ \sin(\theta+\pi) = -\sin(\theta)$$. Making use of one more fun fact, $$ \sin(A + B)=\sin(A)\cos(B)+\sin(B)\cos(A)$$, and a little bit of algebra you can show that this simplifies to $$y_{\rm total}(x,t)=-2A \sin(\omega t)\cos(kx)$$.
+where we have made use of the fact that $$ \sin(\theta+\pi) = -\sin(\theta)$$. By using the trig identity $$ \sin(A + B)=\sin(A)\cos(B)+\sin(B)\cos(A)$$ and a little bit of algebra, you can show that this simplifies to $$y_{\rm total}(x,t)=-2A \sin(\omega t)\cos(kx)$$.
 
 The takeaway from this is that the position and time dependence are now separate! It is as though the wave is fixed in space along the $$ x $$ axis while the effective "maximum amplitude" oscillates in time as $$ 2 A \sin(\omega t)$$. This is known as a **standing wave** and is shown in the figure below.
 
@@ -68,7 +68,7 @@ Now, the longitudinal waves created above the speaker have a regular pressure pa
 
 We learned in the previous section that traveling waves of the same frequency, moving through the same material in opposite directions, can form a standing wave.  This can happen for sound as well.
 
-The sinusoidal waves shown in the figure below represent the pattern of pressure variations in the air; they also looked exactly like the geometric shape of the string in our thought experiment above.  However, because sound waves are longitudinal, the actual motion of the air molecules looks geometrically a little different as shown in the figure below.
+The sinusoidal waves shown in the figure below represent the pattern of pressure variations in the air; they also look exactly like the geometric shape of the string in our thought experiment above.  However, because sound waves are longitudinal, the actual motion of the air molecules looks geometrically a little different as shown in the figure below.
 
 
 <img class="wp-image-1520" src="https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/08/standing-displacement-antinode-vert-cropped-4.gif" alt="" width="600" height="416" />
@@ -81,7 +81,7 @@ Resonant standing waves of sound are very common.  (To play with some, consult 
 
 In our acoustic levitator apparatus, the two sources are two sets of tiny speakers driven by the same electrical signal.  Each speaker set is arranged in a slightly concave bowl-like shape, and the two bowls face each other on opposite ends of a plastic frame.  The curved, concave shape of each source is a detail we haven’t yet discussed.  Its purpose is to shape the standing waves, making them focused and strongest in the middle of the apparatus.  The same thing is very commonly done for standing waves of light, with pairs of curved mirrors.  You can get a rough idea of how the curved surfaces produce curved wave patterns in the second half of <a href="https://www.youtube.com/watch?v=tVWemRbgLW4">this</a> video.
 
-How does a standing wave of sound produce acoustic levitation?  Take a good look at the standing wave in the previous figure .  A standing wave of sound consists of “pressure antinodes,” fixed positions in space where the pressure <em>deviates the most from the equilibrium</em>, atmospheric value, and “pressure nodes,” fixed positions in space where the <em>pressure stays constant</em>.  You might imagine a small styrofoam bead placed in the standing wave, being pushed away from a pressure antinode when the pressure is high there, and then being pulled toward it when the pressure is low there.  This doesn’t sound like it creates stable trapping!  However, the key to acoustic radiation pressure is that the standing waves oscillate too fast for a big, heavy particle (even a styrofoam bead) to follow the cycles of push and pull in a simple way.  Instead, the air in each region pushes the particle with an effective force proportional to the time average of the square of the pressure, $$ \langle p^2 \rangle $$.  There is a well-developed theoretical foundation for this force (see Gorkov, 1961 and Marzo *et al*, 2017) but we will not go into it here.  **What’s important to note for now is that $$ \langle p^2 \rangle $$ is larger at the pressure antinodes than at the pressure nodes, so particles are consistently pushed either to the pressure nodes or to the pressure antinodes.**  Most solid particles are pushed to (and trapped in) the pressure **nodes**; the exact details depend on the density of the object compared to air and the speed of sound through the object.
+How does a standing wave of sound produce acoustic levitation?  Take a good look at the standing wave in the previous figure .  A standing wave of sound consists of “pressure antinodes,” fixed positions in space where the pressure <em>deviates the most from the equilibrium</em>, atmospheric value, and “pressure nodes,” fixed positions in space where the <em>pressure stays constant</em>.  You might imagine a small styrofoam bead placed in the standing wave, being pushed away from a pressure antinode when the pressure is high there, and then being pulled toward it when the pressure is low there.  This doesn’t sound like it creates stable trapping!  However, the key to acoustic radiation pressure is that the standing waves oscillate too fast for a big, heavy particle (even a styrofoam bead) to follow the cycles of push and pull in a simple way.  Instead, the air in each region pushes the particle with an effective force proportional to the time average of the square of the pressure, $$ \langle p^2 \rangle $$.  There is a well-developed theoretical foundation for this force (see Gorkov, 1961 and Marzo *et al*, 2017) but we will not go into it here.  What’s important to note for now is that $$ \langle p^2 \rangle $$ is larger at the pressure antinodes than at the pressure nodes, so particles are consistently pushed either to the pressure nodes or to the pressure antinodes.  Most solid particles are pushed to (and trapped in) the pressure nodes; the exact details depend on the density of the object compared to air and the speed of sound through the object.
 
 ### Week 1 Instructions
 By the end of the day today you will be able to successfully levitate, using sound waves, small polystyrene beads! And you will make a preliminary measurement of the speed of sound in air by measuring the separations between suspended beads.
@@ -149,13 +149,15 @@ You have several methods at your disposal to make your measurements. There are c
 
 However, you will most likely find it difficult to get a reliable reading as you cannot bring the calipers close to the beads without disturbing them. 
 
-To combat this, you will collect your data by positioning a camera above the levitator and taking a picture. However, it is important that you have a plan to convert from a distance between beads in pixels to a measure of their separation in mm. This is much like adding the scale bar in your module 1 deliverable, you will need a ruler in your image whose markings you can use to compute the conversion factor. You will want to think about how best to position your ruler. If you think of materials around the lab that might be helpful, ask your instructor if you can use these materials. Creativity is encouraged!
+To combat this, you will collect your data by positioning a camera above the levitator and taking a picture. However, it is important that you have a plan to convert from a distance between beads in pixels to a measure of their separation in mm; this is much like adding the scale bar in your Module 1 deliverable. You will need a ruler in your image whose markings you can use to compute the conversion factor, and you will want to think about how best to position your ruler. 
+
+If you think of materials around the lab that might be helpful, ask your instructor if you can use these materials. Creativity is encouraged!
 
 --------------
 
 ## Setting up the camera to take a picture of the levitated beads
 
-The provided cell phone camera mount, mounted to a vertical pole can be used to position your cell phone above the acoustic levitator to take pictures of the beads for analysis. Make sure to include a ruler in the image for calibration purposes (give some thought to the best positioning of the ruler for accurate results).
+The provided cell phone camera mount, mounted to a vertical pole, can be used to position your cell phone above the acoustic levitator to take pictures of the beads for analysis. Make sure to include a ruler in the image for calibration purposes (give some thought to the best positioning of the ruler for accurate results).
 
 ### Preliminary Data Analysis
 
@@ -163,7 +165,7 @@ It is helpful to begin your exploratory analysis with a back of the envelope est
 
 1. Take a picture of levitated beads. Your picture should also include a ruler for calibration. To minimize the effects of parallax the distance from the camera to the ruler should be as close as possible to the distance from the camera to the beads.
 
-2. Determine the separate between beads in pixels.
+2. Determine the separation between beads in pixels.
 
 3. Use the ruler to determine a conversion factor from pixels to millimeters.
 
@@ -171,7 +173,7 @@ It is helpful to begin your exploratory analysis with a back of the envelope est
 
 Let’s practice with a mini-question. Please download the following image of levitated beads and use it to answer the mini-question. Make sure to download it at full resolution.
 
-**Click on the below images to enlarge in a new tab and download the image:**
+**Click on the images below to enlarge in a new tab and download the image:**
 
 [![Image of levitated beads](images/Image_of_levitated_beads.jpg)](images/Image_of_levitated_beads.jpg){:target="_blank"}
 
@@ -228,7 +230,7 @@ Are you concerned by how accurately you can determine the center of the beads? T
 
   + Can you guess where the center of the beads are and estimate the center that way?
 
-  + What if you measure from the left edge of the leftmost bead to the left edge of the rightmost bead. Now do the same with the right edges. Are there any potential issues with this method
+  + What if you measure from the left edge of the leftmost bead to the left edge of the rightmost bead? Now do the same with the right edges. Are there any potential issues with this method?
 
   + Can you use your left edge and right edge results to more accurately determine the center of the beads?
 
