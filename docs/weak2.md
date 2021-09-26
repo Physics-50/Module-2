@@ -8,11 +8,26 @@ The first thing we would like you to do is set up the experiment *using only you
 
 ## Parallax
 
-Take a picture with the ruler positioned ~1 cm above the beads. Now take one with it ~1 cm below. Estimate the speed of sound from both pictures. Is the difference significant? Hint: as a loose rule of thumb, a difference can be considered significant if it is greater than, or comparable to, the uncertainty from other sources. How does the difference between these two values compare with your uncertainty from last week?
+<!--Take a picture with the ruler positioned ~1 cm above the beads. Now take one with it ~1 cm below. Estimate the speed of sound from both pictures. Is the difference significant? Hint: as a loose rule of thumb, a difference can be considered significant if it is greater than, or comparable to, the uncertainty from other sources. How does the difference between these two values compare with your uncertainty from last week?-->
 
-We expect that you will find the difference to be significant. If not please speak to your section instructor. The issue arises from **parallax**. Each millimeter mark on the ruler that is closer to the camera spans more pixels than the equivalent markings on the ruler further from the camera (if you didn't move the camera between images you can see this from your pixel-to-mm conversion without even taking the beads into consideration.) Ideally we would position the ruler at the location of the beads and our problems would be solved. Unfortunately, the ruler would then interfere with the sound waves that are levitating the beads. The best thing we can do is position the ruler at the same distance from the beads as the camera, so that the ruler's magnification in the image is identical to the beads'. Try to find a good way to position the ruler at the same height as the beads. However, this isn't the full story. If you have positioned your camera so that it is centered over the beads with the ruler off to one side, the distance from the camera to the ruler will not match the distance from the camera to the beads. Try repositioning your acoustic levitator so the camera is centered between the beads and ruler.
+Last week you investigated several potential sources of systematic error, among those was the effect of repositioning the ruler and/or the relative horizontal positioning of the camera and levitator. If you didn't already do this last week please do the following:
+
+Take a picture with the ruler positioned ~1 cm above the beads. Now take one with it ~1 cm below. Estimate the speed of sound from both pictures. Is the difference significant? Hint: as a loose rule of thumb, a difference can be considered significant if it is greater than, or comparable to, the uncertainty from other sources.
+
+The issue arises from **parallax**. Each millimeter mark on the ruler that is closer to the camera spans more pixels than the equivalent markings on the ruler further from the camera (if you didn't move the camera between images you can see this from your pixel-to-mm conversion without even taking the beads into consideration.) Ideally we would position the ruler at the location of the beads and our problems would be solved. Unfortunately, the ruler would then interfere with the sound waves that are levitating the beads. The best thing we can do is position the ruler at the same distance from the beads as the camera, so that the ruler's magnification in the image is identical to the beads'. Try to find a good way to position the ruler at the same height as the beads. However, this isn't the full story. If you have positioned your camera so that it is centered over the beads with the ruler off to one side, the distance from the camera to the ruler will not match the distance from the camera to the beads. Try repositioning your acoustic levitator so the camera is centered between the beads and ruler.
 
 Next we would like to estimate the magnitude of this source of uncertainty. Perhaps you feel you have already done this? The pictures you took earlier probably convinced you that this is a significant source of uncertainty but if you are careful you should be able to position the ruler with much better accuracy than the $$\pm1~\mathrm{cm}$$ used to deliberately exaggerate the effect above!
+
+--------------
+#### Miniquestion 1: How to Estimate the Uncertainty Due to Parallax
+[*Click here to open in a new tab*](https://forms.gle/h4SgcPH2tbY65phx9){:target="_blank"}
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfKgoZe1wKD3fN_Nqbs8JqZWxWyjyj8BLcHk5gzpmsyjvRbUg/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
+</iframe>
+
+
+--------------------
+
 
 ## Systematic Error
 
