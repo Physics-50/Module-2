@@ -44,7 +44,7 @@ If both ends of the string are fixed (picture a plucked guitar string), then the
 
 What happens if instead of a fixed end we have a second mechanical oscillator shaking the string at the same frequency? We will end up with a standing wave but the ends will not be nodes and it will not be defined by a resonant condition, meaning we are free to pick any frequency. This is the situation we have in the acoustic resonator.
 
-If you wish to revisit the above concepts, consult Appendix D of <a href="http://physics.hmc.edu/private/courses/p024/motion2.pdf" target="_blank" rel="noopener"><em>Motion II</em></a> by Prof. Helliwell.
+<!--If you wish to revisit the above concepts, consult Appendix D of <a href="https://edge.edx.org/courses/HarveyMuddX/PHYS024x/2015_Spring/" target="_blank" rel="noopener"><em>Motion II</em></a> by Prof. Helliwell.-->
 
 ### Acoustic Levitator Theory
 
@@ -145,7 +145,7 @@ The basic strategy for determining the speed of sound using your acoustic levita
 
 You have several methods at your disposal to make your measurements. There are calipers, rulers, and cameras available in the lab. You can try directly reading the separation with the calipers:
 
-[Click here for instructions on using the calipers](https://www.physics.hmc.edu/~physics50/wp/?page_id=2253&amp;preview=true"){:target="_blank"}
+[Click here for instructions on using the calipers](#caliper){:target="_blank"}
 
 However, you will most likely find it difficult to get a reliable reading as you cannot bring the calipers close to the beads without disturbing them. 
 
