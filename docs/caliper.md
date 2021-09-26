@@ -20,4 +20,4 @@ Find the mark on the vernier scale that most closely aligns with any mark on the
 Add the two values together to get the total reading: 1.1 cm + 0.065 cm = 1.165 cm. Not bad for a device without batteries!
 
 
-[Reference for how to use Calipers](http://www.webassign.net/labsgraceperiod/ncsulcpmech2/appendices/appendixD/appendixD.html)
+1. [Reference for how to use Calipers](http://www.webassign.net/labsgraceperiod/ncsulcpmech2/appendices/appendixD/appendixD.html)
