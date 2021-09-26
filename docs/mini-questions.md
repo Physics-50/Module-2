@@ -36,7 +36,8 @@ On this page you will find all of the mini-questions for Module 2. Although each
 </iframe>
 
 --------------
-## Week 2
+<!--## Week 2
+
 
 -------------------
 ## Week 3
@@ -46,3 +47,5 @@ On this page you will find all of the mini-questions for Module 2. Although each
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdyYDI3QEI4FDsfW4d0M4krPmhwPUsgcYBsDG48WcajfMYhgg/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
+
+-->
