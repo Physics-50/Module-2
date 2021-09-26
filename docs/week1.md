@@ -107,7 +107,7 @@ Let’s turn our electric signal into a sound wave! Ensure that the switch on th
 
 The above image shows a schematic of the driver used in our circuit “L298N Motor Drive Controller Board.” This board is actually able to drive two devices with outputs A and B. We will only be using one in our circuit. “PS OUTPUT(+)” is the connection to the positive power supply output and “PS GND” is the power supply ground.
 
-Replace the BNC cable attached to the FG OUTPUT with a BNC T-adapter. Connect one T-adapter output to CH1 of the oscilloscope, as before. Connect the other to a BNC cable and plug it into the “FG” input on the case of the levitator as shown below. Do not connect the power supply.
+Connect one end of a BNC cable to the FG output. Plug the other end into the “FG” input on the case of the levitator as shown below. Do not connect the power supply.
 
 
 <img class="wp-image-1588 size-full" src="https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/09/levitator-back.png" alt="" width="469" height="327">
