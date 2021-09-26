@@ -238,7 +238,7 @@ Are you concerned by how accurately you can determine the center of the beads? T
 
 ## Additional sources of uncertainty
 
-Do you have ideas for additional parameters you might wiggle to understand potentially significant sources of uncertainty in this experiment?
+Do you have ideas for additional parameters you might wiggle to understand potentially significant sources of uncertainty in this experiment? For this week's checkpoint you are asked to investigate 3 potential sources of uncertainty. At least 2 of those should come from the suggestions above, the third can also come from the suggestions above or can come from your own ideas.
 
 
 ### Summary of what you need to leave lab with today
@@ -273,7 +273,7 @@ For this week’s checkpoint, part 2, you will be asked to report:
 
 + An estimate of the speed of sound with uncertainty, based on your preliminary data.
 
-+ A summary of what you learned from your preliminary exploration of sources of uncertainty. 
++ A summary of what you learned from your preliminary exploration of sources of uncertainty. The assignment on Gradescope has specific instructions for what to report from this exploration.
 
 
 ----------------
