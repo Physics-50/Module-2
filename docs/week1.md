@@ -243,9 +243,9 @@ Do you have ideas for additional parameters you might wiggle to understand poten
 
 ### Summary of what you need to leave lab with today
 
-+ You should have a preliminary estimate of the speed of sound based on the spacing between levitated beads. This should come from a picture that includes four or more levitated beads and a ruler that can be used for image calibration.
++ You should have a preliminary estimate of the speed of sound based on the spacing between levitated beads. This should come from a picture that includes four or more levitated beads and a ruler that can be used for image calibration. It will also use the frequency of the function generator.
 
-+ An investigation of potential sources of uncertainty. You should have investigated at least 3 potential sources of uncertainty, and for each study you should have collected 3 data points before and after wiggling the parameter of interest. (Exception: the "ability to determine the bead position" option is slightly different, follow the instructions above)
++ An investigation of potential sources of uncertainty. You should have investigated at least 3 potential sources of uncertainty, and for each study you should have collected 3 data points before and after wiggling the parameter of interest. (Exception: the "ability to determine the bead position" option is slightly different, follow the instructions above.)
 
 ----------------
 
@@ -254,7 +254,7 @@ Do you have ideas for additional parameters you might wiggle to understand poten
 This week's checkpoint will be submitted in two parts. 
 
 **Part 1: Practice calculation**
-**You can resubmit Module 2, checkpoint 1, Part 1 as many times as you like until you get the correct answer (it is autograded and will give you and immediate response). For this part (only) it is also okay to "save" your responses to the individual questions.**
+*You may resubmit Module 2, checkpoint 1, Part 1 as many times as you like until you get the correct answer (it is auto-graded and will give you an immediate response). For this part **only** it is also okay to "save" your responses to the individual questions.*
 
  You should do part 1 before part 2. You may find it helpful to attempt part 1 before your time in lab. You should make use of the image below when completing part 1 of the checkpoint (it is also included in the assignment on Gradescope):
 
@@ -263,9 +263,9 @@ This week's checkpoint will be submitted in two parts.
 
 **Part 2: Post-lab analysis**
 For part 2 our usual rules apply:
-**As a reminder: Please prepare your assignment in a separate document, enter all entries in a single sitting without using the "save" button and then make use of the "submit" button to submit your work. You may not resubmit your work once it has been submitted (and saving in Gradescope is equivalent to submitting).**
+**Reminder:** Please prepare your assignment in a separate document, enter all entries in a single sitting without using the "save" button and then make use of the "submit" button to submit your work. You may not resubmit your work once it has been submitted (and saving in Gradescope is equivalent to submitting).
 
-For this week’s checkpoint, part 2 you will be asked to report:
+For this week’s checkpoint, part 2, you will be asked to report:
 
 + An image of the levitated beads you used in your analysis
 
