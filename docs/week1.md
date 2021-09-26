@@ -219,7 +219,8 @@ Are you concerned that the presence of the beads themselves might affect the spe
 + Some of the beads are of different sizes. Compare the results you get with small beads with those with larger beads. For now since we are just wiggling parameters rather than doing a systematic study, focus on the smallest beads available and the largest you can comfortably levitate (some may be too heavy). Again try this 3 times for each size of beads. 
 
 ## Parallax
-Are you concerned that if the ruler is not at the same distance from the camera as the beads your results might be affected by parallax? To investigate this try at least one of the following:
+
+Are you concerned that if the ruler is not at the same distance from the camera as the beads your results might be affected by **parallax**, which is *the effect in which the position or direction of an object appears to differ when viewed from different positions*? To investigate this try at least one of the following:
 
 + try positioning your ruler 1cm above the beads and then 1cm below the beads. Repeat to get three photos with the ruler in each position (you can leave the beads in place and just move the ruler for this test). 
 
