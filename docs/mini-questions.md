@@ -36,7 +36,7 @@ On this page you will find all of the mini-questions for Module 2. Although each
 </iframe>
 
 --------------
---## Week 2
+## Week 2
 
 Coming soon...
 <!--
