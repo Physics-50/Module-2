@@ -9,6 +9,20 @@ x = [1 2 3]';
 y = [2 4 4.2]';
 y_err = [1 1 1]';
 
+%% Parameters to adjust the appearance of the graph
+
+% Manually set the position of the ticks
+x_ticks = [1 3 5];
+y_ticks = [0 2  4 6];
+
+% Manually set the axis limits
+x_limits = [0.5 5.5];
+y_limits = [0 6];
+
+% To specify where to put the fitting information, we can use an array
+% of four values [left, bottom, width, height]. 
+% If you need to adjust, feel free!
+info_location = [0.5 0.15 0.45 0.3];
 
 %% Use LaTeX to interpret text in labels
 set(groot,'defaultAxesTickLabelInterpreter', 'latex');
@@ -21,14 +35,14 @@ hold on; % new plots add to the figure, not replace contents of figure
 box on; % add bounding box to the plot
 
 errorbar(x,y,y_err,'ko','MarkerFaceColor','k','LineWidth',1,'MarkerSize',7); % plot the data
-xlabel("$m$ (g)"); % Set the x axis label. Algebraic values are set
+xlabel("independent variable (unit)"); % Set the x axis label. Algebraic values are set
                    % in math mode, which is between dollar signs
-ylabel("$\mu_s$"); % In math mode, Greek letters are preceded by a backslash
+ylabel("dependent variable (unit)"); % In math mode, Greek letters are preceded by a backslash
 
 x_range = xlim; % get current x-axis limits, store in variable "x_range"
-xlim([x_range(1)-1, x_range(2)+1]); % expand the x-axis limits by 50 on each side
+xlim(x_limits);
 y_range = ylim; % get current y-axis limits, store in variable "y_range"
-ylim([1 5]); % expand the y-axis limits by 0.05 on each side
+ylim(y_limits); 
 ax = gca; % gca means get current axes, so ax is a handle to the axes object
 ax.FontSize = 18; % sets the default font size for axis and tick labels
                   % this is how to set the tick font size
@@ -53,9 +67,9 @@ plot(x_values,feval(curve,x_values),'-','LineWidth',1.5,...
     % transparent
 
 % set the x-tick locations manually (reduce number of ticks for "simplicity")
-set(ax,'XTick',[1,2,3]);
+set(ax,'XTick',x_ticks);
 % set the y-tick locations manually (reduce number of ticks for "simplicity")
-set(ax,'YTick',[2,3,4,5]);
+set(ax,'YTick',y_ticks);
 
 %% calculate uncertainty in fitted parameters
 
@@ -95,7 +109,7 @@ parameter_values = coeffvalues(curve);
 
 % assemble fitting information into a list of strings
 % that can be combined at the end with a join operation
-info_string = [];
+info_string = ["$y = mx+b$"]; % formula_string
 
 % The following assumes algebraic symbols for the parameter names.
 % They will get set in italics in LaTeX, thanks to the dollar signs.
@@ -106,7 +120,7 @@ for i=1:length(parameter_names)
 end
 
 % optionally add reduced chi2 to string
-info_string = [info_string, "reduced $\chi_{\nu}^2 = "+ ...
+info_string = [info_string, "$\chi_{\nu}^2 = "+ ...
     sprintf("%.2g $", reduced_chi2)];
 
 fitting_info_string = join(info_string, newline);
@@ -117,12 +131,8 @@ fitting_info_string = join(info_string, newline);
 
 % There is no need for a legend, since we only have a single data
 % series. However, we would like to display the fitting information
-% To specify where to put the text, we can use an array of four values
-% [left, bottom, width, height]. If you need to adjust, feel free!
 
-location = [0.5 0.15 0.45 0.3]; % see above comment on how to adjust
-
-annotation('textbox', location, 'interpreter', 'latex',...
+annotation('textbox', info_location, 'interpreter', 'latex',...
     'String', fitting_info_string, 'LineStyle', 'none',...
     'VerticalAlignment', 'bottom', FontSize=18);
 
