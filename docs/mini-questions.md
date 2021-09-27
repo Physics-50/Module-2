@@ -36,9 +36,11 @@ On this page you will find all of the mini-questions for Module 2. Although each
 </iframe>
 
 --------------
+
 ## Week 2
 
 Coming soon...
+
 <!--
 #### Miniquestion 1: How to Estimate the Uncertainty Due to Parallax
 [*Click here to open in a new tab*](https://forms.gle/h4SgcPH2tbY65phx9){:target="_blank"}
