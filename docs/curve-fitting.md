@@ -102,9 +102,15 @@ and search for the "curve fitting toolbox":
 
 If it says "Installed" you are good to go. Otherwise, click on the Curve Fitting Toolbox page and install it. Now do the same for the "Statistics and Machine Learning Toolbox".
 
-Now that you have the curve fitting toolbox, please download the file [curve_fitting.m](curve_fitting.m) and run the script. 
+This week we are providing you with two curve fitting scripts. The first performs a linear regression fit, but does not weight it by uncertainties. This is useful for taking a first look at preliminary data for which you have not yet computed the uncertainties. You will use this for analyzing a single image in week 3 to check if your results are reasonable.
 
-Every time you run the script, you will get the following warning in the command window:
+For week 3 data analysis (only) please download this file for [unweighted curve fitting of data without uncertainties](unweighted_curve_fitting.m) and run the script. 
+
+For your deliverable in week 4 please make use of the following script which is similar but makes use of the error bars on your individual data points (for which you will need to analyze more data).
+
+For week 4 data analysis (and also for use in module 3) please download this file for [weighted curve fitting of data with uncertainties](curve_fitting.m) and run the script. 
+
+Every time you run the scripts, you will get the following warning in the command window:
 ![warning](images/warning.png)
 
 This warning appears because we aren't providing the fit function with an initial guess of the slope and intercept. The function is picking an initial guess randomly. The initial guess might affect the fitting if you have many fitting parameters, but because we only have 2 fitting parameters $$(m,b)$$, **you can safely ignore this warning.**
