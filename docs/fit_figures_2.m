@@ -178,7 +178,7 @@ function [figgy] = niceplot(x, y, err, legendpos)
 
     % assemble fitting information into a list of strings
     % that can be combined at the end with a join operation
-    info_string = [];
+    info_string = ["$y = m x + b$"];
 
     % The following assumes algebraic symbols for the parameter names.
     % They will get set in italics in LaTeX, thanks to the dollar signs.
