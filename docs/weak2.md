@@ -1,5 +1,14 @@
 # Module 2, Week 2
 
+1. [Introduction](#introduction)
+2. [An Introduction to Parallax](#parallax)
+3. [Systematic Error](#systematic-error)
+4. [Further Exploration (optional)](#further-exploration)
+5. [Checkpoint Instructions](#checkpoint-instructions
+
+
+## Introduction
+
 Last week you made a preliminary estimate of the speed of sound.  This week we want to take a deeper dive into a primary source of uncertainty, in order to improve the accuracy of both the result and the estimated uncertainty.
 
 Last week, we encouraged you "to give some thought to the best positioning of the ruler for accurate measurements." This week we are going to explore this issue further.
@@ -37,7 +46,17 @@ Before leaving the lab, make sure you record in your notebook which levitator yo
 
 **Since we are focused entirely on parallax as a source of systematic error this week, when resetting the experiment it is only necessary to reset those parameters relevant to the source of parallax. You do not need to reset the beads themselves.**
 
-## Module 2, week 2 - Checkpoint
+## Further Exploration
+If you have time you can use dry ice to get a more 3-dimensional view of the standing wave pattern. You will not be asked to report on this in the checkpoint but it is cool to see. 
+
+This video gives you a sense of what to expect:
+
+[Video visualizing the standing waves with dry ice](https://drive.google.com/file/d/1kAjwFzc-ttmeFJRHg-QpZAd9PzZduhc3/view?usp=sharing){:target="_blank"}.
+
+Before making use of dry ice it is important that you carefully review the [safety precautions at this link](dry-ice-safety).
+
+
+## Checkpoint Instructions
 
 For this week's checkpoint you will be asked to submit the following:
 
