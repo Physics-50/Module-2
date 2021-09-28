@@ -264,6 +264,10 @@ For this week’s checkpoint, part 2, you will be asked to report:
 
 ----------------
 
+## Grading 
+
+For modules 2 and 3 we will not provide a detailed grading rubric. It is our hope that you have gotten a clear sense of our expectations from module 1. If you have questions you are of course encouraged to speak to your instructor or to visit the office hours of any instructor in this course (Office hours are posted on Sakai, under the "office hours" tab)
+
 + And to double-check, make sure you have finished all of this week’s miniquestions by [checking here](mini-questions#week-1){:target="_blank"}
 
 ### References
