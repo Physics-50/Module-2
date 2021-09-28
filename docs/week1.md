@@ -151,7 +151,7 @@ You have several methods at your disposal to make your measurements. There are c
 
 However, you will most likely find it difficult to get a reliable reading as you cannot bring the calipers close to the beads without disturbing them. 
 
-To combat this, you will collect your data by positioning a camera above the levitator and taking a picture. However, it is important that you have a plan to convert from a distance between beads in pixels to a measure of their separation in mm; this is much like adding the scale bar in your Module 1 deliverable. You will need a ruler in your image whose markings you can use to compute the conversion factor, and you will want to think about how best to position your ruler. 
+To combat this, you will collect your data by positioning a camera near the levitator and taking a picture. However, it is important that you have a plan to convert from a distance between beads in pixels to a measure of their separation in mm; this is much like adding the scale bar in your Module 1 deliverable. You will need a ruler in your image whose markings you can use to compute the conversion factor, and you will want to think about how best to position your ruler. 
 
 If you think of materials around the lab that might be helpful, ask your instructor if you can use these materials. Creativity is encouraged!
 
@@ -160,7 +160,7 @@ If you think of materials around the lab that might be helpful, ask your instruc
 ## Setting up the camera to take a picture of the levitated beads
 
 
-The provided cell phone camera mount, mounted to a vertical pole, can be used to position your cell phone above the acoustic levitator to take pictures of the beads for analysis. Make sure to include a ruler in the image for calibration purposes and give some thought to the best positioning of the ruler for accurate results.
+The provided cell phone camera mount, mounted to a vertical pole, can be used to position your cell phone near the acoustic levitator to take pictures of the beads for analysis. Make sure to include a ruler in the image for calibration purposes and give some thought to the best positioning of the ruler for accurate results.
 
 ### Preliminary Data Analysis
 
