@@ -218,6 +218,8 @@ Next week we will perform a detailed investigation of a significant source of un
 
 If you are having trouble working out what to investigate, please speak to your instructor. 
 
+**Make sure when you wiggle a parameter that that is the only parameter that you change - to work out which sources of uncertainty are significant you need to wiggle one parameter at a time.**
+
 
 ## Photo for Estimating the Speed of Sound
 
