@@ -63,9 +63,9 @@ Also reported in the legend is the "reduced chi-squared", $$\chi_\nu^2$$, which 
 \chi_\nu^2 = \frac{\chi^2}{\text{# data points - # fitting parameters}}
 \end{equation}
 
-In the example data above, we had 11 data points and two fitting parameters ($$m$$ and $$b$$). Roughly speaking, the reduced $$\chi^2$$ value tells us on average how many error bars away each data point is from the fitted line. So the value $$\chi_\nu^2 = 0.86$$ in the example means that on average each data point is just within its error bar of the fitted line. Looking at the data and fit above, although there are a couple of data points that are farther away from the line than their error bars, on average they fall within their error bar of the fitted line.
+In the example data above, we had 11 data points and two fitting parameters ($$m$$ and $$b$$). Roughly speaking, the reduced $$\chi^2$$ value tells us on average how many error bars away each data point is from the fitted line. So the value $$\chi_\nu^2 = 1$$ in the example means that *on average* each data point is just within its error bar of the fitted line. Looking at the data and fit above, although there are a couple of data points that are farther away from the line than their error bars, on average they fall within their error bar of the fitted line.
 
-**The value of $$\chi_\nu^2$$ is important because it can tell us how good our fit is (or sometimes, how well we estimated the error bars).** If the error bars are an accurate representation of the uncertainty in the data, we would expect *on average* each data point to be approximately one error bar away from the line: $$\chi_\nu^2 \approx 1$$. In the example above, the value of $$\chi_\nu^2 = 0.86$$ supports the idea that our linear fit is a good model of the data. 
+**The value of $$\chi_\nu^2$$ is important because it can tell us how good our fit is (or sometimes, how well we estimated the error bars).** If the error bars are an accurate representation of the uncertainty in the data, we would expect *on average* each data point to be approximately one error bar away from the line: $$\chi_\nu^2 \approx 1$$. In the example above, the (lucky) value of $$\chi_\nu^2 = 1$$ supports the idea that our linear fit is a good model of the data.
 
 Let's look at two examples where our reduced $$\chi^2$$ value differs significantly from 1. First, here's an example where $$\chi_\nu^2$$ is small:
 
@@ -76,7 +76,7 @@ In this example, each data point is much closer than 1 error bar to the fitted l
 + perhaps it was just a random coincidence that the values lined up, but we have many data points lining up, so that's probably not it either; 
 + we overestimated the error bars.
 
-The third option seems most likely in this case. So **if our data looked like this, we should double-check the error-bar calculation.**
+The third option seems most likely in this case. So **if our data looked like this, we should double-check the calculation of uncertainties.**
 
 Finally, let's take a look at an example where the data points are typically much further than 1 error bar away from the fitted line:
 ![underfit example](images/errors-too-small.png)
