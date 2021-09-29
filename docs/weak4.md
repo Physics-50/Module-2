@@ -1,8 +1,21 @@
+## Week 4: Preparation of your Deliverable
 
-Once you are satisfied with your five images, prepare a plot of bead position vs. node number with the curve fitting script provided at the start of this week's instructions. You should start by analyzing the results from a single image. For that you should use the unweighted version of the linear regresion script. 
+1. [Background: Data Analysis](#background-reading-for-data-analysis)
+2. [Instructions: In Lab this Week](#instructions-for-in-lab-this-week)
+3. [What you need to leave lab with this week](#what-you-need-to-leave-lab-with-this-week)
+3. [Checkpoint #3](#checkpoint-#3)
+
+You are not required to attend lab this week but are welcome and encouraged to do so to ask questions of your instructor (help is also available through office hours).
+
+Your goal this week is two-fold
+
++ Complete the analysis of the data you collected last week
++ Prepare your deliverable
+
+## Data Analysis
 
 
-You should aim to have at least 5 beads for each of at least 5 different node numbers (coming from multiple photos). For each node number you will make use of the mean value for the bead position with an uncertainty estimated from the standard error of the mean for your plot of bead position vs. node number. You may not trap beads in exactly the same set of nodes each time. You may therefore end up with some nodes having more or less data than others. This is okay. However, if you have 3 or fewer data points for a given node you should make use of the spread in the data---rather than the SEM---to estimate the uncertainty (representing the uncertainty as the full spread between the smallest and largest data point for that node). This is because it is statistically meaningless to compute the SEM with 3 or fewer data points. You should not use any data from nodes for which you only have a single data point as you have no way to estimate the uncertainty for those data points.
+Last week you should have taken 5 photosYou should aim to have at least 5 beads for each of at least 5 different node numbers (coming from multiple photos). For each node number you will make use of the mean value for the bead position with an uncertainty estimated from the standard error of the mean for your plot of bead position vs. node number. You may not trap beads in exactly the same set of nodes each time. You may therefore end up with some nodes having more or less data than others. This is okay. However, if you have 3 or fewer data points for a given node you should make use of the spread in the data---rather than the SEM---to estimate the uncertainty (representing the uncertainty as the full spread between the smallest and largest data point for that node). This is because it is statistically meaningless to compute the SEM with 3 or fewer data points. You should not use any data from nodes for which you only have a single data point as you have no way to estimate the uncertainty for those data points.
 
 
 + A link to your organized spreadsheet in which you have calculated the mean bead position and uncertainty for each node position. For any nodes for which you only have a single data point please indicate that the uncertainty is undetermined and do not use that data point in your plot. 
