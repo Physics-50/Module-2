@@ -50,6 +50,19 @@ To get a good set of data you will need to adjust for/minimize rotation in your 
 
 Prepare a plot of bead position vs. node number with the curve fitting script provided at the start of this week's instructions. Since your data from a single photo will not have uncertainties on the individual data points you should use the unweighted version of the linear regression script for your preliminary data analysis from a single photo. 
 
+Once you've prepared your plot you should take a good look to see if you are satisfied with the plot before moving on. Here are some things you might check:
+
+
++ Are there any major apparent discontinuities or discrepancies from linearity? One of the benefits to plotting the data is that if you missed a node you can correct for it. If there is a discontinuity in your plot take a look at your image and data. Does it look like there is a node with a bead missing? If so go ahead and shift the data - after doing so are the results linear? If this is an issue you are having this would be a good moment to touch base with your instructor. 
+
++ If you were able to trap a large number of beads you might expect variations far from the center of the levitator, whether due to irregularities in the standing wave pattern or due to distortion of the image. Do you see any sign of this in your results? If you have reason to suspect that your edge data points are deviating from your theory (i.e. they don't match the linear trend well the rest of the data does) it is reasonable to not include them in your analysis. If you see this this would be another good moment to touch base with your instructor.
+
++ The slope should represent the separation between nodes. Does the result agree approximately with what you would expect just looking at the beads in the levitator? (If not you should check for a mistake in your analysis)
+
++ If you use the slope to estimate the speed of sound do you get a reasonable result?
+
+
+
 ### Collection of Complete Data Set
 
 Once you are satisfied with your results from a single image you need to collect a complete data set (5 distinct photos) so that you can estimate the uncertainty.
@@ -73,6 +86,8 @@ If you have extra time you should begin analyzing your other four photos.
 # Checkpoint #3
 
 + A screenshot of your organized spreadsheet which is set-up for analysis of 5 images although you are only expected to have analyzed one for this checkpoint.
+
++ The 5 photos you will use for your data analysis
 
 + A plot of bead position vs. node number, prepared in MATLAB, based on the results you extracted from a single image. For this week only your individual data points are not expected to include uncertainties. Please display the fit parameters on the plot (the provided script will do this for you).
 
