@@ -55,6 +55,8 @@ This video gives you a sense of what to expect:
 
 Before making use of dry ice it is important that you carefully review the [safety precautions at this link](dry-ice-safety).
 
+**Please note the request within the safety documentation to bring your own safety glasses if you have them. If not safety glasses will be provided.**
+
 
 ## Checkpoint Instructions
 
