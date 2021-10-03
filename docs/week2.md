@@ -4,7 +4,7 @@
 2. [An Introduction to Parallax](#parallax)
 3. [Systematic Error](#systematic-error)
 4. [Further Exploration (optional)](#further-exploration)
-5. [Checkpoint Instructions](#checkpoint-instructions
+5. [Checkpoint Instructions](#checkpoint-instructions)
 
 
 ## Introduction
