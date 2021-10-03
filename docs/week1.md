@@ -17,9 +17,9 @@ In this module we will be working with a rather cool piece of home-built equipme
 This week in lab you will be working with a standing wave of sound to levitate small objects (cool!). Let us take a few minutes to understand how they work.
 
 #### A Brief Review of Standing Waves
-The acoustic levitators we will use in lab make use of standing waves of sound. Let us harken back to Ph 24 for a brief review of the basics of standing waves.
+The acoustic levitators we will use in lab make use of standing waves of sound. Let us harken back to Physics 24 for a brief review of the basics of standing waves.
 
-As you may recall, in a transverse wave the disturbance away from equilibrium, y, in a wave traveling in the x direction can be described by the equation $$y=A \sin(k x-\omega t)=A \sin[2\pi(\frac{x}{\lambda}-\nu t)]$$ where $$ A$$ is the maximum amplitude, $$ \nu=\frac{\omega}{2\pi}$$ is the frequency, and $$\lambda$$ is the wavelength of the wave. The speed $$ v$$ of the wave is given by $$v=\lambda \nu.$$
+As you may recall, in a transverse wave the disturbance away from equilibrium, y, in a wave traveling in the x direction can be described by the equation $$y=A \sin(k x-\omega t)=A \sin[2\pi(\frac{x}{\lambda}-\nu t)]$$ where $$ A$$ is the maximum amplitude, $$ \nu=\frac{\omega}{2\pi}$$ is the frequency (that's Greek "nu"), and $$\lambda$$ is the wavelength of the wave. The speed $$ v$$ of the wave is given by $$v=\lambda \nu.$$
 
 In the case of a wave on a string the wave travels along the length of the string and the disturbance $$ y $$ is the displacement of bits of string perpendicular to the length. Imagine a string tied at one end to a fixed spot on a post, held under constant tension and attached at the other end to a mechanical oscillator that jiggles the string. The oscillator creates a sine wave that propagates towards the fixed end, where it reflects, creating another sine wave that propagates back toward the oscillator in the opposite direction. We now have two waves traveling in opposite directions and what we observe will be the result of these two waves added together.
 
@@ -77,7 +77,7 @@ The above animation shows a standing pressure wave that is oscillating at its re
 
 In the previous section the standing wave on a string was caused by a traveling wave in one direction, driven by a source, and the reflections of this original traveling wave at the ends of the string.  A standing wave of sound can be created in the same way, using a single traveling-wave source like a speaker at one end of the setup and a sound reflector, like a metal plate, at the other.  Standing waves set up in this way are called resonant standing waves.  In a given setup, they are possible only at certain frequencies because the reflected waves have to interfere in just the right way with one another – or to put it another way, an integer number of half-wavelengths must fit along the length of the setup.  However, at the right wavelengths or frequencies, resonant standing waves can be very strong even if the original driving source is relatively weak; the reason is again that resonant standing waves involve constructive interference of the original wave with the waves that have gone before it and completed one round trip, or two round trips (etc.), through the setup.
 
-Resonant standing waves of sound are very common.  (To play with some, consult a friend with just about any non-electronic musical instrument.)  However, our setup this week will involve **non-resonant standing waves** of sound.  Remember that the key ingredients for a standing wave are two traveling waves in opposite directions. In a non-resonant standing wave, we simply place one source at either end of the setup.  If the two sources are driven together — by the same signal — they will produce traveling waves in opposite directions, of equal frequencies and amplitudes, creating a standing wave.  In a non-resonant standing wave, reflections of the original traveling waves are not crucial.  Therefore, there are no specific frequency or wavelength requirements to make a standing wave “work” in the setup (i.e., no harmonics).  However, since the original traveling waves don’t get “reused” in the setup through multiple reflections, a non-resonant standing wave is generally not very strong unless the driving source itself is strong. You will see both of these features of non-resonant standing waves in the apparatus you will use this week.
+Resonant standing waves of sound are very common.  (To play with some, consult a friend with just about any non-electronic musical instrument.)  However, our setup this week will involve **non-resonant standing waves** of sound.  Remember that the key ingredients for a standing wave are two traveling waves in opposite directions. In a non-resonant standing wave, we simply place one source at either end of the setup.  If the two sources are driven together---by the same signal---they will produce traveling waves in opposite directions, of equal frequencies and amplitudes, creating a standing wave.  In a non-resonant standing wave, reflections of the original traveling waves are not crucial.  Therefore, there are no specific frequency or wavelength requirements to make a standing wave “work” in the setup (i.e., no harmonics). However, since the original traveling waves don’t get “reused” in the setup through multiple reflections, a non-resonant standing wave is generally not very strong unless the driving source itself is strong. You will see both of these features of non-resonant standing waves in the apparatus you will use this week.
 
 In our acoustic levitator apparatus, the two sources are two sets of tiny speakers driven by the same electrical signal.  Each speaker set is arranged in a slightly concave bowl-like shape, and the two bowls face each other on opposite ends of a plastic frame.  The curved, concave shape of each source is a detail we haven’t yet discussed.  Its purpose is to shape the standing waves, making them focused and strongest in the middle of the apparatus.  The same thing is very commonly done for standing waves of light, with pairs of curved mirrors.  You can get a rough idea of how the curved surfaces produce curved wave patterns in the second half of <a href="https://www.youtube.com/watch?v=tVWemRbgLW4">this</a> video.
 
@@ -103,7 +103,7 @@ You can go ahead and turn on the function generator and set it now. For this exp
 #### Powering the Acoustic Levitator
 Let’s turn our electric signal into a sound wave! Ensure that the switch on the levitator is set to “AMP.” Be careful, as the switch has 3 possible positions, and you want to set it all the way to “AMP.” This sets the output from the FG to go through a digital driver. A digital driver sets the potential difference at its output to one of two things: either 0 V, or the voltage supplied by the power supply (labeled PS OUTPUT (+)). The voltage on the logic inputs determines which of these two options is outputted. In our setup, the square wave output of the function generator is connected to the logic inputs. Thus, the output of the driver will be a square wave oscillating at the same frequency as the function generator, switching between 0 V and the power supply output voltage.
 
-<img class="wp-image-1413" src="http://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/08/digital-driver.png" alt="" width="400" height="400">
+<img class="wp-image-1413" src="https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/08/digital-driver.png" alt="" width="400" height="400">
 
 The above image shows a schematic of the driver used in our circuit “L298N Motor Drive Controller Board.” This board is actually able to drive two devices with outputs A and B. We will only be using one in our circuit. “PS OUTPUT(+)” is the connection to the positive power supply output and “PS GND” is the power supply ground.
 
@@ -126,7 +126,7 @@ The L298N Motor Drive Controller Board has on-board logic that needs to be power
 
 Before turning on the power supply, double check all connections, and turn all the knobs on the power supply to zero (all the way counterclockwise). Now turn on the power supply. The light labeled C.V. (coarse voltage) should be green, meaning that the output of the power supply is limited by the voltage dial settings. Make sure the function generator is turned on and the output light is on. Turn the coarse dial for the voltage slowly up (clockwise). Observe that the voltage reading on the front panel of the power supply rises, but the current stays at zero. The power supply might make clicking sounds - this is okay. 
 
-When you reach a voltage output of around 6-10 volts, the current will start to rise, the green C.V. light will go off and the red C.C. light will go on. At this point both the current and the voltage will stop rising in response to further increases of the coarse voltage dial. The red C.C. light indicates that the power supply output is now being limited by the current dial settings. Turn the coarse current dial up until the green C.V. light comes back on. Alternate between increasing the voltage setting and the current setting as necessary until you have reached an output voltage between 12V - 14 V. Do not exceed 15 V. Keep an eye on how much current the power supply is providing. **If it goes above 225 mA (0.225 A) turn the power supply off** and check your circuit or ask an instructor. 
+When you reach a voltage output of around 6-10 volts, the current will start to rise, the green C.V. light will go off and the red C.C. light will go on. At this point both the current and the voltage will stop rising in response to further increases of the coarse voltage dial. The red C.C. light indicates that the power supply output is now being limited by the current dial settings. Turn the coarse current dial up until the green C.V. light comes back on. Alternate between increasing the voltage setting and the current setting as necessary until you have reached an output voltage between 12 V--14 V. Do not exceed 15 V. Keep an eye on how much current the power supply is providing. **If it goes above 225 mA (0.225 A) turn the power supply off** and check your circuit or ask an instructor. 
 
 ### Levitating a Bead
 Now let's try to levitate a styrofoam bead! See the following [video for instructions on how to load a bead into the levitator](https://youtu.be/YrpVdlcYu7Y){:target="_blank"}.
@@ -158,7 +158,6 @@ If you think of materials around the lab that might be helpful, ask your instruc
 --------------
 
 ## Setting up the camera to take a picture of the levitated beads
-
 
 The provided cell phone camera mount, mounted to a vertical pole, can be used to position your cell phone near the acoustic levitator to take pictures of the beads for analysis. Make sure to include a ruler in the image for calibration purposes and give some thought to the best positioning of the ruler for accurate results.
 
@@ -214,11 +213,11 @@ Next week we will perform a detailed investigation of a significant source of un
 
 1) A single screenshot from your Google docs lab notebook that shows one or two images relevant to understanding what you did as well as relevant tabulated data. There is a template on the second page of the Google docs lab notebook that you may find helpful. 
 
-2) A 2-4 sentence description of your investigation and your conclusion as to whether this was a significant source of uncertainty.
+2) A 2--4 sentence description of your investigation and your conclusion as to whether this was a significant source of uncertainty.
 
 If you are having trouble working out what to investigate, please speak to your instructor. 
 
-**Make sure when you wiggle a parameter that that is the only parameter that you change - to work out which sources of uncertainty are significant you need to wiggle one parameter at a time.**
+**Make sure when you wiggle a parameter that that is the only parameter that you change---to work out which sources of uncertainty are significant you need to wiggle one parameter at a time.**
 
 
 ## Photo for Estimating the Speed of Sound
