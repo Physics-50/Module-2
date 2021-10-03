@@ -5,7 +5,7 @@ Dry ice is the solid form of carbon dioxide and sublimates (goes directly from s
 
 ## Hazards
 
-+ Eyes are extremely susceptible to cryogen damage and safety glasses must be worn while dry ice is being used. Bring your own safety goggles to lab.
++ Eyes are extremely susceptible to cryogen damage and safety glasses must be worn while dry ice is being used. If you have safety goggles please bring them to lab, if not safety glasses will be provided.
 
 + Handling of dry ice without proper insulation can lead to tissue damage (frostbite) that is similar to thermal burns. When filling your cup of dry ice at the front of lab always use the gloves provided. At your station use the tongs to handle the dry ice. Do not touch dry ice with your bare skin.
 
