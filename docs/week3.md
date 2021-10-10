@@ -1,9 +1,9 @@
 ## Week 3
 
 1. [Background: Data Analysis](#background-reading-for-data-analysis)
-2. [Instructions: In Lab this Week](#instructions-for-in-lab-this-week)
+2. [Lab Instructions for Week 3](#lab-instructions-for-week-3)
 3. [What you need to leave lab with this week](#what-you-need-to-leave-lab-with-this-week)
-3. [Checkpoint #3](#checkpoint-#3)
+3. [Checkpoint #3](#checkpoint-3)
 
 ### Background Reading for Data Analysis
 One of the most important ideas we want you to take from Module 2 is to think of a data set as a whole, not as individual points. 
@@ -83,7 +83,7 @@ If you have extra time you should begin analyzing your other four photos.
 
 + A linear regression fit to data extracted from one of the five images
 
-# Checkpoint #3
+# Checkpoint 3
 
 + A screenshot of your organized spreadsheet which is set-up for analysis of 5 images although you are only expected to have analyzed one for this checkpoint.
 
