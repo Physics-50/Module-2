@@ -29,7 +29,7 @@ For week 4 data analysis (and also for use in module 3) please download this fil
 
 ## Deliverable
 
-Like in module 1, your deliverable will consist of a single multi-panel figure with a caption. You should make use of the instructions for the module 1 deliverable as a guide.
+Your deliverable will consist of a single multi-panel figure with a caption. You should make use of the instructions for the module 1 deliverable as a guide.
 
 Your figure must include:
 + an image showing how you collected your data
@@ -39,6 +39,6 @@ Your figure must include:
 
 + a caption that follows the guidelines outlined in Module 1, week 3. Make sure to include your main result (the measured speed of sound with uncertainty) in your caption. Relevant fit parameters such as the $$\chi^2$$ value for the fit should be included in the caption, not shown on the plot (and defined where appropriate).
 
-+ You will also be asked to provide a link to your organized spreadsheet.
++ You will also be asked to provide a link to your organized spreadsheet. This spreadsheet must include the calculations you did as part of your data analysis, entered as formulas in the Google spreadsheet.
 
 
