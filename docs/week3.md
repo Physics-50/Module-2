@@ -95,6 +95,7 @@ If you have extra time you should begin analyzing your other four photos.
 
 + A statement responding to the following question: Do you think the uncertainty provided by the results of the linear regression fit to your data fully captures the uncertainty in your experiment. Please answer in 1--2 sentences.
 
++ And to double-check, make sure you have finished all of this week’s miniquestions by [checking here](mini-questions#week-3){:target="_blank"}
 
 
 
