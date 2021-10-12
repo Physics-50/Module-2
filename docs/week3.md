@@ -34,12 +34,12 @@ Bottom line:
 You can correct for the 3D structure of the standing waves with by applying the following correction:
 
 \begin{equation}
-  \lambda_{\rm eff} = \frac{\lambda}{1+\frac{1}{\pi n}}
+  \lambda = \frac{\lambda_{\rm eff}{1+\frac{1}{\pi n}}
 \end{equation}
 
-For our system we will approximate n~4.5 ([see previously mentioned supplemental materials](gouy)). There is significant uncertainty in this estimate of n. We do not expect you to account for this additional uncertainty. Due to this uncertainty your final result may still differ from the expected value by more than your quoted uncertainty. (Optional enrichment: if you'd like to try to estimate the uncertainty due to our approximation of n you are welcome to try. This is not required.)
+For our system the instructors have determined that $$n=4.5 \pm 0.25$$. ([see previously mentioned supplemental materials](gouy)). We will talk more in class about how to incorporate the uncertainty the uncertainty in $$n$$ into your final result for the speed of sound. 
 
-To make sure you are ready to apply the correction to your data, please complete this mini-question:
+For now, to make sure you are ready to apply the correction to your data, please complete this mini-question, ignoring the uncertainty in $$n$$:
 
 ------------
 #### Miniquestion 1: Correcting your estimated speed of sound to account for the 3D structure of the standing waves
