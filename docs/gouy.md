@@ -47,3 +47,16 @@ from which we would naively estimate the speed of sound to be
 \begin{equation}
   v_{\rm naive} = (8.970\text{ mm})(40\text{ kHz}) = 359\text{ m/s}
 \end{equation}
+
+To simplify the correction in the manual we introduce a parameter
+\begin{equation}
+  n = \frac{2 z_R}{\lambda_eff}
+\end{equation}
+
+based on the discussion on this page, we will use n~4.5 in the analysis. 
+
+Using this definition to substitute for $$z_R$$ in equation 4:
+
+\begin{equation}
+  \lambda_{\rm eff} = \frac{\lambda}{1+\frac{1}{\pi n}}
+\end{equation}
