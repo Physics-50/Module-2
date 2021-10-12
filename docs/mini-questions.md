@@ -81,25 +81,7 @@ On this page you will find all of the mini-questions for Module 2. Although each
 
 ## Week 4
 
-
-
-
-<!--
-
-
-
-
-
-#### Miniquestion 1: Estimating the uncertainty from your data set
-[*Click here to open in a new tab*](https://forms.gle/t92tcKpyNnzcPavr9){:target="_blank"}
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSduqqerZc0kMOrcJsE0xta4hfHKCwmZFMzAFq1qvGl5x5FVbQ/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
-</iframe>
-
-
-
-
--->
+Coming soon...
 
 
 
