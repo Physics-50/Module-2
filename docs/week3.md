@@ -1,4 +1,4 @@
-## Week 3
+# Week 3
 
 1. [Why am I getting too large a value for the speed of sound?](#why-am-i-getting-too-large-a-value-for-the-speed-of-sound)
 1. [Background: Data Analysis](#background-reading-for-data-analysis)
