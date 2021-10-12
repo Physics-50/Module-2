@@ -20,7 +20,7 @@ Throughout this course we have we have asked you to pay careful attention to unc
 
 If you have appropriately controlled for systematic errors and accounted for random errors, your results should differ from the mean by approximately their uncertainty. But perhaps you still feel the above results are "close enough" to the expected value (343 m/s at $$20^{o}$$C). 
 
-The above results differ from the expected value for the speed of sound by on the order 10x their uncertainty! To get a sense of how unlikely that is, for a normal distribution a $$5 \sigma$$ event, (i.e. 5 standard deviations from the mean) has a probability of 1 in ~3.5 million, a $$6 \sigma$$ event has a probability of 1 in ~0.5 billion. Clearly we should give some more thought to explaining the discrepancy between these results and the expected value.
+The above results differ from the expected value for the speed of sound by on the order 10x their uncertainty! To get a sense of how unlikely that is, for a normal distribution a $$5 \sigma$$ event, (i.e. 5 standard deviations from the mean) has a probability of 1 in $$~$$3.5 million, a $$6 \sigma$$ event has a probability of 1 in $$~$$0.5 billion. Clearly we should give some more thought to explaining the discrepancy between these results and the expected value.
 
 When experimental results don't agree with the expected value it is a good idea to:
 1. Check to make sure you trust your experimental results. Were you careful to minimize potential sources of systematic error and to appropriately randomize potential sources of uncertainty by resetting the experiment?
@@ -31,7 +31,7 @@ The theory we have relied upon assumes the levitator produces plane waves. Howev
 
 Bottom line:
 
-You can correct for the 3D structure of the standing waves by applying the following correction to get the actual wavelength, $$\lambda$$ from  your measured value, $$\lambda_{eff}$$:
+You can correct for the 3D structure of the standing waves by applying the following correction to get the actual wavelength ($$\lambda$$) from  your measured value, $$\lambda_{eff}$$:
 
 \begin{equation}
   \lambda = \frac{\lambda_{\rm eff}}{1+\frac{1}{\pi n}}
