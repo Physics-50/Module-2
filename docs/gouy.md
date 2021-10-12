@@ -14,11 +14,11 @@ We have assumed that the levitator produces  **plane waves**, which are waves wh
 We might approximate the shape of the wavefronts following the well-established theory of [Gaussian beams](https://en.wikipedia.org/wiki/Gaussian_beam){: target="_new" }. To apply this theory to the levitator, we need to estimate the **Rayleigh range** $$z_R$$, which is the distance from the center of the pattern to the place along the symmetry axis at which the wavefront is most curved. Traditionally, we measure distance along the axis with the variable $$z$$, with the zero at the exact center of the pattern.
 
 {: .center}
-![alt text](images/Rayleigh-range.jpg){: width="400px;"}
+![alt text](images/Gouy-with-circles.png){: width="400px;"}
 
 
 {: .mycap}
-**Figure 2** --- An estimate of the Rayleigh range made by eyeballing a circle centered at $$z = 0$$.
+**Figure 2** --- An estimate of the Rayleigh range made by eyeballing circular arcs with a radius of curvature of twice the distance, z from the center of the focused beam.
 
 
 From the picture, it appears that the diameter of the circle is about $$2 z_R \approx 9 \frac{\lambda_{\rm obs}}{2}$$. If we use the uncorrected estimate of the wavelength from the expected value using $$v_{\rm sound} = 343 \text{ m/s}$$ and the drive frequency of 40 kHz, we get an estimated Rayleigh range of
