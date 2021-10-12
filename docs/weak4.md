@@ -21,11 +21,19 @@ Your first step this week is to measure and record in your spreadsheet the posit
 
 For each node number you will make use of the mean value for the bead position with an uncertainty estimated from the standard error of the mean.
 
-You may not have trapped beads in exactly the same set of nodes each time. You may therefore end up with some nodes having more or less data than others. This is okay. However, if you have 3 or fewer data points for a given node you should make use of the spread in the data---rather than the SEM---to estimate the uncertainty (representing the uncertainty as the full spread between the smallest and largest data point for that node). This is because it is statistically meaningless to compute the SEM with 3 or fewer data points. You should not use any data from nodes for which you only have a single data point as you have no way to estimate the uncertainty for those data points.
+You may not have trapped beads in exactly the same set of nodes each time. You may therefore end up with some nodes having more or less data than others. This is okay. However, **if you have 3 or fewer data points for a given node you should make use of the spread in the data---rather than the SEM---to estimate the uncertainty (representing the uncertainty as the full spread between the smallest and largest data point for that node). This is because it is statistically meaningless to compute the SEM with 3 or fewer data points. You should not use any data from nodes for which you only have a single data point as you have no way to estimate the uncertainty for those data points.**
+
+----
+
+#### Miniquestion 1: Estimating the uncertainty from your data set
+[*Click here to open in a new tab*](https://forms.gle/t92tcKpyNnzcPavr9){:target="_blank"}
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSduqqerZc0kMOrcJsE0xta4hfHKCwmZFMzAFq1qvGl5x5FVbQ/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
+</iframe>
+
+-----
 
 Once you have collected this data you are ready to prepare your plot of bead position vs. node number. 
-
-For week 4 data analysis (and also for use in module 3) please download this file for [weighted curve fitting of data with uncertainties](curve_fitting.m) and run the script. This script differs from the version you used last week in that the fit is weighted by the uncertainty of the individual data points. You may want to refer back to the information provided in the [curve fitting guide](curve_fitting).
 
 ## Deliverable
 
