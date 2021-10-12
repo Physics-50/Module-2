@@ -37,7 +37,7 @@ You can correct for the 3D structure of the standing waves by applying the follo
   \lambda = \frac{\lambda_{\rm eff}}{1+\frac{1}{\pi n}}
 \end{equation}
 
-For our system the instructors have determined that $$n=4.5 \pm 0.25$$. ([see previously mentioned supplemental materials](gouy)). We will talk more in class about how to incorporate the uncertainty the uncertainty in $$n$$ into your final result for the speed of sound. 
+For our system the instructors have determined that $$n=4.5 \pm 0.25$$. ([see previously mentioned supplemental materials](gouy)). We will talk more in class about how to incorporate the uncertainty in $$n$$ into your final result for the speed of sound. 
 
 <!---
 
