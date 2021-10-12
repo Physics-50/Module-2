@@ -21,12 +21,12 @@ We might approximate the shape of the wavefronts following the well-established 
 **Figure 2** --- An estimate of the Rayleigh range made by eyeballing circular arcs with a radius of curvature of twice the distance, z from the center of the focused beam.
 
 
-From the picture, it appears that the diameter of the circle is about $$2 z_R \approx 9 \frac{\lambda_{\rm obs}}{2}$$. If we use the uncorrected estimate of the wavelength from the expected value using $$v_{\rm sound} = 343 \text{ m/s}$$ and the drive frequency of 40 kHz, we get an estimated Rayleigh range of
+From the picture, it appears that the radius of curvature is closest to $$2z$$ at $$2 z_R \approx 9 \frac{\lambda_{\rm eff}}{2}$$. If we use the uncorrected estimate of the wavelength from the expected value using $$v_{\rm sound} = 343 \text{ m/s}$$ and the drive frequency of 40 kHz, we get an estimated Rayleigh range of
 \begin{equation}\label{eq:Rayleigh-range}
   z_R \approx \frac{9}{4} \times (343\text{ m/s}) (40\text{ kHz}) = 31\text{ mm}
 \end{equation}
 
-As discussed on the page about [Gaussian beams](https://en.wikipedia.org/wiki/Gaussian_beam){: target="_new" }, along the $$z$$ axis the amplitude of the standing wave should be proportional to
+As discussed on the excellent Wikipedia page about [Gaussian beams](https://en.wikipedia.org/wiki/Gaussian_beam){: target="_new" }, along the $$z$$ axis the amplitude of the standing wave should be proportional to
 \begin{equation}\label{eq:Gouy}
   y \propto \sin \bigg[\frac{2\pi z}{\lambda} - \text{arctan}(z/z_R) \bigg]
 \end{equation}
@@ -50,7 +50,7 @@ from which we would naively estimate the speed of sound to be
 
 To simplify the correction in the manual we introduce a parameter
 \begin{equation}
-  n = \frac{2 z_R}{\lambda_eff}
+  n = \frac{2 z_R}{\lambda_{\rm eff}}
 \end{equation}
 
 based on the discussion on this page, we will use n~4.5 in the analysis. 
