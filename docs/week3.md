@@ -39,6 +39,8 @@ You can correct for the 3D structure of the standing waves by applying the follo
 
 For our system the instructors have determined that $$n=4.5 \pm 0.25$$. ([see previously mentioned supplemental materials](gouy)). We will talk more in class about how to incorporate the uncertainty the uncertainty in $$n$$ into your final result for the speed of sound. 
 
+<!---
+
 For now, to make sure you are ready to apply the correction to your data, please complete this mini-question, ignoring the uncertainty in $$n$$:
 
 ------------
@@ -48,6 +50,10 @@ For now, to make sure you are ready to apply the correction to your data, please
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf6Endi8m08yS_0dLNgE-1OtOzm6oQrwkIyUByXTqOZnIQHFQ/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 --------------
+
+
+-->
+
 
 ### Background Reading for Data Analysis
 One of the most important ideas we want you to take from Module 2 is to think of a data set as a whole, not as individual points. 
@@ -157,6 +163,9 @@ Checkpoint 3 will take place in two parts:
 
 
 **Part 2: Post-lab analysis**
+For part 2 our usual rules apply:
+**Reminder:** Please prepare your assignment in a separate document, enter all entries in a single sitting without using the "save" button and then make use of the "submit" button to submit your work. You may not resubmit your work once it has been submitted (and saving in Gradescope is equivalent to submitting).
+
 + A screenshot of your organized spreadsheet which is set-up for analysis of 5 images although you are only expected to have analyzed two for this checkpoint.
 
 + The 5 photos you will use for your data analysis
