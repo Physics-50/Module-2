@@ -153,7 +153,7 @@ If you have extra time you should begin analyzing your other three photos.
 
 + A plot of bead position vs. node number, prepared in MATLAB, based on the results you extracted from a two image. The individual data points should include uncertainties estimated from the spread between the two data points for each node. Data from nodes for which you only have a single measured value should not be included. Please display the fit parameters on the plot (the provided script will do this for you).
 
-+ A calculation of the speed of sound with uncertainty based on your line of best fit to the plot.
++ A calculation of the speed of sound with uncertainty based on your line of best fit to the plot. As part of your calculation of the speed of sound you are expected to have applied to correction to the measured wavelength provided at the beginning of this week's instructions.
 
 + And to double-check, make sure you have finished all of this week’s miniquestions by [checking here](mini-questions#week-3){:target="_blank"}.
 
