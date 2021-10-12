@@ -18,13 +18,13 @@ Throughout this course we have we have asked you to pay careful attention to unc
 | 369.1 m/s               | 1.1 m/s      |
 | 359.1 m/s               | 1.7 m/s      |
 
-If you have appropriately controlled for systematic errors and accounted for random errors, your results should differ from the mean by approximately their uncertainty. But perhaps you still feel the above results are "close enough" to the expected value (343 m/s at $$20^{o}C$$). 
+If you have appropriately controlled for systematic errors and accounted for random errors, your results should differ from the mean by approximately their uncertainty. But perhaps you still feel the above results are "close enough" to the expected value (343 m/s at $$20^{o}$$C). 
 
 The above results differ from the expected value for the speed of sound by on the order 10x their uncertainty! To get a sense of how unlikely that is, for a normal distribution a $$5 \sigma$$ event, (i.e. 5 standard deviations from the mean) has a probability of 1 in ~3.5 million, a $$6 \sigma$$ event has a probability of 1 in ~0.5 billion. Clearly we should give some more thought to explaining the discrepancy between these results and the expected value.
 
 When experimental results don't agree with the expected value it is a good idea to:
 1. Check to make sure you trust your experimental results. Were you careful to minimize potential sources of systematic error and to appropriately randomize potential sources of uncertainty by resetting the experiment?
-2. Check to make sure you trust the "expected value". For example, 343 m/s is the accepted value of the speed of sound under a specific set of conditions. Do those match those in the lab? 343 m/s is the appropriate speed at $$20^{o}C$$. While the speed of sound depends on temperature, our laboratory conditions were close enough to $$20^{o}C$$ that we aren't going to be able to explain the discrepancy with temperature. You might also consider pressure, but the dependence of the speed of sound on pressure is extremely weak.
+2. Check to make sure you trust the "expected value". For example, 343 m/s is the accepted value of the speed of sound under a specific set of conditions. Do those match those in the lab? 343 m/s is the appropriate speed at $$20^{o}$$C. While the speed of sound depends on temperature, our laboratory conditions were close enough to $$20^{o}$$C that we aren't going to be able to explain the discrepancy with temperature. You might also consider pressure, but the dependence of the speed of sound on pressure is extremely weak.
 3. When all else feels it can be a good idea to check if you are confident in your theory. 
 
 In fact the theory we provided assumes the levitator produces plane waves. However, if you took the time to investigate the sound waves with dry ice last week you may have noticed significant discrepancies from plane wave behavior. We can in fact account for this! You will not be responsible for the details of the more complete theory but are encouraged to [read a summary here](gouy).
