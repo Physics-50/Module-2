@@ -48,9 +48,11 @@ On this page you will find all of the mini-questions for Module 2. Although each
 
 ------------------
 
+
 ## Week 3
 
 
+<!---
 #### Miniquestion 1: Correcting your estimated speed of sound to account for the 3D structure of the standing waves
 [*Click here to open in a new tab*](https://forms.gle/Yo8Vrajvr1583QBv9){:target="_blank"}
 
@@ -58,7 +60,10 @@ On this page you will find all of the mini-questions for Module 2. Although each
 </iframe>
 --------------
 
-#### Miniquestion 2: Estimating the speed of sound from a sample plot
+--->
+
+
+#### Miniquestion 1: Estimating the speed of sound from a sample plot
 [*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSdyYDI3QEI4FDsfW4d0M4krPmhwPUsgcYBsDG48WcajfMYhgg/viewform?usp=sf_link){:target="_blank"}
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdyYDI3QEI4FDsfW4d0M4krPmhwPUsgcYBsDG48WcajfMYhgg/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
@@ -66,7 +71,7 @@ On this page you will find all of the mini-questions for Module 2. Although each
 
 ------------
 
-#### Miniquestion 3: Estimating the uncertainty from 2 data points
+#### Miniquestion 2: Estimating the uncertainty from 2 data points
 [*Click here to open in a new tab*](https://forms.gle/MYkieS2qvmeJzMrv8){:target="_blank"}
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjcyLeUy89qqC5gO9NOrWYJyqoBE2POMnF4BxFvDqsy6i-iQ/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
