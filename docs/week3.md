@@ -95,7 +95,8 @@ To get a good set of data you will need to adjust for/minimize rotation in your 
 Prepare a plot of bead position vs. node number with the curve fitting script provided in the section [Background: Data Analysis](#background-reading-for-data-analysis). Since you are only analyzing two images you will have at most two data points for each node. Statistical analysis such as computing the SEM is not meaningful with only two data points. However, it is still helpful to estimate the uncertainty as part of our preliminary analysis so that we can gauge whether our preliminary results appear reasonable. With only two data points, the best we can do is estimate our uncertainty to be the spread between the data points.
 
 
-**What if you only have a single data point for some nodes?** Unfortunately you will not be able to use that data this week. You have no way to estimate the uncertainty in those data points and our weighted fit will not be able to cope with data points for which you cannot appropriately account for the uncertainty. But keep track of the relevant data - hopefully, you will be able to use it next week when you analyze the remaining photos. 
+**What if you only have a single data point for some nodes?** 
+Unfortunately you will not be able to use that data this week. You have no way to estimate the uncertainty in those data points and our weighted fit will not be able to cope with data points for which you cannot appropriately account for the uncertainty. But keep track of the relevant data - hopefully, you will be able to use it next week when you analyze the remaining photos. 
 ----
 
 #### Miniquestion 3: Estimating the uncertainty from 2 data points
