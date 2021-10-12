@@ -147,6 +147,16 @@ If you have extra time you should begin analyzing your other three photos.
 
 # Checkpoint 3
 
+Checkpoint 3 will take place in two parts:
+
+
+**Part 1: Practice calculation**
+*You may resubmit Module 2, checkpoint 3, Part 1 as many times as you like until you get the correct answer (it is auto-graded and will give you an immediate response). For this part **only** it is also okay to "save" your responses to the individual questions.*
+
+ You should do part 1 before part 2. However, we do not recommend completing part 1 before you come to class as we will discuss how to appropriately combine two separate sources of uncertainty in class.
+
+
+**Part 2: Post-lab analysis**
 + A screenshot of your organized spreadsheet which is set-up for analysis of 5 images although you are only expected to have analyzed two for this checkpoint.
 
 + The 5 photos you will use for your data analysis
