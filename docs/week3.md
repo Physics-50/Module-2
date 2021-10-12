@@ -97,6 +97,9 @@ Prepare a plot of bead position vs. node number with the curve fitting script pr
 
 **What if you only have a single data point for some nodes?** 
 Unfortunately you will not be able to use that data this week. You have no way to estimate the uncertainty in those data points and our weighted fit will not be able to cope with data points for which you cannot appropriately account for the uncertainty. But keep track of the relevant data - hopefully, you will be able to use it next week when you analyze the remaining photos. 
+
+
+
 ----
 
 #### Miniquestion 3: Estimating the uncertainty from 2 data points
