@@ -18,7 +18,7 @@ Throughout this course we have we have asked you to pay careful attention to unc
 | 369.1 m/s               | 1.1 m/s      |
 | 359.1 m/s               | 1.7 m/s      |
 
-We've told you that you should expect that if you have appropriately controlled for systematic errors and accounted for random errors, your results should differ from the mean by approximately their uncertainty. But perhaps you still feel the above results are "close enough" to the expected value (343 m/s at $$20^{o}C). 
+If you have appropriately controlled for systematic errors and accounted for random errors, your results should differ from the mean by approximately their uncertainty. But perhaps you still feel the above results are "close enough" to the expected value (343 m/s at $$20^{o}C$$). 
 
 The above results differ from the expected value for the speed of sound by on the order 10x their uncertainty! To get a sense of how unlikely that is, for a normal distribution a $$5 \sigma$$ event, (i.e. 5 standard deviations from the mean) has a probability of 1 in ~3.5 million, a $$6 \sigma$$ event has a probability of in in ~0.5 billion. Clearly we should give some more thought to explaining the discrepancy between these results and the expected value.
 
