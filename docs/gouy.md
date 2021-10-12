@@ -58,7 +58,7 @@ based on the discussion on this page, we will use n~4.5 in the analysis.
 Using this definition to substitute for $$z_R$$ in equation 4:
 
 \begin{equation}
-  \lambda = \frac{\lambda_{\rm eff}}}{1+\frac{1}{\pi n}}
+  \lambda = \frac{\lambda_{\rm eff}}{1+\frac{1}{\pi n}}
 \end{equation}
 
 <!--I commented this out for now but am willing to switch back - You can use the above analysis to determine how to correct the value you measure for the wavelength to that of a plane wave from which you can easily determine the speed of sound. (Note: We are not providing you the final formula to use; you need to read and understand the above analysis to determine how to correct the value you measured for the wavelength under the assumption that you were looking at plane waves to a more honest estimate that accounts for the curvature of the wavefronts from which you may infer an accurate speed of sound.)-->
