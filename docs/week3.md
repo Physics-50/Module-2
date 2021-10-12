@@ -69,7 +69,7 @@ To ensure you are prepared to analyze your data, please make use of the followin
 [![Image of sample data](images/sample_data-beads.png)](images/sample_data-beads.png){:target="_blank"}
 ----
 
-#### Miniquestion 2: Estimating the speed of sound from a sample plot
+#### Miniquestion 1: Estimating the speed of sound from a sample plot
 [*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSdyYDI3QEI4FDsfW4d0M4krPmhwPUsgcYBsDG48WcajfMYhgg/viewform?usp=sf_link){:target="_blank"}
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdyYDI3QEI4FDsfW4d0M4krPmhwPUsgcYBsDG48WcajfMYhgg/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
@@ -108,7 +108,7 @@ Unfortunately you will not be able to use that data this week. You have no way t
 
 ----
 
-#### Miniquestion 3: Estimating the uncertainty from 2 data points
+#### Miniquestion 2: Estimating the uncertainty from 2 data points
 [*Click here to open in a new tab*](https://forms.gle/MYkieS2qvmeJzMrv8){:target="_blank"}
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjcyLeUy89qqC5gO9NOrWYJyqoBE2POMnF4BxFvDqsy6i-iQ/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
