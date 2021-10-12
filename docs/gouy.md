@@ -21,12 +21,7 @@ We might approximate the shape of the wavefronts following the well-established 
 **Figure 2** --- An estimate of the Rayleigh range made by eyeballing circular arcs with a radius of curvature of twice the distance, z from the center of the focused beam.
 
 
-From the picture, it appears that the radius of curvature is closest to $$2z$$ at $$2 z_R \approx 9 \frac{\lambda_{\rm eff}}{2}$$. If we use the uncorrected estimate of the wavelength from the expected value using $$v_{\rm sound} = 343 \text{ m/s}$$ and the drive frequency of 40 kHz, we get an estimated Rayleigh range of
-\begin{equation}\label{eq:Rayleigh-range}
-  z_R \approx \frac{9}{4} \times (343\text{ m/s}) (40\text{ kHz}) = 31\text{ mm}
-\end{equation}
-
-As discussed on the excellent Wikipedia page about [Gaussian beams](https://en.wikipedia.org/wiki/Gaussian_beam){: target="_new" }, along the $$z$$ axis the amplitude of the standing wave should be proportional to
+From the picture, it appears that the radius of curvature is closest to $$2z$$ at $$2 z_R \approx 9 \frac{\lambda_{\rm eff}}{2}$$. As discussed on the excellent Wikipedia page about [Gaussian beams](https://en.wikipedia.org/wiki/Gaussian_beam){: target="_new" }, along the $$z$$ axis the amplitude of the standing wave should be proportional to
 \begin{equation}\label{eq:Gouy}
   y \propto \sin \bigg[\frac{2\pi z}{\lambda} - \text{arctan}(z/z_R) \bigg]
 \end{equation}
@@ -37,28 +32,32 @@ If we can approximate the arctangent by its argument, we get the altered express
 \end{equation}
 where
 \begin{equation}
-  \lambda_{\rm eff} = \frac{\lambda}{1-\frac{\lambda}{2 \pi z_R}}
+  \lambda_{\rm eff} = \frac{\lambda}{1-\frac{\lambda}{2 \pi z_R}}.
 \end{equation}
+To simplify the correction in the manual we introduce a parameter
+\begin{equation}
+  n = \frac{2 z_R}{\lambda_{\rm eff}}
+\end{equation}
+Using this definition to substitute for $$z_R$$ in Equation 4:
+
+\begin{equation}
+  \lambda = \frac{\lambda_{\rm eff}}{1+\frac{1}{\pi n}},
+\end{equation}
+and based on visual analysis similar to the image shown above, we find $$n = 4.5 \pm 0.25$$.  (The uncertainty is based on resolution error, since we can perform a visual comparison of an arc to a bright or dark fringe only every $$\lambda_{\rm eff} / 2$$.
+
+To provide a rough sanity check on this analysis, if we use the uncorrected estimate of the wavelength from the expected value using $$v_{\rm sound} = 343 \text{ m/s}$$ and the drive frequency of 40 kHz, we get an estimated Rayleigh range of
+\begin{equation}\label{eq:Rayleigh-range}
+  z_R \approx \frac{9}{4} \times (343\text{ m/s}) (40\text{ kHz}) = 31\text{ mm}.
+\end{equation}
+
 Using the unshifted wavelength, $$\lambda = 8.575\text{ mm}$$, we get
 \begin{equation}
   \lambda_{\rm eff} = 8.970\text{ mm}
 \end{equation}
 from which we would naively estimate the speed of sound to be
 \begin{equation}
-  v_{\rm naive} = (8.970\text{ mm})(40\text{ kHz}) = 359\text{ m/s}
+  v_{\rm naive} = (8.970\text{ mm})(40\text{ kHz}) = 359\text{ m/s}.
 \end{equation}
 
-To simplify the correction in the manual we introduce a parameter
-\begin{equation}
-  n = \frac{2 z_R}{\lambda_{\rm eff}}
-\end{equation}
-
-based on the discussion on this page, we will use n~4.5 in the analysis. 
-
-Using this definition to substitute for $$z_R$$ in equation 4:
-
-\begin{equation}
-  \lambda = \frac{\lambda_{\rm eff}}{1+\frac{1}{\pi n}}
-\end{equation}
 
 <!--I commented this out for now but am willing to switch back - You can use the above analysis to determine how to correct the value you measure for the wavelength to that of a plane wave from which you can easily determine the speed of sound. (Note: We are not providing you the final formula to use; you need to read and understand the above analysis to determine how to correct the value you measured for the wavelength under the assumption that you were looking at plane waves to a more honest estimate that accounts for the curvature of the wavefronts from which you may infer an accurate speed of sound.)-->
