@@ -37,7 +37,7 @@ You can correct for the 3D structure of the standing waves with by applying the 
   \lambda_{\rm eff} = \frac{\lambda}{1+\frac{1}{\pi n}}
 \end{equation}
 
-For our system we will approximate n~4.5 ([see previously mentioned supplemental materials](gouy)). There is significant uncertainty in this estimate of n. We do not expect you to account for this additional uncertainty (due to this uncertainty your final result may still differ from the expected value by more than your quoted uncertainty).
+For our system we will approximate n~4.5 ([see previously mentioned supplemental materials](gouy)). There is significant uncertainty in this estimate of n. We do not expect you to account for this additional uncertainty. Due to this uncertainty your final result may still differ from the expected value by more than your quoted uncertainty. (Optional enrichment: if you'd like to try to estimate the uncertainty due to our approximation of n you are welcome to try. This is not required.)
 
 To make sure you are ready to apply the correction to your data, please complete this mini-question:
 
