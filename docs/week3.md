@@ -31,7 +31,7 @@ The theory we have relied upon assumes the levitator produces plane waves. Howev
 
 Bottom line:
 
-You can correct for the 3D structure of the standing waves by applying the following correction to get $$\lambda$$ from  your measured value, $$\lambda__{\rm eff}$$:
+You can correct for the 3D structure of the standing waves by applying the following correction to get the actual wavelength, $$\lambda$$ from  your measured value, $$\lambda_{\rm eff}$$:
 
 \begin{equation}
   \lambda = \frac{\lambda_{\rm eff}{1+\frac{1}{\pi n}}
