@@ -45,7 +45,7 @@ Using this definition to substitute for $$z_R$$ in Equation 3, we get:
 \begin{equation}
   \lambda = \frac{\lambda_{\rm eff}}{1+\frac{1}{\pi n}},
 \end{equation}
-and based on visual analysis as discussed above, we find $$n = 4.5 \pm 0.25$$.  (The uncertainty is based on resolution error, since we can perform a visual comparison of an arc to a bright or dark fringe only every $$\lambda_{\rm eff} / 2$$.)
+and based on visual analysis as discussed above, we find $$n = 4.5 \pm 0.25$$.  (The uncertainty is based on resolution error, since we can perform a visual comparison of an arc to a bright or dark fringe only every $$\lambda_{\rm eff} / 4$$.)
 
 To provide a rough sanity check on this analysis, if we use the uncorrected estimate of the wavelength from the expected value using $$v_{\rm sound} = 343 \text{ m/s}$$ and the drive frequency of 40 kHz, we get an estimated Rayleigh range of
 \begin{equation}\label{eq:Rayleigh-range}
