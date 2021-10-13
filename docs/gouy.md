@@ -21,7 +21,7 @@ We might approximate the shape of the wavefronts following the well-established 
 **Figure 2** --- An estimate of the Rayleigh range made by eyeballing circular arcs with a radius of curvature of twice the distance, z from the center of the focused beam.
 
 
-From the picture, it appears that the radius of curvature is closest to $$2z$$ at $$z \approx 4.5 \frac{\lambda_{\rm eff}}{2}$$, and thus $$z_R \approx 4.5\frac{lambda_{\rm eff}}{2}$$. 
+From the picture, it appears that the radius of curvature is closest to $$2z$$ at $$z \approx 4.5 \frac{\lambda_{\rm eff}}{2}$$, and thus $$z_R \approx 4.5\frac{\lambda_{\rm eff}}{2}$$. 
 
 As discussed on the excellent [Wikipedia page on Gaussian beams](https://en.wikipedia.org/wiki/Gaussian_beam){: target="_new" }, along the $$z$$ axis the amplitude of the standing wave should be proportional to
 \begin{equation}\label{eq:Gouy}
@@ -40,12 +40,12 @@ From the image above it is most natural to find $$z_R$$ as a multiple of $$\lamb
 \begin{equation}
   n = \frac{z_R}{\lambda_{\rm eff}/2} = \frac{2z_R}{\lambda_{\rm eff}}.
 \end{equation}
-Using this definition to substitute for $$z_R$$ in Equation 4, we get:
+Using this definition to substitute for $$z_R$$ in Equation 3, we get:
 
 \begin{equation}
   \lambda = \frac{\lambda_{\rm eff}}{1+\frac{1}{\pi n}},
 \end{equation}
-and based on visual analysis as discussed above, we find $$n = 4.5 \pm 0.25$$.  (The uncertainty is based on resolution error, since we can perform a visual comparison of an arc to a bright or dark fringe only every $$\lambda_{\rm eff} / 2$$.
+and based on visual analysis as discussed above, we find $$n = 4.5 \pm 0.25$$.  (The uncertainty is based on resolution error, since we can perform a visual comparison of an arc to a bright or dark fringe only every $$\lambda_{\rm eff} / 2$$.)
 
 To provide a rough sanity check on this analysis, if we use the uncorrected estimate of the wavelength from the expected value using $$v_{\rm sound} = 343 \text{ m/s}$$ and the drive frequency of 40 kHz, we get an estimated Rayleigh range of
 \begin{equation}\label{eq:Rayleigh-range}
