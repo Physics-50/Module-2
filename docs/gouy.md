@@ -68,7 +68,7 @@ from which we would naively estimate the speed of sound to be
 \begin{equation}
   v_{\rm naive} = (8.970\text{ mm})(40\text{ kHz}) = 359\text{ m/s}.
 \end{equation}
-
+x
 -->
 
 <!--I commented this out for now but am willing to switch back - You can use the above analysis to determine how to correct the value you measure for the wavelength to that of a plane wave from which you can easily determine the speed of sound. (Note: We are not providing you the final formula to use; you need to read and understand the above analysis to determine how to correct the value you measured for the wavelength under the assumption that you were looking at plane waves to a more honest estimate that accounts for the curvature of the wavefronts from which you may infer an accurate speed of sound.)-->
