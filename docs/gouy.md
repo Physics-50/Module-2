@@ -40,14 +40,22 @@ From the image above it is most natural to find $$z_R$$ as a multiple of $$\lamb
 \begin{equation}
   n = \frac{z_R}{\lambda_{\rm eff}/2} = \frac{2z_R}{\lambda_{\rm eff}}.
 \end{equation}
-Using this definition to substitute for $$z_R$$ in Equation 3, and solving for $$\lambda$$, we get:
-
+Using this definition to substitute for $$z_R$$ in Eq. (3), and solving for $$\lambda$$, we get:
 \begin{equation}
   \lambda = \frac{\lambda_{\rm eff}}{1+\frac{1}{\pi n}},
 \end{equation}
 the correction factor given in the lab manual for Week 3.  Based on visual analysis as discussed above, we find $$n = 4.5 \pm 0.25$$.  (The uncertainty is based on resolution error, since we can perform a visual comparison of an arc to a bright or dark fringe only every $$\frac{1}{2}\frac{\lambda_{\rm eff}}{2}$$.)
 
-To provide a rough sanity check on this analysis, if we use the uncorrected estimate of the wavelength from the expected value using $$v_{\rm sound} = 343 \text{ m/s}$$ and the drive frequency of 40 kHz, we get an estimated Rayleigh range of
+Let's say that you have determined from calibrated photographs of suspended beads that the (apparent) wavelength is $$\lambda_{\rm eff} \approx 9.2\text{ mm}$$. Using the value $$n = 4.5$$ discussed above, we would get a _true_ wavelength of
+\begin{equation}
+  \lambda = \lambda_{\rm eff} \bigg[1 + \frac{1}{n \pi} \bigg] = 8.59\text{ mm}
+\end{equation}
+which yields a speed of sound of
+\begin{equation}
+  v_{\rm sound} = (8.59\text{ mm})(40\text{ kHz}) = 344\text{ m/s}
+\end{equation}
+
+<!-- To provide a rough sanity check on this analysis, if we use the uncorrected estimate of the wavelength from the expected value using $$v_{\rm sound} = 343 \text{ m/s}$$ and the drive frequency of 40 kHz, we get an estimated Rayleigh range of
 \begin{equation}\label{eq:Rayleigh-range}
   z_R \approx \frac{9}{4} \times (343\text{ m/s}) (40\text{ kHz}) = 31\text{ mm}.
 \end{equation}
@@ -61,5 +69,6 @@ from which we would naively estimate the speed of sound to be
   v_{\rm naive} = (8.970\text{ mm})(40\text{ kHz}) = 359\text{ m/s}.
 \end{equation}
 
+-->
 
 <!--I commented this out for now but am willing to switch back - You can use the above analysis to determine how to correct the value you measure for the wavelength to that of a plane wave from which you can easily determine the speed of sound. (Note: We are not providing you the final formula to use; you need to read and understand the above analysis to determine how to correct the value you measured for the wavelength under the assumption that you were looking at plane waves to a more honest estimate that accounts for the curvature of the wavefronts from which you may infer an accurate speed of sound.)-->
