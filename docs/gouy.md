@@ -48,7 +48,7 @@ the correction factor given in the lab manual for Week 3.  Based on visual analy
 
 Let's say that you have determined from calibrated photographs of suspended beads that the (apparent) wavelength is $$\lambda_{\rm eff} \approx 9.2\text{ mm}$$. Using the value $$n = 4.5$$ discussed above, we would get a _true_ wavelength of
 \begin{equation}
-  \lambda = \lambda_{\rm eff} \bigg[1 + \frac{1}{n \pi} \bigg] = 8.59\text{ mm}
+  \lambda = \lambda_{\rm eff} \bigg[1 + \frac{1}{n \pi} \bigg]^{-1} = 8.59\text{ mm}
 \end{equation}
 which yields a speed of sound of
 \begin{equation}
