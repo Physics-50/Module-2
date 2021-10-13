@@ -39,20 +39,6 @@ You can correct for the 3D structure of the standing waves by applying the follo
 
 For our system the instructors have determined that $$n=4.5 \pm 0.25$$. ([see previously mentioned supplemental materials](gouy)). We will talk more in class about how to incorporate the uncertainty in $$n$$ into your final result for the speed of sound. 
 
-<!---
-
-For now, to make sure you are ready to apply the correction to your data, please complete this mini-question, ignoring the uncertainty in $$n$$:
-
-------------
-#### Miniquestion 1: Correcting your estimated speed of sound to account for the 3D structure of the standing waves
-[*Click here to open in a new tab*](https://forms.gle/Yo8Vrajvr1583QBv9){:target="_blank"}
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf6Endi8m08yS_0dLNgE-1OtOzm6oQrwkIyUByXTqOZnIQHFQ/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
-</iframe>
---------------
-
-
--->
 
 
 ### Background Reading for Data Analysis
