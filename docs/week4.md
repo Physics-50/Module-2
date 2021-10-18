@@ -49,4 +49,4 @@ Your figure must include:
 
 + You will also be asked to provide a link to your organized spreadsheet. This spreadsheet must include the calculations you did as part of your data analysis, entered as formulas in the Google spreadsheet.
 
-
++ And to double-check, make sure you have finished all of this week’s miniquestions by [checking here](mini-questions#week-4){:target="_blank"}.
