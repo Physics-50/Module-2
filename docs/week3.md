@@ -94,7 +94,7 @@ Unfortunately you will not be able to use that data this week. You have no way t
 
 ----
 
-#### Miniquestion 2: Estimating the uncertainty from 2 data points
+#### Mini-question 2: Estimating the uncertainty from 2 data points
 [*Click here to open in a new tab*](https://forms.gle/MYkieS2qvmeJzMrv8){:target="_blank"}
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjcyLeUy89qqC5gO9NOrWYJyqoBE2POMnF4BxFvDqsy6i-iQ/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
@@ -162,7 +162,7 @@ For part 2 our usual rules apply:
 
 + A calculation of the speed of sound with uncertainty based on your line of best fit to the plot. As part of your calculation of the speed of sound you are expected to have applied the correction to the measured wavelength (as determined from your plotted data) to account for the 3D structure of the standing waves as discussed at the beginning of this week's instructions.
 
-+ And to double-check, make sure you have finished all of this week’s miniquestions by [checking here](mini-questions#week-3){:target="_blank"}.
++ And to double-check, make sure you have finished all of this week’s mini-questions by [checking here](mini-questions#week-3){:target="_blank"}.
 
 
 
