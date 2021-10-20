@@ -25,7 +25,7 @@ You may not have trapped beads in exactly the same set of nodes each time. You m
 
 ----
 
-#### Miniquestion 1: Estimating the uncertainty from your data set
+#### Mini-question 1: Estimating the uncertainty from your data set
 [*Click here to open in a new tab*](https://forms.gle/t92tcKpyNnzcPavr9){:target="_blank"}
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSduqqerZc0kMOrcJsE0xta4hfHKCwmZFMzAFq1qvGl5x5FVbQ/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
@@ -49,4 +49,4 @@ Your figure must include:
 
 + You will also be asked to provide a link to your organized spreadsheet. This spreadsheet must include the calculations you did as part of your data analysis, entered as formulas in the Google spreadsheet.
 
-+ And to double-check, make sure you have finished all of this week’s miniquestions by [checking here](mini-questions#week-4){:target="_blank"}.
++ And to double-check, make sure you have finished all of this week’s mini-questions by [checking here](mini-questions#week-4){:target="_blank"}.
