@@ -17,7 +17,7 @@ Last week you should have taken 5 photos for which you reset the beads and ruler
 
 Last week you also analyzed the results from one photo. This week you will make use of all 5 photos to estimate the uncertainty in your determination of the position of each pressure node.
 
-Your first step this week is to measure and record in your spreadsheet the position of each bead across the 5 images. Make sure you are using a consistent origin. Remember that the origin should be stationary with respect to the levitator and must not be a bead.
+Your first step this week is to measure and record in your spreadsheet the position of each bead across the 5 images. Make sure you are using a consistent origin. Remember that the origin should be stationary with respect to the levitator, finding a good origin for the data analysis in this experiment isn't easy. Last week you were instructed to find/create an origin that wasn't a bead. When you complete your analysis, if you find that your choice of origin appears to be introducing significant error (e.g. the variation of the values for the distance from the origin to the first node is significantly greater than the variation in the distance between adjacent nodes) then you may wish to reconsider and use one of the beads as your origin. However, if you do this you cannot use that node as a data point.
 
 For each node number you will make use of the mean value for the bead position with an uncertainty estimated from the standard error of the mean.
 
