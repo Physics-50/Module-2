@@ -2,7 +2,7 @@
 
 We have assumed that the levitator produces  **plane waves**, which are waves whose phase fronts are flat (planar). As illustrated in Fig. 1, this is not a particularly good assumption. Could the curvature of the wavefronts influence what we measure for the wavelength?
 
-{: .center}
+
 ![A figure from the paper describing our levitators](images/1.4989995.figures.online.f1.jpg)
 
 {: .mycap}
@@ -13,9 +13,9 @@ We have assumed that the levitator produces  **plane waves**, which are waves wh
 
 We might approximate the shape of the wavefronts following the well-established theory of [Gaussian beams](https://en.wikipedia.org/wiki/Gaussian_beam){: target="_new" }. To apply this theory to the levitator, we need to estimate the **Rayleigh range** $$z_R$$, which is the distance from the center of the pattern to the place along the symmetry axis at which the wavefront is most curved. Traditionally, we measure distance along the axis with the variable $$z$$, with the zero at the exact center of the pattern.  Gaussian beam theory also tells us that at $$z=z_R$$, the radius of curvature of the wavefront should be equal to $$2z$$.
 
-{: .center}
-![alt text](images/Gouy-with-circles2.png){: width="400px;"}
-
+<p class="center" markdown="0">
+  <img src='images/Gouy-with-circles2.png' alt='Gouy with circles' style='width: 300px;'>
+</p>
 
 {: .mycap}
 **Figure 2** --- An estimate of the Rayleigh range made by eyeballing circular arcs with a radius of curvature of twice the distance, z from the center of the focused beam.
