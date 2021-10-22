@@ -48,7 +48,7 @@ Module 2 is four weeks long. You will have a checkpoint due in each of the first
 2. Week 2 - Investigation of a source of systematic error
     - Checkpoint: results showing the significance of the position of the ruler used for calibration to the overall uncertainty of the measurement
 3. Week 3 - Final Determination of Speed of Sound
-    - Checkpoint: Plot of bead position v.s. antinode number, estimate of the speed of sound, and uncertainty.
+    - Checkpoint: Plot of bead position vs. antinode number, estimate of the speed of sound, and uncertainty.
 4. Week 4 - Scientific Communication
     - Deliverable: a sequence of figures with captions that communicate your reasoning and results.
 

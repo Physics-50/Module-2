@@ -45,7 +45,7 @@ Your figure must include:
 + an image showing how you collected your data
     - Please mark the origin you used for data collection on your image and also annotate the image (neatly) to show the horizontal (or vertical) distance as measured to a sample bead. Label this distance with a parameter, e.g. "d" and define the parameter in your caption
 
-+ a plot of bead position v.s. node number with uncertainties on each data point and a linear regression fit weighted by the uncertainties. This plot must be prepared in MATLAB.
++ a plot of bead position vs. node number with uncertainties on each data point and a linear regression fit weighted by the uncertainties. This plot must be prepared in MATLAB.
 
 + a caption that follows the guidelines outlined in Module 1, week 3. Make sure to include your main result (the measured speed of sound with uncertainty) in your caption. Relevant fit parameters such as the $$\chi^2$$ value for the fit should be included in the caption, not shown on the plot (and defined where appropriate).
 
