@@ -113,7 +113,7 @@ To use the script for your own data, replace the "import data" section of the co
 
 #### Optional 
 
-In the future (i.e., not needed in Ph50), if you'd like to fit a different function to your data, you can change line 27 of the code to a different function. You could, for example, fit to a quadratic by replacing line 27 with:
+In the future (i.e., not needed in Ph50), if you'd like to fit a different function to your data, you can change line 52 of the code to a different function. You could, for example, fit to a quadratic by replacing line 52 with:
 
 ``` MATLAB
 fit_func = @(a,b,c,x) a*x.^2 + b*x + c;  
