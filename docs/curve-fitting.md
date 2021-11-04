@@ -60,7 +60,7 @@ The legend has some important information about the fit. The best-fit slope and 
 
 Also reported in the legend is the "reduced chi-squared", $$\chi_\nu^2$$, which is a normalized version of $$\chi^2$$ from Eq. \eqref{eq:weighted}. The reduced chi-squared is defined by 
 \begin{equation}
-\chi_\nu^2 = \frac{\chi^2}{\text{# data points - # fitting parameters}}
+\chi_\nu^2 = \frac{\chi^2}{\text{num data points -- num fitting parameters}}
 \end{equation}
 
 In the example data above, we had 11 data points and two fitting parameters ($$m$$ and $$b$$). Roughly speaking, the reduced $$\chi^2$$ value tells us on average how many error bars away each data point is from the fitted line. So the value $$\chi_\nu^2 = 0.91$$ in the example means that *on average* each data point is just within its error bar of the fitted line. Looking at the data and fit above, although there are a couple of data points that are farther away from the line than their error bars, on average they fall within their error bar of the fitted line.
