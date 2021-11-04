@@ -40,7 +40,6 @@ Once you have collected this data you are ready to prepare your plot of bead pos
 Your deliverable will consist of a single multi-panel figure with a caption. You should make use of the instructions for the module 1 deliverable as a guide.
 
 
-
 Your figure must include:
 + an image showing how you collected your data
     - Please mark the origin you used for data collection on your image and also annotate the image (neatly) to show the horizontal (or vertical) distance as measured to a sample bead. Label this distance with a parameter, e.g. "$$d$$" and define the parameter in your caption.
