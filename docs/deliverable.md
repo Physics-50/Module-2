@@ -2,16 +2,16 @@
 
 ## Topic sentence
 
-The purpose of this investigation was to determine the speed of sound by measuring the wavelength using levitated Styrofoam beads at the nodes of a 40-kHz standing sound wave. The topic sentence should:
+The purpose of this investigation was to determine the speed of sound by measuring the wavelength of a 40-kHz standing sound wave using Styrofoam beads trapped at the nodes. The topic sentence should:
 
-+ Report the value and uncertainty you found for the speed of sound. This is the punchline of the experiment.
++ Report the value and uncertainty you found for the speed of sound. This is the conclusion of the experiment.
 + Ideally include some of the other information in the sentence above (standing sound wave, beads, nodes, etc.)
 
 ## Panel (a)
 
 The photograph of the setup should show clearly the positioning of the ruler, the origin, the beads, and guide your description of the experiment. Your caption for panel (a) should include:
 
-+ Mention of a standing 40-kHz sound wave.
++ Mention of a standing 40-kHz sound wave (if you didn't put that in the topic sentence).
 + Mention the beads trapped at nodes.
 + Description of the origin and how it was used to determine the position of each node.
 + If you did not use an origin, but instead used the position of one of the beads to serve instead, your caption should make that clear.
@@ -27,7 +27,7 @@ The caption to panel (b) should start with a description of what data are shown:
 + The uncertainties (error bars) are the standard error of the mean of these values.
 + The results of the fit should not appear on the plot, but the *relevant* values should be described in the caption. You fitted a line of the form $$y = mx+b$$ to the data. The value of the slope ($$m$$) is important, since you use it to determine the wavelength. The value of the offset $$b$$ is not important and should not be mentioned.
 + You need to discuss the value of $$ \chi_\nu^2 $$ and its significance. [The definition and significance of $$\chi_\nu^2$$ are discussed on the curve-fitting page](curve-fitting#using-reduced-chi-squared-chinu2-to-determine-how-good-your-fit-is).
-   - Note that $$\chi^2$$ (chi-squared) is not the same as $$\chi_\nu^2$$ (reduced chi-squared). The latter has been divided by $$\nu$$, the **number of degrees of freedom**, which is the number of data points minus the number of fitting parameters. If you write one, but mean the other, your statement is virtually guaranteed to be incorrect.
+   - Note that $$\chi^2$$ (chi-squared) is not the same as $$\chi_\nu^2$$ (reduced chi-squared). The latter has been divided by $$\nu$$, the **number of degrees of freedom**, which is the number of data points minus the number of fitting parameters. If you write $$\chi^2$$, but mean $$\chi_\nu^2$$, your statement is virtually guaranteed to be incorrect.
    - If the uncertainties you use represent _only_ random error, then the value of $$\chi_\nu^2$$ should be _close_ to 1. The larger the value of $$\nu$$, the closer $$\chi_\nu^2$$ should be to 1. For 4 or 5 degrees of freedom, $$\chi_\nu^2 = 0.3$$ is not close to 1.
    - Many of you had values of $$\chi_\nu^2$$ that were quite small ($$\chi_\nu^2 < 0.2$$), implying that each data point was closer to the fitted line than we could expect it to be from the scale of noise expressed by the error bar (which was determined via the standard error of the mean). [Why does this happen? See the section below on systematics.](#systematics)
 
