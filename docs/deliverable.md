@@ -41,9 +41,10 @@ The caption for the graph should not start with the fit, but rather with the dat
 
 ## Systematics
 
+There are several possible reasons for large uncertainties and therefore an unreasonably small value of $$\chi_\nu^2$$. Some possibilities include:
+
 First, consider what would happen if you made a mistake on the calibration for one of your pictures. Maybe you used a number of mm/pixel that was too small. Every node position in that picture will be systematically off. Not only will the nodes appear closer to each other than they really are, but when you try to combine these "shrunken" values with the "good" values from your other pictures, they will cause the SEM values to be larger than they should be.
 
 Second, consider what would happen if you chose a reference point far from the center of the bead pattern, where parallax arising from slight changes in camera position would shift the position of each bead in the same direction. The effect would be to increase the value of the SEM of each point.
 
 If this second issue dominated your data, you can remove the systematic shifts by choosing the middle bead position in each picture to define the origin and by measuring the position of each other bead with respect to it. You cannot use the middle bead in your plot, since its uncertainty is now zero, so you have one fewer data points. However, you should effectively remove the systematic error arising from the parallax-induced shift in origin.
-
