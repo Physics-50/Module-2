@@ -1,4 +1,4 @@
-# Grading the Deliverable
+# Grading the Caption on the Deliverable
 
 ## Topic sentence
 
