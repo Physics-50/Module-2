@@ -1,4 +1,8 @@
-# Grading the Caption on the Deliverable
+# Feedback: What Needs to go into the Caption?
+
+One of our goals in this course is to teach you to write clear captions that convey to a reader enough information to understand your experiment and analysis, but do so concisely.
+
+This isn't easy. It takes practice and isn't something you can learn by following a checklist. Here are the details we felt it important to include in the caption of your module 2 deliverable caption. As you read it over, think about why a fellow student would need this information in order to understand your results.
 
 ## Topic sentence
 
