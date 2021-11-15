@@ -41,6 +41,7 @@ Your deliverable will consist of a single multi-panel figure with a caption. You
 
 
 Your figure must include:
+
 + an image showing how you collected your data
     - Please mark the origin you used for data collection on your image and also annotate the image (neatly) to show the horizontal (or vertical) distance as measured to a sample bead. Label this distance with a parameter, e.g. "$$d$$" and define the parameter in your caption.
 
@@ -52,4 +53,4 @@ Additional note on figure captions: In this course your figure caption needs to 
 
 + You will also be asked to provide a link to your organized spreadsheet. This spreadsheet must include the calculations you did as part of your data analysis, entered as formulas in the Google spreadsheet.
 
-+ And to double-check, make sure you have finished all of this week’s mini-questions by [checking here](mini-questions#week-4){:target="_blank"}.
++ And to double-check, make sure you have finished all of this week’s mini-questions by [checking here](mini-questions#week-4){:target="_blank"}. 
