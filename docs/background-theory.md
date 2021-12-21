@@ -85,7 +85,7 @@ We can do a little more to simplify this expression. From Fig. 6, we can see tha
 We can rearrange this equation as:
 
 \begin{equation}\label{eq:sYoungt} 
-\frac{d x/L}{\sqrt{(1 + (x/L)^2)} 
+\frac{d (x/L)}{\sqrt{(1 + (x/L)^2)} 
 }= n \lambda
 \end{equation}
 
