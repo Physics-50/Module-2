@@ -163,15 +163,13 @@ As you set up to perform careful measurements, you may find it difficult to loca
 
  **Remember to reset all the other parameters that also have significant effects on $$x$$, for each measurement.** For example, you should reset the distance $$L$$ between each of the five trials for each grating.  
 
-This investigation will be part of your final deliverable, which will be evaluated partially based on the strength of the conclusions that you are able to support with evidence from your data. 
+## Resolution error
+We have discussed the importance of resetting parameters and using the SEM to randomize and account for systematic error, but this is not the only source of uncertainty. 
 
-For Checkpoint 1, you will present the results of this exploration as part of a figure with two panels:
+Please read the [discussion of resolution error in our guide to uncertainties](https://physics-50.github.io/Module-1/uncertainty-introduction#resolution-uncertainty).
 
-+ One or more photos of your experimental setup, with $$x$$, $$L$$, and the angle of the diffraction grating clearly labeled. Your figure should showcase how you measured the angle. You may find it helpful to use two photos, one showcasing $$x$$ and $$L$$ and the other focused on how the angle was measured. One or more photos is acceptable.
 
-+ A plot with $$x$$ on the vertical axis and the angle of the diffraction grating on the horizontal axis. Plot your data at the same [site you used to plot data for Module 1](https://physics.hmc.edu/fitter/). You do not need to fit a curve to this plot. Under "kind" select "plot data with no fit". To reduce workload for this week, you do not need to write a caption for the figure.
-
-## Review of Uncertainty Estimation
+## Combining Uncertainties
 
 Before collecting and analyzing your data this week, please make sure that you have read this [discussion about combining uncertainties](https://physics-50.github.io/Module-1/uncertainty-introduction#combining-uncertainties)
 
@@ -188,6 +186,16 @@ To make sure you've understood these ideas, please complete the following mini-q
 </iframe>
 
 ---------------------------------------------------
+
+## Summary
+
+This investigation will be part of your final deliverable, which will be evaluated partially based on the strength of the conclusions that you are able to support with evidence from your data. 
+
+For Checkpoint 1, you will present the results of this exploration as part of a figure with two panels:
+
++ One or more photos of your experimental setup, with $$x$$, $$L$$, and the angle of the diffraction grating clearly labeled. Your figure should showcase how you measured the angle. You may find it helpful to use two photos, one showcasing $$x$$ and $$L$$ and the other focused on how the angle was measured. One or more photos is acceptable.
+
++ A plot with $$x$$ on the vertical axis and the angle of the diffraction grating on the horizontal axis. Plot your data at the same [site you used to plot data for Module 1](https://physics.hmc.edu/fitter/). You do not need to fit a curve to this plot. Under "kind" select "plot data with no fit". To reduce workload for this week, you do not need to write a caption for the figure.
 
 
 -------------
