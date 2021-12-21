@@ -17,15 +17,15 @@ In this module you will be studying a light interference effect called <strong>d
 ## Background Theory
 
 
-Start by reading the [background theory for Module 3 here](background-theory){:target="_blank"}.
+Start by reading the [background theory for Module 2 here](background-theory){:target="_blank"}.
 
 
 **Before moving on, make sure you have read through the background theory at the link above!**
 
 
-## Module 3 Goal
+## Module 2 Goal
 
-In Module 3, we will use the relationship derived in the background theory to determine $$\lambda$$, the wavelength of the laser, by measuring $$x$$ and $$L$$ for the first diffraction maximum ($$n=1$$), and using the quoted value of $$d$$ for the provided diffraction grating:
+In Module 2, we will use the relationship derived in the background theory to determine $$\lambda$$, the wavelength of the laser, by measuring $$x$$ and $$L$$ for the first diffraction maximum ($$n=1$$), and using the quoted value of $$d$$ for the provided diffraction grating:
 
 \begin{equation}\label{eq:sYoung} 
 \frac{xd}{L} = n \lambda
