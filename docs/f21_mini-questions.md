@@ -1,95 +1,95 @@
-# Mini-questions for Module 2
+# Module 3 Miniquestions
 
-On this page you will find all of the mini-questions for Module 2. Although each question appears in context as you go through the module reading, you can use this page to verify that you have submitted all the mini-questions for each week.
-
-+ [Week 1](#week-1)
-+ [Week 2](#week-2)
-+ [Week 3](#week-3)
-+ [Week 4](#week-4)
-
+<br>
 
 ## Week 1
 
---------------------------------------------------------
+<br>
 
-<!--
-#### Miniquestion 1: Image Calibration
-[*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSeGfXJTqX8XZ1wKmUYtHE1oWlXGIhBalvSH6U20WFP1P6jCMg/viewform?usp=sf_link){:target="_blank"}
+#### Miniquestion 1: Spacing of Diffraction Gratings
+*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLScVy13Ddgurh38icYTvtZDd7mcRiIQcisnRfS6NIwLRf8om4Q/viewform?){:target="_blank"}*
 
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeGfXJTqX8XZ1wKmUYtHE1oWlXGIhBalvSH6U20WFP1P6jCMg/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
-</iframe>  -->
-
---------------------
-
-#### Miniquestion 1: Practice Calculation - Bead Separation
-[*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSfcHYM0EXRutwU9snAkMcDvZ4mAs_osQWJDzQbT2q6VGvlNgg/viewform?usp=sf_link){:target="_blank"}
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfcHYM0EXRutwU9snAkMcDvZ4mAs_osQWJDzQbT2q6VGvlNgg/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScVy13Ddgurh38icYTvtZDd7mcRiIQcisnRfS6NIwLRf8om4Q/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
----------
-#### Miniquestion 2: Practice Calculation - Speed of Sound
-[*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSci324tKy0cSjFai2_doq3CFVgnK8_hwKeITrPGGVYvgSBB1A/viewform?usp=sf_link){:target="_blank"}
+<br>
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSci324tKy0cSjFai2_doq3CFVgnK8_hwKeITrPGGVYvgSBB1A/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
+#### Miniquestion 2: Spacing of Interference Maxima
+*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSd0DalK3dCoRR8n6thQmaJmh4ctFmaWsDRalbRIW35mO1FA_w/viewform){:target="_blank"}*
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd0DalK3dCoRR8n6thQmaJmh4ctFmaWsDRalbRIW35mO1FA_w/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
---------------
+<br>
+
+#### Miniquestion 3: Which parameters need to be reset?
+
+**This mini-question cannot be answered until you are in lab. therefore for this question only, you should not answer the question before lab. You will only receive credit for this question if you answer it during your lab period.**
+
+*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSe-Bcw3iqEcmblnBnsOJOqSbfHVNrXckA4mVs9VEvzOXHvZQQ/viewform?usp=sf_link){:target="_blank"}*
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe-Bcw3iqEcmblnBnsOJOqSbfHVNrXckA4mVs9VEvzOXHvZQQ/viewform?embedded=true" width="640" height="737" frameborder="0" marginheight="0" marginwidth="0">Loading…
+</iframe>
+
+
+
+<br>
+
+---------------
+
+
+#### Mini-question: Combining Random and Resolution Uncertainty
+[*Click here to open in a new tab*](https://forms.gle/KMCCqJZxdkchbBvdA){:target="_blank"}
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc7wj6OMBqqybagJhwZb0-Mkk8UnW2WOf5G7v474S0ryLvJOw/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…
+</iframe>
+
+---------------------------------------------------
+
+
+-------------------------------------------------
 
 ## Week 2
 
-
-#### Miniquestion 1: How to Estimate the Uncertainty Due to Parallax
-[*Click here to open in a new tab*](https://forms.gle/h4SgcPH2tbY65phx9){:target="_blank"}
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfKgoZe1wKD3fN_Nqbs8JqZWxWyjyj8BLcHk5gzpmsyjvRbUg/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
+#### Miniquestion 1: Calculating wavelength from slope
+[*Click here to open in a new tab*](https://forms.gle/MPYx6nPVd54jYE359){:target="_blank"}
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSct57YgYJ1rxsHAkhGfOk_QUB638pb_MYeH7vhVZU2MGQUW5w/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
-------------------
+<br>
 
+#### Miniquestion 2: Interpreting a weighted linear fit
+[*Click here to open in a new tab (recommended)*](https://forms.gle/BF8fQq5PNWF1Gh9U8){:target="_blank"}
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdTk_l5gJ2boQzujZcgNKYh55iSlxR9UZNke6sgi3Chk_dvmA/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
+</iframe>
+
+<br>
+
+
+------------------------------
+<br> <br> 
 
 ## Week 3
 
+#### Miniquestion 1: Comparing diffraction patterns from gratings with different periods
+*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLScOvf4fEdEk5cotRGrTle0iitt7onz0DmTOdhuNL47lh2ifqA/viewform?){:target="_blank"}*
 
-<!---
-#### Miniquestion 1: Correcting your estimated speed of sound to account for the 3D structure of the standing waves
-[*Click here to open in a new tab*](https://forms.gle/Yo8Vrajvr1583QBv9){:target="_blank"}
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf6Endi8m08yS_0dLNgE-1OtOzm6oQrwkIyUByXTqOZnIQHFQ/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
-</iframe>
---------------
-
---->
-
-
-#### Miniquestion 1: Estimating the speed of sound from a sample plot
-[*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSdyYDI3QEI4FDsfW4d0M4krPmhwPUsgcYBsDG48WcajfMYhgg/viewform?usp=sf_link){:target="_blank"}
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdyYDI3QEI4FDsfW4d0M4krPmhwPUsgcYBsDG48WcajfMYhgg/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScOvf4fEdEk5cotRGrTle0iitt7onz0DmTOdhuNL47lh2ifqA/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
-------------
 
-#### Miniquestion 2: Estimating the uncertainty from 2 data points
-[*Click here to open in a new tab*](https://forms.gle/MYkieS2qvmeJzMrv8){:target="_blank"}
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjcyLeUy89qqC5gO9NOrWYJyqoBE2POMnF4BxFvDqsy6i-iQ/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
-</iframe>
-
---------
+------------------------
+<br><br>
 
 ## Week 4
 
-----
 
-#### Miniquestion 1: Estimating the uncertainty from your data set
-[*Click here to open in a new tab*](https://forms.gle/t92tcKpyNnzcPavr9){:target="_blank"}
+#### Miniquestion 1: What next?
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSduqqerZc0kMOrcJsE0xta4hfHKCwmZFMzAFq1qvGl5x5FVbQ/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
+*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSeF85mLdADYHRDn3v3ciPKl8TPqTIbpI7X9c-1N7DUKFsP9PA/viewform?){:target="_blank"}*
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeF85mLdADYHRDn3v3ciPKl8TPqTIbpI7X9c-1N7DUKFsP9PA/viewform?embedded=true" width="500" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
------
+<br><br>
 
-
-
+------------------------------
