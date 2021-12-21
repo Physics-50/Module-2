@@ -154,7 +154,9 @@ We are all using the same materials, so why don't our results agree?!?! Well, as
 
 Because systematic errors are so important in experimental research, we want you to do a careful study of one dominant source of systematic error in $$x$$. This study will ultimately be presented as part of a sequence of figures for your Module 3 deliverable.
 
-Choose one source of uncertainty that you found to be significant, and carefully explore its effect on the measured value of $$x$$. **Do not choose to study $$L$$, since we will be studying that effect next week.** Think about how best to do this by carefully varying the chosen parameter (e.g., the angle of the diffraction grating, or the choice of diffraction grating). **You should have about five (no fewer) different values of the parameter you wiggle (e.g., angle of diffraction grating), and for each value of that parameter, you need to make five measurements of $$x$$** and report the average value of $$x \pm \text{SEM}$$ (as an error bar on each data point).
+Although you may have found several potential sources of systematic error, for this study we will focus on the angle of the diffraction grating. We are interested in the consequences of not setting the angle to perpendicular in the experiment. Therefore we will gain more insight by focusing on the effect at small angles ($$\lesssim 5^{\circ}$$). Take a moment to carefully consider how you might measure the angle over this narrow range. Talk to your instructor or classmates at neighboring benches if you are having trouble doing the measurement.
+
+**You will need to do the measurement for about five (no fewer) different angles, and for each value of that parameter, you need to make five measurements of $$x$$** and report the average value of $$x \pm \text{SEM}$$ (as an error bar on each data point).
 
 When setting up your experiment, **make sure the range over which you vary the parameter is relevant to the experiment**. For example, if you are varying the angle of the diffraction grating, you will gain more useful information by focusing on the effect at small angles ($$\lesssim 5^{\circ}$$).
 
