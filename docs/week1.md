@@ -118,6 +118,7 @@ In addition to the angle of the diffraction grating that you just explored, we h
 1. Distance from laser to diffraction grating (keeping the diffraction grating fixed in place, moving the laser). Range: ±0.5 cm.
 
 2. The value of the diffraction spacing $$d$$ is also a parameter we can "wiggle," in a slightly less obvious way. Each diffraction grating could have manufacturing defects that cause $$d$$ to be slightly off from the stated value. We can explore this possibility by measuring $$x$$ at three positions on one diffraction grating.
+
 3. The distance $$L$$ between the grating and the screen is something we will be systematically varying in Module 3, so that we can ultimately find the wavelength. But each time we set the value of $$L$$, we can only do so with some imprecision. Set <em>L</em> = 60 cm and then vary <em>L</em> over a range of ±0.5 cm.
 
 For each of the four potential sources of uncertainty listed above (the angle of the diffraction grating, plus the three listed above). For the parameters with a suggested range, wiggle the parameter over the suggested range and record the variation in $$x$$. Since this is just an exploratory wiggling of parameters, you do not need to perform repeated trials of these tests. You only need to collect 3 data points --- one at either end of the suggested range and one in the middle. It should take you about 15 minutes to wiggle all the parameters.
