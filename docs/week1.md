@@ -94,7 +94,7 @@ You need not take any quantitative measurements yet; simply note qualitative obs
 
 Make sure to **turn off your laser when inserting new components into the beam path**; it is hard to make sure that stray reflections don't momentarily hit someone in the eye while inserting pieces of glass or metal into a beam path.
 
-Your diffraction gratings have been labelled with your station number (e.g. S01) and with a grating number (G01, G02, G03, G04, G05), with a label maker on the cardboard part of the diffraction gratings.  You have two such sets of diffraction gratings with different slit spacing. This week we will only be working with the 500 line/mm set of gratings. This spacing is marked on the gratings - make sure you are using the 500 line/mm gratings and put aside the 1000 line/mm gratings for now, you will not need them this week. Position diffraction grating "G01" between the laser and screen.
+Your diffraction gratings have been labelled with your station number (e.g. S01) and with a grating number (G01, G02, G03), with a label maker on the cardboard part of the diffraction gratings.  You have 3 such 500 line/mm gratings as well as 1 1000 line/mm grating. This week we will only be working with the 500 line/mm set of gratings. This spacing is marked on the gratings - make sure you are using the 500 line/mm gratings and put aside the 1000 line/mm grating for now, you will not need it this week. Position diffraction grating "G01" between the laser and screen.
 
 
 You will use a ruler to measure the distance $$x$$ between the central laser spot and the first interference maximum, as well as the distance $$L$$ of the diffraction grating from the screen. In planning your experiment think about how to do this as accurately as possible. What are the dominant sources of error? What can you do to minimize systematic error? Even when you've done your best to reduce systematic error, some will remain. What can you do to randomize the remaining systematic error?
@@ -105,7 +105,9 @@ In week one, we will attempt to answer these questions.
 
 As in previous modules, you should perform the following exploratory measurements and record them in your data sheet assigned from Google Classroom.
 
-The ultimate goal of Module 3 is to determine the wavelength of your laser by measuring $$x$$ while varying $$L$$. However, for week 1, we will focus only on getting the most accurate measurement of $$x$$. To do so, we will "wiggle" our experimental parameters to find out which ones significantly change the value of $$x$$ that we measure. This is a typical first experimental step, and it will inform our experimental procedure that we will use next week.
+**Please take careful note that these first measurements are just intended as a very quick exploration. While we value careful measurements we want to make sure you have time to do a careful study in the later part of today's lab. For this first exploration please just take a few quick measurements as suggested. The settings can be approximate and you only need to do each measurement once. We are just trying to work out -is the measurement sensitive to this parameter or not. You do not need to estimate uncertainties for these initial explorations.**
+
+The ultimate goal of Module 2 is to determine the wavelength of your laser by measuring $$x$$ while varying $$L$$. However, for week 1, we will focus only on getting the most accurate measurement of $$x$$. To do so, we will "wiggle" our experimental parameters to find out which ones significantly change the value of $$x$$ that we measure. This is a typical first experimental step, and it will inform our experimental procedure that we will use next week.
 
 Each time we measure $$x$$, we hope that we have set all the parameters perfectly (eg. the distance $$L$$ to the wall and the angle of the diffraction grating relative to the laser beam). However, it is impossible to set everything perfectly with zero uncertainty. If we are slightly off on any of the possible parameters, how much will that shift the value of $$x$$ that we measure?
 
@@ -115,12 +117,10 @@ In addition to the angle of the diffraction grating that you just explored, we h
 
 1. Distance from laser to diffraction grating (keeping the diffraction grating fixed in place, moving the laser). Range: ±0.5 cm.
 
-2. Vertical tilt of laser. Range: ±5°.
-
-3. The value of the diffraction spacing $$d$$ is also a parameter we can "wiggle," in a slightly less obvious way. Each diffraction grating could have manufacturing defects that cause $$d$$ to be slightly off from the stated value. We can see how this happens in two different ways:
+2. The value of the diffraction spacing $$d$$ is also a parameter we can "wiggle," in a slightly less obvious way. Each diffraction grating could have manufacturing defects that cause $$d$$ to be slightly off from the stated value. We can see how this happens in two different ways:
    + There may be variation between diffraction gratings --- explore this by measuring $$x$$ for several of the 500 line/mm gratings. The gratings will be labelled with your station number (e.g. S01) and a grating number (e.g. G01).
-   + There may be variation within a single diffraction grating --- explore this by measuring $$x$$ at three to five positions on one diffraction grating. You do not have to do this for all the diffraction gratings, just choose one.
-4. The distance $$L$$ between the grating and the screen is something we will be systematically varying in Module 3, so that we can ultimately find the wavelength. But each time we set the value of $$L$$, we can only do so with some imprecision. Set <em>L</em> = 60 cm and then vary <em>L</em> over a range of ±0.5 cm.
+   + There may be variation within a single diffraction grating --- explore this by measuring $$x$$ at three positions on one diffraction grating. You do not have to do this for all the diffraction gratings, just choose one.
+3. The distance $$L$$ between the grating and the screen is something we will be systematically varying in Module 3, so that we can ultimately find the wavelength. But each time we set the value of $$L$$, we can only do so with some imprecision. Set <em>L</em> = 60 cm and then vary <em>L</em> over a range of ±0.5 cm.
 
 For each of the five potential sources of uncertainty listed above (the angle of the diffraction grating, plus the four listed above). For the parameters with a suggested range, wiggle the parameter over the suggested range and record the variation in $$x$$. Since this is just an exploratory wiggling of parameters, you do not need to perform repeated trials of these tests. You only need to collect 3 data points --- one at either end of the suggested range and one in the middle. It should take you about 15 minutes to wiggle all the parameters.
 
