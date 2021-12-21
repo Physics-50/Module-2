@@ -23,7 +23,6 @@ x_range = xlim; % get current x-axis limits, store in variable "x_range"
 xlim([x_range(1)-0.5, x_range(2)+0.5]); % expand the x-axis limits by 0.5 on each side
 % y_range = ylim; % get current x-axis limits, store in variable "y_range"
 % ylim([y_range(1)-0.05, y_range(2)+0.05]); % expand the y-axis limits by 0.05 on each side
-ax = gca; % gca means get current axes, so ax is a handle to the axes object
 ax.FontSize = 14; % sets the default font size for axis and tick labels - this is how to set tick font size
 
 %% perform a weighted fit of a horizontal line to the data

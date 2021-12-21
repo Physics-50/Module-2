@@ -1,172 +1,157 @@
 # Week 3
 
-1. [Why am I getting too large a value for the speed of sound?](#why-am-i-getting-too-large-a-value-for-the-speed-of-sound)
-1. [Background: Data Analysis](#background-reading-for-data-analysis)
-2. [Lab Instructions for Week 3](#lab-instructions-for-week-3)
-3. [What you need to leave lab with this week](#what-you-need-to-leave-lab-with-this-week)
-3. [Checkpoint #3](#checkpoint-3)
-
-## Why Am I Getting Too Large a Value for the Speed of Sound?
-
-Over the past two weeks you performed careful measurements to determine the speed of sound. In week 1 you surveyed a range of potential systematic errors and hopefully determined which ones appeared to be the most significant. In week 2 we directed you to focus your attention on parallax - a very significant potential source of systematic error in this experiment. After such a careful investigation it must have been satisfying to get a result that agreed to the expected value to within experimental error...... unless of course you didn't. 
-
-Throughout this course we have we have asked you to pay careful attention to uncertainties. Here are some sample results reported by students last week:
-
-| Speed of Sound          | Uncertainty  | 
-| ----------------------- | ------------ | 
-| 360.5 m/s               | 1.2 m/s      | 
-| 369.1 m/s               | 1.1 m/s      |
-| 359.1 m/s               | 1.7 m/s      |
-
-If you have appropriately controlled for systematic errors and accounted for random errors, your results should differ from the mean by approximately their uncertainty. But perhaps you still feel the above results are "close enough" to the expected value (343 m/s at $$20^{o}$$C). 
-
-The above results differ from the expected value for the speed of sound by on the order 10x their uncertainty! To get a sense of how unlikely that is, for a normal distribution a $$5 \sigma$$ event, (i.e. 5 standard deviations from the mean) has a probability of 1 in $$\approx$$3.5 million, a $$6 \sigma$$ event has a probability of 1 in $$\approx$$0.5 billion. Clearly we should give some more thought to explaining the discrepancy between these results and the expected value.
-
-When experimental results don't agree with the expected value it is a good idea to:
-1. Check to make sure you trust your experimental results. Were you careful to minimize potential sources of systematic error and to appropriately randomize potential sources of uncertainty by resetting the experiment?
-2. Check to make sure you trust the "expected value". For example, 343 m/s is the accepted value of the speed of sound under a specific set of conditions. Do those match the conditions in the lab? 343 m/s is the appropriate speed at $$20^{o}$$C. While the speed of sound depends on temperature, our laboratory conditions were close enough to $$20^{\circ}$$ C that we aren't going to be able to explain the discrepancy with temperature. You might also consider pressure, but the dependence of the speed of sound on pressure is extremely weak.
-3. When all else fails it can be a good idea to check if you are confident in your theory. 
-
-The theory we have relied upon assumes the levitator produces plane waves. However, if you took the time to investigate the sound waves with dry ice last week you may have noticed significant discrepancies from plane wave behavior. We can in fact account for this! You will not be responsible for the details of the more complete theory but are encouraged to [read a summary here](gouy).
-
-Bottom line:
-
-You can correct for the 3D structure of the standing waves by applying the following correction to get the actual wavelength ($$\lambda$$) from  your measured value, $$\lambda_{\rm eff}$$:
-
-\begin{equation}
-  \lambda = \frac{\lambda_{\rm eff}}{1+\frac{1}{\pi n}}
-\end{equation}
-
-For our system the instructors have determined that $$n=4.5 \pm 0.25$$. ([see previously mentioned supplemental materials](gouy)). We will talk more in class about how to incorporate the uncertainty in $$n$$ into your final result for the speed of sound. 
+1. [Data Collection](#data-collection)
+2. [Background on LCD Screens](#background-on-lcd-screens)
+3. [Diffraction from an LCD](#in-lab-instructions-diffraction-from-an-lcd)
+4. [Week 3 Summary of Data to be Collected](#week-3-summary-of-data-to-be-collected)
+5. [Checkpoint 3](#checkpoint-3)
 
 
 
-### Background Reading for Data Analysis
-One of the most important ideas we want you to take from Module 2 is to think of a data set as a whole, not as individual points. 
+This week you will continue your investigation of the wavelength of your laser. We would like you to follow an identical procedure to last week. However, instead of using the 500 lines/mm gratings you should now collect data with the 1000 lines/mm gratings. Take a moment to reflect on expectations before diving into the experiment. How will the diffraction pattern change when the grating period is 1000 lines/mm?
 
-In the analysis you completed in weeks 1 and 2, you measured the spacing between a single, fixed number of nodes. But the “node number” provides us with an independent variable that we can control, so by measuring the position of multiple nodes, we can create a plot of position versus node number. Plotting the data and looking at the data set as a whole gives us confidence in our ability to determine the speed of sound, since it allows us to fit the data to the theoretical prediction in a more robust way. You do not need beads in every node to use this method, but you do need to use sound judgment and consistency with the theory to appropriately assign the node numbers to your levitated beads. 
 
-At the end of Module 1 we introduced MATLAB and used it to generate a horizontal line of best fit. In this module we will continue to use MATLAB for data analysis. 
+#### Miniquestion 1: Comparing diffraction patterns from gratings with different periods
+*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLScOvf4fEdEk5cotRGrTle0iitt7onz0DmTOdhuNL47lh2ifqA/viewform?){:target="_blank"}*
 
-How do we extract a slope from our measured data? You have previously fit a horizontal line, but now you will fit a line with a nonzero slope. To understand this fitting process, you now need to carefully read the [curve fitting guide](curve-fitting){:target="_blank"}. In it you will find a MATLAB script that includes a linear fit with both an intercept and a slope.
-
-To ensure you are prepared to analyze your data, please make use of the following figure to answer the subsequent mini-question.
-
-[![Image of sample data](images/sample_data-beads.png)](images/sample_data-beads.png){:target="_blank"}
-----
-
-#### Miniquestion 1: Estimating the speed of sound from a sample plot
-[*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSdyYDI3QEI4FDsfW4d0M4krPmhwPUsgcYBsDG48WcajfMYhgg/viewform?usp=sf_link){:target="_blank"}
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdyYDI3QEI4FDsfW4d0M4krPmhwPUsgcYBsDG48WcajfMYhgg/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScOvf4fEdEk5cotRGrTle0iitt7onz0DmTOdhuNL47lh2ifqA/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
------
+## Data collection
 
-## Lab Instructions for Week 3
+Collect a set of data analogous to the data you collected last week but now using the 1000 line/mm gratings. This will give you the necessary data to complete this week's checkpoint. You should expect to spend the majority of your time in lab this week on this task.
 
-### Collection of Preliminary Data
+As a reminder (repeat of last week's instructions):
 
-Make sure you are using the same levitator as last week (you should have made note of the levitator number).
+To collect a complete $$x$$ vs. $$L$$ dataset, make sure to do the following:
 
-Last week should have convinced you that parallax is a significant source of uncertainty in this experiment. You also should have come up with a strategy to minimize its effect and then estimated the magnitude of its effect through multiple trials in which you randomized the position of the ruler as well as the relative position of the camera and levitator.
++ Choose five values of $$L$$. Last week we recommended a range of $$L$$ values from about 15 cm to about 60 cm. You may find this more difficult when working with the 1000 lines/mm gratings as the $$x$$ values will be larger. You should still choose five $$L$$ values over as wide a range as you can in the space you have available. <!-- A range of $$L$$ values from 7.5 cm to 30 cm will give you a similar range of $$x$$ values to last week. -->
 
-This week we are going to collect a data set that will allow us to obtain a more accurate estimate of the speed of sound by fitting a line representing the bead position as a function of node number.
++ Collect five measurements of $$x$$ for each $$L$$ value, being sure to reset all the parameters you determined you needed to in  [Miniquestion 3 from Week 1](https://docs.google.com/forms/d/e/1FAIpQLSe-Bcw3iqEcmblnBnsOJOqSbfHVNrXckA4mVs9VEvzOXHvZQQ/viewform){:target="_blank"} between each measurement of $$x$$. Be sure to **only use the 1000 line/mm diffraction gratings.** 
 
-To do this you will need a reliable mark on your levitator that you can use as a consistent origin to compare data from multiple photos. This should not be a bead (can you think why? If unsure talk to your section instructor) and also should be attached to the levitator (if you instead used for example a point on the table there is a risk it might move between images, e.g. if the levitator moved). This time you want to position as many beads in the levitator as you can. Aim for at least 5 but hopefully you can get more than that (remember that you will be graded on quality of data). **You may find it easier to trap more beads in the levitator if you rotate the levitator by 90° and trap the beads in a vertical column.** This is worth trying! It is okay if you skip some nodes as long as you keep track of where they are so you can assign each bead to a node number.
++ For each $$L$$ value, compute the mean value of $$x$$ from your five trials and the random uncertainty as measured by the SEM. 
 
-Once you have two good images with at least 5 beads (make sure to reposition the ruler, beads, camera or levitator and anything else you think might be important between images) you should perform an analysis of the first two photos --- doing a preliminary analysis along the way can save you time by ensuring there aren't any major flaws in your data collection before collecting a full set of data. You may want to have one lab partner extract data from each of the two photos in parallel, but make sure you agree on the origin you will use.
++ Enter your $$x\pm \delta x$$ and $$L$$ data into the MATLAB curve fitting script called "curve_fitting.m" from the [curve fitting guide](curve-fitting){:target="_blank"} and run the code to perform a best fit analysis.
 
-### Analysis of Preliminary Data
++ You should make use of your data, the best fit analysis and the provided theory to determine the wavelength of your laser. You will need to use the methods you have been taught in previous modules to propagate uncertainty and determine the uncertainty in your final result. 
 
-Your goal is to use five distinct photos to estimate the position of each node (based on the position of beads). To prepare for this you will want to set up a sheet in your assigned spreadsheet for this module. At the top you will want to indicate that you are measuring the position of beads relative to the origin (in mm). You will want to assign a column for each node #. Note that while the assignment of which node is "node 1" is arbitrary, it needs to be at a consistent location between photos. That means that if you assign "node 1" to be the left-most bead in your first photo and then have a later photo in which you were able to levitate more beads further to the left, you will have to assign these "node 0", "node -1", etc., extending leftward. This is fine. The $$y$$-intercept of your plot of bead position vs. node number is arbitrary in this case; we are only interested in the slope.
+-----------------------------------
 
-To get a good set of data you will need to adjust for/minimize rotation in your image --- make sure you measure the distance from your origin to the beads along the direction parallel to the axis of the column/row of beads. 
+## Comparison of results from 500 lines/mm and 1000 lines/mm gratings
 
-
-Prepare a plot of bead position vs. node number with the curve fitting script provided in the section [Background: Data Analysis](#background-reading-for-data-analysis). Since you are only analyzing two images you will have at most two data points for each node. Statistical analysis such as computing the SEM is not meaningful with only two data points. However, it is still helpful to estimate the uncertainty as part of our preliminary analysis so that we can gauge whether our preliminary results appear reasonable. With only two data points, the best we can do is estimate our uncertainty to be the spread between the data points.
-
-
-**What if you only have a single data point for some nodes?** 
-Unfortunately you will not be able to use that data this week. You have no way to estimate the uncertainty in those data points and our weighted fit will not be able to cope with data points for which you cannot appropriately account for the uncertainty. But keep track of the relevant data - hopefully, you will be able to use it next week when you analyze the remaining photos. 
+After you have collected and analyzed your data for the 1000 lines/mm grating we would like you to compare these results with the results you obtained last week using the 500 lines/mm grating. You will be asked to answer a question about your results on the checkpoint.
 
 
+-------------
 
-----
+## Background on LCD screens
 
-#### Mini-question 2: Estimating the uncertainty from 2 data points
-[*Click here to open in a new tab*](https://forms.gle/MYkieS2qvmeJzMrv8){:target="_blank"}
+How does what we've learned in this module apply to an LCD screen? We can think of a liquid crystal display, or LCD, as being a two-dimensional diffraction grating.
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjcyLeUy89qqC5gO9NOrWYJyqoBE2POMnF4BxFvDqsy6i-iQ/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
-</iframe>
+To get a sense of what the diffraction pattern of a two-dimensional grating would look like, mount one of the 500 lines/mm gratings on the optical rail, and then hold a second grating, rotated at 90°. You do not need to collect any data; just describe in your lab notebook what the diffraction pattern from a 2-dimensional grid looks like.
 
------
-
-Once you've prepared your plot you should take a good look to see if you are satisfied with the plot before moving on. Here are some things you might check:
+A liquid crystal display consists of a two-dimensional grid of small 'boxes' called pixels (originally short for picture elements) that, together, display an image on a screen. These pixels are themselves composed of three 'sub-pixels' with colors red, green, and blue. If you look at your computer screen through a camera, you might be able to see the pixelated nature of the screen. Some common arrangements of pixels and sub-pixels in different devices are shown in the figure below. Voltages are applied across a pixel to control the colors and their relative intensities in that pixel.
 
 
-+ Are there any major apparent discontinuities or discrepancies from linearity? One of the benefits to plotting the data is that if you missed a node you can correct for it. If there is a discontinuity in your plot take a look at your image and data. Does it look like there is a node with a bead missing? If so go ahead and shift the data - after doing so are the results linear? If this is an issue you are having this would be a good moment to touch base with your instructor. 
+<p class='center' markdown='0'>
+  <img class="size-full wp-image-1891" src="https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/10/LCD-pixels.jpg" alt="" width="224" height="224"> 
+</p>
 
-+ If you were able to trap a large number of beads you might expect variations far from the center of the levitator, whether due to irregularities in the standing wave pattern or due to distortion of the image. Do you see any sign of this in your results? If you have reason to suspect that your edge data points are deviating from your theory (i.e. they don't match the linear trend well the rest of the data does) it is reasonable to not include them in your analysis. If you see this this would be another good moment to touch base with your instructor.
-
-+ The slope should represent the separation between nodes. Does the result agree approximately with what you would expect just looking at the beads in the levitator? (If not you should check for a mistake in your analysis)
-
-+ Is your $$\chi^2$$ reasonable? Keep in mind that so far you've only analyzed two images and your uncertainties are just a rough approximation. 
-
-+ If you use the slope to estimate the speed of sound and apply the correction at the beginning of this week's instructions, do you get a reasonable result?
+<p class='mycap' markdown='1'>
+**Figure 1** --- LCD sub-pixel layouts for various types of screens.
+</p>
 
 
+You can think of the screen as a grid of windows with either red, green or blue glass, illuminated by a bright light from behind. Some mechanism -- perhaps a person adjusting the window shade -- determines how much light passes through each individual window. If you stand far enough away, an adjacent set of red, green, and blue windows is too small for you to see each color separately; instead you see a splotch of color made up of whatever red, green, and blue light is getting through that set of windows. Again, if you stand far enough away, the individual splotches blend together and you see a color picture made up of dots the size of each individual window. Your computer screen, and any LCD screen --such as the one on your phone-- for that matter, operate in a similar way, only the "windows" or pixels are on the order of tens to hundreds of micrometers wide. The more pixels a screen has per unit area, the greater the resolution of the screen, since there is more room for 'perfecting' the image on small scales.
 
-### Collection of Complete Data Set
+Thus, you can think of the LCD as a two-dimensional grid of slits, where the distance between center of the 'slits' is the center-to-center pixel spacing, and is closely related to the resolution of the LCD screen.
 
-Once you are satisfied with your results from the analysis of 2 images you need to collect a complete data set (5 distinct photos, i.e. 3 more than the 2 you already collected) so that you can estimate the uncertainty.
+When a laser beam strikes an LCD screen, the beam diffracts. If we set up a screen to observe the laser light reflected from the LCD screen, we observe a rectangular grid of bright dots, with roughly uniform spacing between maxima. By measuring the distance between these maxima and using the laser wavelength (determined in lab last week), you can determine the distance between the pixels, and thus deduce the resolution of the screen, by employing the same equation you used to determine the wavelength of your laser with the diffraction gratings.
 
-Like last week you should reposition the ruler as well as the position of the levitator relative to the camera in between each measurement, but this time **you will also need to levitate a fresh set of beads for each photo.**
+## In Lab Instructions for Diffraction from an LCD
 
-**You are not required to analyze all of your data for this week's checkpoint. But you are required to take at least 5 different pictures that you will use for your data analysis and to analyze at least two of them.**
+Each station should have an LCD panel in an acrylic case that is fastened to an optical post and mounted on the optical rail, as shown in the figure below.
 
-As for Module 1, you will need an uncluttered image or images of your experimental setup (with a scale bar) for your deliverable. In this case it is likely that you will find the images you've already taken will meet your needs. But just in case, before leaving lab take a moment to think if you need to take any additional photos to showcase your experimental procedure in the deliverable.
+[![LCD](images/LCD.png)](images/LCD.png){:target="_blank"}
 
-Make sure to note which levitator you are using (it should be the same one that you used last week).
-
-If you have extra time you should begin analyzing your other three photos.
-
-## What you need to leave lab with this week
-
-+ 5 images of levitated beads for which you both reset the ruler and the beads. Each image needs to include at least 5 beads, more would be preferable.
-
-+ A linear regression fit to data extracted from the combined data of 2 of the five images
-
-# Checkpoint 3
-
-Checkpoint 3 will take place in two parts:
+<p class='mycap' markdown='1'>
+**Figure 2** --- (left) The laser beam should travel from left to right through the LCD panel. (right) Layout of components on the optical rail. Click on the image to see a larger version.
+</p>
 
 
-**Part 1: Practice calculation**
-*You may resubmit Module 2, checkpoint 3, Part 1 as many times as you like until you get the correct answer (it is auto-graded and will give you an immediate response). For this part **only** it is also okay to "save" your responses to the individual questions.*
-
- You should do part 1 before part 2. However, we do not recommend completing part 1 before you come to class as we will discuss how to appropriately combine two separate sources of uncertainty in class.
+The HDMI cable that you will use to connect to your computer, as well as the power cable, are attached to the LCD panel. *Please do not attempt to unplug either of these cables from the acrylic box*. The LCD should be oriented so that the laser shines through it in a direction going from left to right in the figure on the left above.
 
 
-**Part 2: Post-lab analysis**
-For part 2 our usual rules apply:
-**Reminder:** Please prepare your assignment in a separate document, enter all entries in a single sitting without using the "save" button and then make use of the "submit" button to submit your work. You may not resubmit your work once it has been submitted (and saving in Gradescope is equivalent to submitting).
+<!--
+One of the goals for this exploration is to dissect (please do not take this literally!) the LCD panel,i.e. to deduce portions of its internal structure and to better understand how it works. 
 
-+ A screenshot of your organized spreadsheet which is set-up for analysis of 5 images although you are only expected to have analyzed two for this checkpoint.
+In terms of deducing the internal structure, it would be nice to be able to 'look' inside. This is not so easy since the features of the LCD panel are quite small. However, humanity overcame this issue years ago when Hans and Zacharias Janssen invented the microscope.
+-->
+Figure 3 shows a photo taken of our LCD screen via the eyepiece of a microscope. You are encouraged to observe the LCD screen under the microscope (through the eyepiece) in the rear of the lab. A microscope calibration slide is available that you can use to estimate the pixel size and compare with your results. You may find this helpful when assessing if your results are reasonable for the final question on the checkpoint.
 
-+ The 5 photos you will use for your data analysis
+<p class='center' markdown='0'>
+<img class="wp-image-1953 size-medium" src="https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/10/LCD-microscope-300x230.jpg" alt="" width="300" height="230"> 
+</p>
+<p class='mycap' markdown='1'>
+**Figure 3** --- Microscope image of an LCD panel identical to the one you have on your optical rail. **Note: the LCD that is pre-placed in the microscope is the same as those that are on your optical rail. Please do not disassemble your own LCD or its housing, and please do not touch the LCD screen.**
+</p>
 
-+ A plot of bead position vs. node number, prepared in MATLAB, based on the results you extracted from a two image. The individual data points should include uncertainties estimated from the spread between the two data points for each node. Data from nodes for which you only have a single measured value should not be included. Please display the fit parameters on the plot (the provided script will do this for you).
 
-+ From your analysis, you should have a slope, $$m \pm \delta m$$, of a plot of bead position vs. node number. From this you will determine the effective wavelength, $$\lambda_{\rm eff} \pm \delta\lambda_{\rm eff}$$. You will calculate the wavelength $$\lambda \pm \delta\lambda$$ from the effective wavelength, making use of the correction to account for the 3D structure of the standing waves as discussed at the start of this week's instructions. Your calculation will make use of the parameter $$n$$ and its uncertainty, $$\delta n$$ which was provided above. In terms of these parameters (without plugging in numbers) you will be asked to provide a calculation of your formula for the propogated uncertainty in wavelength, $$\delta\lambda$$ due to the uncertainties $$\delta m$$ and $$\delta n$$.
+<!--
+The LCD has structure that looks like a two-dimensional array of windows, or two-dimensional array of slits. In other words, it has a diffraction grating-like structure. It makes sense, then, that if we shine a laser through, there ought to be some sort of diffraction pattern. -->
 
-+ A calculation of the speed of sound with uncertainty based on your line of best fit to the plot. As part of your calculation of the speed of sound you are expected to have applied the correction to the measured wavelength (as determined from your plotted data) to account for the 3D structure of the standing waves as discussed at the beginning of this week's instructions.
+Mount the LCD on your optical rail and shine your laser through the LCD. You will see a pattern of bright dots creating a rectangular grid, with roughly uniform spacing between maxima. Using the wavelength of the laser and by measuring the distance between these maxima, you can determine the spacing of the pixels and thus the resolution of the screen. *For purposes of this investigation, please use the wavelength shown on the laser's label.*
 
-+ And to double-check, make sure you have finished all of this week’s mini-questions by [checking here](mini-questions#week-3){:target="_blank"}.
+Rather than make this a full-blown investigation, we want you simply to **estimate** the pixel spacing, so you don't need to make repeated measurements at different values of $$L$$. You only need to measure the spacing of the diffraction peaks one time at a single $$L$$ value and estimate the pixel spacing from there. You should take a measurement in both the horizontal and vertical direction, but only need to take one measurement in each direction and do not need to estimate uncertainty. <!-- Note that pixel spacing is the separation between a repeating unit. i.e. it would be for example the distance from the center of one of the red rectangles that you see to the center of the next red rectangle. -->
+
+You are encouraged to use remaining time to further explore the LCD panel. You can  [learn more about how LCDs work here](lcd-inner-workings). Once you have an idea how LCDs work, You can find some [suggestions for further exploration here](LCD){:target="_blank"}. Alternatively, you might find it interesting to take a look at your phone screen. By shining a laser at your phone and looking at the diffraction pattern of the reflected light you can probe the pixel structure of your phone. How does the pattern differ from that of the LCD screen from the projector? How does the pixel resolution compare?
+
+## Summary of Data to be Collected
+
+In lab this week you will need to collect the following data:
+
++ 5 measurements of $$x$$ at each of 5 different $$L$$ values (25 data points total), all measured with 1000 line/mm gratings.
++ a single measurement of $$x$$ in both the horizontal and vertical direction, each measured at a single $$L$$ value, from the LCD panel. You do not need to estimate the uncertainty.
++ It is also important that you take note of the laser wavelength as specified by the manufacturer. It is written on the laser itself. You will want this for comparison and also to use for calculating the pixel spacing.
 
 
 
 
+## Checkpoint 3
+
+If you had any issues with Checkpoint 2 we recommend speaking to an instructor before completing your checkpoint this week as it is very similar.
+
+You should submit the following on Gradescope:
+
++ The plot used to determine the wavelength of your laser. This plot must include the uncertainties on your data points and include a line of best fit that has been determined with a weighted fit. As always, make sure to include units on your axis labels. You will be asked to upload this plot 3 times. You should upload the same plot each time. You do not need to write a caption.
+
++ A link to a spreadsheet with your experimental data.
+
++ The slope you obtained from your plot, including the uncertainty. 
+
++ The wavelength you have determined for your laser, with uncertainty from both the 500 line/mm gratings (last week's data) and 1000 line/mm gratings (this week's data).
+
++ An answer to the question: Would you feel comfortable using these two wavelength values ? If not what do you think might be going on and what are you going to do about it?
+
++ An estimate of the pixel spacing for the LCD screen. It is only an estimate, please make use of the wavelength written on the laser itself and not your experimental value for this estimate. You do not need to estimate the uncertainty. 
+
+It may be that you have done very careful experimental work and your results still are not in agreement. We will explore this more next week.
 
 
+<!--
+## Grading rubric
 
+This checkpoint will be graded out of 14 points. 
+
++ The grading rubric for the first three questions (results for the 1000 lines/mm grating) will be analogous to those for checkpoint #2. Please come talk to office hours and ask question if there is anything you are unsure about. 
+
++ Question 4 (comparison of results from two different grating spacings) will be graded on both your results and figure mechanics
+
++ Question 5 (agreement of results). We are only looking for a single sentence indicating whether your wavelengths are in agreement.
+
+-->
+
+
+## Mini-questions:
+
+And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-3){:target="_blank"}.

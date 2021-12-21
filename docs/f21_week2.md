@@ -1,69 +1,109 @@
-# Module 2, Week 2
-
-1. [Introduction](#introduction)
-2. [An Introduction to Parallax](#parallax)
-3. [Systematic Error](#systematic-error)
-4. [Further Exploration (optional)](#further-exploration)
-5. [Checkpoint Instructions](#checkpoint-instructions)
-
-
-## Introduction
-
-Last week you made a preliminary estimate of the speed of sound.  This week we want to take a deeper dive into a primary source of uncertainty, in order to improve the accuracy of both the result and the estimated uncertainty.
-
-Last week, we encouraged you "to give some thought to the best positioning of the ruler for accurate measurements." This week we are going to explore this issue further.
-
-The first thing we would like you to do is set up the experiment *using only your notes from last week* (not the lab manual). If you need to refer back to the lab manual, it is a sign that your notes are insufficiently comprehensive. *Take the time to prepare more detailed notes.*
-
-## Parallax
-
-<!--Take a picture with the ruler positioned ~1 cm above the beads. Now take one with it ~1 cm below. Estimate the speed of sound from both pictures. Is the difference significant? Hint: as a loose rule of thumb, a difference can be considered significant if it is greater than, or comparable to, the uncertainty from other sources. How does the difference between these two values compare with your uncertainty from last week?-->
-
-Last week you investigated several potential sources of systematic error, among those was the effect of repositioning the ruler relative to the camera and levitator. If you didn't already do this last week please do the following:
-
-Take a picture with the ruler positioned ~1 cm closer to the camera than the beads. Now take one with it ~1 cm further from the camera than the beads. Estimate the speed of sound from both pictures. Is the difference significant? Hint: as a loose rule of thumb, a difference can be considered significant if it is greater than, or comparable to, the uncertainty from other sources.
-
-The issue arises from **parallax**. Each millimeter mark on the ruler that is closer to the camera spans more pixels than the equivalent markings on the ruler further from the camera (if you didn't move the camera between images you can see this from your pixel-to-mm conversion without even taking the beads into consideration.) Ideally we would position the ruler at exactly the location of the beads and our problems would be solved. Unfortunately, the ruler would then interfere with the sound waves that are levitating the beads. The best thing we can do is position the ruler at the same distance from the beads as the camera, so that the ruler's magnification in the image is identical to the beads'. Try to find a good way to position the ruler in the same plane as the beads. However, this isn't the full story. If you have positioned your camera so that it is centered on the beads with the ruler off to one side, the distance from the camera to the ruler will not exactly match the distance from the camera to the beads. Try repositioning your acoustic levitator so the camera is centered between the beads and ruler.
-
-Next we would like to estimate the magnitude of this source of uncertainty. Perhaps you feel you have already done this? The pictures you took earlier probably convinced you that this is a significant source of uncertainty but if you are careful you should be able to position the ruler with much better accuracy than the $$\pm1~\mathrm{cm}$$ used to deliberately exaggerate the effect above!
+# Week 2
 
 --------------
-#### Miniquestion 1: How to Estimate the Uncertainty Due to Parallax
-[*Click here to open in a new tab*](https://forms.gle/h4SgcPH2tbY65phx9){:target="_blank"}
+1. [Overview of Week 2](#overview-of-week-2)
+2. [Why we measure $$x$$ over a range of $$L$$ values](#why-we-measure-x-over-a-range-of-l-values)
+3. [Data Collection](#data-collection)
+4. [Checkpoint 2](#checkpoint-2)
+5. [Mini-questions](#miniquestions)
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfKgoZe1wKD3fN_Nqbs8JqZWxWyjyj8BLcHk5gzpmsyjvRbUg/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
+--------------
+
+## Overview of Week 2
+
+This week we will investigate how the distance $$x$$ to the first non-central bright spot depends on $$L$$, the distance between the grating and the screen. This will lead you to a determination of the wavelength of your laser; we will do this roughly first with a single data point, but ultimately our approach will be to plot $$x$$ vs. $$L$$ and find the best fit line to that data.
+
+Using one or more 500-lines/mm grating(s), you will take data carefully (including repeated trials) for $$x$$ as a function of $$L$$ over a large range of the $$L$$ values accessible with your apparatus.  You will plot $$x$$ vs. $$L$$ to check for systematic errors and to find a value for $$\lambda$$, the wavelength of your laser, based on the slope of your data set.
+
+Before starting this longer program of measurements, it is useful to do a very quick "back-of-the-envelope" check to make sure that your value for wavelength will be roughly in the range you'd expect (620--700 nm for red light).  From the [background theory](background-theory){:target="_blank"} presented last week, we can solve for $$\lambda$$ in terms of known and measured quantities to find $$\lambda = d \frac{x}{L}$$.  Go back to the data you collected last week. Pick a single value of $$x$$ and $$L$$ and check whether the value of $$d \frac{x}{L}$$ lies within the range you expect for the wavelength.
+
+Why don't we just continue this approach over multiple trials to get a more reliable result?  That is, why not analyze multiple data points by measuring $$x$$ each time, determining $$\lambda= d \frac{x}{L}$$ for each measurement, and then averaging those? In the next section we argue that we can do better by taking a more holistic approach.   
+
+## Why we measure $$x$$ over a range of $$L$$ values
+
+One of the ideas we would like you to take away from this course is to think of a data set as a whole, not as individual points.  $$L$$ provides us with an independent variable that we can control, so by measuring $$x$$ over a range of $$L$$ values, we can create a plot of $$x$$ versus $$L$$ data. Plotting the data and looking at the data set as a whole gives us confidence in our ability to determine $$\lambda$$, since it allows us to fit the data to the theoretical prediction in a more robust way.  We will outline the approach before pointing out some of its advantages.
+
+Thinking back to the theoretical prediction $$\lambda = d \frac{x}{L}$$, let's rewrite that equation in a more suggestive form
+\begin{equation}
+x = \left(\frac{\lambda}{d}\right) L + 0
+\end{equation}
+where we have added zero to the right-hand side. This should look familiar: it's the equation of a straight line (classic "$$y=mx+b$$"). That is, if we plotted $$x$$ versus $$L$$, we'd get a slope $$m=\lambda/d$$, and an intercept $$b=0$$.
+
+Let's start with a practice calculation.
+
+#### Miniquestion 1: Calculating wavelength from slope
+[*Click here to open in a new tab*](https://forms.gle/MPYx6nPVd54jYE359){:target="_blank"}
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSct57YgYJ1rxsHAkhGfOk_QUB638pb_MYeH7vhVZU2MGQUW5w/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
+---------------------------
 
---------------------
+There's an added power to treating the data set as a whole in this way because if our data has an intercept that isn't zero, then that would suggest a systematic error that shifted our measured values!  Consider this: what if there is a systematic uncertainty in $$L$$, e.g., because you accidentally measured to one edge of a post holder or because your ruler didn't start at zero? Then a set of $$\lambda$$ values calculated from your individual trials would be systematically off. However, plotting a line will still give the correct slope.  In this case the line will have a non-zero intercept that tells you about the systematic shift in $$L$$, as shown in the plot below, where the fitting parameter $$b$$ shown in the legend is clearly not equal to zero.
+
+<img src="images/x_vs_L_offset.png" alt="basic setup" width="400" style="display: block; margin-left: auto; margin-right: auto; width: 80%;" />
+
+To graph your data and perform a weighted linear fit, you will make use of the [MATLAB script provided in Module 2](https://physics-50.github.io/Module-2/curve-fitting).  Make sure to change the axis labels to make them appropriate for this experiment.  You may also want to review the curve fitting guide to reinforce your understanding of how to interpret fit parameters, $$ \chi_{\nu}^2 $$ values, and other aspects of your result.
+
+#### Miniquestion 2: Interpreting a weighted linear fit
+[*Click here to open in a new tab (recommended)*](https://forms.gle/BF8fQq5PNWF1Gh9U8){:target="_blank"}
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdTk_l5gJ2boQzujZcgNKYh55iSlxR9UZNke6sgi3Chk_dvmA/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
+</iframe>
+
+<br>
+
+## Data Collection
+
+**This week you will collect data only for the 500 lines/mm grating spacing.**
+
+When collecting data this week we would like you to take into consideration the sources of uncertainty you explored in Week 1 and do your best to minimize uncertainty and randomize systematic error by resetting the sensitive parameters between each trial. Please take a moment right now to go back to [Miniquestion 3 from Week 1](https://docs.google.com/forms/d/e/1FAIpQLSe-Bcw3iqEcmblnBnsOJOqSbfHVNrXckA4mVs9VEvzOXHvZQQ/viewform){:target="_blank"} and review your answers to determine which parameters you need to reset and which you don't.
+
+To collect your complete $$x$$ vs. $$L$$ dataset, make sure to do the following:
+
++ Choose five values of $$L$$ ranging from about 15 cm to as large a value of $$ L $$ as you can while keeping the first diffraction maximum on the provided screen (this should be about 60 cm).
+
++ Collect five measurements of $$x$$ for each $$L$$ value, being sure to reset all the parameters you determined you needed to in  [Miniquestion 3 from Week 1](https://docs.google.com/forms/d/e/1FAIpQLSe-Bcw3iqEcmblnBnsOJOqSbfHVNrXckA4mVs9VEvzOXHvZQQ/viewform){:target="_blank"} between each measurement of $$x$$. Be sure to **only use the 500 line/mm diffraction gratings.** 
+
++ For each $$L$$ value, compute the mean value of $$x$$ from your five trials and the random uncertainty as measured by the SEM.
+
++ Enter your $$x\pm \delta x$$ and $$L$$ data into the MATLAB curve fitting script from Module 2 and run the code to perform a best-fit analysis.  Be sure to change the axis labels in the code to reflect the data in this experiment.
+
++ You should make use of your data, the best-fit analysis and the provided theory to determine the wavelength of your laser. You will need to use the methods you have been taught in previous modules to propagate your uncertainty and determine the uncertainty in your final result. 
 
 
-## Systematic Error
 
-Tackling systematic error is a two-step process; first you should try to reduce the source of error as much as possible. In this case that means working out how to position the ruler as well as you can. Then, as a second step, randomize the remaining uncertainty---by positioning the ruler "as well as you can" multiple different times---to account for the error appropriately within your uncertainty from repeated trials. Once you feel you've done as much as you can to minimize this source of uncertainty, you will need to do multiple measurements (5 in this course) resetting the position of the ruler each time to randomize the effect of imperfect positioning. (Note that replacing the ruler 5 times on the same support item does not count as resetting the ruler!) You will need to find a way to position the ruler that does not depend on resting it on a single fixed item that appeared to be in the plane of the beads (but is unlikely to be exactly the right position). Since we care about both the vertical and horizontal distance you will also need to reset the position of either the camera or the acoustic levitator. For this week, you may choose whether to reset both at once each time or to explore the two effects separately; the latter will give additional information about the relative effect of the two sources of uncertainty (which can be very useful if you find one of the sources of uncertainty to be insignificant). If you take this approach you should combine the uncertainties from the two sources *in quadrature* when reporting the final estimated uncertainty. However, **we recommend that you investigate both effects simultaneously**, since for today's purposes we are interested in the overall effect, so resetting both will save you time.
+-------------
 
-Before leaving the lab, make sure you record in your notebook which levitator you were using (they are numbered). That way when you return next week you can ensure you are using the same levitator which will be essential if you end up reusing any of the data you collected this week.
+## Checkpoint 2
 
-**Since we are focused entirely on parallax as a source of systematic error this week, when resetting the experiment it is only necessary to reset those parameters relevant to the source of parallax. You do not need to reset the beads themselves.**
-
-## Further Exploration
-If you have time you can use dry ice to get a more 3-dimensional view of the standing wave pattern. You will not be asked to report on this in the checkpoint but it is interesting to see. 
-
-This video gives you a sense of what to expect:
-
-[Video visualizing the standing waves with dry ice](https://drive.google.com/file/d/1kAjwFzc-ttmeFJRHg-QpZAd9PzZduhc3/view?usp=sharing){:target="_blank"}.
-
-Before making use of dry ice it is important that you carefully review the [safety precautions at this link](dry-ice-safety).
-
-**Please note the request within the safety documentation to bring your own safety glasses if you have them. If not safety glasses will be provided.**
+Checkpoint 2 will take place in two parts:
 
 
-## Checkpoint Instructions
+**Part 1: Practice calculation**
+*You may resubmit Module 3, checkpoint 2, Part 1 as many times as you like until you get the correct answer (it is auto-graded and will give you an immediate response). For this part **only** it is also okay to "save" your responses to the individual questions.*
 
-For this week's checkpoint you will be asked to submit the following:
+Part 1 is a practice calculation; please complete the problem on Gradescope. You are welcome to complete this practice calculation before your time in lab to be better prepared to complete the analysis in class.
 
-+ A description of what you did to minimize parallax as a source of systematic error with images showing your experimental setup. You will need to show both a top-view and side-view image to showcase your efforts to minimize parallax in both directions.
+**Part 2: Post-lab analysis**
 
-+ Your estimate for the wavelength of the sound wave in your experiment from 5 or more distinct measurements in which you attempted to randomize parallax as a source of uncertainty and subsequent estimate for the speed of sound, with uncertainty.
+For part 2 our usual rules apply:
+**Reminder:** Please prepare your assignment in a separate document, enter all entries in a single sitting without using the "save" button and then make use of the "submit" button to submit your work. You may not resubmit your work once it has been submitted (and saving in Gradescope is equivalent to submitting).
 
-+ And to double-check, make sure you have finished all of this week’s miniquestions by [checking here](mini-questions#week-2){:target="_blank"}
+You should submit the following on Gradescope:
+
++ The plot used to determine the wavelength of your laser. This plot must include the uncertainties of your data points and a line of best fit that has been determined with a weighted fit. As always, make sure to include units on your axis labels. You will be asked to upload this plot 3 times. You should upload the same plot each time. You do not need to write a caption.
+
++ A link to a spreadsheet with your experimental data.
+
++ The slope you obtained from your plot, including the uncertainty. 
+
++ The wavelength you have determined for your laser, with uncertainty.
+
++ A list of the parameters you reset between each $$x$$ measurement.
+
+------------
+
+## Miniquestions:
+
+And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-2){:target="_blank"}.
+
+
