@@ -111,13 +111,13 @@ The ultimate goal of Module 2 is to determine the wavelength of your laser by me
 
 Each time we measure $$x$$, we hope that we have set all the parameters perfectly (eg. the distance $$L$$ to the wall and the angle of the diffraction grating relative to the laser beam). However, it is impossible to set everything perfectly with zero uncertainty. If we are slightly off on any of the possible parameters, how much will that shift the value of $$x$$ that we measure?
 
-Let's focus on the angle of the laser beam, which should ideally come in perpendicular to the diffraction grating. What range of angles away from perfectly perpendicular to the laser beam might the grating accidentally have? Perhaps we might not notice if we were off by angles up to $$\pm 5^{\circ}$$. How important is this? To answer this question, set up your experiment with <em>L</em> = 60 cm. To measure $$x$$, use your tape measure to determine the distance from the central bright spot to the next bright spot to the right. Take a minute or two right now, and go purposefully "wiggle" the grating so that its angle varies over this range, and take note of how much variation this causes in $$x$$.
+Let's focus on the angle of the laser beam, which should ideally come in perpendicular to the diffraction grating. What range of angles away from perfectly perpendicular to the laser beam might the grating accidentally have? Perhaps we might not notice if we were off by angles up to $$\pm 5^{\circ}$$. How important is this? To answer this question, set up your experiment with <em>L</em> = 60 cm. To measure $$x$$, use a ruler or meter stick to measure the distance from the central bright spot to the next bright spot to one side. Take a minute or two right now, and go purposefully "wiggle" the grating so that its angle varies over this range, and take note of how much variation this causes in $$x$$.
 
 In addition to the angle of the diffraction grating that you just explored, we have identified several other potential sources of uncertainty in $$x$$, listed below:
 
-1. Distance from laser to diffraction grating (keeping the diffraction grating fixed in place, moving the laser). Range: ±0.5 cm.
+1. Distance from laser to diffraction grating (keeping the diffraction grating fixed in place, moving the laser). Range: ±10 cm.
 
-2. The value of the diffraction spacing $$d$$ is also a parameter we can "wiggle," in a slightly less obvious way. Each diffraction grating could have manufacturing defects that cause $$d$$ to be slightly off from the stated value. We can explore this possibility by measuring $$x$$ at three positions on one diffraction grating.
+2. The value of the diffraction spacing $$d$$ is also a parameter we can "wiggle," in a slightly less obvious way. Each diffraction grating could have manufacturing defects that cause $$d$$ to be slightly off from the stated value. We can explore this possibility by measuring $$x$$ at three positions on one diffraction grating. This is just exploratory so you do not need to record the exact position you use on the grating, just take one measurement with the beam passing through the left side of the grating, one through the center and one to the right. You can adjust the position of the grating by sliding it in its holder - remember to only touch the grating by the cardboard edge.
 
 3. The distance $$L$$ between the grating and the screen is something we will be systematically varying in Module 3, so that we can ultimately find the wavelength. But each time we set the value of $$L$$, we can only do so with some imprecision. Set <em>L</em> = 60 cm and then vary <em>L</em> over a range of ±0.5 cm.
 
@@ -138,7 +138,11 @@ For each of the four potential sources of uncertainty listed above (the angle of
 -----
 
 
-## Investigating systematic errors
+## Investigating a Source of Systematic Error
+
+**Please go to the second sheet in your assigned Google Sheet. Week 1: Part 2 (Investigation of Systematic Error) which includes a template for the second half of this week's lab.**
+
+This systematic investigation of this second part of the lab should be a more careful investigation and will require the bulk of your time in lab this week.
 
 In previous semesters, students measured the wavelength of their laser using a 500 line/mm diffraction grating. Here are a few example measurements, with uncertainty:
 
