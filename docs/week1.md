@@ -189,6 +189,8 @@ To make sure you've understood these ideas, please complete the following mini-q
 
 ---------------------------------------------------
 
+Now please use your spreadsheet to calculate the average measured $$x$$ value and associated uncertainty for each angle you measured. Your spreadsheet has been prepared with appropriate headings but you will need to enter the formulas. 
+
 ## Summary
 
 This investigation will be part of your final deliverable, which will be evaluated partially based on the strength of the conclusions that you are able to support with evidence from your data. 
@@ -197,7 +199,7 @@ For Checkpoint 1, you will present the results of this exploration as part of a 
 
 + One or more photos of your experimental setup, with $$x$$, $$L$$, and the angle of the diffraction grating clearly labeled. Your figure should showcase how you measured the angle. You may find it helpful to use two photos, one showcasing $$x$$ and $$L$$ and the other focused on how the angle was measured. One or more photos is acceptable.
 
-+ A plot with $$x$$ on the vertical axis and the angle of the diffraction grating on the horizontal axis. Plot your data at the same [site you used to plot data for Module 1](https://physics.hmc.edu/fitter/). You do not need to fit a curve to this plot. Under "kind" select "plot data only" to plot the data without fitting a curve. To reduce workload for this week, you do not need to write a caption for the figure.
++ A plot with $$x$$ on the vertical axis and the angle of the diffraction grating on the horizontal axis. Make use of the third sheet within your Google sheets document: "Week 1: Part 3 (Plotting data)" to prepare a .csv file for plotting your data. Plot your data at the same [site you used to plot data for Module 1](https://physics.hmc.edu/fitter/). You do not need to fit a curve to this plot. Under "kind" select "plot data only" to plot the data without fitting a curve. To reduce workload for this week, you do not need to write a caption for the figure.
 
 
 -------------
