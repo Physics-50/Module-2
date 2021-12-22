@@ -2,6 +2,8 @@
 
 [Weekly Plan](#weekly-plan)
 
++ [Syllabus] (https://physics-50.github.io/Module-1/syllabus)
++ [Helpful Guidance](https://physics-50.github.io/Module-1/helpful-guidance)
 + [Week 1 - Exploratory Phase](week1)
 + [Week 2 - Data Collection](week2)
 + [Week 3 - Further Data Collection](week3)
