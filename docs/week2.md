@@ -15,17 +15,15 @@ This week we will investigate how the distance $$x$$ to the first non-central br
 
 Using one or more 500-lines/mm grating(s), you will take data carefully (including repeated trials) for $$x$$ as a function of $$L$$ over a large range of the $$L$$ values accessible with your apparatus.  You will plot $$x$$ vs. $$L$$ to check for systematic errors and to find a value for $$\lambda$$, the wavelength of your laser, based on the slope of your data set.
 
-Before starting this longer program of measurements, it is useful to do a very quick "back-of-the-envelope" check to make sure that your value for wavelength will be roughly in the range you'd expect (620--700 nm for red light).  From the [background theory](background-theory){:target="_blank"} presented last week, we can solve for $$\lambda$$ in terms of known and measured quantities to find $$\lambda = \frac{(x/L) d}{\sqrt{1 + (x/L)^2}}$$$.  Go back to the data you collected last week. Pick a single value of $$x$$ and $$L$$ and check whether the value of $$\frac{(x/L) d}{\sqrt{1 + (x/L)^2}}$$$ lies within the range you expect for the wavelength.
-
-Why don't we just continue this approach over multiple trials to get a more reliable result?  That is, why not analyze multiple data points by measuring $$x$$ each time, determining $$\lambda = \frac{(x/L) d}{\sqrt{1 + (x/L)^2}}$$ for each measurement, and then averaging those? In the next section we argue that we can do better by taking a more holistic approach.   
+Before starting this longer program of measurements, it is useful to do a very quick "back-of-the-envelope" check to make sure that your value for wavelength will be roughly in the range you'd expect (620--700 nm for red light).  From the [background theory](background-theory){:target="_blank"} presented last week, we can solve for $$\lambda$$ in terms of known and measured quantities to find $$\lambda = \frac{x d}{\sqrt{L^2 + x^2}}$$$.  Go back to the data you collected last week. Pick a single value of $$x$$ and $$L$$ and check whether the value of $$\frac{L d}{\sqrt{L^2 + x^2}}$$$ lies within the range you expect for the wavelength.
 
 ## Why we measure $$x$$ over a range of $$L$$ values
 
-One of the ideas we would like you to take away from this course is to think of a data set as a whole, not as individual points.  $$L$$ provides us with an independent variable that we can control, so by measuring $$x$$ over a range of $$L$$ values, we can create a plot of $$x$$ versus $$L$$ data. Plotting the data and looking at the data set as a whole gives us confidence in our ability to determine $$\lambda$$, since it allows us to fit the data to the theoretical prediction in a more robust way.  We will outline the approach before pointing out some of its advantages.
+Why don't we just continue this approach over multiple trials to get a more reliable result?  That is, why not analyze multiple data points by measuring $$x$$ each time, determining $$\lambda = \frac{x d}{\sqrt{L^2 + x^2}}$$ for each measurement, and then averaging those? One of the ideas we would like you to take away from this course is to think of a data set as a whole, not as individual points.  $$L$$ provides us with an independent variable that we can control, so by measuring $$x$$ over a range of $$L$$ values, we can create a plot of $$x$$ versus $$L$$ data. Plotting the data and looking at the data set as a whole gives us confidence in our ability to determine $$\lambda$$, since it allows us to fit the data to the theoretical prediction in a more robust way.  We will outline the approach before pointing out some of its advantages.
 
 Thinking back to the theoretical prediction $$\lambda = d \frac{x}{L}$$, let's rewrite that equation in a more suggestive form
 \begin{equation}
-x = \left(\frac{\lambda}{d}\right) L + 0
+\lambda = \frac{(x/L) d}{\sqrt{1+(x/L)^2}}
 \end{equation}
 where we have added zero to the right-hand side. This should look familiar: it's the equation of a straight line (classic "$$y=mx+b$$"). That is, if we plotted $$x$$ versus $$L$$, we'd get a slope $$m=\lambda/d$$, and an intercept $$b=0$$.
 
