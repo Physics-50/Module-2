@@ -23,7 +23,7 @@ Why don't we just continue this approach over multiple trials to get a more reli
 
 Thinking back to the theoretical prediction $$\lambda = d \frac{x}{L}$$, let's rewrite that equation in a more suggestive form
 \begin{equation}
-\lambda = \frac{(x/L) d}{\sqrt{1+(x/L)^2}}
+\lambda = \frac{(x/L) d}{\sqrt{1+(x/L)^2}} = \frac{md}{\sqrt{1+m^2}}
 \end{equation}
 where we have added zero to the right-hand side. This should look familiar: it's the equation of a straight line (classic "$$y=mx+b$$"). That is, if we plotted $$x$$ versus $$L$$, we'd get a slope $$m=\lambda/d$$, and an intercept $$b=0$$.
 
