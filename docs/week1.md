@@ -28,7 +28,7 @@ Start by reading the [background theory for Module 2 here](background-theory){:t
 In Module 2, we will use the relationship derived in the background theory to determine $$\lambda$$, the wavelength of the laser, by measuring $$x$$ and $$L$$ for the first diffraction maximum ($$n=1$$), and using the quoted value of $$d$$ for the provided diffraction grating:
 
 \begin{equation}\label{eq:sYoungt} 
-\frac{(x/L) d}{\sqrt{(1 + (x/L)^2)} 
+\frac{x d}{\sqrt{(L^2 + x^2)} 
 }= n \lambda
 \end{equation}
 
