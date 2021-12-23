@@ -17,7 +17,7 @@ Using one or more 500-lines/mm grating(s), you will take data carefully (includi
 
 Before starting this longer program of measurements, it is useful to do a very quick "back-of-the-envelope" check to make sure that your value for wavelength will be roughly in the range you'd expect (620--700 nm for red light).  From the [background theory](background-theory){:target="_blank"} presented last week, we can solve for $$\lambda$$ in terms of known and measured quantities to find $$\lambda = \frac{(x/L) d}{\sqrt{(1 + (x/L)^2)}$$$.  Go back to the data you collected last week. Pick a single value of $$x$$ and $$L$$ and check whether the value of $$\frac{(x/L) d}{\sqrt{(1 + (x/L)^2)}$$$ lies within the range you expect for the wavelength.
 
-Why don't we just continue this approach over multiple trials to get a more reliable result?  That is, why not analyze multiple data points by measuring $$x$$ each time, determining $$\lambda= \frac{(x/L) d}{\sqrt{(1 + (x/L)^2)}$$ for each measurement, and then averaging those? In the next section we argue that we can do better by taking a more holistic approach.   
+Why don't we just continue this approach over multiple trials to get a more reliable result?  That is, why not analyze multiple data points by measuring $$x$$ each time, determining $$\lambda = \frac{(x/L) d}{\sqrt{(1 + (x/L)^2)}$$ for each measurement, and then averaging those? In the next section we argue that we can do better by taking a more holistic approach.   
 
 ## Why we measure $$x$$ over a range of $$L$$ values
 
