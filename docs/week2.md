@@ -30,7 +30,7 @@ where we have introduced the parameter $$m=x/L$$, the slope of a plot of $$x$$ v
 Let's start with a practice calculation.
 
 ------
-#### Miniquestion 1: Calculating wavelength from slope
+#### Mini-question 1: Calculating wavelength from slope
 [*Click here to open in a new tab*](https://forms.gle/MPYx6nPVd54jYE359){:target="_blank"}
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSct57YgYJ1rxsHAkhGfOk_QUB638pb_MYeH7vhVZU2MGQUW5w/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
@@ -43,14 +43,26 @@ There's an added power to treating the data set as a whole in this way because i
 
 To graph your data and perform a weighted linear fit, you will make use of the [same fitting script used earlier in this course](https://physics.hmc.edu/fitter/). Under "kind" you should select *linear* for a plot that includes a line of best fit. Make sure to label the axes appropriately for this experiment.  You may also want to review the [guide to interpreting plots with a least squares fit](https://physics-50.github.io/Module-1/interpreting-plots) to reinforce your understanding of how to interpret fit parameters, $$ \chi_{\nu}^2 $$ values, and other aspects of your result.
 
-#### Miniquestion 2: Interpreting a weighted linear fit
+#### Mini-question 2: Interpreting a weighted linear fit
 [*Click here to open in a new tab (recommended)*](https://forms.gle/BF8fQq5PNWF1Gh9U8){:target="_blank"}
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdTk_l5gJ2boQzujZcgNKYh55iSlxR9UZNke6sgi3Chk_dvmA/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
 <br>
 
-Before moving on take a moment to consider how to calculate the uncertainty in the wavelength. -link to video - miniQ
+Before moving on take a moment to consider how to calculate the uncertainty in the wavelength. Before completing the following mini-question you may find it helpful to review the [video on how to propagate uncertainties](https://physics-50.github.io/Module-1/helpful-guidance) from module 1.
+
+
+-----------
+#### Mini-question 3: Determining the uncertainty in the wavelength
+[*Click here to open in a new tab (recommended)*](https://forms.gle/zKu1G3j3MG57xZhs8){:target="_blank"}
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdsX9HYql9BGssjbNypZIRZZsAie0RDPwOavr7ixLMExrVtQA/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
+</iframe>
+
+
+--------------
+
+
 
 ## Data Collection
 
