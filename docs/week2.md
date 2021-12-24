@@ -25,10 +25,11 @@ Thinking back to the theoretical prediction $$\lambda = d \frac{x}{L}$$, let's r
 \begin{equation}
 \lambda = \frac{(x/L) d}{\sqrt{1+(x/L)^2}} = \frac{md}{\sqrt{1+m^2}}
 \end{equation}
-where we have added zero to the right-hand side. This should look familiar: it's the equation of a straight line (classic "$$y=mx+b$$"). That is, if we plotted $$x$$ versus $$L$$, we'd get a slope $$m=\lambda/d$$, and an intercept $$b=0$$.
+where we have introduced the parameter $$m=x/L$$, the slope of a plot of $$x$$ vs. $$L$$.
 
 Let's start with a practice calculation.
 
+------
 #### Miniquestion 1: Calculating wavelength from slope
 [*Click here to open in a new tab*](https://forms.gle/MPYx6nPVd54jYE359){:target="_blank"}
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSct57YgYJ1rxsHAkhGfOk_QUB638pb_MYeH7vhVZU2MGQUW5w/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
@@ -48,6 +49,8 @@ To graph your data and perform a weighted linear fit, you will make use of the [
 </iframe>
 
 <br>
+
+Before moving on take a moment to consider how to calculate the uncertainty in the wavelength. -link to video - miniQ
 
 ## Data Collection
 
