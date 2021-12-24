@@ -41,7 +41,7 @@ There's an added power to treating the data set as a whole in this way because i
 
 <img src="images/x_vs_L_offset.png" alt="basic setup" width="400" style="display: block; margin-left: auto; margin-right: auto; width: 80%;" />
 
-To graph your data and perform a weighted linear fit, you will make use of the [MATLAB script provided in Module 2](https://physics-50.github.io/Module-2/curve-fitting).  Make sure to change the axis labels to make them appropriate for this experiment.  You may also want to review the curve fitting guide to reinforce your understanding of how to interpret fit parameters, $$ \chi_{\nu}^2 $$ values, and other aspects of your result.
+To graph your data and perform a weighted linear fit, you will make use of the [same fitting script used earlier in this course](https://physics.hmc.edu/fitter/). Under "kind" you should select *linear* for a plot that includes a line of best fit. Make sure to label the axes appropriately for this experiment.  You may also want to review the [guide to interpreting plots with a least squares fit](https://physics-50.github.io/Module-1/interpreting-plots) to reinforce your understanding of how to interpret fit parameters, $$ \chi_{\nu}^2 $$ values, and other aspects of your result.
 
 #### Miniquestion 2: Interpreting a weighted linear fit
 [*Click here to open in a new tab (recommended)*](https://forms.gle/BF8fQq5PNWF1Gh9U8){:target="_blank"}
