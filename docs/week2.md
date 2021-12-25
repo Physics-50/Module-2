@@ -74,11 +74,11 @@ To collect your complete $$x$$ vs. $$L$$ dataset, make sure to do the following:
 
 + Choose five values of $$L$$ ranging from about 15 cm to as large a value of $$ L $$ as you can while keeping the first diffraction maximum on the provided screen (this should be about 60 cm).
 
-+ Collect five measurements of $$x$$ for each $$L$$ value, being sure to reset all the parameters you determined you needed to in  [Miniquestion 3 from Week 1](https://docs.google.com/forms/d/e/1FAIpQLSe-Bcw3iqEcmblnBnsOJOqSbfHVNrXckA4mVs9VEvzOXHvZQQ/viewform){:target="_blank"} between each measurement of $$x$$. Be sure to **only use the 500 line/mm diffraction grating.** 
++ Collect five measurements of $$x$$ for each $$L$$ value, being sure to reset all the parameters you determined you needed to in  [Miniquestion 3 from Week 1](https://docs.google.com/forms/d/e/1FAIpQLSe-Bcw3iqEcmblnBnsOJOqSbfHVNrXckA4mVs9VEvzOXHvZQQ/viewform){:target="_blank"} between each measurement of $$x$$. Be sure to **only use the 500 line/mm diffraction grating.**  Please use the tab: "Week 2: Data: 500 lines/mm" in your Google Sheets spreadsheet to collect your data. You will need to enter the formulas to calculate the mean value and uncertainty. 
 
 + For each $$L$$ value, compute the mean value of $$x$$ from your five trials and the random uncertainty as measured by the SEM.
 
-+ Prepare a .csv file with your $$x\pm \delta x$$ and $$L$$ data. There is a new tab in your Google sheets worksheet, prepared for this. Be sure to change the column headings to reflect your data as these will appear as axes labels on your fit.
++ Prepare a .csv file with your $$x\pm \delta x$$ and $$L$$ data. There is a new tab in your Google sheets worksheet, prepared for this: "Week 2: Plotting 500 lines/mm data". Be sure to change the column headings to reflect your data as these will appear as axes labels on your fit.
 
 + Load the .csv file with your data into the [curve fitting script introduced previously](https://physics.hmc.edu/fitter/), selecting "linear" under the "kind" pull-down menu. 
 
