@@ -11,7 +11,7 @@
 This week you will continue your investigation of the wavelength of your laser. We would like you to follow an identical procedure to last week. However, instead of using the 500 lines/mm gratings you should now collect data with the 1000 lines/mm gratings. Take a moment to reflect on expectations before diving into the experiment. How will the diffraction pattern change when the grating period is 1000 lines/mm?
 
 
-#### Miniquestion 1: Comparing diffraction patterns from gratings with different periods
+#### Mini-question 1: Comparing diffraction patterns from gratings with different periods
 *[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLScOvf4fEdEk5cotRGrTle0iitt7onz0DmTOdhuNL47lh2ifqA/viewform?){:target="_blank"}*
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScOvf4fEdEk5cotRGrTle0iitt7onz0DmTOdhuNL47lh2ifqA/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
@@ -25,9 +25,9 @@ As a reminder (repeat of last week's instructions):
 
 To collect a complete $$x$$ vs. $$L$$ dataset, make sure to do the following:
 
-+ Choose five values of $$L$$. Last week we recommended a range of $$L$$ values from about 15 cm to about 60 cm. You may find this more difficult when working with the 1000 lines/mm gratings as the $$x$$ values will be larger. You should still choose five $$L$$ values over as wide a range as you can in the space you have available. <!-- A range of $$L$$ values from 7.5 cm to 30 cm will give you a similar range of $$x$$ values to last week. -->
++ Choose five values of $$L$$. Last week we recommended a range of $$L$$ values from about 15 cm to about 60 cm. You may find this more difficult when working with the 1000 lines/mm gratings as the $$x$$ values will be larger. You should still choose five $$L$$ values over as wide a range as you can in the space you have available. 
 
-+ Collect five measurements of $$x$$ for each $$L$$ value, being sure to reset all the parameters you determined you needed to in  [Miniquestion 3 from Week 1](https://docs.google.com/forms/d/e/1FAIpQLSe-Bcw3iqEcmblnBnsOJOqSbfHVNrXckA4mVs9VEvzOXHvZQQ/viewform){:target="_blank"} between each measurement of $$x$$. Be sure to **only use the 1000 line/mm diffraction gratings.** 
++ Collect five measurements of $$x$$ for each $$L$$ value, being sure to reset all the parameters you determined you needed to in  [Mini-question 3 from Week 1](https://docs.google.com/forms/d/e/1FAIpQLSe-Bcw3iqEcmblnBnsOJOqSbfHVNrXckA4mVs9VEvzOXHvZQQ/viewform){:target="_blank"} between each measurement of $$x$$. Be sure to **only use the 1000 line/mm diffraction gratings.** 
 
 + For each $$L$$ value, compute the mean value of $$x$$ from your five trials and the random uncertainty as measured by the SEM. 
 
