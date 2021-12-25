@@ -5,7 +5,7 @@
 2. [Why we measure $$x$$ over a range of $$L$$ values](#why-we-measure-x-over-a-range-of-l-values)
 3. [Data Collection](#data-collection)
 4. [Checkpoint 2](#checkpoint-2)
-5. [Mini-questions](#miniquestions)
+5. [Mini-questions](#mini-questions)
 
 --------------
 
