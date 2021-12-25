@@ -6,10 +6,9 @@
 3. [Deliverable - Sequence of Figures](#deliverable)
 4. [Mini-questions](#mini-questions)
 
+Lab this week will focus on the preparation of your deliverable. You are still required to attend lab but are not required to collect any new data. You will have the opportunity to work on your deliverable in lab and receive feedback. You also have the opportunity to collect more data if there were issues with your data set.
 
-Although you are not required to attend lab this week, we **strongly** recommend that you do so --- attending the lab work session is a great opportunity to get direct feedback as you work on your deliverable. If issues were raised with any of your checkpoints you can also use this time to collect additional data as needed.
-
-This week we will take another look at your analysis leading to the estimated wavelength of your laser and provide advice for communicating your results through a sequence of figures.
+This week's focus is on communicating your results through a sequence of figures.
 
 ## Experimental Iteration
 
@@ -36,18 +35,7 @@ By now you should have given serious consideration to possible sources of experi
 *Most students should not need to collect any new data this week. If no concerns were raised with your checkpoint and you feel you already made an effort to control these potential sources of systematic error you can proceed straight to the miniquestion.* However, if issues were raised with your checkpoints we encourage you to check in with us in office hours and/or talk to us during the week 4 lab period.
 
 
-----------------------
-
-#### Miniquestion 1: What next?
-
-*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSeF85mLdADYHRDn3v3ciPKl8TPqTIbpI7X9c-1N7DUKFsP9PA/viewform?){:target="_blank"}*
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeF85mLdADYHRDn3v3ciPKl8TPqTIbpI7X9c-1N7DUKFsP9PA/viewform?embedded=true" width="500" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…
-</iframe>
-
-<br><br>
-
-------------------------------
+T
 
 <br><br>
 
