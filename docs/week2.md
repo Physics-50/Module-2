@@ -80,7 +80,7 @@ To collect your complete $$x$$ vs. $$L$$ dataset, make sure to do the following:
 
 + Prepare a .csv file with your $$x\pm \delta x$$ and $$L$$ data. There is a new tab in your Google sheets worksheet, prepared for this. Be sure to change the column headings to reflect your data as these will appear as axes labels on your fit.
 
-+ Load the .csv file with your data into the [curve fitting script introduced previously], selecting "linear" under the "kind" pull-down menu. 
++ Load the .csv file with your data into the [curve fitting script introduced previously](https://physics.hmc.edu/fitter/), selecting "linear" under the "kind" pull-down menu. 
 
 + You should make use of your data, the best-fit analysis and the provided theory to determine the wavelength of your laser. You will need to use the methods you have been taught in previous modules to propagate your uncertainty and determine the uncertainty in your final result. 
 
@@ -94,7 +94,7 @@ Checkpoint 2 will take place in two parts:
 
 
 **Part 1: Practice calculation**
-*You may resubmit Module 3, checkpoint 2, Part 1 as many times as you like until you get the correct answer (it is auto-graded and will give you an immediate response). For this part **only** it is also okay to "save" your responses to the individual questions.*
+*You may resubmit Module 2, checkpoint 2, Part 1 as many times as you like until you get the correct answer (it is auto-graded and will give you an immediate response). For this part **only** it is also okay to "save" your responses to the individual questions.*
 
 Part 1 is a practice calculation; please complete the problem on Gradescope. You are welcome to complete this practice calculation before your time in lab to be better prepared to complete the analysis in class.
 
@@ -117,6 +117,6 @@ You should submit the following on Gradescope:
 
 ------------
 
-## Miniquestions:
+## Mini-questions:
 
 And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-2){:target="_blank"}.
