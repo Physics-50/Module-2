@@ -4,8 +4,8 @@
 1. [Experimental Iteration](#experimental-iteration)
 2. [Week 4 Tasks](#week-4-tasks)
 3. [Deliverable - Sequence of Figures](#deliverable)
+4. [Mini-questions](#mini-questions)
 
---------------
 
 Although you are not required to attend lab this week, we **strongly** recommend that you do so --- attending the lab work session is a great opportunity to get direct feedback as you work on your deliverable. If issues were raised with any of your checkpoints you can also use this time to collect additional data as needed.
 
