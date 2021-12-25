@@ -27,11 +27,13 @@ To collect a complete $$x$$ vs. $$L$$ dataset, make sure to do the following:
 
 + Choose five values of $$L$$. Last week we recommended a range of $$L$$ values from about 15 cm to about 60 cm. You may find this more difficult when working with the 1000 lines/mm gratings as the $$x$$ values will be larger. You should still choose five $$L$$ values over as wide a range as you can in the space you have available. 
 
-+ Collect five measurements of $$x$$ for each $$L$$ value, being sure to reset all the parameters you determined you needed to in  [Mini-question 3 from Week 1](https://docs.google.com/forms/d/e/1FAIpQLSe-Bcw3iqEcmblnBnsOJOqSbfHVNrXckA4mVs9VEvzOXHvZQQ/viewform){:target="_blank"} between each measurement of $$x$$. Be sure to **only use the 1000 line/mm diffraction gratings.** 
++ Collect five measurements of $$x$$ for each $$L$$ value, being sure to reset all the parameters you determined you needed to in  [Mini-question 3 from Week 1](https://docs.google.com/forms/d/e/1FAIpQLSe-Bcw3iqEcmblnBnsOJOqSbfHVNrXckA4mVs9VEvzOXHvZQQ/viewform){:target="_blank"} between each measurement of $$x$$. Be sure to **only use the 1000 line/mm diffraction gratings.** You should enter your data in the tab: "Week 3: 1000 lines/mm" in the Google sheets spreadsheet assigned to you for this class.
 
 + For each $$L$$ value, compute the mean value of $$x$$ from your five trials and the random uncertainty as measured by the SEM. 
 
-+ Enter your $$x\pm \delta x$$ and $$L$$ data into the MATLAB curve fitting script called "curve_fitting.m" from the [curve fitting guide](curve-fitting){:target="_blank"} and run the code to perform a best fit analysis.
++ Prepare a .csv file with your $$x\pm \delta x$$ and $$L$$ data. There is a new tab in your Google sheets worksheet, prepared for this: "Week 2: Plotting 500 lines/mm data". Be sure to change the column headings to reflect your data as these will appear as axes labels on your fit.
+
++ Load the .csv file with your data into the [curve fitting script introduced previously](https://physics.hmc.edu/fitter/), selecting "linear" under the "kind" pull-down menu. 
 
 + You should make use of your data, the best fit analysis and the provided theory to determine the wavelength of your laser. You will need to use the methods you have been taught in previous modules to propagate uncertainty and determine the uncertainty in your final result. 
 
