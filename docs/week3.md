@@ -133,26 +133,9 @@ You should submit the following on Gradescope:
 
 + The wavelength you have determined for your laser, with uncertainty from both the 500 line/mm gratings (last week's data) and 1000 line/mm gratings (this week's data).
 
-+ An answer to the question: Would you feel comfortable using these two wavelength values ? If not what do you think might be going on and what are you going to do about it?
++ A 2 sentence conclusion which should answer the following question: Are your results from the two different gratings in agreement with each other and with the wavelength specified by the manufacturer (on the laser).
 
 + An estimate of the pixel spacing for the LCD screen. It is only an estimate, please make use of the wavelength written on the laser itself and not your experimental value for this estimate. You do not need to estimate the uncertainty. 
-
-It may be that you have done very careful experimental work and your results still are not in agreement. We will explore this more next week.
-
-
-<!--
-## Grading rubric
-
-This checkpoint will be graded out of 14 points. 
-
-+ The grading rubric for the first three questions (results for the 1000 lines/mm grating) will be analogous to those for checkpoint #2. Please come talk to office hours and ask question if there is anything you are unsure about. 
-
-+ Question 4 (comparison of results from two different grating spacings) will be graded on both your results and figure mechanics
-
-+ Question 5 (agreement of results). We are only looking for a single sentence indicating whether your wavelengths are in agreement.
-
--->
-
 
 ## Mini-questions:
 
