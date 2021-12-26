@@ -6,54 +6,19 @@
 3. [Deliverable - Sequence of Figures](#deliverable)
 4. [Mini-questions](#mini-questions)
 
-Lab this week will focus on the preparation of your deliverable. You are still required to attend lab but are not required to collect any new data. You will have the opportunity to work on your deliverable in lab and receive feedback. You also have the opportunity to collect more data if there were issues with your data set.
+Lab this week will focus on the preparation of your deliverable. You are still required to attend lab but are not required to collect any new data. You will have the opportunity to work on your deliverable in lab and receive feedback. You also have the opportunity to collect more data if there were issues with your data set: if your results differ from expectations or are inconsistent, you should seek to determine why.
 
 This week's focus is on communicating your results through a sequence of figures.
 
-## Experimental Iteration
 
-We noticed that many of your results showed significant discrepancies between the results measured with the two gratings and between the values you reported and the manufacturer's specifications (written on the laser). Please take a moment to reflect on those results. As a scientist, you must often track down the source of seemingly contradictory  results:
-
-- Was the experiment flawed, or does the theory need to be modified?
-
-- Did your results from the two differently spaced diffraction gratings agree?
-
-- Did they agree with the wavelength specified by the manufacturer?
-
-By now you should have given serious consideration to possible sources of experimental error. Here are a few examples:
-
-1. We provided five diffraction gratings for each grating period. In week 1 did you look at the $$x$$ values for several gratings? Did you either find the difference to be negligible, or randomize across gratings in weeks 2 and 3?
-
-2. Were you careful to ensure the beam path was perpendicular to the screen? It can be helpful to compare the distance to the first maxima on the left and right as part of this consideration.
-
-3. Were you careful to ensure the beam path was horizontal?
-
-4. Did you collect data over a wide range of $$L$$ values?
-
-5. What other potential sources of error can you think of?
-
-*Most students should not need to collect any new data this week. If no concerns were raised with your checkpoint and you feel you already made an effort to control these potential sources of systematic error you can proceed straight to the miniquestion.* However, if issues were raised with your checkpoints we encourage you to check in with us in office hours and/or talk to us during the week 4 lab period.
-
-
-T
-
-<br><br>
-
-If there is a significant discrepancy between your results and expectations (and particularly if your reported wavelength is not <span style="color: #FF0000;">red</span> something has gone wrong). We would like you to put some serious effort into working out what went wrong and if possible, correcting your results. This is expected for the deliverable.
-
-
-
--------------
 
 ## Week 4 Tasks
 
 You have two tasks this week:
 
-1. If your results differ from expectations or are inconsistent, seek to determine why.
+1. Generate a plot of wavelength vs. grating period (this plot will have two data points) and fit a horizontal line as we did in Module 1 to generate your best estimate of the laser wavelength and its uncertainty from the plot.
 
-2. Once you are confident in your results you should generate a plot of wavelength vs. grating period (this plot will have two data points) and fit a horizontal line as we did in Module 1 to generate your best estimate of the laser wavelength and its uncertainty from the plot.
-
-3. Your third task is to prepare a sequence of 2 figures with captions to submit for your deliverable. These figures will come directly from the work you have done in the preceding 3 weeks.
+2. Prepare a sequence of 2 figures with captions to submit for your deliverable. These figures will come directly from the work you have done in the preceding 3 weeks.
 
 
 
