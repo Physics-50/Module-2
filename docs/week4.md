@@ -24,7 +24,7 @@ You have two tasks this week:
 
 ## <a name="deliverable">Deliverable --- A Sequence of Two Figures
 
-Your Module 3 deliverable will consist of two figures. Each of these figures must include a caption following the guidelines provided for Modules 1 and 2. We encourage you to refer back to the [figure preparation guide from Module 1](https://physics-50.github.io/Module-1/week3){:target="_blank"} and feedback you received on your module 2 deliverable, including the information provided [here](https://physics-50.github.io/Module-2/deliverable). 
+Your Module 2 deliverable will consist of two figures. Each of these figures must include a caption following the guidelines provided for Module 1. We encourage you to refer back to the [figure preparation guide from Module 1](https://physics-50.github.io/Module-1/week3){:target="_blank"} and feedback you received on your module 1 deliverable. 
 
 Before preparing a figure caption you should take a moment to ask yourself: “What do I want to convey to my reader?” and to further break that down into smaller questions. It is important to us at this stage in the course that you learn to recognize what is important so we are not going to provide an exhaustive list, but here are two questions to get you started:
 
