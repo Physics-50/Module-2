@@ -4,7 +4,7 @@
 1. [Experimental Iteration](#experimental-iteration)
 2. [Week 4 Tasks](#week-4-tasks)
 3. [Deliverable - Sequence of Figures](#deliverable)
-4. [Mini-questions](#mini-questions)
+
 
 Lab this week will focus on the preparation of your deliverable. You are still required to attend lab but are not required to collect any new data. You will have the opportunity to work on your deliverable in lab and receive feedback. You also have the opportunity to collect more data if there were issues with your data set: if your results differ from expectations or are inconsistent, you should seek to determine why.
 
@@ -41,15 +41,12 @@ The following should be submitted on Gradescope:
 
 + **Figure 2** will also be a multi-panel figure. 
     - **Panel (a)** will showcase how you determined the wavelength. Namely, panel (a) will  **provide a single example plot of $$x$$ vs. $$L$$ for one of the diffraction grating periods (spacings).** 
-    - **Panel (b)** will plot wavelength vs. grating period. This plot should be prepared after resolving any issues with your initial results. Your plot should include a horizontal line fit to the two data points as well as dashed horizontal lines indicating the uncertainty of the fit. (A script for fitting a horizontal line was provided in Module 1.) You will need to add these to the MATLAB script. [Click here for instructions on how to add a horizontal line to a MATLAB plot.](horizontal) The caption should include your primary result (estimated wavelength quoted with uncertainty using appropriate significant figures) and should compare this value with the expected wavelength as quoted by the manufacturer (available on the sticker on the laser).
+    - **Panel (b)** will plot wavelength vs. grating period. You should make use of the [fitting script](https://physics.hmc.edu/fitter/) to fit a horizontal line ("kind" = "constant") and report the result with its uncertainty in your caption as your best estimate of the wavelength from your experimental data.   The caption should include your primary result (estimated wavelength quoted with uncertainty using appropriate significant figures) and should compare this value with the expected wavelength as quoted by the manufacturer (available on the sticker on the laser).
     
     
-In all cases make sure your figure captions concisely include sufficient details to stand alone. **Report the number of trials that contributed to each data point.** Since resetting parameters such as the position/angle of the diffraction grating, $$L$$, or which diffraction grating was used were an important part of the experimental procedure for this experiment, you should describe this procedure in the caption. **An HMC sophomore who has not taken Physics 50 should be able to look at your figure with caption and have a clear idea of what you did.**
+In all cases make sure your figure captions concisely include sufficient details to stand alone. Report that the error bars were determined from a combination of the SEM and resolution error and include the number of trials that contributed to each data point. Since resetting parameters such as the position/angle of the diffraction grating, $$L$$, or which diffraction grating was used were an important part of the experimental procedure for this experiment, you should describe this procedure in the caption as part of your description of the experimental procedure. **An HMC sophomore who has not taken Physics 50 should be able to look at your figure with caption and have a clear idea of what you did.** This means you should describe not only what we should take away from the plot but also describe the most salient details of the experiment itself.
 
 + You will be asked to upload some additional information for grading quality of data including some of your results and a link to your **well-organized** spreadsheet
 
 *Please note that you will need to upload each figure three times. You need to include both the figure and caption each time.*
 
-## Mini-questions:
-
-And to double-check, make sure you have finished all of this week's mini-questions by [checking here](mini-questions#week-4){:target="_blank"}
