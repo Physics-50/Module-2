@@ -28,7 +28,7 @@ Start by reading the [background theory for Module 2 here](background-theory){:t
 In Module 2, you will use the relationship derived in the background theory to determine $$\lambda$$ for your laser by measuring $$x$$ and $$L$$ for the first diffraction maximum ($$n=1$$), and using the quoted value of $$d$$ for the provided diffraction grating:
 
 \begin{equation}\label{eq:sYoungt} 
-\frac{x d}{\sqrt{(L^2 + x^2)} 
+\frac{d(x/L)}{\sqrt{(1 + (x/L)^2)} 
 }= n \lambda
 \end{equation}
 
@@ -59,7 +59,7 @@ The variables $$x$$, $$L$$, and $$d$$ were defined in the previously mentioned [
 We will begin by setting up the experiment on an optical rail.
 
 
-Attach the red laser to the laser holder mount, shown below in Figure 1, and attach it to a post holder placed on the optical rail with the laser facing the screen. (We don't want the laser light shooting across the room; please make sure when you set up your laser pointer that it is aimed at the wall, away from your classmates.) When adjusting the laser, the post, or the entire mount, be sure to loosen the relevant set screw and then re-tighten it by hand once you achieve the desired positioning.
+Attach the red laser to the laser holder mount, shown below in Figure 1, and attach it to a post holder placed on the optical rail with the laser facing the wall. (We don't want the laser light shooting across the room; please make sure when you set up your laser pointer that it is aimed at the wall, away from your classmates.) When adjusting the laser, the post, or the entire mount, be sure to loosen the relevant set screw and then re-tighten it by hand once you achieve the desired positioning.
 
 
 {: .center}
