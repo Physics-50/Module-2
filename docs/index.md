@@ -1,4 +1,5 @@
 [Syllabus](https://physics-50.github.io/Module-1/syllabus)
+
 [Helpful Guidance](https://physics-50.github.io/Module-1/helpful-guidance)
 
 [Module 2 Overview](#module-2-overview)
