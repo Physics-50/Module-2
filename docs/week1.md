@@ -73,7 +73,7 @@ Attach the red laser to the laser holder mount, shown below in Figure 1, and att
 
 Mount the grid paper "screen" to the vertical support at the end of your optical rail (in the direction the laser is pointing, i.e., near the wall).
 
-Near the center of the rail, between the laser and the screen, attach another post holder, and use it to mount a diffraction grating, shown in Fig. 2.
+Near the center of the rail, between the laser and the screen, attach another post holder, and use it to mount a diffraction grating, shown in Fig. 2.  At your station you should have two diffraction grating: one labelled "500 lines/mm" and the other "1000 lines/mm." This week we will only be working with the 500 line/mm grating. This spacing is marked on the gratings - make sure you are using the 500 line/mm gratings and put aside the 1000 line/mm grating for now, as you will not need it this week.
 
 **When handling the diffraction grating make sure to only touch the cardboard rim. Getting fingerprints on the transparent grating could affect your results.**
 
@@ -86,13 +86,13 @@ Near the center of the rail, between the laser and the screen, attach another po
 
 <!-- A diffraction grating is essentially just an array of slits placed right next to each other, with a very small slit distance $$d$$ between each (on the order of one slit per micron). Each neighboring pair of slits can be thought of as a double slit. -->Based on the pre-lab reading (you might want to look back to Eq. 1) what do you think will happen to the location of the interference maxima (antinodes) when the spacing between slits becomes very small?
 
-Slide the diffraction grating along the rail so it is very close to the screen; turn on the laser. You should see three or more dots on the screen. Slowly pull the grating away from the screen until the three dots take up most of the screen. Do not pull the grating back too far, as we want to be sure that the diffracted spots are hitting the screen and not flying across the room (we need to mitigate the risk of a laser beam striking an eye of a fellow lab-mate!).
+Slide the (mounted) diffraction grating along the rail so it is very close to the screen; turn on the laser. You should see three or more dots on the screen. Slowly pull the grating away from the screen until the three dots take up most of the screen. Do not pull the grating back too far, as we want to be sure that the diffracted spots are hitting the screen and not flying across the room (we need to mitigate the risk of a laser beam striking an eye of a fellow lab-mate!).
 
 You need not take any quantitative measurements yet; simply note qualitative observations. 
 
 Make sure to **turn off your laser when inserting new components into the beam path**; it is hard to make sure that stray reflections don't momentarily hit someone in the eye while inserting pieces of glass or metal into a beam path.
 
-At your station you will have two diffraction gratings. One labelled as 500 lines/mm and the other 1000 lines/mm. This week we will only be working with the 500 line/mm set of gratings. This spacing is marked on the gratings - make sure you are using the 500 line/mm gratings and put aside the 1000 line/mm grating for now, as you will not need it this week. Position the 500 line/mm diffraction grating between the laser and screen.
+
 
 It's possible that you will find it easier to see the diffraction patterns with the room lights turned off.  After all groups have completed the basic setup of optical elements on the rail, anyone who wants to try the lights off should notify the rest of the class first.  You will find a lamp at your bench that you can use to illuminate your workspace as needed.
 
