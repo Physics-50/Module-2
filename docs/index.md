@@ -34,10 +34,8 @@ Module 2 is four weeks long. Each week, except the last week, you will have a ch
 2. [Week 2 - Data Collection](week2)
     - Checkpoint: A figure showcasing your results from a 500 line/mm grating
 3. [Week 3 - Further Data Collection](week3)
-    - Checkpoint: A figure showcasing your results from a 1000 line/mm grating.
-    
+    - Checkpoint: A figure showcasing your results from a 1000 line/mm grating.    
 <!-- 
 Checkpoint: A figure that allows comparison of your results from the 500 line/mm and 1000 line/mm gratings.-->
-
 4. [Week 4 - Scientific Communication Phase](week4)
     - Deliverable: a sequence of figures communicating your results from the module.
