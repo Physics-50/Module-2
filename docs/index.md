@@ -21,11 +21,11 @@
  
 2. Perform a weighted fit of a theory-inspired function to a data set, and use it to draw conclusions.
 
-In Module 2 we will use a ruler to (indirectly!) measure the wavelength of light and test a theory.
+In Module 2 you will use a ruler to (indirectly!) measure the wavelength of light and test a theory.
 
 ## Weekly Plan
 
-In this module you will observe the diffraction of laser light through a many-slit *diffraction grating*, and use the spacing between diffraction maxima to measure the wavelength of the laser. We will continue to investigate sources of uncertainty and refine the process of comparing our results with expectations. 
+In this module you will observe the diffraction of laser light through a many-slit *diffraction grating*, and use the spacing between diffraction maxima to measure the wavelength of the laser. You will continue to investigate sources of uncertainty and refine the process of comparing your results with expectations. 
 
 Module 2 is four weeks long. Each week, except the last week, you will have a checkpoint due. These checkpoints will give us a chance to give you feedback as you work towards the Module 2 deliverable: a series of two figures that effectively communicates your results and key details of how the data was collected and analyzed. 
 
