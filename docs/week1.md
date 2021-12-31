@@ -75,7 +75,7 @@ Mount the grid paper "screen" to the vertical support at the end of your optical
 
 Near the center of the rail, between the laser and the screen, attach another post holder, and use it to mount a diffraction grating, shown in Fig. 2.  At your station you should have two diffraction grating: one labelled "500 lines/mm" and the other "1000 lines/mm." This week we will only be working with the 500 line/mm grating. This spacing is marked on the gratings - make sure you are using the 500 line/mm gratings and put aside the 1000 line/mm grating for now, as you will not need it this week.
 
-**When handling the diffraction grating make sure to only touch the cardboard rim. Getting fingerprints on the transparent grating could affect your results.**
+**When handling the diffraction grating make sure to only touch the cardboard rim. Getting fingerprints on the transparent grating could affect your results and those of later lab groups.**
 
 {: .center}
 ![alt text](https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/10/Diffraction-grating.jpg){: width="400px;"}
@@ -86,7 +86,7 @@ Near the center of the rail, between the laser and the screen, attach another po
 
 <!-- A diffraction grating is essentially just an array of slits placed right next to each other, with a very small slit distance $$d$$ between each (on the order of one slit per micron). Each neighboring pair of slits can be thought of as a double slit. -->Based on the pre-lab reading (you might want to look back to Eq. 1) what do you think will happen to the location of the interference maxima (antinodes) when the spacing between slits becomes very small?
 
-Slide the (mounted) diffraction grating along the rail so it is very close to the screen; turn on the laser. You should see three or more dots on the screen. Slowly pull the grating away from the screen until the three dots take up most of the screen. Do not pull the grating back too far, as we want to be sure that the diffracted spots are hitting the screen and not flying across the room (we need to mitigate the risk of a laser beam striking an eye of a fellow lab-mate!).
+Slide the diffraction grating (in its mount!) along the rail so it is very close to the screen; turn on the laser. You should see three or more dots on the screen. Slowly pull the grating away from the screen until the three dots take up most of the screen. Do not pull the grating back too far, as we want to be sure that the diffracted spots are hitting the screen and not flying across the room (we need to mitigate the risk of a laser beam striking an eye of a fellow lab-mate!).
 
 You need not take any quantitative measurements yet; simply note qualitative observations. 
 
@@ -98,7 +98,7 @@ It's possible that you will find it easier to see the diffraction patterns with 
 
 You will use a ruler to measure the distance $$x$$ between the central laser spot and the first interference maximum, as well as the distance $$L$$ of the diffraction grating from the screen. In planning your experiment think about how to do this as accurately as possible. What are the dominant sources of error? What can you do to minimize systematic error? Even when you've done your best to reduce systematic error, some will remain. What can you do to randomize the remaining systematic error?
 
-In week one, we will attempt to answer these questions.
+In week 1, we will attempt to answer these questions.
 
 ## Exploratory Measurements
 
@@ -114,13 +114,13 @@ Let's focus on the angle of the diffraction grating, which ideally should be exa
 
 In addition to the angle of the diffraction grating that you just explored, we have identified several other potential sources of uncertainty in $$x$$, listed below:
 
-1. Distance from laser to diffraction grating (keeping the diffraction grating fixed in place, moving the laser). Range: ±10 cm.
+1. Distance from laser to diffraction grating (keeping the diffraction grating fixed in place, moving the laser). Range: ±1 cm.
 
 2. The value of the diffraction spacing $$d$$ is also a parameter we can "wiggle," in a slightly less obvious way. Each diffraction grating could have manufacturing defects that cause $$d$$ to be slightly off from the stated value. We can explore this possibility by measuring $$x$$ at three positions on one diffraction grating. This is just exploratory so you do not need to record the exact position you use on the grating; just take one measurement with the beam passing through the left side of the grating, one through the center and one to the right. You can adjust the position of the grating by sliding it in its holder - remember to only touch the grating by the cardboard edge.
 
-3. The distance $$L$$ between the grating and the screen is something we will be systematically varying later in Module 2, so that we can ultimately find the wavelength. But each time we set the value of $$L$$, we can only do so with some imprecision. Set <em>L</em> = 60 cm and then vary <em>L</em> over a range of ±0.5 cm.
+3. The distance $$L$$ between the grating and the screen is something we will be systematically varying later in Module 2, so that we can ultimately find the wavelength. But each time we set the value of $$L$$, we can only do so with some imprecision. Set <em>L</em> = 60 cm and then vary <em>L</em> over a range of ±1 cm.
 
-For each of the four potential sources of uncertainty listed above (the angle of the diffraction grating, plus the three listed above), wiggle the parameter over the suggested range and record the variation in $$x$$. Since this is just an exploratory wiggling of parameters, you do not need to perform repeated trials of these tests. You only need to collect 3 data points --- one at either end of the suggested range and one in the middle. It should take you about 15 minutes to wiggle all the parameters and record these single-shot measurements.
+For each of the four potential sources of uncertainty listed above (the angle of the diffraction grating, plus the three listed above), wiggle the parameter over the suggested range and record the variation in $$x$$. Since this is just an exploratory wiggling of parameters, you do not need to perform repeated trials of these tests. You only need to collect 3 data points --- one at either end of the suggested range and one in the middle. It should take you a total of about 15 minutes to wiggle all the parameters and record these single-shot measurements.
 
 **The takeaway from this parameter-wiggling exercise is that the parameters that cause a larger variation in $$x$$ should be reset before each $$x$$ measurement. The ones that don't make much difference in $$x$$ do not need to be reset.**
 
@@ -128,7 +128,7 @@ For each of the four potential sources of uncertainty listed above (the angle of
 
 #### Mini-question 3: Which parameters need to be reset?
 
-**This mini-question cannot be answered until you are in lab. therefore for this question only, you should not answer the question before lab. You will only receive credit for this question if you answer it during your lab period.**
+**This mini-question cannot be answered until you are in lab. Therefore for this question only, you should not answer the question before lab. You will only receive credit for this question if you answer it during your lab period.**
 
 *[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSe-Bcw3iqEcmblnBnsOJOqSbfHVNrXckA4mVs9VEvzOXHvZQQ/viewform?usp=sf_link){:target="_blank"}*
 
