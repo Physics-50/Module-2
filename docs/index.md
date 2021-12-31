@@ -32,9 +32,9 @@ Module 2 is four weeks long. Each week, except the last week, you will have a ch
 1. [Week 1 - Exploratory Phase](week1)
     - Checkpoint: a two-panel figure that showcases your results from exploring a significant source of systematic error in the experiment.
 2. [Week 2 - Data Collection](week2)
-    - Checkpoint: A figure showcasing your results from a 500 line/mm grating
+    - Checkpoint: a figure showcasing your results from a 500 line/mm grating
 3. [Week 3 - Further Data Collection](week3)
-    - Checkpoint: A figure showcasing your results from a 1000 line/mm grating.    
+    - Checkpoint: a figure showcasing your results from a 1000 line/mm grating.    
 <!-- 
 Checkpoint: A figure that allows comparison of your results from the 500 line/mm and 1000 line/mm gratings.-->
 4. [Week 4 - Scientific Communication Phase](week4)
