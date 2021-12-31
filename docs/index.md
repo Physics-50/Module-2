@@ -17,11 +17,11 @@
 
 ### Learning Objectives
 
-1. Perform a weighted fit of a theory-inspired function to a data set and use it to draw conclusions
+1. Minimize and account for several sources of error in an experiment, including random error, resolution uncertainty, and systematic error.
+ 
+2. Perform a weighted fit of a theory-inspired function to a data set, and use it to draw conclusions.
 
-2. Minimize and account for several sources of error in an experiment, including random error, resolution uncertainty, and systematic error.
-
-In module 3 we will use a ruler to (indirectly!) measure the wavelength of light and test a theory.
+In Module 2 we will use a ruler to (indirectly!) measure the wavelength of light and test a theory.
 
 ## Weekly Plan
 
