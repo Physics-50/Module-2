@@ -13,13 +13,13 @@
 
 This week we will investigate how the distance $$x$$ to the first non-central bright spot depends on $$L$$, the distance between the grating and the screen. This will lead you to a determination of the wavelength of your laser; we will do this roughly first with a single data point, but ultimately our approach will be to plot $$x$$ vs. $$L$$ and find the best fit line to that data.
 
-Using one or more 500-lines/mm grating(s), you will take data carefully (including repeated trials) for $$x$$ as a function of $$L$$ over a large range of the $$L$$ values accessible with your apparatus.  You will plot $$x$$ vs. $$L$$ to check for systematic errors and to find a value for $$\lambda$$, the wavelength of your laser, based on the slope of your data set.
+Using your 500-line/mm grating, you will take data carefully (including repeated trials) for $$x$$ as a function of $$L$$ over a large range of the $$L$$ values accessible with your apparatus.  You will plot $$x$$ vs. $$L$$ to check for systematic errors and to find a value for $$\lambda$$, the wavelength of your laser, based on the slope of your data set.
 
-Before starting this longer program of measurements, it is useful to do a very quick "back-of-the-envelope" check to make sure that your value for wavelength will be roughly in the range you'd expect (620--700 nm for red light).  From the [background theory](background-theory){:target="_blank"} presented last week, we can solve for $$\lambda$$ in terms of known and measured quantities to find $$\lambda = \frac{x d}{\sqrt{L^2 + x^2}}$$$.  Go back to the data you collected last week. Pick a single value of $$x$$ and $$L$$ and check whether the value of $$\frac{L d}{\sqrt{L^2 + x^2}}$$$ lies within the range you expect for the wavelength.
+Before starting this longer program of measurements, it is useful to do a very quick "back-of-the-envelope" check to make sure that your value for wavelength will be roughly in the range you'd expect (620--700 nm for red light).  From the [background theory](background-theory){:target="_blank"} presented last week, we can solve for $$\lambda$$ in terms of known and measured quantities to find $$\lambda = \frac{(x/L) d}{\sqrt{1 + (x/L)^2}}$$$.  Go back to the data you collected last week. Pick a single pair of $$L$$ and corresponding $$x$$, and check whether the value of $$\frac{(x/L) d}{\sqrt{1 + (x/L)^2}}$$$ lies within the range you expect for the wavelength.  Though a different version of this formula is arguably simpler for this single-shot estimate, we encourage you to use the version given above because you will want to use it in your later calculations, and this rough check is meant to given you confidence in both your measurements and your calculations (_i.e._, your Google sheets formulas).
 
 ## Why we measure $$x$$ over a range of $$L$$ values
 
-Why don't we just continue this approach over multiple trials to get a more reliable result?  That is, why not analyze multiple data points by measuring $$x$$ each time, determining $$\lambda = \frac{x d}{\sqrt{L^2 + x^2}}$$ for each measurement, and then averaging those? One of the ideas we would like you to take away from this course is to think of a data set as a whole, not as individual points.  $$L$$ provides us with an independent variable that we can control, so by measuring $$x$$ over a range of $$L$$ values, we can create a plot of $$x$$ versus $$L$$ data. Plotting the data and looking at the data set as a whole gives us confidence in our ability to determine $$\lambda$$, since it allows us to fit the data to the theoretical prediction in a more robust way.  We will outline the approach before pointing out some of its advantages.
+Why don't we just continue this approach over multiple trials to get a more reliable result?  That is, why not analyze multiple data points by measuring $$x$$ each time, determining $$\lambda = \frac{(x/L) d}{\sqrt{1 + (x/L)^2}}$$ for each measurement, and then averaging those? One of the ideas we would like you to take away from this course is to think of a data set as a whole, not as individual points.  $$L$$ provides us with an independent variable that we can control, so by measuring $$x$$ over a range of $$L$$ values, we can create a plot of $$x$$ versus $$L$$ data. Plotting the data and looking at the data set as a whole gives us confidence in our ability to determine $$\lambda$$, since it allows us to fit the data to the theoretical prediction in a more robust way.  We will outline the approach before pointing out some of its advantages.
 
 Thinking back to the theoretical prediction $$\lambda = d \frac{x}{L}$$, let's rewrite that equation in a more suggestive form
 \begin{equation}
@@ -37,7 +37,7 @@ Let's start with a practice calculation.
 
 ---------------------------
 
-There's an added power to treating the data set as a whole in this way because if our data has an intercept that isn't zero, then that would suggest a systematic error that shifted our measured values!  Consider this: what if there is a systematic uncertainty in $$L$$, e.g., because you accidentally measured to one edge of a post holder or because your ruler didn't start at zero? Then a set of $$\lambda$$ values calculated from your individual trials would be systematically off. However, plotting a line will still give the correct slope.  In this case the line will have a non-zero intercept that tells you about the systematic shift in $$L$$, as shown in the plot below, where the fitting parameter $$b$$ shown in the legend is clearly not equal to zero.
+There's an added power to treating the data set as a whole in this way because if our data has an intercept that isn't zero, then that would suggest a systematic error that shifted our measured values!  Consider this: what if there is a systematic uncertainty in $$L$$, _e.g._, because you accidentally measured to one edge of a post holder or because your ruler didn't start at zero? Then a set of $$\lambda$$ values calculated from your individual trials would be systematically off. However, plotting a line will still give the correct slope.  In this case the line will have a non-zero intercept that tells you about the systematic shift in $$L$$, as shown in the plot below, where the fitting parameter $$b$$ shown in the legend is clearly not equal to zero.
 
 <img src="images/x_vs_L_offset.png" alt="basic setup" width="400" style="display: block; margin-left: auto; margin-right: auto; width: 80%;" />
 
@@ -50,7 +50,7 @@ To graph your data and perform a weighted linear fit, you will make use of the [
 
 <br>
 
-Before moving on take a moment to consider how to calculate the uncertainty in the wavelength. Before completing the following mini-question you may find it helpful to review the [video on how to propagate uncertainties](https://physics-50.github.io/Module-1/helpful-guidance) from module 1.
+Before moving on, take a moment to consider how to calculate the uncertainty in the wavelength. Before completing the following mini-question you may find it helpful to review the [video on how to propagate uncertainties](https://physics-50.github.io/Module-1/helpful-guidance) from module 1.
 
 
 -----------
@@ -66,19 +66,19 @@ Before moving on take a moment to consider how to calculate the uncertainty in t
 
 ## Data Collection
 
-**This week you will collect data only for the 500 lines/mm grating spacing.**
+**This week you will collect data only for the 500 line/mm grating spacing.**
 
 When collecting data this week we would like you to take into consideration the sources of uncertainty you explored in Week 1 and do your best to minimize uncertainty and randomize systematic error by resetting the sensitive parameters between each trial. Please take a moment right now to go back to [Mini-question 3 from Week 1](https://docs.google.com/forms/d/e/1FAIpQLSe-Bcw3iqEcmblnBnsOJOqSbfHVNrXckA4mVs9VEvzOXHvZQQ/viewform){:target="_blank"} and review your answers to determine which parameters you need to reset and which you don't.
 
 To collect your complete $$x$$ vs. $$L$$ dataset, make sure to do the following:
 
-+ Choose five values of $$L$$ ranging from about 15 cm to as large a value of $$ L $$ as you can while keeping the first diffraction maximum on the provided screen (this should be about 60 cm).
++ Choose five values of $$L$$ ranging from about 15 cm to as large a value of $$L$$ as you can while keeping the first diffraction maximum on the provided screen (this should be about 60 cm).
 
-+ Collect five measurements of $$x$$ for each $$L$$ value, being sure to reset all the parameters you determined you needed to in  [Miniquestion 3 from Week 1](https://docs.google.com/forms/d/e/1FAIpQLSe-Bcw3iqEcmblnBnsOJOqSbfHVNrXckA4mVs9VEvzOXHvZQQ/viewform){:target="_blank"} between each measurement of $$x$$. Be sure to **only use the 500 line/mm diffraction grating.**  Please use the tab: "Week 2: Data: 500 lines/mm" in your Google Sheets spreadsheet to collect your data. You will need to enter the formulas to calculate the mean value and uncertainty. 
++ Collect five measurements of $$x$$ for each $$L$$ value, making sure that between each measurement of $$x$$ you reset all the parameters you determined you needed to in  [Miniquestion 3 from Week 1](https://docs.google.com/forms/d/e/1FAIpQLSe-Bcw3iqEcmblnBnsOJOqSbfHVNrXckA4mVs9VEvzOXHvZQQ/viewform){:target="_blank"}. Be sure to **only use the 500 line/mm diffraction grating.**  Please use the tab: "Week 2: Data: 500 lines/mm" in your Google Sheets spreadsheet to collect your data. You will need to enter the formulas to calculate the mean value and uncertainty. 
 
 + For each $$L$$ value, compute the mean value of $$x$$ from your five trials and the random uncertainty as measured by the SEM.
 
-+ Prepare a .csv file with your $$x\pm \delta x$$ and $$L$$ data. There is a new tab in your Google sheets worksheet, prepared for this: "Week 2: Plotting 500 lines/mm data". Be sure to change the column headings to reflect your data as these will appear as axes labels on your fit.
++ Prepare a .csv file with your $$x\pm \delta x$$ and $$L$$ data. There is a new tab in your Google Sheets worksheet, prepared for this: "Week 2: Plotting 500 lines/mm data". Be sure to change the column headings to reflect your data as these will appear as axis labels on your fit.
 
 + Load the .csv file with your data into the [curve fitting script introduced previously](https://physics.hmc.edu/fitter/), selecting "linear" under the "kind" pull-down menu. 
 
@@ -107,11 +107,11 @@ You should submit the following on Gradescope:
 
 + The plot used to determine the wavelength of your laser. This plot must include the uncertainties of your data points and a line of best fit that has been determined with a weighted fit. As always, make sure to include units on your axis labels. You will be asked to upload this plot 3 times. You should upload the same plot each time. You do not need to write a caption.
 
-+ A link to a spreadsheet with your experimental data.
++ A link to your assigned Google Sheets spreadsheet with your experimental data and analysis.
 
-+ The slope you obtained from your plot, including the uncertainty. 
++ The slope you obtained from your plot, including the uncertainty.  Do not round, as this is not a final result.
 
-+ The wavelength you have determined for your laser, with uncertainty.
++ The wavelength you have determined for your laser, with uncertainty.  This is a final result, so follow guidelines for significant figures.
 
 + A list of the parameters you reset between each $$x$$ measurement.
 
