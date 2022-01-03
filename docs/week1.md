@@ -157,7 +157,7 @@ They were all using the same materials, so why don't their results agree?!?! Wel
 
 Because systematic errors are so important in experimental research, we want you to do a careful study of one dominant source of systematic error in $$x$$. This study will ultimately be presented as part of a sequence of figures for your Module 2 deliverable.
 
-Although you may have found several potential sources of systematic error, for this study we will focus on the angle of the diffraction grating. We are interested in the consequences of not setting the grating exactly perpendicular to the laser beam. Therefore we will gain more insight by focusing on the effect at small angles ($$\lesssim 5^{\circ}$$). Take a moment to carefully consider how you might measure the angle accurately over this narrow range. Talk to your instructor or classmates at neighboring benches if you are having trouble doing the measurement.
+Although you may have found several potential sources of systematic error, for this study we ask you to focus on the angle of the diffraction grating. We are interested in the consequences of not setting the grating exactly perpendicular to the laser beam. Therefore we will gain more insight by focusing on the effect at small angles ($$\lesssim 5^{\circ}$$). Take a moment to carefully consider how you might measure the angle accurately over this narrow range. Talk to your instructor or classmates at neighboring benches if you are having trouble doing the measurement.
 
 **You will need to do the measurement for about five (no fewer) different angles, and for each value of that parameter, you need to make five measurements of $$x$$** and report the average value of $$x \pm \text{SEM}$$ (as an error bar on each data point).
 
@@ -176,7 +176,7 @@ Please read the [discussion of resolution error in our guide to uncertainties](h
 
 Before collecting and analyzing your data this week, please make sure that you have read this [discussion about combining uncertainties](https://physics-50.github.io/Module-1/uncertainty-introduction#combining-uncertainties)
 
-To make sure you've understood these ideas, please complete the following mini-question. This is going to come up repeatedly throughout the rest of the course. If you have any uncertainty about your response please stop by office hours and talk to us or consult with your classmates through Piazza.
+To make sure you've understood these ideas, please complete the following mini-question. This is going to come up repeatedly throughout the rest of the course. If you have any questions about your response please stop by office hours and talk to us or consult with your classmates through Piazza.
 
 ---------------
 
@@ -211,7 +211,7 @@ You should submit the following on Gradescope:
 
 + A link to a spreadsheet with your experimental data. Reminder: all calculations, including calculations for appropriate uncertainties, should be included (in the form of evaluated formulas) in your spreadsheet.
 
-+ Conclusions regarding the significance of your investigated source of experimental uncertainty. Remember, as a rule of thumb, if the parameter we varied were **not** significant we would expect the data points to be about one error bar away from the mean on average. Does your data show significantly greater variation than this?
++ Conclusions regarding the significance of the effect diffraction angle grating has on measured $$x$$ values. Remember, as a rule of thumb, if the parameter we varied were **not** significant we would expect the data points to be about one error bar away from the mean on average, and to show little or no trend. Does your data show significantly greater variation than this?
 
 
 -------------
