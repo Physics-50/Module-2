@@ -9,7 +9,7 @@
 
 
 
-This week you will continue your investigation of the wavelength of your laser. We would like you to follow an identical procedure to last week. However, instead of using the 500 lines/mm gratings you should now collect data with the 1000 lines/mm gratings. Take a moment to reflect on expectations before diving into the experiment. How will the diffraction pattern change when the grating period is 1000 lines/mm?
+This week you will continue your investigation of the wavelength of your laser. We would like you to follow an identical procedure to last week. However, instead of using the 500 line/mm grating you should now collect data with the 1000 line/mm grating. Take a moment to reflect on expectations before diving into the experiment. How will the diffraction pattern change when the grating frequency is 1000 lines/mm (grating period is 0.001 mm/line)?
 
 
 #### Mini-question 1: Comparing diffraction patterns from gratings with different periods
@@ -20,19 +20,19 @@ This week you will continue your investigation of the wavelength of your laser. 
 
 ## Data collection
 
-Collect a set of data analogous to the data you collected last week but now using the 1000 line/mm gratings. This will give you the necessary data to complete this week's checkpoint. You should expect to spend the majority of your time in lab this week on this task.
+Collect a set of data analogous to the data you collected last week but now using the 1000 line/mm grating. This will give you the necessary data to complete this week's checkpoint. You should expect to spend the majority of your time in lab this week on this data collection and analysis.
 
 As a reminder (repeat of last week's instructions):
 
 To collect a complete $$x$$ vs. $$L$$ dataset, make sure to do the following:
 
-+ Choose five values of $$L$$. Last week we recommended a range of $$L$$ values from about 15 cm to about 60 cm. You may find this more difficult when working with the 1000 lines/mm gratings as the $$x$$ values will be larger. You should still choose five $$L$$ values over as wide a range as you can in the space you have available. 
++ Choose five values of $$L$$. Last week we recommended a range of $$L$$ values from about 15 cm to about 60 cm. You may find this more difficult when working with the 1000 line/mm gratings as the $$x$$ values will be larger. You should still choose five $$L$$ values over as wide a range as you can in the space you have available.  Don't be afraid to make small adjustments to the experimental setup to help you get high-quality data for a large range of $$L$$ values.
 
-+ Collect five measurements of $$x$$ for each $$L$$ value, being sure to reset all the parameters you determined you needed to in  [Mini-question 3 from Week 1](https://docs.google.com/forms/d/e/1FAIpQLSe-Bcw3iqEcmblnBnsOJOqSbfHVNrXckA4mVs9VEvzOXHvZQQ/viewform){:target="_blank"} between each measurement of $$x$$. Be sure to **only use the 1000 line/mm diffraction gratings.** You should enter your data in the tab: "Week 3: 1000 lines/mm" in the Google sheets spreadsheet assigned to you for this class.
++ Collect five measurements of $$x$$ for each $$L$$ value, making sure that between each measurement of $$x$$ you reset all the parameters you determined you needed to in  [Mini-question 3 from Week 1](https://docs.google.com/forms/d/e/1FAIpQLSe-Bcw3iqEcmblnBnsOJOqSbfHVNrXckA4mVs9VEvzOXHvZQQ/viewform){:target="_blank"}. Be sure to **only use the 1000 line/mm diffraction grating.** You should enter your data in the tab: "Week 3: 1000 lines/mm" in the Google sheets spreadsheet assigned to you for this class.
 
 + For each $$L$$ value, compute the mean value of $$x$$ from your five trials and the random uncertainty as measured by the SEM. 
 
-+ Prepare a .csv file with your $$x\pm \delta x$$ and $$L$$ data. There is a new tab in your Google sheets worksheet, prepared for this: "Week 2: Plotting 500 lines/mm data". Be sure to change the column headings to reflect your data as these will appear as axes labels on your fit.
++ Prepare a .csv file with your $$x\pm \delta x$$ and $$L$$ data. There is a new tab in your Google Sheets worksheet, prepared for this: "Week 3: Plotting 1000 lines/mm data". Be sure to change the column headings to reflect your data as these will appear as axes labels on your fit.
 
 + Load the .csv file with your data into the [curve fitting script introduced previously](https://physics.hmc.edu/fitter/), selecting "linear" under the "kind" pull-down menu. 
 
@@ -42,7 +42,7 @@ To collect a complete $$x$$ vs. $$L$$ dataset, make sure to do the following:
 
 ## Comparison of results from 500 lines/mm and 1000 lines/mm gratings
 
-After you have collected and analyzed your data for the 1000 lines/mm grating we would like you to compare these results with the results you obtained last week using the 500 lines/mm grating. You will be asked to answer a question about your results on the checkpoint.
+After you have collected and analyzed your data for the 1000 line/mm grating we would like you to compare these results with the results you obtained last week using the 500 line/mm grating. You will be asked to answer a question about your results on the checkpoint.
 
 
 -------------
@@ -51,9 +51,9 @@ After you have collected and analyzed your data for the 1000 lines/mm grating we
 
 How does what we've learned in this module apply to an LCD screen? We can think of a liquid crystal display, or LCD, as being a two-dimensional diffraction grating.
 
-To get a sense of what the diffraction pattern of a two-dimensional grating would look like, mount one of the 500 lines/mm gratings on the optical rail, and then hold a second grating, rotated at 90°. You do not need to collect any data; just describe in your lab notebook what the diffraction pattern from a 2-dimensional grid looks like.
+To get a sense of what the diffraction pattern of a two-dimensional grating would look like, mount a 500 line/mm grating on the optical rail, and then hold a second grating, rotated at 90°, just after it. You do not need to collect any data; just describe in your lab notebook what the diffraction pattern from a 2-dimensional grid looks like.
 
-A liquid crystal display consists of a two-dimensional grid of small 'boxes' called pixels (originally short for picture elements) that, together, display an image on a screen. These pixels are themselves composed of three 'sub-pixels' with colors red, green, and blue. If you look at your computer screen through a camera, you might be able to see the pixelated nature of the screen. Some common arrangements of pixels and sub-pixels in different devices are shown in the figure below. Voltages are applied across a pixel to control the colors and their relative intensities in that pixel.
+A liquid crystal display consists of a two-dimensional grid of small boxes called _pixels_ (originally short for picture elements) that, together, display an image on a screen. These pixels are themselves composed of three 'sub-pixels' with colors red, green, and blue. If you look at your computer screen through a camera, you might be able to see the pixelated nature of the screen. Some common arrangements of pixels and sub-pixels in different devices are shown in the figure below. Voltages are applied across a pixel to control the colors and their relative intensities in that pixel.
 
 
 <p class='center' markdown='0'>
@@ -82,7 +82,7 @@ Each station should have an LCD panel in an acrylic case that is fastened to an 
 </p>
 
 
-The HDMI cable that you will use to connect to your computer, as well as the power cable, are attached to the LCD panel. *Please do not attempt to unplug either of these cables from the acrylic box*. The LCD should be oriented so that the laser shines through it in a direction going from left to right in the figure on the left above.
+The HDMI cable to connect the LCD display to a computer, as well as the power cable, are attached to the LCD panel. *You will not need to use these cables at all for this simple experiment.  Please do not attempt to unplug either of these cables from the acrylic box.* The LCD should be oriented so that the laser shines through it in a direction going from left to right in the figure on the left above.
 
 
 <!--
@@ -90,22 +90,22 @@ One of the goals for this exploration is to dissect (please do not take this lit
 
 In terms of deducing the internal structure, it would be nice to be able to 'look' inside. This is not so easy since the features of the LCD panel are quite small. However, humanity overcame this issue years ago when Hans and Zacharias Janssen invented the microscope.
 -->
-Figure 3 shows a photo taken of our LCD screen via the eyepiece of a microscope. You are encouraged to observe the LCD screen under the microscope (through the eyepiece) in the rear of the lab. A microscope calibration slide is available that you can use to estimate the pixel size and compare with your results. You may find this helpful when assessing if your results are reasonable for the final question on the checkpoint.
+Figure 3 shows a photo taken of our LCD screen via the eyepiece of a microscope. You are encouraged to observe the LCD screen under the microscope (through the eyepiece) in the rear of the lab. A microscope calibration slide is available that you can use to estimate the pixel spacing and compare with your results. You may find this helpful when assessing if your results are reasonable for the final question on the checkpoint.
 
 <p class='center' markdown='0'>
 <img class="wp-image-1953 size-medium" src="https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/10/LCD-microscope-300x230.jpg" alt="" width="300" height="230"> 
 </p>
 <p class='mycap' markdown='1'>
-**Figure 3** --- Microscope image of an LCD panel identical to the one you have on your optical rail. **Note: the LCD that is pre-placed in the microscope is the same as those that are on your optical rail. Please do not disassemble your own LCD or its housing, and please do not touch the LCD screen.**
+**Figure 3** --- Microscope image of an LCD panel identical to the one you have on your optical rail. **Note: the LCD that is pre-placed in the microscope is the same model as the one on your optical rail. Please do not disassemble your own LCD or its housing, and please do not touch the LCD screen.**
 </p>
 
 
 <!--
 The LCD has structure that looks like a two-dimensional array of windows, or two-dimensional array of slits. In other words, it has a diffraction grating-like structure. It makes sense, then, that if we shine a laser through, there ought to be some sort of diffraction pattern. -->
 
-Mount the LCD on your optical rail and shine your laser through the LCD. You will see a pattern of bright dots creating a rectangular grid, with roughly uniform spacing between maxima. Using the wavelength of the laser and by measuring the distance between these maxima, you can determine the spacing of the pixels and thus the resolution of the screen. *For purposes of this investigation, please use the wavelength shown on the laser's label.*
+Mount the LCD on your optical rail and shine your laser through the LCD. You will see a pattern of bright dots creating a rectangular grid, with roughly uniform spacing between maxima. Using the wavelength of the laser and by measuring the distance between these maxima, you can determine the spacing of the pixels and thus the resolution of the screen. *For purposes of this investigation, you can use the laser wavelength you determined in Week 2 unless it was flagged as problematic in your Checkpoint 2 feedback.  Alternately, you can use the laser wavelength you determined from this week's data or by correcting mistakes in your Week 2 analysis.*
 
-Rather than make this a full-blown investigation, we want you simply to **estimate** the pixel spacing, so you don't need to make repeated measurements at different values of $$L$$. You only need to measure the spacing of the diffraction peaks one time at a single $$L$$ value and estimate the pixel spacing from there. You should take a measurement in both the horizontal and vertical direction, but only need to take one measurement in each direction and do not need to estimate uncertainty. <!-- Note that pixel spacing is the separation between a repeating unit. i.e. it would be for example the distance from the center of one of the red rectangles that you see to the center of the next red rectangle. -->
+Rather than make this a full-blown investigation, we want you simply to **estimate** the pixel spacing, so you don't need to make repeated measurements at different values of $$L$$. You only need to measure the spacing of the diffraction peaks one time at a single $$L$$ value and estimate the pixel spacing from there. You should take a measurement in both the horizontal and vertical directions, but you only need to take one measurement in each direction and do not need to estimate uncertainty. <!-- Note that pixel spacing is the separation between a repeating unit. i.e. it would be for example the distance from the center of one of the red rectangles that you see to the center of the next red rectangle. -->
 
 You are encouraged to use remaining time to further explore the LCD panel. You can  [learn more about how LCDs work here](lcd-inner-workings). Once you have an idea how LCDs work, You can find some [suggestions for further exploration here](LCD){:target="_blank"}. Alternatively, you might find it interesting to take a look at your phone screen. By shining a laser at your phone and looking at the diffraction pattern of the reflected light you can probe the pixel structure of your phone. How does the pattern differ from that of the LCD screen from the projector? How does the pixel resolution compare?
 
@@ -113,30 +113,30 @@ You are encouraged to use remaining time to further explore the LCD panel. You c
 
 In lab this week you will need to collect the following data:
 
-+ 5 measurements of $$x$$ at each of 5 different $$L$$ values (25 data points total), all measured with 1000 line/mm gratings.
-+ a single measurement of $$x$$ in both the horizontal and vertical direction, each measured at a single $$L$$ value, from the LCD panel. You do not need to estimate the uncertainty.
-+ It is also important that you take note of the laser wavelength as specified by the manufacturer. It is written on the laser itself. You will want this for comparison and also to use for calculating the pixel spacing.
++ 5 measurements of $$x$$ at each of 5 different $$L$$ values (25 data points total), all measured with a 1000 line/mm grating.
++ a single measurement of $$x$$ in both the horizontal and vertical directions, each measured at a single $$L$$ value, from the LCD panel. You do not need to estimate the uncertainty.
++ It is also important that you take note of the laser wavelength as specified by the manufacturer. It is written on the laser itself. You will want this for comparison with your experimental results.
 
 
 
 
 ## Checkpoint 3
 
-If you had any issues with Checkpoint 2 we recommend speaking to an instructor before completing your checkpoint this week as it is very similar.
+If you had any issues with Checkpoint 2 we recommend speaking to an instructor before completing your checkpoint this week, as it is very similar.
 
 You should submit the following on Gradescope:
 
-+ The plot used to determine the wavelength of your laser. This plot must include the uncertainties on your data points and include a line of best fit that has been determined with a weighted fit. As always, make sure to include units on your axis labels. You will be asked to upload this plot 3 times. You should upload the same plot each time. You do not need to write a caption.
++ The plot used to determine the wavelength of your laser. This plot must include the uncertainties on your data points and a line of best fit that has been determined with a weighted fit. As always, make sure to include units on your axis labels. You will be asked to upload this plot 3 times. You should upload the same plot each time. You do not need to write a caption.
 
-+ A link to a spreadsheet with your experimental data.
++ A link to your assigned spreadsheet with your experimental data and analysis.
 
-+ The slope you obtained from your plot, including the uncertainty. 
++ The slope you obtained from your plot, including the uncertainty.  This is an intermediate result, so you should not round.
 
-+ The wavelength you have determined for your laser, with uncertainty from both the 500 line/mm gratings (last week's data) and 1000 line/mm gratings (this week's data).
++ The wavelength you have determined for your laser, with uncertainty from both the 500 line/mm grating (last week's data) and 1000 line/mm grating (this week's data).  These are final results, so they should be rounded.
 
-+ A 2 sentence conclusion which should answer the following question: Are your results from the two different gratings in agreement with each other and with the wavelength specified by the manufacturer (on the laser).
++ A two-sentence conclusion which should answer the following question: Are your results from the two different gratings in agreement with each other and with the wavelength specified by the manufacturer (on the laser)?
 
-+ An estimate of the pixel spacing for the LCD screen. It is only an estimate, please make use of the wavelength written on the laser itself and not your experimental value for this estimate. You do not need to estimate the uncertainty. 
++ An estimate of the pixel spacing for the LCD screen.  You do not need to estimate the uncertainty. 
 
 ## Mini-questions:
 
