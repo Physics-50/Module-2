@@ -40,7 +40,7 @@ To collect a complete $$x$$ vs. $$L$$ dataset, make sure to do the following:
 
 -----------------------------------
 
-## Comparison of results from 500 lines/mm and 1000 lines/mm gratings
+## Comparison of results from 500 line/mm and 1000 line/mm gratings
 
 After you have collected and analyzed your data for the 1000 line/mm grating we would like you to compare these results with the results you obtained last week using the 500 line/mm grating. You will be asked to answer a question about your results on the checkpoint.
 
@@ -51,7 +51,7 @@ After you have collected and analyzed your data for the 1000 line/mm grating we 
 
 How does what we've learned in this module apply to an LCD screen? We can think of a liquid crystal display, or LCD, as being a two-dimensional diffraction grating.
 
-To get a sense of what the diffraction pattern of a two-dimensional grating would look like, mount a 500 line/mm grating on the optical rail, and then hold a second grating, rotated at 90°, just after it. You do not need to collect any data; just describe in your lab notebook what the diffraction pattern from a 2-dimensional grid looks like.
+To get a sense of what the diffraction pattern of a two-dimensional grating would look like, mount a 500 line/mm grating on the optical rail as usual, so the grating lines are vertical.  Hold a second grating, rotated so the grating lines are horizontal, just after it, and shine the laser through both gratings. You do not need to collect any data; just describe in your lab notebook what the diffraction pattern from a 2-dimensional grid looks like.
 
 A liquid crystal display consists of a two-dimensional grid of small boxes called _pixels_ (originally short for picture elements) that, together, display an image on a screen. These pixels are themselves composed of three 'sub-pixels' with colors red, green, and blue. If you look at your computer screen through a camera, you might be able to see the pixelated nature of the screen. Some common arrangements of pixels and sub-pixels in different devices are shown in the figure below. Voltages are applied across a pixel to control the colors and their relative intensities in that pixel.
 
@@ -82,7 +82,7 @@ Each station should have an LCD panel in an acrylic case that is fastened to an 
 </p>
 
 
-The HDMI cable to connect the LCD display to a computer, as well as the power cable, are attached to the LCD panel. *You will not need to use these cables at all for this simple experiment.  Please do not attempt to unplug either of these cables from the acrylic box.* The LCD should be oriented so that the laser shines through it in a direction going from left to right in the figure on the left above.
+The HDMI cable to connect the LCD display to a computer, as well as the power cable, are attached to the LCD panel. *You will not need to use these cables at all for this simple investigation.  Please do not attempt to unplug either of these cables from the acrylic box.* The LCD should be oriented so that the laser shines through it in a direction going from left to right in the figure on the left above.
 
 
 <!--
@@ -126,7 +126,7 @@ If you had any issues with Checkpoint 2 we recommend speaking to an instructor b
 
 You should submit the following on Gradescope:
 
-+ The plot used to determine the wavelength of your laser. This plot must include the uncertainties on your data points and a line of best fit that has been determined with a weighted fit. As always, make sure to include units on your axis labels. You will be asked to upload this plot 3 times. You should upload the same plot each time. You do not need to write a caption.
++ The plot used to determine the wavelength of your laser. This plot must include the uncertainties of your data points and a line of best fit that has been determined with a weighted fit. As always, make sure to include units on your axis labels. You will be asked to upload this plot 3 times. You should upload the same plot each time. You do not need to write a caption.
 
 + A link to your assigned spreadsheet with your experimental data and analysis.
 
