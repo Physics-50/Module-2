@@ -1,4 +1,4 @@
-# Module 3 Miniquestions
+# Module 2 Mini-questions
 
 <br>
 
@@ -6,7 +6,7 @@
 
 <br>
 
-#### Miniquestion 1: Spacing of Diffraction Gratings
+#### Mini-question 1: Spacing of Diffraction Gratings
 *[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLScVy13Ddgurh38icYTvtZDd7mcRiIQcisnRfS6NIwLRf8om4Q/viewform?){:target="_blank"}*
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScVy13Ddgurh38icYTvtZDd7mcRiIQcisnRfS6NIwLRf8om4Q/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
@@ -14,7 +14,7 @@
 
 <br>
 
-#### Miniquestion 2: Spacing of Interference Maxima
+#### Mini-question 2: Spacing of Interference Maxima
 *[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSd0DalK3dCoRR8n6thQmaJmh4ctFmaWsDRalbRIW35mO1FA_w/viewform){:target="_blank"}*
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd0DalK3dCoRR8n6thQmaJmh4ctFmaWsDRalbRIW35mO1FA_w/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
@@ -22,7 +22,7 @@
 
 <br>
 
-#### Miniquestion 3: Which parameters need to be reset?
+#### Mini-question 3: Which parameters need to be reset?
 
 **This mini-question cannot be answered until you are in lab. therefore for this question only, you should not answer the question before lab. You will only receive credit for this question if you answer it during your lab period.**
 
