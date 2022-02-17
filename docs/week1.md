@@ -114,7 +114,7 @@ Let's focus on the angle of the diffraction grating, which ideally should be exa
 
 In addition to the angle of the diffraction grating that you just explored, we have identified several other potential sources of uncertainty in $$x$$, listed below:
 
-1. Distance from laser to diffraction grating (keeping the diffraction grating fixed in place, moving the laser). Range: ±1 cm.
+1. Distance from laser to diffraction grating (keeping the diffraction grating fixed in place, moving the laser). Range: ± 0.5 cm.
 
 2. The value of the diffraction spacing $$d$$ is also a parameter we can "wiggle," in a slightly less obvious way. Each diffraction grating could have manufacturing defects that cause $$d$$ to be slightly off from the stated value. We can explore this possibility by measuring $$x$$ at three positions on one diffraction grating. This is just exploratory so you do not need to record the exact position you use on the grating; just take one measurement with the beam passing through the left side of the grating, one through the center and one to the right. You can adjust the position of the grating by sliding it in its holder - remember to only touch the grating by the cardboard edge.
 
