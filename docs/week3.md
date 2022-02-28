@@ -109,7 +109,7 @@ Rather than make this a full-blown investigation, we want you simply to **estima
 
 Note that pixel spacing is the separation between a repeating unit. i.e. it would be for example the distance from the center of one of the red rectangles that you see to the center of the next red rectangle.
 
-Once you've obtained the pixel separation distance, figure out how to infer the resolution of the LCD screen from this value. Note: you will need to measure the physical dimensions of the LCD using the unmounted one at the back of the class. Take care! These are very fragile, the yellow ribbon wire in particular. The box the LCD came in will be available at the front of class. Please make note of the manufacturer's stated resolution on the box so that you can compare your measured resolution with the quoted specifications in this week's checkpoint.
+Once you've obtained the pixel separation distance, figure out how to infer the resolution of the LCD screen from this value. Note: you will need to measure the physical dimensions of the LCD using the unmounted one at the back of the class. Take care! These are very fragile, the yellow ribbon wire in particular. The box the LCD came in will be available at the front of class. Please make note of the manufacturer's specification on the box so that you can compare your measured number of pixels when drawing conclusions about the reasonableness of your results in this week's checkpoint.
 
 You are encouraged to use any remaining time to further explore the LCD panel. You can  [learn more about how LCDs work here](lcd-inner-workings). Once you have an idea how LCDs work, You can find some [suggestions for further exploration here](LCD){:target="_blank"}. Alternatively, you might find it interesting to take a look at your phone screen. By shining a laser at your phone and looking at the diffraction pattern of the reflected light you can probe the pixel structure of your phone. How does the pattern differ from that of the LCD screen from the projector? How does the pixel resolution compare? 
 
@@ -119,7 +119,7 @@ In lab this week you will need to collect the following data:
 
 + 5 measurements of $$x$$ at each of 5 different $$L$$ values (25 data points total), all measured with a 1000 line/mm grating.
 + a single measurement of $$x$$ in both the horizontal and vertical directions, each measured at a single $$L$$ value, from the LCD panel. You do not need to estimate the uncertainty. 
-+ Dimensions of the LCD screen to compute the resolution from the pixel spacing.
++ Dimensions of the LCD screen to compute the number of pixels from the pixel spacing.
 + It is also important that you take note of the laser wavelength as specified by the manufacturer. It is written on the laser itself. Similarly, you will need the manufacturer's stated resolution of the LCD screen, stated on the box. You will want both for comparison with your experimental results.
 
 
@@ -142,7 +142,7 @@ You should submit the following on Gradescope:
 
 + A two-sentence conclusion which should answer the following question: Are your results from the two different gratings in agreement with each other and with the wavelength specified by the manufacturer (on the laser)?
 
-+ An estimate of the pixel spacing and resolution for the LCD screen.  You do not need to estimate the uncertainty. 
++ An estimate of the pixel spacing and and total number of pixels across the horizontal and vertical directions for the LCD screen.  You do not need to estimate the uncertainty. 
 
 ## Mini-questions:
 
