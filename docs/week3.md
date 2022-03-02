@@ -99,6 +99,9 @@ Figure 3 shows a photo taken of our LCD screen via the eyepiece of a microscope.
 **Figure 3** --- Microscope image of an LCD panel identical to the one you have on your optical rail. **Note: the LCD that is pre-placed in the microscope is the same model as the one on your optical rail. Please do not disassemble your own LCD or its housing, and please do not touch the LCD screen.**
 </p>
 
+<img src="images/microscope-calibration.png" alt="basic setup" width="400" style="display: block; margin-left: auto; margin-right: auto; width: 80%;" />
+Figure 4 --- There is a calibration slide by the microscope that you can use to calibrate length scales in your image. The finest lines in the grid feature near the center of the slide are $$10 \mu m$$
+
 
 <!--
 The LCD has structure that looks like a two-dimensional array of windows, or two-dimensional array of slits. In other words, it has a diffraction grating-like structure. It makes sense, then, that if we shine a laser through, there ought to be some sort of diffraction pattern. -->
@@ -111,7 +114,7 @@ Note that pixel spacing is the separation between a repeating unit. i.e. it woul
 
 Once you've obtained the pixel separation distance, figure out how to infer the resolution of the LCD screen from this value. Note: you will need to measure the physical dimensions of the LCD using the unmounted one at the back of the class. Take care! These are very fragile, the yellow ribbon wire in particular. The box the LCD came in will be available at the front of class. Please make note of the manufacturer's specification on the box so that you can compare your measured number of pixels when drawing conclusions about the reasonableness of your results in this week's checkpoint.
 
-You are encouraged to use any remaining time to further explore the LCD panel. You can  [learn more about how LCDs work here](lcd-inner-workings). Once you have an idea how LCDs work, You can find some [suggestions for further exploration here](LCD){:target="_blank"}. Alternatively, you might find it interesting to take a look at your phone screen. By shining a laser at your phone and looking at the diffraction pattern of the reflected light you can probe the pixel structure of your phone. How does the pattern differ from that of the LCD screen from the projector? How does the pixel resolution compare? 
+
 
 ## Summary of Data to be Collected
 
