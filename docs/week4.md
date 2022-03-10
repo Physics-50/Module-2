@@ -16,7 +16,7 @@ This week's focus is on communicating your results through a sequence of figures
 
 You have two tasks this week:
 
-1. Generate a plot of wavelength vs. grating period (this plot will have two data points) and fit a horizontal line as we did in Module 1 to generate your best estimate of the laser wavelength and its uncertainty from the plot.
+1. Generate a plot of wavelength vs. grating period (or grating frequency). This plot will have two data points) and fit a horizontal line as we did in Module 1 to generate your best estimate of the laser wavelength and its uncertainty from the plot.
 
 2. Prepare a sequence of 2 figures with captions to submit for your deliverable. These figures will come directly from the work you have done in the preceding 3 weeks.
 
