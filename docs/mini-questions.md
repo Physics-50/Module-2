@@ -33,36 +33,12 @@
 
 ## Week 2
 
-#### Mini-question 1: Calculating wavelength from slope
-[*Click here to open in a new tab*](https://forms.gle/MPYx6nPVd54jYE359){:target="_blank"}
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSct57YgYJ1rxsHAkhGfOk_QUB638pb_MYeH7vhVZU2MGQUW5w/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
+#### Mini-question 1: Effective "Grating Spacing" for LCD Panel in Transmission
+*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLScJSe1HXQlHtpjEAGBMD8XrU6Ih5MUk9bq8BC3PBYkPJXcddw/viewform){:target="_blank"}*
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScJSe1HXQlHtpjEAGBMD8XrU6Ih5MUk9bq8BC3PBYkPJXcddw/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
 <br>
 
-#### Mini-question 2: Interpreting a weighted linear fit
-[*Click here to open in a new tab (recommended)*](https://forms.gle/BF8fQq5PNWF1Gh9U8){:target="_blank"}
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdTk_l5gJ2boQzujZcgNKYh55iSlxR9UZNke6sgi3Chk_dvmA/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
-</iframe>
 
-<br>
-
-#### Mini-question 3: Determining the uncertainty in the wavelength
-[*Click here to open in a new tab (recommended)*](https://forms.gle/zKu1G3j3MG57xZhs8){:target="_blank"}
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdsX9HYql9BGssjbNypZIRZZsAie0RDPwOavr7ixLMExrVtQA/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
-</iframe>
-
-
-------------------------------
-<br> <br> 
-
-## Week 3
-
-#### Mini-question 1: Comparing diffraction patterns from gratings with different periods
-*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLScOvf4fEdEk5cotRGrTle0iitt7onz0DmTOdhuNL47lh2ifqA/viewform?){:target="_blank"}*
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScOvf4fEdEk5cotRGrTle0iitt7onz0DmTOdhuNL47lh2ifqA/viewform?embedded=true" width="640" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…
-</iframe>
-
-
-------------------------
