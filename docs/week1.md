@@ -11,7 +11,7 @@
 
 You should have received new Google Doc and Google Sheets notebooks through Google classroom. Please make use of the new notebooks for this module. 
 
-In this module you will be studying a light interference effect called **diffraction**. By leveraging this phenomenon, you will use a ruler and your naked eye to measure the line spacing of a grating, even though the lines are only about 0.002 mm apart!  Diffraction as a tool for measuring small-scale periodic structure has applications from biology -- including the famous Rosalind Franklin double-helix data -- to materials science and many other fields.
+In this module you will be studying a light interference effect called **diffraction**. By leveraging this phenomenon, you will use a ruler and your naked eye to measure the line spacing of a grating, even though the lines are only about 0.001 mm (1 micrometer) apart!  Diffraction as a tool for measuring small-scale periodic structure has applications from biology -- including Rosalind Franklin's famous double-helix data -- to materials science and many other fields.
 
 ## Background
 
