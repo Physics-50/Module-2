@@ -127,7 +127,7 @@ where we have introduced the parameter $$m=L/x$$, or the slope of a plot of $$L$
 Let's pause for a practice calculation and an example of what the graph of $$L$$ vs. $$x$$ might look like.
 
 ------
-#### Mini-question 1: Calculating d from slope
+#### Mini-question 3: Calculating d from slope
 [*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSewqupEcZn39DFWA4u5VqGXwGsVT5lAWeszwl0yCS0upCANug/viewform){:target="_blank"}
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSewqupEcZn39DFWA4u5VqGXwGsVT5lAWeszwl0yCS0upCANug/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
