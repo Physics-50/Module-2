@@ -7,44 +7,27 @@
 <br>
 
 #### Mini-question 1: Spacing of Diffraction Gratings
-*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLScVy13Ddgurh38icYTvtZDd7mcRiIQcisnRfS6NIwLRf8om4Q/viewform?){:target="_blank"}*
+*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSc91z681gWz9ej6xEaYywPRHQWdlkKDwwGL0V46HMknP90hPg/viewform){:target="_blank"}*
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScVy13Ddgurh38icYTvtZDd7mcRiIQcisnRfS6NIwLRf8om4Q/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc91z681gWz9ej6xEaYywPRHQWdlkKDwwGL0V46HMknP90hPg/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
 <br>
-
 #### Mini-question 2: Spacing of Interference Maxima
-*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSd0DalK3dCoRR8n6thQmaJmh4ctFmaWsDRalbRIW35mO1FA_w/viewform){:target="_blank"}*
+*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLScZD277T20i9LkcYO8Uj3AM8CEtfC9wYynMl2redGVRwMuFLg/viewform){:target="_blank"}*
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd0DalK3dCoRR8n6thQmaJmh4ctFmaWsDRalbRIW35mO1FA_w/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScZD277T20i9LkcYO8Uj3AM8CEtfC9wYynMl2redGVRwMuFLg/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
-
-<br>
-
-#### Mini-question 3: Which parameters need to be reset?
-
-**This mini-question cannot be answered until you are in lab. therefore for this question only, you should not answer the question before lab. You will only receive credit for this question if you answer it during your lab period.**
-
-*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSe-Bcw3iqEcmblnBnsOJOqSbfHVNrXckA4mVs9VEvzOXHvZQQ/viewform?usp=sf_link){:target="_blank"}*
-
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe-Bcw3iqEcmblnBnsOJOqSbfHVNrXckA4mVs9VEvzOXHvZQQ/viewform?embedded=true" width="640" height="737" frameborder="0" marginheight="0" marginwidth="0">Loading…
-</iframe>
-
 
 
 <br>
 
-
-
-
-#### Mini-question 4: Combining Random and Resolution Uncertainty
-[*Click here to open in a new tab*](https://forms.gle/KMCCqJZxdkchbBvdA){:target="_blank"}
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc7wj6OMBqqybagJhwZb0-Mkk8UnW2WOf5G7v474S0ryLvJOw/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…
+#### Mini-question 3: Calculating d from slope
+[*Click here to open in a new tab*](https://docs.google.com/forms/d/e/1FAIpQLSewqupEcZn39DFWA4u5VqGXwGsVT5lAWeszwl0yCS0upCANug/viewform){:target="_blank"}
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSewqupEcZn39DFWA4u5VqGXwGsVT5lAWeszwl0yCS0upCANug/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
-
-
+<br>
 
 -------------------------------------------------
 
