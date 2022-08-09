@@ -1,40 +1,96 @@
 # Week 1: Exploratory Phase
 
 --------------
-1. [Background Theory](#background-theory)
-2. [Summary of Key Formulae from Theory](#module-3-goal)
-3. [Setting up your experiment](#setting-up-your-experiment)
-4. [Exploratory Measurements](#exploratory-measurements) 
-5. [Checkpoint 1](#checkpoint-1)
-6. [Mini-questions](#mini-questions)
+1. [Background](#background)
+2. [Goals for This Week](#goals-for-this-week)
+3. [Instrumentation](#instrumentation)
+4. [Collecting Data](#collecting-data)
+6. [Things to Turn In](#things-to-turn-in)
 
 --------------
 
 You should have received new Google Doc and Google Sheets notebooks through Google classroom. Please make use of the new notebooks for this module. 
 
-In this module you will be studying a light interference effect called <strong>diffraction</strong>. This phenomenon will allow you to measure the wavelength $$\lambda$$ of visible light ($$400\text{ nm} \lesssim \lambda \lesssim 750\text{ nm}$$, where $$1\text{ nm} = 10^{-9}\text{ m}$$).
+In this module you will be studying a light interference effect called **diffraction**. By leveraging this phenomenon, you will use a ruler and your naked eye to measure the line spacing of a grating whose lines are about 0.002 mm apart.  Diffraction as a tool for measuring small-scale periodic structure has applications from biology -- the famous Rosalind Franklin double-helix data -- to materials science and beyond.
 
-## Background Theory
+## Background
+
+In Module 1 we worked with sound as a wave of air pressure; in this module we will be viewing light as an electromagnetic wave--- a set of periodic oscillations of electric and magnetic fields, propagating through empty space at speed $$c$$.  In the last module we considered how two waves traveling in opposite directions could sum, or _interfere_, to produce a standing wave.  In this module, we will again be considering interference, but in this case of waves traveling in almost the same direction as each other.  
+
+In the diffraction scenarios we will consider, a monochromatic plane wave of light -- that is, a wave of a certain wavelength and frequency and with simple, planar wavefronts -- is incident on a barrier with a series of small openings (_apertures_) in it.  The light that makes it through each small aperture travels outwards from that spot, and on a screen far downstream we observe a regular **_diffraction pattern_** that comes from the interference between the light waves coming from all of the individual apertures.  Before we get into the mathematical details, let's get a better visualization of what is happening by thinking about water waves. In the right half of the photo below (taken for Google Earth off the Australian coastline) we can see water waves traveling as a plane wave from right to left and encountering a series of apertures.
+
+![ocean waves](https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/10/water-diffraction-ocean.jpg)
+**Figure 1**: A photo off the coast of Australia showing the diffraction of a wave as it passes from right to left through several **apertures**, or openings, in a rocky barrier. First, notice that the wave coming out of each aperture is no longer a **plane wave** with straight wavefronts but rather is coming out as circular ripples traveling away from the center of the aperture. It is as though the aperture is a wave source of its own, sending waves out in all forward directions rather than just the initial right-to-left direction! Second, notice that the circular wavefronts from several apertures overlap begin to overlap with each other to the left of the apertures. The overall downstream pattern of strong and weak disturbance created by the bending of the wavefronts and their interference with each other is called the _**diffraction pattern**_.*Photo credit: Google Earth.*
 
 
-Start by reading the [background theory for Module 2 here](background-theory){:target="_blank"}.
+Let us now return to light waves, which behave just as we have seen above for water waves.  If you send a single laser beam through a narrow slit and observe the light that has passed through the slit on a screen then you will see two main effects, as shown below in Figure 2. First, the light spreads out over a much broader angle than the original laser beam---even though the slit was much narrower than the original laser beam. This behavior is similar to what we saw for water waves in the photo above: a narrow aperture sends waves out in all directions, not just the original direction. Second, the spread-out light displays an interference pattern. The interference pattern comes from superposition of waves spreading out from the different spots within the narrow slit. (The interference pattern is difficult to observe in the water case because of some numerical values that are different between the ocean water example and the laser light example.)
+
+![single slit diffraction](images/week1-fig2.jpg)
+
+ **Figure 2**: The diffraction pattern from a monochromatic light source traveling through a single slit aperture.
+
+The mathematical details of how the interference pattern comes about are beyond the scope of Physics 50, but the take-away is this. After passing through the single-slit aperture the beam will form a central, spread-out bright spot and sometimes several dimmer spots on either side. The width of the central bright spot depends upon the frequency and wavelength of the monochromatic (single-wavelength) light passing through the slit, as well as the size of the slit and the distance between the slit and the screen upon which you are observing the pattern. The narrower the slit the larger the width of the central diffraction spot.
+
+Now let’s imagine the laser light passes through two slits rather than one. In other words, the laser beam is now blocked by an opaque slide that has two narrow, identical slits that the light can pass through. The light passing through two slits will now create a pattern as shown below in Figure 3.
 
 
-**Before moving on, make sure you have read through the background theory at the link above!**
+![double slit diffraction](images/week1-fig3.jpg)
+
+**Figure 3**: Diffraction pattern from laser light passing through a double slit. What similarities and differences do you observe between the single slit (Figure 2) and double slit patterns?
+
+To understand the pattern of bright spots caused by two slits, we consider the light traveling outward from each slit. Figure 4 below shows a simplified schematic of the waves emanating from two slits - the semicircular curves represent wave crests, and the separation between the curves is the wavelength of the light. This schematic is dramatically not to scale, since typically both the spacing $$d$$ between the slits and the wavelength $$\lambda$$ of the laser light are much, much smaller than the distance $$L$$ between the slits and the screen where the diffraction pattern is being viewed.
 
 
-## Module 2 Goal
 
-In Module 2, you will use the relationship derived in the background theory to determine $$\lambda$$ for your laser by measuring $$x$$ and $$L$$ for the first diffraction maximum ($$n=1$$), and using the quoted value of $$d$$ for the provided diffraction grating:
+![waves passing through double slit](images/week1-fig4.png)
 
-\begin{equation}\label{eq:sYoungt} 
-\frac{d(x/L)}{\sqrt{(1 + (x/L)^2)} 
-}= n \lambda
+**Figure 4**: Simplified schematic of light waves passing upward through a double-slit slide, leading to constructive interference at certain angles---red lines indicate angles where the two waves interfere constructively to cause bright spots where the red lines meet the screen. *This schematic is very much not to scale.*
+
+It might be helpful to think of Figure 4 as also representing the pattern of waves produced by dropping two stones simultaneously into a calm body of water. Here the separation distance between the two stones is analogous to the slit separation distance $$d$$. The ripples produced by a single stone will propagate outward in concentric circles about the location where the stone contacted the water. 
+
+In Figure 4, the red lines represent positions where wave crests interfere constructively with each other---that is, the positions where the two waves are in phase and superpose to give a large-amplitude wave overall. Notice that constructive interference happens at certain angles away from the straight-ahead direction, leading to the specific bright spots located where the red lines meet the screen in the figure. Between these maxima, there are dark spots at angles where the two waves interfere destructively with each other -- that is, positions where the two waves are out of phase and perfectly cancel each other out.
+
+## Diffraction Gratings
+
+In Module 2, you will be investigating the diffraction pattern caused not by two slits, but by a **diffraction grating** with many, many slits, all separated by the same distance $$d$$. For such a scenario, it’s not as easy to see the angles of constructive interference by drawing the wave crests (see Fig. 5 below). 
+
+![diffraction grating wave crests](images/DiffGratWavecrests.png)
+
+**Figure 5**: Schematic of wave crests emerging from a diffraction grating. *This schematic is very much not to scale.*
+
+<br>
+
+Instead of drawing out wave crests, for the diffraction grating we will think about the light as rays emanating in all directions from each slit, and focus on just those rays that all eventually land at a single point on the screen, as shown by the green lines in Fig. 6. For simplicity, only 4 rays have been shown, from four neighboring slits. Each ray ends at the same point a distance $$x$$ from the center of the screen, and we are interested in whether the light from the 4 slits interferese constructively or destructively at this point.  We emphasize that this schematic is very, very much not to scale.
+
+<img src="images/week1-fig6.png" alt="" width="350"> 
+
+**Figure 6**: Schematic of light rays emerging from a diffraction grating. Only four rays have been highlighted, and all four reach the same point on the screen, a distance $$x$$ away from the center. *This schematic is very much not to scale.*
+
+In real situations we care about, the distance $$d$$ between the slits in the diffraction grating is six orders of magnitude smaller than the distance $$L$$ between the grating and the screen---that's like the difference between 1 cm and 10 km! Under these conditions makes sense to use the following approximation, which offends our sense of geometry definitions but is very accurate for our experiment:
+
+**We can approximate that all the rays that end at the same point on the screen are parallel to one another.**
+
+That means that the four green lines in Fig. 6 are treated as approximately parallel to each other as long as $$L \gg x$$. A better-scaled and ultimately more useful drawing would zoom in to just the region right above the diffraction grating, where the screen is *way* out of view and the rays that are all headed to the same position $x are shown in Fig. 7.
+
+<img src="images/week1-fig7.png" alt="" width="350"> 
+
+**Figure 7**: Schematic of light rays emerging from a diffraction grating. All five rays shown land at the same point on the very distant screen. *This schematic is reasonably to scale.* 
+
+In Fig. 7, we can see that the distance traveled by the light to get to the screen is different along rays coming from different slits. Relative to the rightmost ray in Fig. 7, each consecutive ray is longer by an additional length $$d \sin \theta$$.  When the extra distance $$d \sin \theta$$ traveled by light on adjacent rays is equal to an integer number of wavelengths, then all the rays will interfere constructively at the point where they land on the screen, creating a bright spot.
+
+Mathematically, this condition is met if 
+\begin{equation}\label{eq:grating}
+d \sin \theta = n \lambda
+\end{equation}
+where $$n$$ is an integer and $$\lambda$$ is the wavelength of the light.
+
+We can do a little more to simplify this expression. From Fig. 6, we can see that $$\sin \theta = x / \sqrt{(x^2 + L^2)}$$. Substituting this into our constructive interference condition gives **the following condition for the $$n^{th}$$ bright spot from the center of our diffraction pattern:**
+
+\begin{equation}\label{eq:sYoung} 
+\frac{xd}{\sqrt{(x^2 + L^2)} }= n \lambda
 \end{equation}
 
-
-The variables $$x$$, $$L$$, and $$d$$ were defined in the previously mentioned [background theory](background-theory){:target="_blank"}; please make sure you understand this formula and the relevant variables before proceeding.
-
+**This condition is called _Young's equation_.  In Module 2, you will use it to determine $$d$$, the line spacing of your grating, by measuring $$x$$ and $$L$$ and using the quoted value of $$\lambda$$ given by the manufacturer of the laser you will use.**
 
 #### Mini-question 1: Spacing of Diffraction Gratings
 *[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLScVy13Ddgurh38icYTvtZDd7mcRiIQcisnRfS6NIwLRf8om4Q/viewform?){:target="_blank"}*
@@ -54,13 +110,45 @@ The variables $$x$$, $$L$$, and $$d$$ were defined in the previously mentioned [
 
 -----
 
-## Setting Up Your Experiment
+## Goals for This Week
 
-We will begin by setting up the experiment on an optical rail.
+This week, you will use Young's equation to find the spacing $$d$$ between lines in your diffraction grating.  The printed label indicates a nominal spacing of (1/500) mm per line, but your measurement will refine this rough estimate.  After an initial exploration of sources of error, you will take a careful set of data to find $$d$$ by measuring the $$L$$ values required to make the first diffracted spot ($$n=1$$ in Young's equation) appear at different values of $$x$$.  You will graph $$L$$ as a function of $$x$$, find the best-fit slope, and use this slope and its uncertainty in Young's equation to calculate $$d \pm \delta d$$.
 
+### The Value of Plotting and Fitting
+
+Why don't you just set a single $$x$$ value, measure the corresponding $$L$$, and plug these into Young's equation and solve for $$d$$?  You could even do repeated trials, including varying $$x$$ if you wanted to, and average the resulting $$d$$ values.  
+
+One of the ideas we would like you to take away from this course is to respect the power of a data set as a whole, rather than just individual points. In this case the theory suggests that, as long as we use a single grating and laser, $$L$$ and $$x$$ should be related to each other in a simple way:  they should be directly proportional.  Plotting the data and looking at the data set as a whole allows us to test this theory while letting the combined data tell us as much as possible about our results.  We will outline the approach before pointing out some of its advantages.
+
+Let's go back to Young's equation, solve it for $$d$$, and rewrite the result in a more suggestive form:
+\begin{equation}
+d = n\lambda\sqrt{1+\bigl(\frac{L}{x}\bigr)^2} = n\lambda\sqrt{1+m^2}
+\end{equation}
+where we have introduced the parameter $$m=L/x$$, the slope of a plot of $$L$$ vs. $$x$$.  (Make sure you can get this result from Young's equation.  You might want to write out the calculation in your lab notebook.)  As mentioned above, in your experiments you will focus on the $$n=1$$ diffracted spot.
+
+Let's pause for a practice calculation and an example of what the graph of $$L$$ vs. $$x$$ might look like.
+
+------
+#### Mini-question 1: Calculating grating spacing from slope -- replace with L vs x
+[*Click here to open in a new tab*](https://forms.gle/MPYx6nPVd54jYE359){:target="_blank"}
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSct57YgYJ1rxsHAkhGfOk_QUB638pb_MYeH7vhVZU2MGQUW5w/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading…
+</iframe>
+
+---------------------------
+
+There's an added power to treating the data set as a whole in this way.  First, we can test whether our data obeys the theory.  Is $$L$$ in fact a linear function of $$x$$, as the theory suggests?   Furthermore, consider what might happen if you had a systematic error that shifted all of your measured $$L$$ values.  Individual $$L/x$$ values would all be influenced by such an error, but plotting a line would give you correct slope plus a non-zero intercept, as shown in the plot below, where the fitting parameter $$b$$ shown in the legend is clearly not equal to zero.
+
+**Replace graph with L vs x**
+
+<img src="images/x_vs_L_offset.png" alt="basic setup" width="400" style="display: block; margin-left: auto; margin-right: auto; width: 80%;" />
+
+At the end of this week you should have a graph and weighted fit like the one above but constructed from your own carefully-taken data.  You should use the fit results to evaluate the quality of your data set, and if you are satisfied with it you should calculate a final result for $$d\pm \delta d$$ based on the slope of the best-fit line and its uncertainty. 
+
+## Instrumentation
+
+You will begin by setting up the experiment on an optical rail.
 
 Attach the red laser to the laser holder mount, shown below in Figure 1, and attach it to a post holder placed on the optical rail with the laser facing the wall. (We don't want the laser light shooting across the room; please make sure when you set up your laser pointer that it is aimed at the wall, away from your classmates.) When adjusting the laser, the post, or the entire mount, be sure to loosen the relevant set screw and then re-tighten it by hand once you achieve the desired positioning.
-
 
 {: .center}
 ![alt text](https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/10/Laser-holder-web.png){: width="400px;"}
@@ -73,7 +161,7 @@ Attach the red laser to the laser holder mount, shown below in Figure 1, and att
 
 Mount the grid paper "screen" to the vertical support at the end of your optical rail (in the direction the laser is pointing, i.e., near the wall).
 
-Near the center of the rail, between the laser and the screen, attach another post holder, and use it to mount a diffraction grating, shown in Fig. 2.  At your station you should have two diffraction grating: one labelled "500 lines/mm" and the other "1000 lines/mm." This week we will only be working with the 500 line/mm grating. This spacing is marked on the gratings - make sure you are using the 500 line/mm gratings and put aside the 1000 line/mm grating for now, as you will not need it this week.
+Near the center of the rail, between the laser and the screen, attach another post holder, and use it to mount a diffraction grating, shown in Fig. 2.
 
 **When handling the diffraction grating make sure to only touch the cardboard rim. Getting fingerprints on the transparent grating could affect your results and those of later lab groups.**
 
@@ -84,89 +172,54 @@ Near the center of the rail, between the laser and the screen, attach another po
 {: .mycap}
 **Figure 2** ---  Diffraction grating. A diffraction grating is essentially just an array of slits placed right next to each other, with a very small slit distance <em>d</em> between each (on the order of one slit per micron). <!-- Each neighboring pair of slits can be thought of as a double slit. -->
 
-<!-- A diffraction grating is essentially just an array of slits placed right next to each other, with a very small slit distance $$d$$ between each (on the order of one slit per micron). Each neighboring pair of slits can be thought of as a double slit. -->Based on the pre-lab reading (you might want to look back to Eq. 1) what do you think will happen to the location of the interference maxima (antinodes) when the spacing between slits becomes very small?
+<!-- A diffraction grating is essentially just an array of slits placed right next to each other, with a very small slit distance $$d$$ between each (on the order of one slit per micron). Each neighboring pair of slits can be thought of as a double slit. -->
 
-Slide the diffraction grating (in its mount!) along the rail so it is very close to the screen; turn on the laser. You should see three or more dots on the screen. Slowly pull the grating away from the screen until the three dots take up most of the screen. Do not pull the grating back too far, as we want to be sure that the diffracted spots are hitting the screen and not flying across the room (we need to mitigate the risk of a laser beam striking an eye of a fellow lab-mate!).
-
-You need not take any quantitative measurements yet; simply note qualitative observations. 
-
-Make sure to **turn off your laser when inserting new components into the beam path**; it is hard to make sure that stray reflections don't momentarily hit someone in the eye while inserting pieces of glass or metal into a beam path.
-
-
+Slide the diffraction grating (in its mount!) along the rail so it is very close to the screen; turn on the laser. You should see three or more dots on the screen. Slowly pull the grating away from the screen until the central three dots are spread across most of the screen. Do not pull the grating back too far, as you want to be sure that the diffracted spots are hitting the screen and not flying across the room to a neighboring lab group.
 
 It's possible that you will find it easier to see the diffraction patterns with the room lights turned off.  After all groups have completed the basic setup of optical elements on the rail, anyone who wants to try the lights off should notify the rest of the class first.  You will find a lamp at your bench that you can use to illuminate your workspace as needed.
 
-You will use a ruler to measure the distance $$x$$ between the central laser spot and the first interference maximum, as well as the distance $$L$$ of the diffraction grating from the screen. In planning your experiment think about how to do this as accurately as possible. What are the dominant sources of error? What can you do to minimize systematic error? Even when you've done your best to reduce systematic error, some will remain. What can you do to randomize the remaining systematic error?
+Alternately, you may find the diffracted spots too bright; in particular, reducing the brightness of your diffraction maxima will reduce their spot size and may help with placing them more precisely later on. One way to reduce the intensity of light is by adding a rotatable polarizer. [Click here for more information about polarizers](polarizers). The laser emits linearly polarized light, and the polarizer will only transmit light polarized parallel to its axis, so by adding a polarizer and rotating the axis of its polarization you can control how much light gets through. **Remember to turn off the laser when inserting components into the beam path of your laser.** Speak to your instructor if you would like to reduce the intensity of your beam but aren't sure how to make use of the rotatable polarizer.
 
-In week 1, we will attempt to answer these questions.
+The distance $$x$$ between the central laser spot and the first interference maximum can be measured with a ruler or directly on the grid paper, and the distance $$L$$ of the diffraction grating from the screen can be measured with a meter stick or directly from the optical rail. If you measure the position of a certain part of the grating mount instead of the grating itself, your results should come out fine as long as you are consistent (see ["The Value of Plotting and Fitting"](#the-value-of-plotting-and-fitting) above).
 
-## Exploratory Measurements
 
-As in previous modules, you should perform the following exploratory measurements and record them in your data sheet assigned from Google Classroom.
+## Collecting Data
+
+### Exploratory Measurements
+
+As in the last module, you should first perform some exploratory measurements and record them in your data sheet assigned from Google Classroom.
 
 **Please take careful note that these first measurements are just intended as a very quick exploration. While we value careful measurements, we want to make sure you have time to do a careful study in the later part of today's lab. For this first exploration please just take a few quick measurements as suggested. The settings can be approximate and you only need to do each measurement once. We are just trying to work out whether the measurement is sensitive to each parameter or not. You do not need to estimate uncertainties for these initial explorations.**
 
-The ultimate goal of Module 2 is to determine the wavelength of your laser by measuring $$x$$ while varying $$L$$. However, for week 1, we will focus only on getting the most reliable measurements of $$x$$. To do so, we will "wiggle" our experimental parameters to find out which ones significantly change the value of $$x$$ that we measure. This is a typical first experimental step, and it will inform our experimental procedure that we will use next week.
+The ultimate goal of Module 2 is to determine the wavelength of your laser by measuring $$L$$ while varying $$x$$. However, at first you should get to know your apparatus and what quantities must be set carefully to give you precise and accurate results.  Because this system is a little more complicated than your levitated beads, we provide a list of settings that you should be sure to check.  For each setting, we ask you to change the experimental settings slightly and record how the change affects your measurements.
 
-Each time we measure $$x$$, we hope that we have set all the parameters perfectly (eg. the distance $$L$$ to the wall and the angle of the diffraction grating relative to the laser beam). However, it is impossible to set everything perfectly with zero uncertainty. If we are slightly off on any of the possible parameters, how much will that shift the value of $$x$$ that we measure?
+To get started, quickly find the $$L$$ value required to produce an $$x$$ value of 10 cm.  Use this single trial to estimate $$d$$ and check that your results are in the right range (no factors of ten from incorrect unit conversions, for example).
 
-Let's focus on the angle of the diffraction grating, which ideally should be exactly perpendicular to the laser beam. What range of angles away from perfectly perpendicular to the laser beam might the grating accidentally have? Perhaps we might not notice if we were off by angles up to $$\pm 5^{\circ}$$. How important is this? To answer this question, set up your experiment with <em>L</em> = 60 cm. First, carefully set the diffraction grating perpendicular to the laser beam. You can do this by looking at the dim beam reflected by the diffraction grating. Adjust the diffraction grating so that the reflected beam retraces the incident beam (at least in the horizontal direction) by adjusting the diffraction grating until a spot from the reflected beam is visible on or just above/below the laser itself. Speak to your instructor if unclear and **remember never to put your eye in the path of a laser beam**. To measure $$x$$, use a ruler or meter stick to measure the distance from the central bright spot to the next bright spot to one side. Now purposefully "wiggle" the grating by adjusting the angle of the grating to $$\approx 5^{\circ}$$ relative to the perpendicular. At this stage we are just trying to determine if the angle plays a significant role so it is okay to just estimate the angle. Now repeat the test with the grating rotated by $$\approx 5^{\circ}$$ relative to the perpendicular in the other direction.
+Now focus on the angle of the diffraction grating, which ideally should be exactly perpendicular to the laser beam. What range of angles away from perfectly perpendicular to the laser beam might the grating accidentally have? Perhaps we might not notice if we were off by angles up to $$\pm 5^{\circ}$$. How important is this? To answer this question, first carefully set the diffraction grating perpendicular to the laser beam. You can do this by looking at the dim beam reflected by the diffraction grating. Adjust the diffraction grating so that the reflected beam retraces the incident beam (at least in the horizontal direction) by adjusting the diffraction grating until a spot from the reflected beam is visible on or just above/below the laser itself. Speak to your instructor if unclear and **remember never to put your eye in the path of a laser beam**. Measure $$L$$ required for $$x=10$$ cm under these conditions. Now purposefully "wiggle" the grating by adjusting the angle of the grating to $$\approx 5^{\circ}$$ relative to the perpendicular; you can get a rough idea of the angle using a protractor held above the center of the grating. Measure $$L$$ again.  Now repeat the test with the grating rotated by $$\approx 5^{\circ}$$ relative to the perpendicular in the other direction.
 
-In addition to the angle of the diffraction grating that you just explored, we have identified several other potential sources of uncertainty in $$x$$, listed below:
+For the exploration above and those below, **repeated trials are not necessary** to give you a rough idea of your measurement's sensitivity to each factor.
 
-1. Distance from laser to diffraction grating (keeping the diffraction grating fixed in place, moving the laser). Range: ± 0.5 cm.
+1. Distance from laser to diffraction grating. Change it by $$\pm$$ 1 cm and record how $$L$$ changes.
 
-2. The value of the diffraction spacing $$d$$ is also a parameter we can "wiggle," in a slightly less obvious way. Each diffraction grating could have manufacturing defects that cause $$d$$ to be slightly off from the stated value. We can explore this possibility by measuring $$x$$ at three positions on one diffraction grating. This is just exploratory so you do not need to record the exact position you use on the grating; just take one measurement with the beam passing through the left side of the grating, one through the center and one to the right. You can adjust the position of the grating by sliding it in its holder - remember to only touch the grating by the cardboard edge.
+2. The value of the diffraction spacing $$d$$ is also a parameter we can "wiggle," in a slightly less obvious way. Each diffraction grating could have manufacturing defects that cause $$d$$ to be slightly off from the stated value. We can explore this possibility by measuring $$x$$ at three positions on one diffraction grating. This is just exploratory so you do not need to record the exact position you use on the grating; just take one measurement with the beam passing through the left side of the grating, one through the center and one to the right. You can adjust the position of the grating by sliding it in its holder - remember to only touch the grating by the cardboard edge.  Record $$L$$ for three different parts of the grating.
 
-3. The distance $$L$$ between the grating and the screen is something we will be systematically varying later in Module 2, so that we can ultimately find the wavelength. But each time we set the value of $$L$$, we can only do so with some imprecision. Set <em>L</em> = 60 cm and then vary <em>L</em> over a range of ±1 cm.
+3. The distance $$x$$ between the $$n=0$$ and $$n=1$$ bright spots is something we will be systematically varying later, of course.  But each time we set the value of $$x$$, we can only do so with some precision. Set <em>x</em> = 9 cm or 11 cm instead of 10 cm, and see how much the resulting $$L$$ changes.
 
-For each of the four potential sources of uncertainty listed above (the angle of the diffraction grating, plus the three listed above), wiggle the parameter over the suggested range and record the variation in $$x$$. Since this is just an exploratory wiggling of parameters, you do not need to perform repeated trials of these tests. You only need to collect 3 data points --- one at either end of the suggested range and one in the middle. It should take you a total of about 15 minutes to wiggle all the parameters and record these single-shot measurements.
+If you can think of other factors that might unintentionally influence your results, explore their effect in a similar way.
 
-**The takeaway from this parameter-wiggling exercise is that the parameters that cause a larger variation in $$x$$ should be reset before each $$x$$ measurement. The ones that don't make much difference in $$x$$ do not need to be reset.**
+**The takeaway from this exploratory exercise is that the factors that cause a larger variation in $$L$$ should be carefully reset before each $$L$$ measurement. The ones that don't make much difference in $$L$$ do not need to be treated with as much care.**
 
------
+### Careful Measurements to Find $$d$$
 
-#### Mini-question 3: Which parameters need to be reset?
+**Please go to the second sheet in your assigned Google Sheet. Week 1: Part 2 (Careful Data) which includes a template for the second half of this week's lab.**
 
-**This mini-question cannot be answered until you are in lab. Therefore for this question only, you should not answer the question before lab. You will only receive credit for this question if you answer it during your lab period.**
+Armed with a clear idea of which factors you need to carefully control (to reduce systematic error) and reset between trials (to randomize remaining error) -- you are ready for the careful determination of $$d$$ that should take the bulk of your time in lab this week.
 
-*[Click here to open in a new tab](https://docs.google.com/forms/d/e/1FAIpQLSe-Bcw3iqEcmblnBnsOJOqSbfHVNrXckA4mVs9VEvzOXHvZQQ/viewform?usp=sf_link){:target="_blank"}*
+**For each of about five (no fewer) different $$x$$ values, take at least five individual measurements of $$L$$** and find the average and SEM of your trials.  Now you have a value for $$L \pm \delta L$$ at each $$x$$.
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe-Bcw3iqEcmblnBnsOJOqSbfHVNrXckA4mVs9VEvzOXHvZQQ/viewform?embedded=true" width="640" height="737" frameborder="0" marginheight="0" marginwidth="0">Loading…
-</iframe>
------
+ **Remember to reset all the factors that also have significant effects on $$L$$, for each measurement.** For example, you should mess up re-achieve the desired value of $$x$$ between each of the five trials, not just leave the grating in one spot and measure its position five times.  
 
-
-## Investigating a Source of Systematic Error
-
-**Please go to the second sheet in your assigned Google Sheet. Week 1: Part 2 (Investigation of Systematic Error) which includes a template for the second half of this week's lab.**
-
-The systematic investigation in this second part of the lab should be a more careful investigation and will require the bulk of your time in lab this week.
-
-In previous semesters, students measured the wavelength of their laser using a 500 line/mm diffraction grating. Here are a few example measurements, with uncertainty:
-
-$$\lambda$$ (nm) | $$\delta \lambda$$ (nm) 
------------ | ----------------
-658	|18
-653|	7
-656	| 4
-649| 	7
-650|	8
-
-They were all using the same materials, so why don't their results agree?!?! Well, as you have just seen for yourself, the value of $$x$$ (and therefore ultimately the calculated wavelength) can be shifted in a systematic manner if important parameters are slightly off.  These parameters should be set as close to their ideal values as possible, but this should also be redone before each trial. [Recall](https://physics-50.github.io/Module-2/week3){:target="_blank"} that resetting these parameters randomizes their impact on $$x$$, which averages out the shift.
-
-Because systematic errors are so important in experimental research, we want you to do a careful study of one dominant source of systematic error in $$x$$. This study will ultimately be presented as part of a sequence of figures for your Module 2 deliverable.
-
-Although you may have found several potential sources of systematic error, for this study we ask you to focus on the angle of the diffraction grating. We are interested in the consequences of not setting the grating exactly perpendicular to the laser beam. Therefore we will gain more insight by focusing on the effect at small angles ($$\lesssim 5^{\circ}$$). Take a moment to carefully consider how you might measure the angle accurately over this narrow range. Talk to your instructor or classmates at neighboring benches if you are having trouble doing the measurement.
-
-**You will need to do the measurement for about five (no fewer) different angles, and for each value of that parameter, you need to make five measurements of $$x$$** and report the average value of $$x \pm \text{SEM}$$ (as an error bar on each data point).
-
-
-As you set up to perform careful measurements, you may find it difficult to locate the maxima as precisely as you would like. You will collect additional measurements of these maxima in the coming weeks so it is worth investing the effort to determine a method that will allow you to perform the measurement precisely. Reducing the intensity of your diffraction maxima will reduce their spot size and may help with performing more precise measurements. One way to reduce the intensity of light is with a rotatable polarizer (taking advantage of the fact that the light emitted by the laser is polarized). [Click here for more information about polarizers](polarizers). Here's the net effect of a polarizer: only light polarized along the polarizer's axis will be transmitted. Since the light emitted by the laser is polarized, by adding a rotatable polarizer and rotating the axis of its polarization you can control how much light gets through. **Remember to turn off the laser when inserting components into the beam path of your laser.** Speak to your instructor if you would like to reduce the intensity of your beam but aren't sure how to make use of the rotatable polarizer.
-
- **Remember to reset all the other parameters that also have significant effects on $$x$$, for each measurement.** For example, you should reset the distance $$L$$ between each of the five trials for a certain angle.  
-
-## Resolution error
+<!-- ## Resolution error
 We have discussed the importance of resetting parameters and using the SEM to randomize and account for systematic error, but this is not the only source of uncertainty. 
 
 Please read the [discussion of resolution error in our guide to uncertainties](https://physics-50.github.io/Module-1/uncertainty-introduction#resolution-uncertainty).
@@ -186,9 +239,9 @@ To make sure you've understood these ideas, please complete the following mini-q
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc7wj6OMBqqybagJhwZb0-Mkk8UnW2WOf5G7v474S0ryLvJOw/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…
 </iframe>
 
----------------------------------------------------
+--------------------------------------------------- --> 
 
-Now please use your spreadsheet to calculate the average measured $$x$$ value and associated uncertainty for each angle you measured. Your spreadsheet has been prepared with appropriate headings but you will need to enter the formulas. 
+**Need to finish instructions for graphing and fitting, and get rid of the stuff I no longer need.  Also revisit the mini-questions, which I have not copied, checked, or edited.**
 
 ## Summary
 
