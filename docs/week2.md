@@ -59,7 +59,7 @@ Each station should have an LCD panel in an acrylic case that is fastened to an 
 </p>
 
 
-An HDMI cable to connect the LCD to a computer, as well as a power cable, are attached to the LCD panel. *You will not need to use these cables at all for this simple investigation.  Please do not attempt to unplug either of these cables from the acrylic box.* The LCD should be oriented so that the laser shines through it in a direction going from left to right in the figure on the left above.
+An HDMI cable to connect the LCD to a computer, as well as a power cable, are attached to the LCD panel. *You will not need to power the panel or use these cables at all for this simple investigation.  Please do not attempt to unplug either of the cables from the acrylic box.*
 
 
 <!--
@@ -67,7 +67,7 @@ One of the goals for this exploration is to dissect (please do not take this lit
 
 In terms of deducing the internal structure, it would be nice to be able to 'look' inside. This is not so easy since the features of the LCD panel are quite small. However, humanity overcame this issue years ago when Hans and Zacharias Janssen invented the microscope.
 -->
-Figure 3 shows a photo taken of our LCD panel via the eyepiece of a microscope. You are encouraged to observe an LCD under the microscope (through the eyepiece) in the rear of the lab. A microscope calibration slide is available that you can use to estimate the pixel spacing and compare with your results. You may find this helpful when assessing if your results are reasonable for the final question on the checkpoint.
+Figure 3 shows a photo taken of our LCD panel via the eyepiece of a microscope. You are encouraged to observe an LCD under the microscope (through the eyepiece) in the rear of the lab. A microscope calibration slide is available that you can use to estimate the pixel spacing if you would like.
 
 <p class='center' markdown='0'>
 <img class="wp-image-1953 size-medium" src="https://www.physics.hmc.edu/~physics50/wp/wp-content/uploads/2018/10/LCD-microscope-300x230.jpg" alt="" width="300" height="230"> 
