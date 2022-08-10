@@ -5,7 +5,7 @@
 2. [Goals for This Week](#goals-for-this-week)
 3. [Instrumentation](#instrumentation)
 4. [Data Collection](#data-collection)
-5. [Things to Turn In](#things to turn in)
+5. [Things to Turn In](#things-to-turn-in)
 
 --------------
 
