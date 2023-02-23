@@ -101,9 +101,9 @@ Finally, use a diffraction grating, the LCD panel, and/or your phone screen to e
 
 + Bring a rough draft of your Module 2 lab report (hard copy, please!) to class next week for peer review.
 + The final version of your Module 2 lab report will be due three days before the next module begins, as stated in the syllabus.  As a reminder, the report due dates are:
-  + Monday sections:  report due Friday 10/28 at 10p.m.
-  + Wednesday sections:  report due Sunday 10/23 at 10p.m.
-  + Thursday sections:  report due Monday 10/24 at 10p.m.
-  + Friday sections:  report due Tuesday 10/25 at 10p.m.  
+  + Monday sections:  report due Friday at 10p.m.
+  + Wednesday sections:  report due Sunday at 10p.m.
+  + Thursday sections:  report due Monday at 10p.m.
+  + Friday sections:  report due Tuesday at 10p.m.  
 
 And make sure you have finished all of this week's mini-questions before lab by [checking here](mini-questions#week-2){:target="_blank"}.
