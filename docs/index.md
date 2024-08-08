@@ -1,6 +1,6 @@
 # Module 2
 
-This page provides an overview of the Module 2 content. You should use the links below to find the relevant instructions specific to each week.
+This page provides an overview of the Module 2 content. You can use the links below to find the relevant instructions specific to each week.
 
 + [Week 1 - Exploration and Measurement of Grating Spacing](week1)
 + [Week 2 - 2D Grating Patterns / Pixel Arrays](week2)
